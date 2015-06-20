@@ -13,12 +13,12 @@ m5_font = 105
 m6_font = 60
 m7_font = 30
 
-objectFileName = "Metadata/objects.csv"
-standardsFileName = "Metadata/kw_standards_new.csv"
-colorsFileName = "Metadata/colors.csv"
-polygonFileName = "Metadata/polygons.csv"
-bgcolorsFileName = "Metadata/bgcolors.csv"
-imagesFileName = "Metadata/images.csv"
+objectFileName = "MetaData/objects.csv"
+standardsFileName = "MetaData/kw_standards_new.csv"
+colorsFileName = "MetaData/colors.csv"
+polygonFileName = "MetaData/polygons.csv"
+bgcolorsFileName = "MetaData/bgcolors.csv"
+imagesFileName = "MetaData/images.csv"
 
 break_line = 1 #how many lines of the file to read until breaking
 #variables for the image sizes
