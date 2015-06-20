@@ -5,6 +5,7 @@ import random
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
+print card_model
 output_folder = str(raw_input("What should the output folder be called? "))
 
 #font sizes
@@ -14,7 +15,7 @@ m6_font = 60
 m7_font = 30
 
 objectFileName = "MetaData/objects.csv"
-standardsFileName = "MetaData/kw_standards_new.csv"
+standardsFileName = "MetaData/final_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
@@ -137,8 +138,8 @@ with open(standardsFileName,"rU") as f:
     standards = list(reader)
     commFile = open(output_folder,"w")
     count = -1
-    for row in reader:
-       # print(str(row))
+    for row in standards:
+        print(str(row))
         count += 1
 
         if count != 0:
@@ -146,10 +147,11 @@ with open(standardsFileName,"rU") as f:
 
             id = row[2]
             print(str(row))
-            ### check standards, this may need to be 6
-            keys = row[5]
+            keys = row[6]
             keys = keys.split()
+            print keys
 
+            start_key = randint(0,len(keys)-1)
             found = False
             image_name = id + ".gif"
 
@@ -172,7 +174,7 @@ with open(standardsFileName,"rU") as f:
                 commFile.write("convert -size 200x100 canvas:'"+bg+"' -gravity center pango_span.gif -composite " + id +"-2.gif\n")
             if card_model == 3:
                 indexList = []
-                for k in keywords:
+                for k in keys:
                     i = 0
                 while i < len(images):
                     imkey = images[i][0]
@@ -186,10 +188,10 @@ with open(standardsFileName,"rU") as f:
                     imindex = indexList[index]
                     file = str(images[imindex][1])
 
-                commFile.write("convert -resize " + final_size + " " + file + " temp.png\r\n")
-                commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + line[2] + "-3.jpg\r\n")
-            else:
-                exceptions.write(line[2] + " " + ','.join(keywords) + "\n")
+                    commFile.write("convert -resize " + final_size + " " + file + " temp.png\r\n")
+                    commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + line[2] + "-3.jpg\r\n")
+                else:
+                  exceptions.write(line[2] + " " + ','.join(keys) + "\n")
 
             if card_model == 4:
 
@@ -294,7 +296,7 @@ with open(standardsFileName,"rU") as f:
                 commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity east a.png -composite -gravity center b.png -composite -gravity west c.png -composite "+id+"-6.gif\n")
 
             if card_model == 7:
-
+                print "breh"
                 used_objs = []
                 obj = choice(objDict[keys[(start_key )]],used_objs)
                 used_objs.append(obj)
@@ -302,6 +304,7 @@ with open(standardsFileName,"rU") as f:
                 if obj.isicon():#m7
                     commFile.write("convert -resize 70x70 " + obj.one + " temp.png\n")
                     if obj.two:
+
                         commFile.write("convert temp.png -colorspace gray  temp.png\n")
                         commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
                     commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite a.png\n")
@@ -352,7 +355,7 @@ with open(standardsFileName,"rU") as f:
 
             if card_model == 8:
                 used_objs = []
-                obj = choice(objDict[keys[start_key ]],used_objs)
+                obj = choice(objDict[keys[start_key]],used_objs)
                 used_objs.append(obj)
 
                 if obj.isicon():#m7
@@ -360,7 +363,7 @@ with open(standardsFileName,"rU") as f:
                     if obj.two:
                         commFile.write("convert temp.png -colorspace gray  temp.png\n")
                         commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png a.png\n")
+                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite a.png\n")
                 else:
                     commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' a.png\n")
 
@@ -372,7 +375,7 @@ with open(standardsFileName,"rU") as f:
                     if obj.two:
                         commFile.write("convert temp.png -colorspace gray  temp.png\n")
                         commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png b.png\n")
+                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite b.png\n")
                 else:
                     commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two+"' b.png\n")
 
@@ -383,7 +386,7 @@ with open(standardsFileName,"rU") as f:
                     if obj.two:
                         commFile.write("convert temp.png -colorspace gray  temp.png\n")
                         commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png c.png\n")
+                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite c.png\n")
                 else:
                     commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' c.png\n")
 
@@ -394,7 +397,7 @@ with open(standardsFileName,"rU") as f:
                     if obj.two:
                         commFile.write("convert temp.png -colorspace gray  temp.png\n")
                         commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png d.png\n")
+                    commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite d.png\n")
                 else:
                     commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' d.png\n")
 
@@ -402,4 +405,4 @@ with open(standardsFileName,"rU") as f:
 
             if count == break_line:
                break
-    commFile.close()
+commFile.close()

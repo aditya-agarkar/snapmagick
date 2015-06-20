@@ -10,8 +10,8 @@ icon,grade,grade.png,Y
 icon,style,style.png,Y
 icon,ask,grade.png,Y
 font,answer,Wingdings-Regular,a
-icon,questions,style.png,N
-font,details,Wingdings-Regular,b
+icon,question,style.png,N
+font,detail,Wingdings-Regular,b
 icon,text,create.png,N
 font,key,PWIcons-Medium,c
 icon,key,organize.png,N
