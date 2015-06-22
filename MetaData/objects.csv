@@ -1,0 +1,19 @@
+Class,Keyword,Font Name/image name,Charcter/Recolor
+font,book,Wingdings-Regular,u
+font,skills,PWIcons-Medium,R
+font,information,PWIcons-Medium,D
+font,word,Wingdings-Regular,o
+font,evidence,Wingdings-Regular,2
+icon,organize,organize.png,N
+icon,create,create.png,Y
+icon,grade,grade.png,Y
+icon,style,style.png,Y
+icon,ask,grade.png,Y
+font,answer,Wingdings-Regular,a
+icon,question,style.png,N
+font,detail,Wingdings-Regular,b
+icon,text,create.png,N
+font,key,PWIcons-Medium,c
+icon,key,organize.png,N
+icon,key,grade.png,Y
+icon,texr,organize.png,
