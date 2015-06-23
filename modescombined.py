@@ -5,7 +5,6 @@ import random
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
-print card_model
 output_folder = str(raw_input("What should the output folder be called? "))
 
 
@@ -143,7 +142,6 @@ with open(objectFileName,"r") as d:
                 elif element == "font":
                     objDict[row[1]].append(Object(row[2],row[3]))
         count += 1
-    print objDict
 with open(standardsFileName,"rU") as f:
     reader = csv.reader(f)
     exceptions = open("exceptions.txt","wb")
@@ -151,21 +149,17 @@ with open(standardsFileName,"rU") as f:
     commFile = open("commands.sh","w")
     count = -1
     for row in standards:
-        print(str(row))
         count += 1
 
         if count != 0:
 
 
             id = row[2]
-            print(str(row))
             keys = row[6]
             keys = keys.split()
-            print keys
 
             if(len(keys) >0):
                 start_key = randint(0,len(keys)-1)
-            print start_key
             found = False
             image_name = id + ".gif"
 
@@ -194,7 +188,6 @@ with open(standardsFileName,"rU") as f:
                         resize = "100x100"
                         if match[1] == kw:
                             if found == False:
-                                print kw
                                 if match[0] == "font":
                                     commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\r\n")
                                     commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\r\n")
@@ -220,7 +213,7 @@ with open(standardsFileName,"rU") as f:
                                         commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\r\n")
 
                                 found = True
-                                print "gdfsdhtrtgewdsfgbhtgrfdsa",count
+
 
                     if found == False:
                         exceptions.write(kw + "\n")
@@ -239,7 +232,6 @@ with open(standardsFileName,"rU") as f:
                 commFile.write('\' pango_span.gif\r\n')
                 commFile.write("convert -size 200x100 canvas:'"+bg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\r\n")
             if card_model == 3:
-                print "hi"
                 indexList = []
                 for k in keys:
                     i = 0
@@ -266,7 +258,6 @@ with open(standardsFileName,"rU") as f:
                 obj = choice(objDict[keys[start_key]],used_objs)
                 used_objs.append(obj)
                 if obj.isicon(): #m4
-                    print keys[start_key]
                     commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
                     if obj.two:
                         commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
@@ -303,7 +294,6 @@ with open(standardsFileName,"rU") as f:
 
                 obj = choice(objDict[keys[start_key]])
                 if obj.isicon():
-                    print keys[start_key] + "is an icon"
                     commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
                     if obj.two:
                         commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
@@ -364,7 +354,6 @@ with open(standardsFileName,"rU") as f:
 
             if card_model == 7:
                 used_objs = []
-                print objDict
                 obj = choice(objDict[keys[start_key ]],used_objs)
                 used_objs.append(obj)
 
