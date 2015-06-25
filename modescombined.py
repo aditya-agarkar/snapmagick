@@ -248,7 +248,7 @@ with open(standardsFileName,"rU") as f:
                     file = str(images[imindex][1])
 
                     commFile.write("convert -resize " + final_size + " SourceImages/" + file + " temp.png\r\n")
-                    commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + row[2] + "-3.jpg\r\n")
+                    commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + output_folder+ row[2] + "-3.jpg\r\n")
                 else:
                   exceptions.write(row[2] + " " + ','.join(keys) + "\r\n")
 
