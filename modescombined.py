@@ -5,7 +5,7 @@ import random
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
-output_folder = str(raw_input("What should the output folder be called? "))
+output_folder = "/cam/motion/images/"
 
 
 #font sizes
@@ -85,16 +85,12 @@ def choice(objlist,usedlist = []):
             if not o.equals(obj):
                 return o
     return obj
-#tries to make folder a valid folder name
-def getFolderName(output_folder):
-    if output_folder == "":
-        return ""
-    elif output_folder[-1] =="/":
-        return output_folder
-    return output_folder+"/"
 
-output_folder = getFolderName(output_folder)
-
+def isKey(key):
+    if not key in objDict.keys():
+        exceptions.write(key)
+        return False
+    return True
 with open(imagesFileName,"rb") as im:
     imreader = csv.reader(im)
     images = list(imreader)
@@ -121,6 +117,7 @@ with open(polygonFileName,"r") as d:
 with open(objectFileName,"r") as d:
     objRead = csv.reader(d)
     objRead = list(objRead)
+    print objRead
     objects = list(objRead)
     objDict = {}
     count = 0
@@ -147,7 +144,8 @@ with open(standardsFileName,"rU") as f:
     exceptions = open("exceptions.txt","wb")
     standards = list(reader)
     commFile = open("commands.sh","w")
-    count = -1
+    count = 0
+    imageList = []
     for row in standards:
         count += 1
 
@@ -157,9 +155,12 @@ with open(standardsFileName,"rU") as f:
             id = row[2]
             keys = row[6]
             keys = keys.split()
-
-            if(len(keys) >0):
-                start_key = randint(0,len(keys)-1)
+            #print "before",keys
+            if card_model != 2:
+                keys = [key for key in keys if isKey(key)]
+                #print "after",keys
+                if(len(keys) >0):
+                    start_key = randint(0,len(keys)-1)
             found = False
             image_name = id + ".gif"
 
@@ -217,7 +218,6 @@ with open(standardsFileName,"rU") as f:
 
                     if found == False:
                         exceptions.write(kw + "\n")
-
             if card_model == 2:
                 commFile.write("convert -background '"+ bg + "' -size 200 -define pango:justify=left pango:" + '\'')
 
@@ -458,6 +458,33 @@ with open(standardsFileName,"rU") as f:
 
                 commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity northeast a.png -composite -gravity northwest b.png -composite -gravity southeast c.png -composite -gravity southwest d.png -composite " +output_folder+ id + "-8.gif\r\n")
 
+            w = row[2] +"-" + str(card_model)
+            if card_model == 3:
+                w+= ".jpg"
+            else:
+                w+= ".gif"
+            imageList.append(w)
+            print imageList
             if count == break_line:
                break
 commFile.close()
+with open("/cam/motion/images/index.html", "w") as index:
+    index.write("<!DOCTYPE html>\n<html>\n<head>\n<style>\ntable, th, td {\n    border: 2px solid black;\n</style>\n</head>\n<body>\n<table>\n")
+    #<td><img src="15985-7.gif"></td>
+    #<td><img src="15985-7.gif"></td>
+    done = False
+    i = 0
+    while not done:
+            index.write("   <tr>\n")
+            for x in range(0,5):
+                if i < len(imageList):
+                    print i, len(imageList)
+                    index.write("<td><img src=\"" + imageList[i] + "\"></td>")
+                    i += 1
+                else:
+                    done = True
+                    break
+            index.write("\n  </tr>")
+
+    index.write("\n</table>\n</body>\n</html>")
+    index.close()
