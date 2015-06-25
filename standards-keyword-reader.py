@@ -3,7 +3,7 @@ __author__ = 'SantoshPappachan'
 import csv
 
 final = []
-with open("MetaData/kw_standards_new.csv","rb") as s:
+with open("MetaData/kw_standards.csv","rb") as s:
     rstandards = csv.reader(s)
     wordlist = list(rstandards)
 
@@ -14,7 +14,7 @@ with open("MetaData/final_keyword.csv","rb") as k:
 
 for word in wordlist:
     current = word[5].split()
-    exceptFile = open("exceptions.txt","wb")
+    exceptFile = open("MetaData/exceptions.txt","wb")
     isThere = False
     remove = False
     replace = False

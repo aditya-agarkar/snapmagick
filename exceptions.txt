@@ -1,2 +1,20 @@
-15884 retell,detail,demonstrate,central,message,lesson
-15922 identify,word,phrases,poems,feelings,appeal,senses
+describe
+character
+settings
+events
+story
+identify
+explain
+differences
+identify
+story
+various
+point
+apply
+illustrations
+prompting
+support
+read
+identify
+main
+topic
