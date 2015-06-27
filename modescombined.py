@@ -21,6 +21,7 @@ polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
 imagesFileName = "MetaData/images.csv"
 iconbgFileName = "MetaData/iconbg.csv"
+htmlfile=output_folder+"index" + str(card_model)+".html"
 
 break_line = 200 #how many lines of the file to read until breaking
 #variables for the image sizes
@@ -501,7 +502,7 @@ print exception_list
 for exception in exception_list:
     exceptions.write(exception + "\n")
 exceptions.close()
-with open("/cam/motion/images/index.html", "w") as index:
+with open(htmlfile, "w") as index:
     index.write("<!DOCTYPE html>\n<html>\n<head>\n<style>\ntable, th, td {\n    border: 2px solid black;\n}\n</style>\n</head>\n<body>\n<table>\n")
     #<td><img src="15985-7.gif"></td>
     #<td><img src="15985-7.gif"></td>
