@@ -20,6 +20,7 @@ colorsFileName = "MetaData/colors.csv"
 polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
 imagesFileName = "MetaData/images.csv"
+iconbgFileName = "MetaData/iconbg.csv"
 
 break_line = 200 #how many lines of the file to read until breaking
 #variables for the image sizes
@@ -106,6 +107,12 @@ with open(bgcolorsFileName,"r") as d:
     bgcolorRead = csv.reader(d)
     bgcolorList = list(bgcolorRead)
     bgnumcolors = len(bgcolorList)
+    
+#processes icon background colors
+with open(iconbgFileName,"r") as d:
+    iconbgcolorRead = csv.reader(d)
+    iconbgcolorList = list(iconbgcolorRead)
+    iconbgnumcolors = len(iconbgcolorList)
 
 # processes polygons
 with open(polygonFileName,"r") as d:
@@ -169,6 +176,7 @@ with open(standardsFileName,"rU") as f:
                # print image_name
 
                 bg=rand_color(bgcolorList,bgnumcolors)
+                iconbg=rand_color(iconbgcolorList,iconbgnumcolors)
 
                 if card_model == 1:
                     backgroundColor = colorList[randint(0,numcolors - 1)][0]
@@ -314,12 +322,12 @@ with open(standardsFileName,"rU") as f:
                         commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
-                        commFile.write("convert -size " + final_size + " canvas:'"+bg+"' -gravity center temp.png -composite " +output_folder+ id +"-5.gif\r\n")
+                            #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
+                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite " +output_folder+ id +"-5.gif\r\n")
 
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + final_size + " canvas:'"+bg+"' -gravity center -font "+obj.one+" -fill '" + rand_color(colorList,numcolors)+ "' -stroke '" + rand_color(colorList,numcolors)+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\r\n")
+                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + rand_color(colorList,numcolors)+ "' -stroke '" + rand_color(colorList,numcolors)+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\r\n")
 
 
                 if card_model == 6: # m6
