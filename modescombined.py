@@ -6,7 +6,7 @@ import random
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
 output_folder = "/cam/motion/images/"
-output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -501,7 +501,7 @@ print exception_list
 for exception in exception_list:
     exceptions.write(exception + "\n")
 exceptions.close()
-with open("/Users/adityaagarkar/PycharmProjects/snapmagick/index.html", "w") as index:
+with open("/cam/motion/images/index.html", "w") as index:
     index.write("<!DOCTYPE html>\n<html>\n<head>\n<style>\ntable, th, td {\n    border: 2px solid black;\n}\n</style>\n</head>\n<body>\n<table>\n")
     #<td><img src="15985-7.gif"></td>
     #<td><img src="15985-7.gif"></td>
