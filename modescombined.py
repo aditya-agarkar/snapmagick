@@ -321,7 +321,7 @@ with open(standardsFileName,"rU") as f:
                     if obj.isicon():
                         commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
+                            #commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
                         commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite " +output_folder+ id +"-5.gif\r\n")
 
