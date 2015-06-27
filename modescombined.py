@@ -270,8 +270,11 @@ with open(standardsFileName,"rU") as f:
                         imindex = random.choice(indexList)
                         file = str(images[imindex][1])
 
-                        commFile.write("convert -resize " + final_size + " SourceImages/" + file + " temp.png\r\n")
-                        commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + output_folder  + row[2] + "-3.jpg\r\n")
+   						commFile.write("convert SourceImages/" + file + " -resize '" + final_width + ">' -gravity center -crop " + final_size + "+0+0 +repage " + output_folder  + row[2] + "-3.jpg\r\n"
+
+						#convert story-5.jpg -resize '300>' -gravity center -crop 300x150+0+0 output.jpg
+                        #commFile.write("convert -resize " + final_size + " SourceImages/" + file + " temp.png\r\n")
+                        #commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + output_folder  + row[2] + "-3.jpg\r\n")
                     else:
                       exception_list.append(row[2] + " " + ','.join(keys) + "\r\n")
 
