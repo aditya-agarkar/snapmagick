@@ -21,7 +21,7 @@ polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
 imagesFileName = "MetaData/images.csv"
 iconbgFileName = "MetaData/iconbg.csv"
-htmlfile=output_folder+"index" + str(card_model)+".html"
+htmlfile=output_folder+"index" + str(card_model)+"-.html"
 
 break_line = 200 #how many lines of the file to read until breaking
 #variables for the image sizes
