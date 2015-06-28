@@ -39,7 +39,7 @@ m7_8_height = int(final_height*.96/2)
 m7_8_width = int(final_width*.98/2)
 m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
-icon_resize = str(int(final_height/2))+">"
+icon_resize = "'"+str(int(final_height/2))+">'"
 
 class Object(object):
     def __init__(self,one,two):
