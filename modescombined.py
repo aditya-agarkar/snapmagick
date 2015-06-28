@@ -253,7 +253,7 @@ with open(standardsFileName,"rU") as f:
                                         else:
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\r\n")
                                             #commFile.write("convert icon.png  -colorspace gray "+ "icon.png\r\n")
-                                            commFile.write("convert icon.png -alpha off -fill '#" + textColor +"' -alpha on icon.png\r\n")
+                                            commFile.write("convert icon.png -alpha off -fill '#" + textColor +"' -opaque '#e76255' -alpha on icon.png\r\n")
                                             commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\r\n")
                                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\r\n")
                                             commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\r\n")
