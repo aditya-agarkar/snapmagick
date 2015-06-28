@@ -39,6 +39,8 @@ m7_8_height = int(final_height*.96/2)
 m7_8_width = int(final_width*.98/2)
 m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
+icon_resize = str(int(final_height/2))+">"
+
 class Object(object):
     def __init__(self,one,two):
         self.one = one
@@ -209,7 +211,7 @@ with open(standardsFileName,"rU") as f:
                                  #print r, " " , g, " " , b
                                  #print textColor
 
-                            resize = "100x100"
+                            
                             if match[1] == kw:
                                 if found == False:
                                     if match[0] == "font":
@@ -253,7 +255,7 @@ with open(standardsFileName,"rU") as f:
                             commFile.write(' foreground="'+rand_color(colorList,numcolors)+'">' + w.upper() + ' </span>')
 
                     commFile.write('\' pango_span.gif\r\n')
-                    commFile.write("convert -size 200x100 canvas:'"+bg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\r\n")
+                    commFile.write("convert -size " + final_size + " canvas:'"+bg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\r\n")
                 if card_model == 3:
                     indexList = []
                     for k in keys:
@@ -270,8 +272,6 @@ with open(standardsFileName,"rU") as f:
                         #imindex = indexList[index]
                         imindex = random.choice(indexList)
                         file = str(images[imindex][1])
-   						#commFile.write("convert SourceImages/" + file + " -resize '" + final_width + ">' -gravity center -crop " + final_size + "+0+0 +repage " + output_folder  + row[2] + "-3.jpg\r\n")
-						#convert story-5.jpg -resize '300>' -gravity center -crop 300x150+0+0 output.jpg
                         commFile.write("convert SourceImages/" + file + " -resize '" + str(final_width) + ">' -gravity center -crop " + final_size + "+0+0 +repage " + output_folder  + row[2] + "-3.jpg\r\n")
                         #commFile.write("convert temp.png -gravity Center  -crop " + final_size + "+0+0 +repage " + output_folder  + row[2] + "-3.jpg\r\n")
                     else:
@@ -285,7 +285,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon(): #m4
-                        commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -297,7 +297,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon(): #m4
-                        commFile.write("convert -resize 100x100 " + obj.one+ " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -308,7 +308,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon(): #m4
-                        commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -321,7 +321,7 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[start_key]])
                     if obj.isicon():
-                        commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         #if obj.two:
                             #commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -338,7 +338,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 50x50 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " "  + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -355,7 +355,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 50x50 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -368,7 +368,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 50x50 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -385,7 +385,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():#m7
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
 
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
@@ -403,7 +403,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -414,7 +414,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon():
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -424,7 +424,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key +3) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon():
-                        commFile.write("convert -resize 70x70 " + obj.one+ " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -441,7 +441,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():#m7
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -453,7 +453,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key + 1) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon():#m7
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -464,7 +464,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key + 2) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon():#m7
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -475,7 +475,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key + 3) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon():
-                        commFile.write("convert -resize 70x70 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
