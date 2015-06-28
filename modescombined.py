@@ -6,8 +6,8 @@ import colorsys
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+#output_folder = "/cam/motion/images/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -68,6 +68,14 @@ class Object(object):
 def rand_color(cList,ncolors):
      Color = cList[randint(0,ncolors - 1)][0]
      return Color
+
+#returns contrasting color from given HSL list
+def contra_color(h,l,s):
+     h = h + 0.5
+     if h > 1:
+     	h = h - 1
+     return (h,l,s)
+
 #returns random polygon from list
 def rand_poly(pList):
     x =  pList[randint(0,len(pList) -1)][0]
@@ -187,13 +195,17 @@ with open(standardsFileName,"rU") as f:
                     r = int(backgroundColor[1:3],16)
                     g = int(backgroundColor[3:5],16)
                     b = int(backgroundColor[5:7],16)
-                    rr, gg, bb = [x/255.0 for x in r, g, b]
-                    h, l, s = colorsys.rgb_to_hls(rr, gg, bb)
-                    r -= 16
-                    g -= 16
-                    b -= 16
+                    r, g, b = [x/255.0 for x in r, g, b]
+                    h, l, s = colorsys.rgb_to_hls(r, g, b)
+                    h, l, s = contra_color (h, l ,s)
+                    r, g, b = colorsys.hls_to_rgb(h, l, s)
+                    r, g, b = [x*255.0 for x in r, g, b]
+                    #print hex(int(r))[2:], " " , hex(int(r))[2:], " " , hex(int(r))[2:]
+                    #r -= 16
+                    #g -= 16
+                    #b -= 16
                     found = False
-                    textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
+                    textColor = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
                     for kw in keys:
                         for match in objects:
                             #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
@@ -201,17 +213,22 @@ with open(standardsFileName,"rU") as f:
                             r = int(backgroundColor[1:3],16)
                             g = int(backgroundColor[3:5],16)
                             b = int(backgroundColor[5:],16)
-
-                            r -= 32
-                            g -= 32
-                            b -= 32
-                            if r < 0:
-                                r = 0
-                            if g < 0:
-                                g = 0
-                            if b < 0:
-                                b = 0
-                            textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
+                            r, g, b = [x/255.0 for x in r, g, b]
+                            h, l, s = colorsys.rgb_to_hls(r, g, b)
+                            h, l, s = contra_color (h, l ,s)
+                            r, g, b = colorsys.hls_to_rgb(h, l, s)
+                            r, g, b = [x*255.0 for x in r, g, b]
+                            textColor = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
+                            #r -= 32
+                            #g -= 32
+                            #b -= 32
+                            #if r < 0:
+                            #    r = 0
+                            #if g < 0:
+                            #    g = 0
+                            #if b < 0:
+                            #    b = 0
+                            #textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
                                  #print r, " " , g, " " , b
                                  #print textColor
 
