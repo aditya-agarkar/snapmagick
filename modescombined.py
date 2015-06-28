@@ -222,14 +222,14 @@ with open(standardsFileName,"rU") as f:
                                         commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\r\n")
                                     else:
                                         if match[3] == "N":
-                                            commFile.write("convert  -resize " + resize + " SourceIcons/" + match[2] + " icon.png\r\n")
+                                            commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\r\n")
                                             commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\r\n")
                                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\r\n")
                                             commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\r\n")
                                             commFile.write("convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png\r\n")
                                             commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+row[2] +"-1.gif\r\n")
                                         else:
-                                            commFile.write("convert  -resize " + resize + " SourceIcons/" + match[2] + " icon.png\r\n")
+                                            commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\r\n")
                                             commFile.write("convert icon.png  -colorspace gray "+ "icon.png\r\n")
                                             commFile.write("convert icon.png   +level-colors '"+ rand_color(colorList,numcolors) +",' icon.png\r\n")
                                             commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\r\n")
