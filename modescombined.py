@@ -21,7 +21,7 @@ polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
 imagesFileName = "MetaData/images.csv"
 iconbgFileName = "MetaData/iconbg.csv"
-htmlfile=output_folder+"index" + str(card_model)+"-.html"
+htmlfile=output_folder+"index-" + str(card_model)+".html"
 
 break_line = 200 #how many lines of the file to read until breaking
 #variables for the image sizes
@@ -338,7 +338,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize 50x50 " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -355,7 +355,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize 50x50 " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
@@ -368,7 +368,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():
-                        commFile.write("convert -resize 100x100 " + obj.one + " temp.png\r\n")
+                        commFile.write("convert -resize 50x50 " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
