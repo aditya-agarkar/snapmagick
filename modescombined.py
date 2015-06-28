@@ -186,7 +186,7 @@ with open(standardsFileName,"rU") as f:
                     backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
                     r = int(backgroundColor[1:3],16)
                     g = int(backgroundColor[3:5],16)
-                    b = int(backgroundColor[5:],16)
+                    b = int(backgroundColor[5:7],16)
                     rr, gg, bb = [x/255.0 for x in r, g, b]
                     h, l, s = colorsys.rgb_to_hls(rr, gg, bb)
                     r -= 16
@@ -248,7 +248,7 @@ with open(standardsFileName,"rU") as f:
                         if found == False:
                             exception_list.append(kw)
                 if card_model == 2:
-                    commFile.write("convert -background '"+ bg + "' -size " + final_width + " -define pango:justify=center pango:" + '\'')
+                    commFile.write("convert -background '"+ bg + "' -size " + str(final_width) + " -define pango:justify=center pango:" + '\'')
 
                     length = 0
 
