@@ -182,7 +182,7 @@ with open(standardsFileName,"rU") as f:
                 iconbg=rand_color(iconbgcolorList,iconbgnumcolors)
 
                 if card_model == 1:
-                    backgroundColor = rand_color(bgcolorList,bgnumcolors)
+                    backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
                     r = int(backgroundColor[1:3],16)
                     g = int(backgroundColor[3:5],16)
                     b = int(backgroundColor[5:],16)
@@ -194,7 +194,7 @@ with open(standardsFileName,"rU") as f:
                     for kw in keys:
                         for match in objects:
                             #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
-                            backgroundColor =rand_color(bgcolorList,bgnumcolors)
+                            backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
                             r = int(backgroundColor[1:3],16)
                             g = int(backgroundColor[3:5],16)
                             b = int(backgroundColor[5:],16)
