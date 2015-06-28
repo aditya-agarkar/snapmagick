@@ -265,7 +265,7 @@ with open(standardsFileName,"rU") as f:
                         if found == False:
                             exception_list.append(kw)
                 if card_model == 2:
-                    commFile.write("convert -background '"+ bg + "' -size " + str(final_width-30) + " -define pango:justify=true pango:" + '\'')
+                    commFile.write("convert -background '"+ bg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
 
                     length = 0
 
