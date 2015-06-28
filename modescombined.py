@@ -462,7 +462,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs.append(obj)
 
                     if obj.isicon():#m7
-                        commFile.write("convert  " + icon_resize + " " + obj.one + " temp.png\r\n")
+                        commFile.write("convert  -resize" + icon_resize + " " + obj.one + " temp.png\r\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\r\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\r\n")
