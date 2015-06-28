@@ -182,7 +182,7 @@ with open(standardsFileName,"rU") as f:
                 iconbg=rand_color(iconbgcolorList,iconbgnumcolors)
 
                 if card_model == 1:
-                    backgroundColor = colorList[randint(0,numcolors - 1)][0]
+                    backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
                     r = int(backgroundColor[1:3],16)
                     g = int(backgroundColor[3:5],16)
                     b = int(backgroundColor[5:],16)
@@ -193,14 +193,14 @@ with open(standardsFileName,"rU") as f:
                     textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
                     for kw in keys:
                         for match in objects:
-                            backgroundColor = colorList[randint(0,numcolors - 1)][0]
+                            backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
                             r = int(backgroundColor[1:3],16)
                             g = int(backgroundColor[3:5],16)
                             b = int(backgroundColor[5:],16)
 
-                            r -= 16
-                            g -= 16
-                            b -= 16
+                            r -= 32
+                            g -= 32
+                            b -= 32
                             if r < 0:
                                 r = 0
                             if g < 0:
@@ -230,8 +230,8 @@ with open(standardsFileName,"rU") as f:
                                             commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+row[2] +"-1.gif\r\n")
                                         else:
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\r\n")
-                                            commFile.write("convert icon.png  -colorspace gray "+ "icon.png\r\n")
-                                            commFile.write("convert icon.png   +level-colors '"+ rand_color(colorList,numcolors) +",' icon.png\r\n")
+                                            #commFile.write("convert icon.png  -colorspace gray "+ "icon.png\r\n")
+                                            #commFile.write("convert icon.png   +level-colors '"+ rand_color(colorList,numcolors) +",' icon.png\r\n")
                                             commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\r\n")
                                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\r\n")
                                             commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\r\n")
