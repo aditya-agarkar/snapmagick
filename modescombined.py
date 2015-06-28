@@ -2,11 +2,12 @@
 import csv
 from random import randint
 import random
+import colorsys
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+#output_folder = "/cam/motion/images/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -23,7 +24,7 @@ imagesFileName = "MetaData/images.csv"
 iconbgFileName = "MetaData/iconbg.csv"
 htmlfile=output_folder+"index-" + str(card_model)+".html"
 
-break_line = 200 #how many lines of the file to read until breaking
+break_line = 5 #how many lines of the file to read until breaking
 #variables for the image sizes
 final_height = 100
 final_width = 200
@@ -186,6 +187,8 @@ with open(standardsFileName,"rU") as f:
                     r = int(backgroundColor[1:3],16)
                     g = int(backgroundColor[3:5],16)
                     b = int(backgroundColor[5:],16)
+                    rr, gg, bb = [x/255.0 for x in r, g, b]
+                    h, l, s = colorsys.rgb_to_hls(rr, gg, bb)
                     r -= 16
                     g -= 16
                     b -= 16

@@ -1,18 +1,17 @@
-convert SourceImages/data-2.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/4391-3.jpg
-convert SourceImages/numbers-4.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/6109-3.jpg
-convert SourceImages/word-8.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/39-3.jpg
-convert SourceImages/word-5.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/3486-3.jpg
-convert SourceImages/probability-2.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/87-3.jpg
-convert SourceImages/problem-3.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/2981-3.jpg
-convert SourceImages/scale-1.png -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/24-3.jpg
-convert SourceImages/scale-1.png -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/49-3.jpg
-convert SourceImages/word-5.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/293-3.jpg
-convert SourceImages/numbers-3.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/191-3.jpg
-convert SourceImages/probability-1.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/6119-3.jpg
-convert SourceImages/probability-1.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/6184-3.jpg
-convert SourceImages/probability-2.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/3501-3.jpg
-convert SourceImages/scale-1.png -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/3673-3.jpg
-convert SourceImages/analyze-1.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/6212-3.jpg
-convert SourceImages/problem-4.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/33-3.jpg
-convert SourceImages/problem.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/36-3.jpg
-convert SourceImages/problem-4.jpg -resize '200>' -gravity center -crop 200x100+0+0 +repage /Users/adityaagarkar/PycharmProjects/snapmagick/37-3.jpg
+convert  -resize '50>' SourceIcons/data.png icon.png
+convert -size 100x100 canvas:none -stroke '#dbdc9a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
+convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#dbdc9a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
+convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#dbdc9a' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP' temp.png
+convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
+convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/4391-1.gif
+convert  -resize '50>' SourceIcons/rational.png icon.png
+convert -size 100x100 canvas:none -stroke '#cfa645' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
+convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#cfa645' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
+convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#cfa645' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
+convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
+convert -size 200x100 canvas:'#efc665' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6109-1.gif
+convert -size 100x100 canvas:none -stroke '#dea6a0' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
+convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#dea6a0' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
+convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#dea6a0' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
+convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#dea6a0' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
+convert -size 200x100 canvas:'#fec6c0' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/39-1.gif

@@ -1,0 +1,17 @@
+convert  -resize '50>' SourceIcons/data.png icon.png
+convert -size 100x100 canvas:none -stroke '#42c461' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
+convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#42c461' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
+convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#42c461' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP' temp.png
+convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
+convert -size 200x100 canvas:'#62e481' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/4391-1.gif
+convert  -resize '50>' SourceIcons/rational.png icon.png
+convert -size 100x100 canvas:none -stroke '#d8884d' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
+convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#d8884d' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
+convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#d8884d' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
+convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
+convert -size 200x100 canvas:'#f8a86d' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6109-1.gif
+convert -size 100x100 canvas:none -stroke '#da6963' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
+convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#da6963' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
+convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#da6963' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
+convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#da6963' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
+convert -size 200x100 canvas:'#fa8983' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/39-1.gif
