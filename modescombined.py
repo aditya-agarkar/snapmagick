@@ -6,8 +6,8 @@ import colorsys
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 8, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+#output_folder = "/cam/motion/images/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -40,7 +40,7 @@ m7_8_height = int(final_height*.96/2)
 m7_8_width = int(final_width*.98/2)
 m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
-icon_resize = "'"+str(int(final_height/2))+">'"
+icon_resize = "'"+str(int(final_height/1.2))+">'"
 
 class Object(object):
     def __init__(self,one,two):
@@ -69,6 +69,20 @@ def rand_color(cList,ncolors):
      Color = cList[randint(0,ncolors - 1)][0]
      return Color
 
+def complementaryColor(hex):
+  """Returns complementary RGB color
+
+  Example:
+  >>>complementaryColor('FFFFFF')
+  '000000'
+  """
+  if hex[0] == '#':
+    hex = hex[1:]
+  rgb = (hex[0:2], hex[2:4], hex[4:6])
+  comp = ['02%X' % (255 - int(a, 16)) for a in rgb]
+  print comp
+  return comp
+
 #returns contrasting color from given HSL list
 def contra_color(backgroundColor):
     r = int(backgroundColor[1:3],16)
@@ -76,7 +90,7 @@ def contra_color(backgroundColor):
     b = int(backgroundColor[5:],16)
     r, g, b = [x/255.0 for x in r, g, b]
     h, l, s = colorsys.rgb_to_hls(r, g, b)
-    h = h + 0.5
+    h = h + 0.8
     if h > 1:
         h = h - 1
     r, g, b = colorsys.hls_to_rgb(h, l, s)
@@ -214,12 +228,14 @@ with open(standardsFileName,"rU") as f:
                     #b -= 16
                     #textColor = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
                     textColor=contra_color(backgroundColor)
+                    #textColor=complementaryColor(backgroundColor)
                     found = False
                     for kw in keys:
                         for match in objects:
                             #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
                             backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
                             textColor=contra_color(backgroundColor)
+                            #textColor=complementaryColor(backgroundColor)
                             #r -= 32
                             #g -= 32
                             #b -= 32
