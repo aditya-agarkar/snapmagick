@@ -1,8 +1,8 @@
-
 import csv
 from random import randint
 import random
 import colorsys
+from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
@@ -81,7 +81,7 @@ def complementaryColor(hex):
     hex = hex[1:]
   rgb = (hex[0:2], hex[2:4], hex[4:6])
   comp = ['02%X' % (255 - int(a, 16)) for a in rgb]
-  print comp
+  #print comp
   return comp
 
 #returns contrasting color from given HSL list
@@ -98,6 +98,21 @@ def contra_color(backgroundColor):
     r, g, b = [x*255.0 for x in r, g, b]
     contra_rgb = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
     return contra_rgb
+
+def rand_lighter_color(backgroundColor):
+    r = int(backgroundColor[1:3],16)
+    g = int(backgroundColor[3:5],16)
+    b = int(backgroundColor[5:],16)
+    bgdarkness = (0.299*r + 0.587*g + 0.114*b)
+    for i in range(0,100):
+        col = rand_color(colorList,numcolors)
+        col = (col[1:])
+        r2 = int(col[1:3],16)
+        g2 = int(col[3:5],16)
+        b2 = int(col[5:],16)
+        coldark = (0.299*r2 + 0.587*g2 + 0.114*b2)
+        if(coldark < bgdarkness):
+            return "#" + col
 
 #returns random polygon from list
 def rand_poly(pList):
@@ -294,12 +309,14 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert -background '"+ bg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
 
                     length = 0
-
+                    rand_col = rand_lighter_color(bg)
+                    print rand_col
                     for w in keys:
                       length += len(w)
+                      rand_col = rand_lighter_color(bg)
                       if( length < 80):
                             commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
-                            commFile.write(' foreground="'+rand_color(colorList,numcolors)+'">' + w.upper() + ' </span>')
+                            commFile.write(' foreground="'+rand_col+'">' + w.upper() + ' </span>')
 
                     commFile.write('\' pango_span.gif\n')
                     commFile.write("convert -size " + final_size + " canvas:'"+bg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\n")
@@ -533,13 +550,28 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity northeast a.png -composite -gravity northwest b.png -composite -gravity southeast c.png -composite -gravity southwest d.png -composite " +output_folder+ id + "-8.gif\n")
 
                 if card_model == 9:
-
+                    rand = RandomColor()
+                    compList = []
+                    for x in range(0,5):
+                            print rand.generate()
                     length = 0
+                    lines = 2
+                    line_length = 0
+                    i = 0
                     string = ""
-                    for w in keys:
-                        length += len(w)
-                        if( length < 20):
-                            string = string + " " + w.upper()
+                    while i < len(keys) and lines < 4:
+                        while i < len(keys) and line_length + len(keys[i])< 16 :
+                            string += keys[i] + " "
+                            line_length += len(keys[i])
+                            i+=1
+                        line_length = 0
+                        lines += 1
+                        string += "\r\n"
+                        #print string
+                    string.strip()
+
+
+
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
                     commFile.write("convert temp.png -size " + str(final_width - 30) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 190 -pointsize 11 -annotate +0-15 '" + string + "' " + output_folder + id +"-9.gif\n")
 
@@ -557,7 +589,7 @@ with open(standardsFileName,"rU") as f:
         if count == break_line:
              break
 commFile.close()
-print exception_list
+#print exception_list
 for exception in exception_list:
     exceptions.write(exception + "\n")
 exceptions.close()
