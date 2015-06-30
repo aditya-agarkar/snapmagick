@@ -81,8 +81,8 @@ def complementaryColor(hex):
     hex = hex[1:]
   rgb = (hex[0:2], hex[2:4], hex[4:6])
   comp = ['02%X' % (255 - int(a, 16)) for a in rgb]
-  #print comp
-  return comp
+  #print "comp" , comp
+  return str(comp)
 
 #returns contrasting color from given HSL list
 def contra_color(backgroundColor):
@@ -97,7 +97,25 @@ def contra_color(backgroundColor):
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     r, g, b = [x*255.0 for x in r, g, b]
     contra_rgb = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
+    for i in range(len(contra_rgb),6):
+        contra_rgb += "f"
     return contra_rgb
+def darkest(cList):
+    darkestVal = 2000
+    darkest = cList[0]
+    for col in cList:
+        if len(col) == 5:
+            col += "F"
+        elif len(col) == 4:
+            col += "FF"
+        r = int(col[1:3],16)
+        g = int(col[3:5],16)
+        b = int(col[5:],16)
+        darkness = (0.299*r + 0.587*g + 0.114*b)
+        if darkness < darkestVal:
+            darkest = col
+    return darkest
+
 
 def rand_lighter_color(backgroundColor):
     r = int(backgroundColor[1:3],16)
@@ -231,13 +249,26 @@ with open(standardsFileName,"rU") as f:
                 found = False
                 image_name = id + ".gif" if card_model != 3 else ".jpg"
                # print image_name
-
-                bg=rand_color(bgcolorList,bgnumcolors)
+                rand = RandomColor()
+                #
+                compList=rand.generate(None, None, 3, 'hex')
+                #print "h",compList
+                for i in range(0,3):
+                    x = contra_color(compList[i])
+                    #print "x", x
+                    #print "co",contra_color(x)
+                    compList.append("#" + x)
+                #print "d", compList
+                bg= (darkest(compList))
+                compList.remove(bg)
+                #print "remove" , bg
+                #print "left" , compList
                 bbg=rand_color(boardbgList,boardbgnums)
                 iconbg=rand_color(iconbgcolorList,iconbgnumcolors)
 
                 if card_model == 1:
                     backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
+                    #print "bg",backgroundColor
                     #r = int(backgroundColor[1:3],16)
                     #g = int(backgroundColor[3:5],16)
                     #b = int(backgroundColor[5:7],16)
@@ -309,14 +340,16 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert -background '"+ bg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
 
                     length = 0
-                    rand_col = rand_lighter_color(bg)
-                    print rand_col
+                    #rand_col = rand_lighter_color(bg)
+                    #print rand_col
+                    pos = 0
                     for w in keys:
                       length += len(w)
                       rand_col = rand_lighter_color(bg)
                       if( length < 80):
                             commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
-                            commFile.write(' foreground="'+rand_col+'">' + w.upper() + ' </span>')
+                            commFile.write(' foreground="'+compList[pos % len(compList)]+'">' + w.upper() + ' </span>')
+                            pos += 1
 
                     commFile.write('\' pango_span.gif\n')
                     commFile.write("convert -size " + final_size + " canvas:'"+bg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\n")
@@ -550,10 +583,7 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity northeast a.png -composite -gravity northwest b.png -composite -gravity southeast c.png -composite -gravity southwest d.png -composite " +output_folder+ id + "-8.gif\n")
 
                 if card_model == 9:
-                    rand = RandomColor()
-                    compList = []
-                    for x in range(0,5):
-                            print rand.generate()
+
                     length = 0
                     lines = 2
                     line_length = 0
