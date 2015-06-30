@@ -100,6 +100,7 @@ def contra_color(backgroundColor):
     for i in range(len(contra_rgb),6):
         contra_rgb += "f"
     return contra_rgb
+
 def darkest(cList):
     darkestVal = 2000
     darkest = cList[0]
@@ -590,20 +591,20 @@ with open(standardsFileName,"rU") as f:
                     i = 0
                     string = ""
                     while i < len(keys) and lines < 4:
-                        while i < len(keys) and line_length + len(keys[i])< 16 :
+                        while i < len(keys) and line_length + len(keys[i])< 12 :
                             string += keys[i] + " "
                             line_length += len(keys[i])
                             i+=1
                         line_length = 0
                         lines += 1
-                        string += "\r\n"
+                        string += "\n"
                         #print string
                     string.strip()
 
 
 
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
-                    commFile.write("convert temp.png -size " + str(final_width - 30) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 190 -pointsize 11 -annotate +0-15 '" + string + "' " + output_folder + id +"-9.gif\n")
+                    commFile.write("convert temp.png -size " + str(final_width - 20) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0-15 '" + string + "' " + output_folder + id +"-9.gif\n")
 
 
                 w = row[2] +"-" + str(card_model)
