@@ -6,8 +6,8 @@ from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
-#output_folder = "/cam/motion/images/"
-output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+output_folder = "/cam/motion/images/"
+#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
