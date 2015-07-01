@@ -275,7 +275,7 @@ with open(standardsFileName,"rU") as f:
                     for kw in keys:
                         for match in objects:
                             backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
-                            textColor=contra_color(backgroundColor)
+                            textColor=rand_color(colorList,numcolors)
                             
                             if match[1] == kw:
                                 if found == False:
