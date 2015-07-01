@@ -579,7 +579,7 @@ with open(standardsFileName,"rU") as f:
 
 
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
-                    commFile.write("convert temp.png -size " + str(final_width - 20) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+5 '" + string + "' " + output_folder + id +"-9.gif\n")
+                    commFile.write("convert temp.png -size " + str(final_width - 20) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+8 '" + string + "' " + output_folder + id +"-9.gif\n")
 
 
                 w = row[2] +"-" + str(card_model)
