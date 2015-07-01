@@ -266,40 +266,42 @@ with open(standardsFileName,"rU") as f:
                 #print "left" , compList
                 bbg=rand_color(boardbgList,boardbgnums)
                 iconbg=rand_color(iconbgcolorList,iconbgnumcolors)
+                textColor = rand_color(colorList,numcolors)
+                backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
 
                 if card_model == 1:
-                    backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
-                    textColor = rand_color(colorList,numcolors)
+                    #backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
+                    #textColor = rand_color(colorList,numcolors)
                     #textColor=contra_color(backgroundColor)
                     found = False
                     for kw in keys:
                         for match in objects:
-                            backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
-                            textColor=rand_color(colorList,numcolors)
+                            #backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
+                            #textColor=rand_color(colorList,numcolors)
                             
                             if match[1] == kw:
                                 if found == False:
                                     if match[0] == "font":
-                                        commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
-                                        commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
-                                        commFile.write("convert -size 100x100 canvas:none -gravity center -font " + match[2] + " -fill '#" + textColor + "' -density 190 -pointsize 30 -annotate +0-10 '" + match[3] + "' obj.png\n")
+                                        commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
+                                        commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                                        commFile.write("convert -size 100x100 canvas:none -gravity center -font " + match[2] + " -fill '" + textColor + "' -density 190 -pointsize 30 -annotate +0-10 '" + match[3] + "' obj.png\n")
                                         commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\n")
                                     else:
                                         if match[3] == "N":
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\n")
-                                            commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                                            commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
                                             commFile.write("convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png\n")
                                             commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+row[2] +"-1.gif\n")
                                         else:
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\n")
                                             #commFile.write("convert icon.png  -colorspace gray "+ "icon.png\n")
-                                            commFile.write("convert icon.png -alpha off -fill '#" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
-                                            commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                                            commFile.write("convert icon.png -fuzzy 20% -alpha off -fill '" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
+                                            commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
                                             commFile.write("convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png\n")
                                             commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\n")
 
@@ -391,6 +393,8 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[start_key]])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
+                        if obj.two == True:
+                            commFile.write("convert temp.png -fuzzy 20% -alpha off -fill '" + textColor + "' -opaque '#e76255' -alpha on temp.png\n")
                         #if obj.two:
                             #commFile.write("convert temp.png -colorspace gray  temp.png\n")
                             #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
