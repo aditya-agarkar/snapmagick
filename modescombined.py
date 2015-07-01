@@ -6,8 +6,8 @@ from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+#output_folder = "/cam/motion/images/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -298,7 +298,7 @@ with open(standardsFileName,"rU") as f:
                                         else:
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\n")
                                             #commFile.write("convert icon.png  -colorspace gray "+ "icon.png\n")
-                                            commFile.write("convert icon.png -fuzzy 20% -alpha off -fill '" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
+                                            commFile.write("convert icon.png -fuzz 20% -alpha off -fill '" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
                                             commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
                                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                                             commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
@@ -394,7 +394,7 @@ with open(standardsFileName,"rU") as f:
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two == True:
-                            commFile.write("convert temp.png -fuzzy 20% -alpha off -fill '" + textColor + "' -opaque '#e76255' -alpha on temp.png\n")
+                            commFile.write("convert temp.png -fuzz 20% -alpha off -fill '" + textColor + "' -opaque '#e76255' -alpha on temp.png\n")
                         #if obj.two:
                             #commFile.write("convert temp.png -colorspace gray  temp.png\n")
                             #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
