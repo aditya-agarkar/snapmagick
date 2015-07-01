@@ -269,42 +269,13 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 1:
                     backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
-                    #print "bg",backgroundColor
-                    #r = int(backgroundColor[1:3],16)
-                    #g = int(backgroundColor[3:5],16)
-                    #b = int(backgroundColor[5:7],16)
-                    #r, g, b = [x/255.0 for x in r, g, b]
-                    #h, l, s = colorsys.rgb_to_hls(r, g, b)
-                    #h, l, s = contra_color (h, l ,s)
-                    #r, g, b = colorsys.hls_to_rgb(h, l, s)
-                    #r, g, b = [x*255.0 for x in r, g, b]
-                    #print hex(int(r))[2:], " " , hex(int(r))[2:], " " , hex(int(r))[2:]
-                    #r -= 16
-                    #g -= 16
-                    #b -= 16
-                    #textColor = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
-                    textColor=contra_color(backgroundColor)
-                    #textColor=complementaryColor(backgroundColor)
+                    textColor = rand_color(colorList,numcolors)
+                    #textColor=contra_color(backgroundColor)
                     found = False
                     for kw in keys:
                         for match in objects:
-                            #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
                             backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
                             textColor=contra_color(backgroundColor)
-                            #textColor=complementaryColor(backgroundColor)
-                            #r -= 32
-                            #g -= 32
-                            #b -= 32
-                            #if r < 0:
-                            #    r = 0
-                            #if g < 0:
-                            #    g = 0
-                            #if b < 0:
-                            #    b = 0
-                            #textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
-                                 #print r, " " , g, " " , b
-                                 #print textColor
-
                             
                             if match[1] == kw:
                                 if found == False:
