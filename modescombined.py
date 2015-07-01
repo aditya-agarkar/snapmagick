@@ -96,9 +96,29 @@ def contra_color(backgroundColor):
         h = h - 1
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     r, g, b = [x*255.0 for x in r, g, b]
-    contra_rgb = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
+    print r,g,b
+    if r == 0:
+        r = 1
+    if g == 0:
+        g = 1
+    if b == 0:
+        b=1
+    if r < 16:
+        contra_rgb = format(int(str((int(r)))),'02x')
+    else:
+        contra_rgb = hex(int(r))[2:]
+    if g < 16:
+        contra_rgb += format(int(str((int(g)))),'02x')
+    else:
+        contra_rgb += hex(int(g))[2:]
+    if b < 16:
+        contra_rgb += format(int((int(b))),'02x')
+    else:
+        contra_rgb += hex(int(b))[2:]
+    print
     for i in range(len(contra_rgb),6):
         contra_rgb += "f"
+        print "g",contra_rgb,
     return contra_rgb
 
 def darkest(cList):
@@ -240,10 +260,11 @@ with open(standardsFileName,"rU") as f:
             orig_keys = row[6]
             orig_keys = orig_keys.split()
             #print "before",orig_keys
-            if card_model != 2:
+            if card_model != 2 and card_model != 9:
                 keys = [key for key in orig_keys if isKey(key)]
                 #print "after",keys
             else:
+
                 keys = orig_keys
             if(len(keys) >0):
                 start_key = randint(0,len(keys)-1)
@@ -262,6 +283,32 @@ with open(standardsFileName,"rU") as f:
                 #print "d", compList
                 bg= (darkest(compList))
                 compList.remove(bg)
+                r = int(bg[1:3],16)
+                g = int(bg[3:5],16)
+                b = int(bg[5:7],16)
+                r *= .3
+                g *= .3
+                b *= .3
+                if r < 0:
+                    r = 1
+                if g < 0:
+                   g = 1
+                if b < 0:
+                    b = 1
+                bg = "#"
+                if r < 16:
+                    bg += format(int(str((int(r)))),'02x')
+                else:
+                    bg += hex(int(r))[2:]
+                if g < 16:
+                    bg += format(int(str((int(g)))),'02x')
+                else:
+                    bg += hex(int(g))[2:]
+                if b < 16:
+                    bg += format(int((int(b))),'02x')
+                else:
+                    bg += hex(int(b))[2:]
+                #bg = "#" + hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
                 #print "remove" , bg
                 #print "left" , compList
                 bbg=rand_color(boardbgList,boardbgnums)
@@ -346,7 +393,7 @@ with open(standardsFileName,"rU") as f:
                     pos = 0
                     for w in keys:
                       length += len(w)
-                      rand_col = rand_lighter_color(bg)
+                      #rand_col = rand_lighter_color(bg)
                       if( length < 80):
                             commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
                             commFile.write(' foreground="'+compList[pos % len(compList)]+'">' + w.upper() + ' </span>')
