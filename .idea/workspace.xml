@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="063f44c5-356b-434c-a9d3-eccf31e675a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modescombined.py" afterPath="$PROJECT_DIR$/modescombined.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snapmagick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="modescombined.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modescombined.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45064378">
-              <caret line="606" column="165" selection-start-line="606" selection-start-column="165" selection-end-line="606" selection-end-column="165" />
+            <state vertical-scroll-proportion="0.48497853">
+              <caret line="606" column="180" selection-start-line="606" selection-start-column="180" selection-end-line="606" selection-end-column="180" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -357,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modescombined.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45064378">
-          <caret line="606" column="165" selection-start-line="606" selection-start-column="165" selection-end-line="606" selection-end-column="165" />
+        <state vertical-scroll-proportion="0.48497853">
+          <caret line="606" column="180" selection-start-line="606" selection-start-column="180" selection-end-line="606" selection-end-column="180" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
