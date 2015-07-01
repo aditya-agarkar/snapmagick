@@ -573,7 +573,6 @@ with open(standardsFileName,"rU") as f:
                         line_length = 0
                         lines += 1
                         string += "\n"
-                        #print string
                     string.strip()
 
 
