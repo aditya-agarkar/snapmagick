@@ -7,6 +7,7 @@ from randomcolor import RandomColor
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
 output_folder = "/cam/motion/images/"
+num_pallets = 5
 #output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
@@ -81,7 +82,7 @@ def complementaryColor(hex):
     hex = hex[1:]
   rgb = (hex[0:2], hex[2:4], hex[4:6])
   comp = ['02%X' % (255 - int(a, 16)) for a in rgb]
-  #print "comp" , comp
+  ###print "comp" , comp
   return str(comp)
 
 #returns contrasting color from given HSL list
@@ -96,7 +97,7 @@ def contra_color(backgroundColor):
         h = h - 1
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     r, g, b = [x*255.0 for x in r, g, b]
-    print r,g,b
+    ##print r,g,b
     if r == 0:
         r = 1
     if g == 0:
@@ -115,10 +116,10 @@ def contra_color(backgroundColor):
         contra_rgb += format(int((int(b))),'02x')
     else:
         contra_rgb += hex(int(b))[2:]
-    print
+    ##print
     for i in range(len(contra_rgb),6):
         contra_rgb += "f"
-        print "g",contra_rgb,
+        ##print "g",contra_rgb,
     return contra_rgb
 
 def darkest(cList):
@@ -136,6 +137,14 @@ def darkest(cList):
         if darkness < darkestVal:
             darkest = col
     return darkest
+
+def color_from_pallet(pnum):
+    pnum = "c" + pnum[1]
+    colors = [color for color, pallet in colorDict.items() if pallet == pnum]
+    if(len(colors) == 0):
+        ##print pnum
+        pass
+    return random.choice(colors)
 
 
 def rand_lighter_color(backgroundColor):
@@ -183,14 +192,20 @@ def isKey(key):
     return True
 with open(imagesFileName,"rb") as im:
     imreader = csv.reader(im)
-    images = list(imreader)
+    images = list(imreader)[1:]
 
 #processes color file
 with open(colorsFileName,"r") as d:
     colorRead = csv.reader(d)
     colorList = list(colorRead)
-    numcolors = len(colorList)
+    colorDict = {}
+    for row in colorList:
+        colorDict[row[0]] = row[1]
+        print colorDict[row[0]]
+    ##print colorDict
 
+    numcolors = len(colorList)
+##print color_from_pallet("c2")
 #processes background colors
 with open(bgcolorsFileName,"r") as d:
     bgcolorRead = csv.reader(d)
@@ -202,6 +217,10 @@ with open(iconbgFileName,"r") as d:
     iconbgcolorRead = csv.reader(d)
     iconbgcolorList = list(iconbgcolorRead)
     iconbgnumcolors = len(iconbgcolorList)
+    iconbgDict = {}
+    for row in iconbgcolorList:
+        iconbgDict[row[0]] = row[1]
+    ##print iconbgDict
 
 #processes board backgrounds
 with open(boardbgFileName,"r") as d:
@@ -220,7 +239,7 @@ with open(polygonFileName,"r") as d:
 with open(objectFileName,"r") as d:
     objRead = csv.reader(d)
     objRead = list(objRead)
-    #print objRead
+    ###print objRead
     objects = list(objRead)
     objDict = {}
     count = 0
@@ -255,14 +274,13 @@ with open(standardsFileName,"rU") as f:
 
         if count != 0:
 
-
             id = row[2]
             orig_keys = row[6]
             orig_keys = orig_keys.split()
-            #print "before",orig_keys
+            ###print "before",orig_keys
             if card_model != 2 and card_model != 9:
                 keys = [key for key in orig_keys if isKey(key)]
-                #print "after",keys
+                ###print "after",keys
             else:
 
                 keys = orig_keys
@@ -270,85 +288,85 @@ with open(standardsFileName,"rU") as f:
                 start_key = randint(0,len(keys)-1)
                 found = False
                 image_name = id + ".gif" if card_model != 3 else ".jpg"
-               # print image_name
-                rand = RandomColor()
+               # ##print image_name
+              #  rand = RandomColor()
                 #
-                compList=rand.generate(None, None, 3, 'hex')
-                #print "h",compList
-                for i in range(0,3):
-                    x = contra_color(compList[i])
-                    #print "x", x
-                    #print "co",contra_color(x)
-                    compList.append("#" + x)
-                #print "d", compList
-                bg= (darkest(compList))
-                compList.remove(bg)
-                r = int(bg[1:3],16)
-                g = int(bg[3:5],16)
-                b = int(bg[5:7],16)
-                r *= .3
-                g *= .3
-                b *= .3
-                if r < 0:
-                    r = 1
-                if g < 0:
-                   g = 1
-                if b < 0:
-                    b = 1
-                bg = "#"
-                if r < 16:
-                    bg += format(int(str((int(r)))),'02x')
-                else:
-                    bg += hex(int(r))[2:]
-                if g < 16:
-                    bg += format(int(str((int(g)))),'02x')
-                else:
-                    bg += hex(int(g))[2:]
-                if b < 16:
-                    bg += format(int((int(b))),'02x')
-                else:
-                    bg += hex(int(b))[2:]
+               # compList=rand.generate(None, None, 3, 'hex')
+                ###print "h",compList
+                #for i in range(0,3):
+                 #   x = contra_color(compList[i])
+                    ###print "x", x
+                 ###print "co",contra_color(x)
+                  #  compList.append("#" + x)
+                ###print "d", compList
                 #bg = "#" + hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
-                #print "remove" , bg
-                #print "left" , compList
+                ###print "remove" , bg
+                ###print "left" , compList
                 bbg=rand_color(boardbgList,boardbgnums)
-                iconbg=rand_color(iconbgcolorList,iconbgnumcolors)
-                textColor = rand_color(colorList,numcolors)
-                backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
+                iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
 
                 if card_model == 1:
-                    #backgroundColor = rand_color(iconbgcolorList,iconbgnumcolors)
-                    #textColor = rand_color(colorList,numcolors)
+                    ###print "bg",backgroundColorf
+                    #r = int(backgroundColor[1:3],16)
+                    #g = int(backgroundColor[3:5],16)
+                    #b = int(backgroundColor[5:7],16)
+                    #r, g, b = [x/255.0 for x in r, g, b]
+                    #h, l, s = colorsys.rgb_to_hls(r, g, b)
+                    #h, l, s = contra_color (h, l ,s)
+                    #r, g, b = colorsys.hls_to_rgb(h, l, s)
+                    #r, g, b = [x*255.0 for x in r, g, b]
+                    ###print hex(int(r))[2:], " " , hex(int(r))[2:], " " , hex(int(r))[2:]
+                    #r -= 16
+                    #g -= 16
+                    #b -= 16
+                    #textColor = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
                     #textColor=contra_color(backgroundColor)
+                    textColor = color_from_pallet(iconbgDict[iconbg])
+                    #textColor=complementaryColor(backgroundColor)
                     found = False
                     for kw in keys:
                         for match in objects:
-                            #backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
-                            #textColor=rand_color(colorList,numcolors)
+                            #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
+                            backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
+                            textColor=contra_color(backgroundColor)
+                            #textColor=complementaryColor(backgroundColor)
+                            #r -= 32
+                            #g -= 32
+                            #b -= 32
+                            #if r < 0:
+                            #    r = 0
+                            #if g < 0:
+                            #    g = 0
+                            #if b < 0:
+                            #    b = 0
+                            #textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
+                                 ###print r, " " , g, " " , b
+                                 ###print textColor
+
                             
                             if match[1] == kw:
                                 if found == False:
                                     if match[0] == "font":
-                                        commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
-                                        commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
-                                        commFile.write("convert -size 100x100 canvas:none -gravity center -font " + match[2] + " -fill '" + textColor + "' -density 190 -pointsize 30 -annotate +0-10 '" + match[3] + "' obj.png\n")
+                                        commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
+                                        commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                                        commFile.write("convert -size 100x100 canvas:none -gravity center -font " + match[2] + " -fill '#" + textColor + "' -density 190 -pointsize 30 -annotate +0-10 '" + match[3] + "' obj.png\n")
                                         commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\n")
                                     else:
                                         if match[3] == "N":
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\n")
-                                            commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                                            commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
                                             commFile.write("convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png\n")
                                             commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+row[2] +"-1.gif\n")
                                         else:
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\n")
                                             #commFile.write("convert icon.png  -colorspace gray "+ "icon.png\n")
-                                            commFile.write("convert icon.png -fuzz 20% -alpha off -fill '" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
-                                            commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                                            commFile.write("convert icon.png -alpha off -fill '#" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
+                                            commFile.write("convert -size 100x100 canvas:none -stroke '#" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                                            commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
                                             commFile.write("convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png\n")
                                             commFile.write("convert -size 200x100 canvas:'" + backgroundColor + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\n")
 
@@ -358,22 +376,22 @@ with open(standardsFileName,"rU") as f:
                         if found == False:
                             exception_list.append(kw)
                 if card_model == 2:
-                    commFile.write("convert -background '"+ bg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
-
+                    commFile.write("convert -background '"+ iconbg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
                     length = 0
                     #rand_col = rand_lighter_color(bg)
-                    #print rand_col
+                    ###print rand_col
                     pos = 0
                     for w in keys:
                       length += len(w)
+                      c =  color_from_pallet(iconbgDict[iconbg])
                       #rand_col = rand_lighter_color(bg)
                       if( length < 80):
                             commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
-                            commFile.write(' foreground="'+compList[pos % len(compList)]+'">' + w.upper() + ' </span>')
+                            commFile.write(' foreground="'+c+'">' + w.upper() + ' </span>')
                             pos += 1
 
                     commFile.write('\' pango_span.gif\n')
-                    commFile.write("convert -size " + final_size + " canvas:'"+bg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\n")
+                    commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center pango_span.gif -composite " + output_folder + id +"-2.gif\n")
                 if card_model == 3:
                     indexList = []
                     for k in keys:
@@ -398,50 +416,54 @@ with open(standardsFileName,"rU") as f:
                 if card_model == 4:
 
                     used_objs = []
-                    #print keys
-                    #print start_key
+                    ###print keys
+                    ###print start_key
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon(): #m4
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
                             commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + rand_color(colorList,numcolors)+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 a.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 a.png\n")
 
                     else:#m4
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + rand_color(colorList,numcolors)+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 a.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 a.png\n")
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     if obj.isicon(): #m4
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + rand_color(colorList,numcolors)+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
                     else :
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + rand_color(colorList,numcolors)+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon(): #m4
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + rand_color(colorList,numcolors)+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
                     else :
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + rand_color(colorList,numcolors)+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
 
-                    commFile.write("convert -size "+final_size+" canvas:'"+bg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
+                    commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                 if card_model == 5:
-
+                    c = color_from_pallet(iconbgDict[iconbg])
                     obj = choice(objDict[keys[start_key]])
+
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
-                        if obj.two == True:
-                            commFile.write("convert temp.png -fuzz 20% -alpha off -fill '" + textColor + "' -opaque '#e76255' -alpha on temp.png\n")
                         #if obj.two:
                             #commFile.write("convert temp.png -colorspace gray  temp.png\n")
                             #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
@@ -449,20 +471,22 @@ with open(standardsFileName,"rU") as f:
 
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + rand_color(colorList,numcolors)+ "' -stroke '" + rand_color(colorList,numcolors)+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\n")
+                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + c+ "' -stroke '" + c+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\n")
 
 
                 if card_model == 6: # m6
                     used_objs = []
                     obj = choice(objDict[keys[start_key ]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
 
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " "  + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite a.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ iconbg +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite a.png\n")
                         #commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+1) % len(keys)]].split(",")).strip() +" -composite b.png\n")
                         #commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+2) % len(keys)]].split(",")).strip() +" -composite c.png\n")
 
@@ -473,29 +497,32 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
-
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite b.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite b.png\n")
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' b.png\n")
+                        commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' b.png\n")
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
-
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite c.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite c.png\n")
+
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' c.png\n")
+                        commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' c.png\n")
 
                     commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity east a.png -composite -gravity center b.png -composite -gravity west c.png -composite "+ output_folder+id+"-6.gif\n")
 
@@ -503,54 +530,62 @@ with open(standardsFileName,"rU") as f:
                     used_objs = []
                     obj = choice(objDict[keys[start_key ]],used_objs)
                     used_objs.append(obj)
-
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
 
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite a.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite a.png\n")
 
                         # commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+1) % len(keys)]].split(",")).strip() +" -composite b.png\n")
                         #commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+2) % len(keys)]].split(",")).strip() +" -composite c.png\n")
                         #commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+3) % len(keys)]].split(",")).strip() +" -composite d.png\n")
                     else:#m7
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[start_key] +"' a.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[start_key] +"' a.png\n")
 
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
-
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite b.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite b.png\n")
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+1) % len(keys)] +"' b.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+1) % len(keys)] +"' b.png\n")
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite c.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite c.png\n")
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+2) % len(keys)] +"' c.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+2) % len(keys)] +"' c.png\n")
                     obj = choice(objDict[keys[(start_key +3) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite d.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite d.png\n")
+
+
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+3) % len(keys)] +"' d.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+3) % len(keys)] +"' d.png\n")
 
 
                     commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity northeast a.png -composite -gravity northwest b.png -composite -gravity southeast c.png -composite -gravity southwest d.png -composite " +output_folder+ id + "-7.gif\n")
@@ -559,49 +594,56 @@ with open(standardsFileName,"rU") as f:
                     used_objs = []
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
-
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():#m7
                         commFile.write("convert  -resize " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite a.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite a.png\n")
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' a.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' a.png\n")
 
 
                     obj = choice(objDict[keys[(start_key + 1) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite b.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite b.png\n")
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two+"' b.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two+"' b.png\n")
 
                     obj = choice(objDict[keys[(start_key + 2) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite c.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite c.png\n")
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' c.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' c.png\n")
 
                     obj = choice(objDict[keys[(start_key + 3) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
                             commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center temp.png -composite d.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            c = color_from_pallet(iconbgDict[iconbg])
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite d.png\n")
                     else:
-                        commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' d.png\n")
+                        commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' d.png\n")
 
                     commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity northeast a.png -composite -gravity northwest b.png -composite -gravity southeast c.png -composite -gravity southwest d.png -composite " +output_folder+ id + "-8.gif\n")
 
@@ -620,12 +662,13 @@ with open(standardsFileName,"rU") as f:
                         line_length = 0
                         lines += 1
                         string += "\n"
+                        ###print string
                     string.strip()
 
 
 
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
-                    commFile.write("convert temp.png -size " + str(final_width - 20) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+8 '" + string + "' " + output_folder + id +"-9.gif\n")
+                    commFile.write("convert temp.png -size " + str(final_width - 20) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0-15 '" + string + "' " + output_folder + id +"-9.gif\n")
 
 
                 w = row[2] +"-" + str(card_model)
@@ -635,13 +678,13 @@ with open(standardsFileName,"rU") as f:
                     w+= ".gif"
                 if card_model != 3 or found == True:
                     imageList.append(w)
-                #print imageList
+                ###print imageList
             else:
                 exception_list.append("no objects found for standard" + id)
         if count == break_line:
              break
 commFile.close()
-#print exception_list
+###print exception_list
 for exception in exception_list:
     exceptions.write(exception + "\n")
 exceptions.close()
@@ -655,7 +698,7 @@ with open(htmlfile, "w") as index:
             index.write("   <tr>\n")
             for x in range(0,5):
                 if i < len(imageList):
-                    #print i, len(imageList)
+                    ###print i, len(imageList)
                     index.write("<td><img src=\"" + imageList[i] + "\"></td>")
                     i += 1
                 else:
