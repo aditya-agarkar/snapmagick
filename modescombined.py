@@ -664,8 +664,8 @@ with open(standardsFileName,"rU") as f:
                         lines += 1
                         string += "\n"
                         ###print string
-                    string.strip()
                     string = string[:-1]
+                    string.strip()
 
 
 
