@@ -186,7 +186,7 @@ def choice(objlist,usedlist = []):
     return obj
 
 def isKey(key):
-    if not key in objDict.keys():
+    if  not key in objDict.keys():
         exception_list.append(key)
         return False
     return True
@@ -278,7 +278,7 @@ with open(standardsFileName,"rU") as f:
             orig_keys = row[6]
             orig_keys = orig_keys.split()
             ###print "before",orig_keys
-            if card_model != 2 and card_model != 9:
+            if card_model != 2 and card_model != 9 and card_model !=3 :
                 keys = [key for key in orig_keys if isKey(key)]
                 ###print "after",keys
             else:
