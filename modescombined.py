@@ -142,8 +142,7 @@ def color_from_pallet(pnum):
     pnum = "c" + pnum[1]
     colors = [color for color, pallet in colorDict.items() if pallet == pnum]
     if(len(colors) == 0):
-        ##print pnum
-        pass
+        print pnum
     return random.choice(colors)
 
 
@@ -201,7 +200,7 @@ with open(colorsFileName,"r") as d:
     colorDict = {}
     for row in colorList:
         colorDict[row[0]] = row[1]
-        print colorDict[row[0]]
+        #print colorDict[row[0]]
     ##print colorDict
 
     numcolors = len(colorList)
@@ -329,7 +328,7 @@ with open(standardsFileName,"rU") as f:
                             #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
                             backgroundColor =rand_color(iconbgcolorList,iconbgnumcolors)
                             textColor = color_from_pallet(iconbgDict[iconbg])
-                            print textColor
+                            #print textColor
                             #textColor=complementaryColor(backgroundColor)
                             #r -= 32
                             #g -= 32
