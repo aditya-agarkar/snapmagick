@@ -464,14 +464,14 @@ with open(standardsFileName,"rU") as f:
 
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
-                        #if obj.two:
-                            #commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            #commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
+                        if obj.two:
+                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
+                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
                         commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite " +output_folder+ id +"-5.gif\n")
 
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + c+ "' -stroke '" + c+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\n")
+                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + c+ " -stroke '" + c+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\n")
 
 
                 if card_model == 6: # m6
