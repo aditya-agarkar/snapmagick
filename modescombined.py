@@ -496,6 +496,7 @@ with open(standardsFileName,"rU") as f:
                         commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' a.png\n")
                         ##commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ fontDict[keys[(start_key+2) % len(keys)]][0] +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+fontDict[keys[(start_key+2) % len(keys)]][1]+"' c.png\n")
 
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     c = color_from_pallet(iconbgDict[iconbg])
@@ -512,6 +513,7 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
@@ -532,6 +534,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[start_key ]],used_objs)
                     used_objs.append(obj)
                     c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
@@ -550,6 +553,7 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
@@ -564,6 +568,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
@@ -576,6 +581,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key +3) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\n")
                         if obj.two:
@@ -596,6 +602,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
                     c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     if obj.isicon():#m7
                         commFile.write("convert  -resize " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
@@ -609,6 +616,7 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key + 1) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
@@ -623,6 +631,7 @@ with open(standardsFileName,"rU") as f:
                     obj = choice(objDict[keys[(start_key + 2) % len(keys)]],used_objs)
                     used_objs.append(obj)
                     c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
@@ -635,6 +644,7 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key + 3) % len(keys)]],used_objs)
                     used_objs.append(obj)
+                    iconbg = rand_color(iconbgcolorList,iconbgnumcolors)
                     c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
