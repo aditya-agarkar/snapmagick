@@ -5,7 +5,7 @@ import colorsys
 from randomcolor import RandomColor
 
 #which mode to draw
-card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
+card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
 output_folder = "/cam/motion/images/"
 num_pallets = 5
 #output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
@@ -689,6 +689,36 @@ with open(standardsFileName,"rU") as f:
                     w+= ".gif"
                 if card_model != 3 or found == True:
                     imageList.append(w)
+                if card_model == 10:
+                    used_objs = []
+                    obj = choice(objDict[keys[start_key]],used_objs)
+                    used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
+                    rotate_angle = random.choice([-1,1]) * 20
+
+                    if rotate_angle == 20:
+                        dir1 = "southwest"
+                        dir2 = "northeast"
+                    else:
+                        dir1 = "northwest"
+                        dir2 = "southeast"
+
+                    commFile.write('convert -size 800x400 canvas:none -fill \'' + rand_color(iconbgcolorList,iconbgnumcolors) + '\' -draw "rectangle 0,0,400,200" -fill \'' + rand_color(iconbgcolorList,iconbgnumcolors) + '\' -draw "rectangle 0,200 400,400" -fill \'' + rand_color(iconbgcolorList,iconbgnumcolors) + '\'  -draw "rectangle 400,0 800,200" -fill \'' + rand_color(iconbgcolorList,iconbgnumcolors) + '\' -draw "rectangle 400,200 800,400" -rotate ' + str(rotate_angle) +' -gravity center -extent ' + final_size + ' temp.png\n')
+                    if obj.isicon():
+                        commFile.write("convert " +obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon1.png\n")
+                    else :
+                        commFile.write("convert " +" -font " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon1.png\n")
+
+                    obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
+                    used_objs.append(obj)
+                    c = color_from_pallet(iconbgDict[iconbg])
+
+                    if obj.isicon():
+                        commFile.write("convert " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon2.png\n")
+                    else :
+                        commFile.write("convert " +" -font " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon2.png\n")
+
+                    commFile.write("convert temp.png -gravity " + dir1 + " icon1.png -composite -gravity " + dir2 + " icon2.png -composite " + output_folder+ row[2] +"-10.gif\n")
                 ###print imageList
             else:
                 exception_list.append("no objects found for standard" + id)
