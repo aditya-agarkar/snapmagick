@@ -649,8 +649,8 @@ with open(standardsFileName,"rU") as f:
                     line_length = 0
                     i = 0
                     string = ""
-                    while i <= len(keys) and lines < 4:
-                        while i <= len(keys) and line_length + len(keys[i])< 12 :
+                    while i < len(keys) and lines < 4:
+                        while i < len(keys) and line_length + len(keys[i])< 12 :
                             string += keys[i] + " "
                             line_length += len(keys[i])
                             i+=1
