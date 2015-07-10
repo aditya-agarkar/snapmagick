@@ -6,9 +6,9 @@ from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
+#output_folder = "/cam/motion/images/"
 num_pallets = 5
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -44,7 +44,7 @@ m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
 icon_resize = "'"+str(int(final_height/1.2))+">'"
 
-pallet_dict = {1:[], 2 : ["p2","p3"], 3: [] , 4: [], 5: [] , 6: [], 7: [] , 8: [], 9: [] , 10: []}
+pallet_dict = {1:["p1"], 2 : ["p2"], 3: [] , 4: ["p1"], 5: ["p1"] , 6: ["p1"], 7: ["p1"] , 8: ["p1"], 9: ["p1"] , 10: ["p1"]}
 class Object(object):
     def __init__(self,one,two):
         self.one = one
@@ -139,12 +139,27 @@ def darkest(cList):
             darkest = col
     return darkest
 
-def color_from_pallet(pnum):
+def color_from_pallett(pnum):
     pnum = "c" + pnum[1]
     colors = [color for color, pallet in colorDict.items() if pallet == pnum]
     if(len(colors) == 0):
         print pnum
     return random.choice(colors)
+
+def color_from_pallet(pallet):
+    pnum = "p" + pnum[1]
+    colors = [color for color, pallet in colorDict.items() if pallet == pnum]
+    colors = randomList(colors)
+    if(len(colors) == 0):
+        print pnum
+    return colors
+
+def rand_pallet():
+    pnums = list(pallet_dict[card_model])
+    if pnums == []:
+        pnums = list(set(zip(*map(tuple, iconbgcolorList))[1]))
+    pallet=pnums[random.randint(0,len(pnums)-1)]
+    return pallet
 
 def rand_iconbg_from_pallet():
     pnums = pallet_dict[card_model]
@@ -154,6 +169,29 @@ def rand_iconbg_from_pallet():
     if(len(iconbgcolors) == 0):
         print pnums
     return random.choice(iconbgcolors)
+
+def rand_bg_from_pallet(pnum,bgColorTup):
+    bgcolors = [(color, pallet) for color, pallet in bgColorTup if pallet == pnum]
+    bgcolors = randomList(list(zip(*bgcolors)[0]))
+    if(len(bgcolors) == 0):
+        print pnum
+    return bgcolors
+
+def rand_fg_from_pallet(pnum,fgColorTup):
+    fgcolors = [(color, pallet) for color, pallet in fgColorTup if pallet == pnum]
+    fgcolors = randomList(list(zip(*fgcolors)[0]))
+    if(len(fgcolors) == 0):
+        print pnum
+    return fgcolors
+
+
+def randomList(a):
+    b = []
+    for i in range(len(a)):
+        element = random.choice(a)
+        a.remove(element)
+        b.append(element)
+    return b
 
 def rand_lighter_color(backgroundColor):
     r = int(backgroundColor[1:3],16)
@@ -219,9 +257,10 @@ with open(imagesFileName,"rb") as im:
 with open(colorsFileName,"r") as d:
     colorRead = csv.reader(d)
     colorList = list(colorRead)
-    colorDict = {}
-    for row in colorList:
-        colorDict[row[0]] = row[1]
+    fgColorTup = map(tuple, colorList)
+    #colorDict = {}
+    #for row in colorList:
+    #    colorDict[row[0]] = row[1]
         #print colorDict[row[0]]
     ##print colorDict
 
@@ -239,9 +278,9 @@ with open(iconbgFileName,"r") as d:
     iconbgcolorList = list(iconbgcolorRead)
     #print iconbgcolorList
     iconbgnumcolors = len(iconbgcolorList)
-    iconbgDict = {}
-    for row in iconbgcolorList:
-        iconbgDict[row[0]] = row[1]
+    bgColorTup = map(tuple, iconbgcolorList)
+    #for row in iconbgcolorList:
+    #    iconbgDict[row[0]] = row[1]
        # print row
     #print iconbgDict
 
@@ -305,69 +344,26 @@ with open(standardsFileName,"rU") as f:
                 keys = [key for key in orig_keys if isKey(key)]
                 ###print "after",keys
             else:
-
                 keys = orig_keys
+
             if(len(keys) >0):
                 start_key = randint(0,len(keys)-1)
                 found = False
                 image_name = id + ".gif" if card_model != 3 else ".jpg"
-               # ##print image_name
-              #  rand = RandomColor()
-                #
-               # compList=rand.generate(None, None, 3, 'hex')
-                ###print "h",compList
-                #for i in range(0,3):
-                 #   x = contra_color(compList[i])
-                    ###print "x", x
-                 ###print "co",contra_color(x)
-                  #  compList.append("#" + x)
-                ###print "d", compList
-                #bg = "#" + hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
-                ###print "remove" , bg
-                ###print "left" , compList
+                pallet = rand_pallet()
+                bglist = rand_bg_from_pallet(pallet,bgColorTup)
+                fglist = rand_fg_from_pallet(pallet,fgColorTup)
                 bbg=rand_color(boardbgList,boardbgnums)
-                iconbg = rand_iconbg_from_pallet()
 
                 if card_model == 1:
-                    ###print "bg",backgroundColorf
-                    #r = int(backgroundColor[1:3],16)
-                    #g = int(backgroundColor[3:5],16)
-                    #b = int(backgroundColor[5:7],16)
-                    #r, g, b = [x/255.0 for x in r, g, b]
-                    #h, l, s = colorsys.rgb_to_hls(r, g, b)
-                    #h, l, s = contra_color (h, l ,s)
-                    #r, g, b = colorsys.hls_to_rgb(h, l, s)
-                    #r, g, b = [x*255.0 for x in r, g, b]
-                    ###print hex(int(r))[2:], " " , hex(int(r))[2:], " " , hex(int(r))[2:]
-                    #r -= 16
-                    #g -= 16
-                    #b -= 16
-                    #textColor = hex(int(r))[2:] + hex(int(g))[2:] + hex(int(b))[2:]
-                    #textColor=contra_color(backgroundColor)
-                    textColor = color_from_pallet(iconbgDict[iconbg])
-                    #textColor=complementaryColor(backgroundColor)
+
+                    iconbg=bglist[0]
+                    textColor=fglist[0]
+
                     found = False
                     for kw in keys:
                         for match in objects:
-                            #backgroundColor = bgcolorList[randint(0,numcolors - 1)][0]
-                            backgroundColor =rand_iconbg_from_pallet()
-                            textColor = color_from_pallet(iconbgDict[iconbg])
-                            #print textColor
-                            #textColor=complementaryColor(backgroundColor)
-                            #r -= 32
-                            #g -= 32
-                            #b -= 32
-                            #if r < 0:
-                            #    r = 0
-                            #if g < 0:
-                            #    g = 0
-                            #if b < 0:
-                            #    b = 0
-                            #textColor = hex(r)[2:] + hex(g)[2:] + hex(b)[2:]
-                                 ###print r, " " , g, " " , b
-                                 ###print textColor
 
-                            
                             if match[1] == kw:
                                 if found == False:
                                     if match[0] == "font":
@@ -400,6 +396,8 @@ with open(standardsFileName,"rU") as f:
                         if found == False:
                             exception_list.append(kw)
                 if card_model == 2:
+                    iconbg = bglist[0]
+                    textColor = fglist[0]
                     commFile.write("convert -background '"+ iconbg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
                     length = 0
                     #rand_col = rand_lighter_color(bg)
@@ -407,11 +405,12 @@ with open(standardsFileName,"rU") as f:
                     pos = 0
                     for w in keys:
                       length += len(w)
-                      c =  color_from_pallet(iconbgDict[iconbg])
+
+                      #c =  color_from_pallet(iconbgDict[iconbg])
                       #rand_col = rand_lighter_color(bg)
                       if( length < 80):
                             commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
-                            commFile.write(' foreground="'+c+'">' + w.upper() + ' </span>')
+                            commFile.write(' foreground="'+textColor+'">' + w.upper() + ' </span>')
                             pos += 1
 
                     commFile.write('\' pango_span.gif\n')
@@ -440,17 +439,16 @@ with open(standardsFileName,"rU") as f:
                 if card_model == 4:
 
                     used_objs = []
+                    iconbg = bglist[0]
                     ###print keys
                     ###print start_key
+
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon(): #m4
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ rand_color(colorList,numcolors) +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[0] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 a.png\n")
 
                     else:#m4
@@ -461,74 +459,65 @@ with open(standardsFileName,"rU") as f:
                     if obj.isicon(): #m4
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[1] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
                     else :
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon(): #m4
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[2] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
                     else :
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 190 -pointsize " + str(m4_font) + " -annotate +2+2 '"+ obj.two +"' -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
 
                     commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                 if card_model == 5:
-                    c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = bglist[0]
+                    textColor=fglist[0]
                     obj = choice(objDict[keys[start_key]])
 
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[0] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite " +output_folder+ id +"-5.gif\n")
 
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + c+ "' -stroke '" + c+ "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\n")
+                        commFile.write("convert -size " + final_size + " canvas:'"+iconbg+"' -gravity center -font "+obj.one+" -fill '" + textColor + "' -stroke '" + textColor + "' -density 70 -pointsize " + str(m5_font) + " -annotate +2+2 '"+obj.two+"' " +output_folder + id +"-5.gif\n")
 
 
                 if card_model == 6: # m6
                     used_objs = []
                     obj = choice(objDict[keys[start_key ]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = bglist[0]
+
 
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " "  + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ iconbg +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[0] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite a.png\n")
                         #commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+1) % len(keys)]].split(",")).strip() +" -composite b.png\n")
                         #commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+2) % len(keys)]].split(",")).strip() +" -composite c.png\n")
 
                     else:
                         #fontDict[keys[start_key]][1]
-                        commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' a.png\n")
+                        commFile.write("convert -size " + m6_size + " canvas:'"+fglist[0]+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+obj.two+"' a.png\n")
                         ##commFile.write("convert -size " + m6_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center -font "+ fontDict[keys[(start_key+2) % len(keys)]][0] +" -fill '#FFFFFF' -density 90 -pointsize " + str(m6_font) + " -annotate +2+2 '"+fontDict[keys[(start_key+2) % len(keys)]][1]+"' c.png\n")
 
-                    iconbg = rand_iconbg_from_pallet()
+                    iconbg = bglist[1]
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
                     if obj.isicon():
                         commFile.write("convert -resize " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[1] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite b.png\n")
                     else:
                         #fontDict[keys[start_key]][1]
@@ -536,14 +525,11 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    iconbg = rand_iconbg_from_pallet()
-                    c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = bglist[2]
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[2] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m6_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite c.png\n")
 
                     else:
@@ -556,15 +542,11 @@ with open(standardsFileName,"rU") as f:
                     used_objs = []
                     obj = choice(objDict[keys[start_key ]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
-                    iconbg = rand_iconbg_from_pallet()
+                    iconbg = bglist[0]
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[0] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite a.png\n")
 
                         # commFile.write("convert -size " + m7_8_size + " canvas:'"+rand_color(colorList,numcolors)+"' -gravity center "+ choice(iconDict[keys[(start_key+1) % len(keys)]].split(",")).strip() +" -composite b.png\n")
@@ -576,41 +558,32 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    iconbg = rand_iconbg_from_pallet()
-                    c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = bglist[1]
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[1] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite b.png\n")
                     else:
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+1) % len(keys)] +"' b.png\n")
 
                     obj = choice(objDict[keys[(start_key +2) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
-                    iconbg = rand_iconbg_from_pallet()
+                    iconbg = bglist[2]
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[2] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite c.png\n")
                     else:
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity west -font amyshandwriting-Medium -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + keys[(start_key+2) % len(keys)] +"' c.png\n")
                     obj = choice(objDict[keys[(start_key +3) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
-                    iconbg = rand_iconbg_from_pallet()
+                    iconbg = bglist[3]
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one+ " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[3] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite d.png\n")
 
 
@@ -624,14 +597,11 @@ with open(standardsFileName,"rU") as f:
                     used_objs = []
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
-                    iconbg = rand_iconbg_from_pallet()
+                    iconbg = bglist[0]
                     if obj.isicon():#m7
                         commFile.write("convert  -resize " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[0] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite a.png\n")
                     else:
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' a.png\n")
@@ -639,42 +609,33 @@ with open(standardsFileName,"rU") as f:
 
                     obj = choice(objDict[keys[(start_key + 1) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    iconbg = rand_iconbg_from_pallet()
-                    c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = bglist[1]
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[1] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite b.png\n")
                     else:
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two+"' b.png\n")
 
                     obj = choice(objDict[keys[(start_key + 2) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
-                    iconbg = rand_iconbg_from_pallet()
+                    iconbg = bglist[2]
                     if obj.isicon():#m7
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[2] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite c.png\n")
                     else:
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' c.png\n")
 
                     obj = choice(objDict[keys[(start_key + 3) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    iconbg = rand_iconbg_from_pallet()
-                    c = color_from_pallet(iconbgDict[iconbg])
+                    iconbg = bglist[3]
                     if obj.isicon():
                         commFile.write("convert -resize  " + icon_resize + " " + obj.one + " temp.png\n")
                         if obj.two:
-                            commFile.write("convert temp.png -colorspace gray  temp.png\n")
-                            commFile.write("convert temp.png +level-colors '"+ c +"', temp.png\n")
-                            c = color_from_pallet(iconbgDict[iconbg])
+                            commFile.write("convert temp.png -fuzz 40% -alpha off -fill '"+ fglist[3] +"' -opaque '#e76255' -alpha on temp.png\n")
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center temp.png -composite d.png\n")
                     else:
                         commFile.write("convert -size " + m7_8_size + " canvas:'"+iconbg+"' -gravity center -font "+ obj.one +" -fill '#FFFFFF' -density 90 -pointsize " + str(m7_font) + " -annotate +2+2 '" + obj.two +"' d.png\n")
@@ -717,14 +678,7 @@ with open(standardsFileName,"rU") as f:
                     used_objs = []
                     obj = choice(objDict[keys[start_key]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
                     rotate_angle = random.choice([-1,1]) * 20
-
-                    used_cols = []
-                    col_list = []
-                    for i in range(0,4):
-                        col_list.append(choice(iconbgcolorList, used_cols))
-                        used_cols.append(col_list[i])
                     if rotate_angle == 20:
                         dir1 = "southwest"
                         dir2 = "northeast"
@@ -732,20 +686,19 @@ with open(standardsFileName,"rU") as f:
                         dir1 = "northwest"
                         dir2 = "southeast"
 
-                    commFile.write('convert -size 800x400 canvas:none -fill \'' + col_list[0][0] + '\' -draw "rectangle 0,0,400,200" -fill \'' + col_list[1][0] + '\' -draw "rectangle 0,200 400,400" -fill \'' + col_list[2][0] + '\'  -draw "rectangle 400,0 800,200" -fill \'' + col_list[3][0] + '\' -draw "rectangle 400,200 800,400" -rotate ' + str(rotate_angle) +' -gravity center -extent ' + final_size + ' temp.png\n')
+                    commFile.write('convert -size 800x400 canvas:none -fill \'' + bglist[0] + '\' -draw "rectangle 0,0,400,200" -fill \'' + bglist[1] + '\' -draw "rectangle 0,200 400,400" -fill \'' + bglist[2] + '\'  -draw "rectangle 400,0 800,200" -fill \'' + bglist[3] + '\' -draw "rectangle 400,200 800,400" -rotate ' + str(rotate_angle) +' -gravity center -extent ' + final_size + ' temp.png\n')
                     if obj.isicon():
-                        commFile.write("convert " +obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon1.png\n")
+                        commFile.write("convert " +obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + fglist[0] + "' -opaque '#e76255' -alpha on icon1.png\n")
                     else :
-                        commFile.write("convert " +" -font " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon1.png\n")
+                        commFile.write("convert " +" -font " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + fglist[0] + "' -opaque '#e76255' -alpha on icon1.png\n")
 
                     obj = choice(objDict[keys[(start_key +1) % len(keys)]],used_objs)
                     used_objs.append(obj)
-                    c = color_from_pallet(iconbgDict[iconbg])
 
                     if obj.isicon():
-                        commFile.write("convert " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon2.png\n")
+                        commFile.write("convert " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + fglist[1] + "' -opaque '#e76255' -alpha on icon2.png\n")
                     else :
-                        commFile.write("convert " +" -font " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + c + "' -opaque '#e76255' -alpha on icon2.png\n")
+                        commFile.write("convert " +" -font " + obj.one + " -resize 60x60 -fuzz 40% -alpha off -fill '" + fglist[1] + "' -opaque '#e76255' -alpha on icon2.png\n")
 
                     commFile.write("convert temp.png -gravity " + dir1 + " icon1.png -composite -gravity " + dir2 + " icon2.png -composite " + output_folder+ row[2] +"-10.gif\n")
                 ###print imageList
