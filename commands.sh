@@ -1,238 +1,144 @@
-convert  -resize '83>' SourceIcons/data.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#8fcce0' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/4391-1.gif
-convert  -resize '83>' SourceIcons/rational.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#62e481' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6109-1.gif
-convert -size 100x100 canvas:none -stroke '#ffe71a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#ffe71a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#ffe71a' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#ffe71a' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/39-1.gif
-convert  -resize '83>' SourceIcons/compare.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#aaedde' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/1058-1.gif
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#e75e50' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#d3c2a0' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/3486-1.gif
-convert  -resize '83>' SourceIcons/evaluate.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#5daf72' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#5daf72' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#5daf72' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#c4d344' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/563-1.gif
-convert  -resize '83>' SourceIcons/probability.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#ffe71a' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#ffe71a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#ffe71a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#ffe71a' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#9a50af' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/87-1.gif
-convert  -resize '83>' SourceIcons/fractions.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#5daf72' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#5daf72' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#5daf72' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#f8a86d' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/1412-1.gif
-convert -size 100x100 canvas:none -stroke '#5daf72' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#5daf72' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#5daf72' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#5daf72' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#bdb4e2' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/2981-1.gif
-convert  -resize '83>' SourceIcons/area.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.G' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#e5cae9' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6149-1.gif
-convert  -resize '83>' SourceIcons/scale.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.G.A.1' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#37e0ba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/24-1.gif
-convert  -resize '83>' SourceIcons/area.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.G B.4' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#9a50af' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/31-1.gif
-convert  -resize '83>' SourceIcons/volume.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.G B.4' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#62e481' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/49-1.gif
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP.C.8' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#e75e50' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#37e0ba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/293-1.gif
-convert  -resize '83>' SourceIcons/area.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.G.B.4' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/45-1.gif
-convert  -resize '83>' SourceIcons/angle.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.GB.5' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#62e481' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/54-1.gif
-convert  -resize '83>' SourceIcons/angle.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.GB.5' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#9a50af' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/88-1.gif
-convert  -resize '83>' SourceIcons/angle.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.GB.5' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#c7e38b' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/90-1.gif
-convert  -resize '83>' SourceIcons/numbers.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS.A.1a' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/191-1.gif
-convert  -resize '83>' SourceIcons/unit.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#e5cae9' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/2955-1.gif
-convert  -resize '83>' SourceIcons/unit.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#ffe71a' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#ffe71a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#ffe71a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#ffe71a' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#8fcce0' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/2965-1.gif
-convert  -resize '83>' SourceIcons/geometry.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/5365-1.gif
-convert  -resize '83>' SourceIcons/probability.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.NS' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#c4d344' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6119-1.gif
-convert  -resize '83>' SourceIcons/equation.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#bdb4e2' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/8060-1.gif
-convert  -resize '83>' SourceIcons/probability.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#e5cae9' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6184-1.gif
-convert  -resize '83>' SourceIcons/solve.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#7d91c3' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#7d91c3' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#7d91c3' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#efc665' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/3478-1.gif
-convert  -resize '83>' SourceIcons/probability.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#ffe71a' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#ffe71a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#ffe71a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#ffe71a' -density 90 -pointsize 10 -annotate +0+15 '7.7.SP' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#e5cae9' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/3501-1.gif
-convert  -resize '83>' SourceIcons/scale.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#5daf72' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#5daf72' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#5daf72' -density 90 -pointsize 10 -annotate +0+15 '7.7.G' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/3673-1.gif
-convert  -resize '83>' SourceIcons/data.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#5daf72' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#5daf72' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#5daf72' -density 90 -pointsize 10 -annotate +0+15 '7.7SP' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#c4d344' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/6212-1.gif
-convert  -resize '83>' SourceIcons/geometry.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.G' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#aaedde' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/4287-1.gif
-convert  -resize '83>' SourceIcons/area.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#5daf72' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#5daf72' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#5daf72' -density 90 -pointsize 10 -annotate +0+15 '7.7.G.B.4' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#9a50af' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/48-1.gif
-convert  -resize '83>' SourceIcons/volume.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#ffe71a' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#ffe71a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#ffe71a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#ffe71a' -density 90 -pointsize 10 -annotate +0+15 '7.7.G.B.6' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#e5cae9' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/291-1.gif
-convert -size 100x100 canvas:none -stroke '#ffe71a' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#ffe71a' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#ffe71a' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#ffe71a' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#fbfcba' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/33-1.gif
-convert  -resize '83>' SourceIcons/equation.png icon.png
-convert icon.png -fuzzy 20% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon.png
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center icon.png -composite obj.png
-convert -size 200x100 canvas:'#aaedde' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/35-1.gif
-convert -size 100x100 canvas:none -stroke '#e75e50' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#e75e50' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#e75e50' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#e75e50' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#efc665' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/36-1.gif
-convert -size 100x100 canvas:none -stroke '#b377c2' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png
-convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '#b377c2' -density 190 -pointsize 11 -annotate +0-15 '7' temp.png
-convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '#b377c2' -density 90 -pointsize 10 -annotate +0+15 '7.7.EE.A.2' temp.png
-convert -size 100x100 canvas:none -gravity center -font Wingdings-Regular -fill '#b377c2' -density 190 -pointsize 30 -annotate +0-10 'o' obj.png
-convert -size 200x100 canvas:'#d3c2a0' -gravity northeast temp.png -composite -gravity northwest obj.png -composite /Users/adityaagarkar/PycharmProjects/snapmagick/37-1.gif
+convert -size 800x400 canvas:none -fill '#37e0ba' -draw "rectangle 0,0,400,200" -fill '#efc665' -draw "rectangle 0,200 400,400" -fill '#c4d344'  -draw "rectangle 400,0 800,200" -fill '#62b8e9' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/data.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/data.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/4391-10.gif
+convert -size 800x400 canvas:none -fill '#f8a86d' -draw "rectangle 0,0,400,200" -fill '#e5cae9' -draw "rectangle 0,200 400,400" -fill '#fbfcba'  -draw "rectangle 400,0 800,200" -fill '#bdb4e2' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/fractions.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/word.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/6109-10.gif
+convert -size 800x400 canvas:none -fill '#a0d3a5' -draw "rectangle 0,0,400,200" -fill '#87e462' -draw "rectangle 0,200 400,400" -fill '#f8a86d'  -draw "rectangle 400,0 800,200" -fill '#9a50af' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/word-1.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert  -font Webdings-Regular -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/39-10.gif
+convert -size 800x400 canvas:none -fill '#a0d3a5' -draw "rectangle 0,0,400,200" -fill '#aaedde' -draw "rectangle 0,200 400,400" -fill '#62b8e9'  -draw "rectangle 400,0 800,200" -fill '#fec6c0' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/compare.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/number-2.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/1058-10.gif
+convert -size 800x400 canvas:none -fill '#efc665' -draw "rectangle 0,0,400,200" -fill '#62e481' -draw "rectangle 0,200 400,400" -fill '#c7e38b'  -draw "rectangle 400,0 800,200" -fill '#fa8983' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/operations.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/word-1.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/3486-10.gif
+convert -size 800x400 canvas:none -fill '#62e481' -draw "rectangle 0,0,400,200" -fill '#62b8e9' -draw "rectangle 0,200 400,400" -fill '#fa8983'  -draw "rectangle 400,0 800,200" -fill '#9a50af' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/evaluate.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/evaluate.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/563-10.gif
+convert -size 800x400 canvas:none -fill '#c4d344' -draw "rectangle 0,0,400,200" -fill '#efc665' -draw "rectangle 0,200 400,400" -fill '#37e0ba'  -draw "rectangle 400,0 800,200" -fill '#e5cae9' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/87-10.gif
+convert -size 800x400 canvas:none -fill '#aaedde' -draw "rectangle 0,0,400,200" -fill '#37e0ba' -draw "rectangle 0,200 400,400" -fill '#c7e38b'  -draw "rectangle 400,0 800,200" -fill '#fa8983' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/fractions.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/compare.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/1412-10.gif
+convert -size 800x400 canvas:none -fill '#aaedde' -draw "rectangle 0,0,400,200" -fill '#efc665' -draw "rectangle 0,200 400,400" -fill '#a0d3a5'  -draw "rectangle 400,0 800,200" -fill '#e5cae9' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/problem.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/equation.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/2981-10.gif
+convert -size 800x400 canvas:none -fill '#c7e38b' -draw "rectangle 0,0,400,200" -fill '#a0d3a5' -draw "rectangle 0,200 400,400" -fill '#87e462'  -draw "rectangle 400,0 800,200" -fill '#f8a86d' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/geometry.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/6149-10.gif
+convert -size 800x400 canvas:none -fill '#f8a86d' -draw "rectangle 0,0,400,200" -fill '#62b8e9' -draw "rectangle 0,200 400,400" -fill '#bdb4e2'  -draw "rectangle 400,0 800,200" -fill '#62e481' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/scale.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/scale.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/24-10.gif
+convert -size 800x400 canvas:none -fill '#c7e38b' -draw "rectangle 0,0,400,200" -fill '#8fcce0' -draw "rectangle 0,200 400,400" -fill '#efc665'  -draw "rectangle 400,0 800,200" -fill '#9a50af' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/31-10.gif
+convert -size 800x400 canvas:none -fill '#fec6c0' -draw "rectangle 0,0,400,200" -fill '#efc665' -draw "rectangle 0,200 400,400" -fill '#37e0ba'  -draw "rectangle 400,0 800,200" -fill '#8fcce0' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/scale.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/49-10.gif
+convert -size 800x400 canvas:none -fill '#37e0ba' -draw "rectangle 0,0,400,200" -fill '#62e481' -draw "rectangle 0,200 400,400" -fill '#aaedde'  -draw "rectangle 400,0 800,200" -fill '#d3c2a0' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/word.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon1.png
+convert  -font Webdings-Regular -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/293-10.gif
+convert -size 800x400 canvas:none -fill '#fa8983' -draw "rectangle 0,0,400,200" -fill '#f8a86d' -draw "rectangle 0,200 400,400" -fill '#a0d3a5'  -draw "rectangle 400,0 800,200" -fill '#fec6c0' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/45-10.gif
+convert -size 800x400 canvas:none -fill '#aaedde' -draw "rectangle 0,0,400,200" -fill '#d3c2a0' -draw "rectangle 0,200 400,400" -fill '#bdb4e2'  -draw "rectangle 400,0 800,200" -fill '#9a50af' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/54-10.gif
+convert -size 800x400 canvas:none -fill '#bdb4e2' -draw "rectangle 0,0,400,200" -fill '#fec6c0' -draw "rectangle 0,200 400,400" -fill '#fa8983'  -draw "rectangle 400,0 800,200" -fill '#fbfcba' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/88-10.gif
+convert -size 800x400 canvas:none -fill '#efc665' -draw "rectangle 0,0,400,200" -fill '#9a50af' -draw "rectangle 0,200 400,400" -fill '#aaedde'  -draw "rectangle 400,0 800,200" -fill '#37e0ba' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/90-10.gif
+convert -size 800x400 canvas:none -fill '#c7e38b' -draw "rectangle 0,0,400,200" -fill '#c4d344' -draw "rectangle 0,200 400,400" -fill '#efc665'  -draw "rectangle 400,0 800,200" -fill '#aaedde' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/numbers.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/numbers.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/191-10.gif
+convert -size 800x400 canvas:none -fill '#fbfcba' -draw "rectangle 0,0,400,200" -fill '#a0d3a5' -draw "rectangle 0,200 400,400" -fill '#c7e38b'  -draw "rectangle 400,0 800,200" -fill '#efc665' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/unit.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/unit.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/2955-10.gif
+convert -size 800x400 canvas:none -fill '#8fcce0' -draw "rectangle 0,0,400,200" -fill '#bdb4e2' -draw "rectangle 0,200 400,400" -fill '#c7e38b'  -draw "rectangle 400,0 800,200" -fill '#fa8983' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/unit.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/unit.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/2965-10.gif
+convert -size 800x400 canvas:none -fill '#37e0ba' -draw "rectangle 0,0,400,200" -fill '#d3c2a0' -draw "rectangle 0,200 400,400" -fill '#aaedde'  -draw "rectangle 400,0 800,200" -fill '#f8a86d' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/geometry.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/geometry-2.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/5365-10.gif
+convert -size 800x400 canvas:none -fill '#87e462' -draw "rectangle 0,0,400,200" -fill '#9a50af' -draw "rectangle 0,200 400,400" -fill '#d3c2a0'  -draw "rectangle 400,0 800,200" -fill '#fec6c0' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/geometry.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/6119-10.gif
+convert -size 800x400 canvas:none -fill '#fa8983' -draw "rectangle 0,0,400,200" -fill '#bdb4e2' -draw "rectangle 0,200 400,400" -fill '#f8a86d'  -draw "rectangle 400,0 800,200" -fill '#d3c2a0' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/equation.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/equation.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/8060-10.gif
+convert -size 800x400 canvas:none -fill '#bdb4e2' -draw "rectangle 0,0,400,200" -fill '#fa8983' -draw "rectangle 0,200 400,400" -fill '#efc665'  -draw "rectangle 400,0 800,200" -fill '#8fcce0' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/6184-10.gif
+convert -size 800x400 canvas:none -fill '#9a50af' -draw "rectangle 0,0,400,200" -fill '#62e481' -draw "rectangle 0,200 400,400" -fill '#aaedde'  -draw "rectangle 400,0 800,200" -fill '#bdb4e2' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/equation.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/solve.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/3478-10.gif
+convert -size 800x400 canvas:none -fill '#aaedde' -draw "rectangle 0,0,400,200" -fill '#9a50af' -draw "rectangle 0,200 400,400" -fill '#fbfcba'  -draw "rectangle 400,0 800,200" -fill '#62e481' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/probability.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/3501-10.gif
+convert -size 800x400 canvas:none -fill '#f8a86d' -draw "rectangle 0,0,400,200" -fill '#c4d344' -draw "rectangle 0,200 400,400" -fill '#fbfcba'  -draw "rectangle 400,0 800,200" -fill '#d3c2a0' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/geometry.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/angle.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/3673-10.gif
+convert -size 800x400 canvas:none -fill '#aaedde' -draw "rectangle 0,0,400,200" -fill '#62e481' -draw "rectangle 0,200 400,400" -fill '#fa8983'  -draw "rectangle 400,0 800,200" -fill '#c7e38b' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/data.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/analyze.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/6212-10.gif
+convert -size 800x400 canvas:none -fill '#37e0ba' -draw "rectangle 0,0,400,200" -fill '#efc665' -draw "rectangle 0,200 400,400" -fill '#f8a86d'  -draw "rectangle 400,0 800,200" -fill '#fbfcba' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/volume.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/4287-10.gif
+convert -size 800x400 canvas:none -fill '#8fcce0' -draw "rectangle 0,0,400,200" -fill '#e5cae9' -draw "rectangle 0,200 400,400" -fill '#87e462'  -draw "rectangle 400,0 800,200" -fill '#fec6c0' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/48-10.gif
+convert -size 800x400 canvas:none -fill '#d3c2a0' -draw "rectangle 0,0,400,200" -fill '#62b8e9' -draw "rectangle 0,200 400,400" -fill '#bdb4e2'  -draw "rectangle 400,0 800,200" -fill '#fa8983' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/area.png -resize 60x60 -fuzz 40% -alpha off -fill '#b377c2' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/volume.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/291-10.gif
+convert -size 800x400 canvas:none -fill '#fbfcba' -draw "rectangle 0,0,400,200" -fill '#e5cae9' -draw "rectangle 0,200 400,400" -fill '#c4d344'  -draw "rectangle 400,0 800,200" -fill '#efc665' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/problem.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon1.png
+convert  -font Webdings-Regular -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/33-10.gif
+convert -size 800x400 canvas:none -fill '#9a50af' -draw "rectangle 0,0,400,200" -fill '#87e462' -draw "rectangle 0,200 400,400" -fill '#bdb4e2'  -draw "rectangle 400,0 800,200" -fill '#c4d344' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert SourceIcons/equation.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/equation.png -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/35-10.gif
+convert -size 800x400 canvas:none -fill '#aaedde' -draw "rectangle 0,0,400,200" -fill '#d3c2a0' -draw "rectangle 0,200 400,400" -fill '#fa8983'  -draw "rectangle 400,0 800,200" -fill '#c7e38b' -draw "rectangle 400,200 800,400" -rotate 20 -gravity center -extent 200x100 temp.png
+convert  -font Webdings-Regular -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/problem.png -resize 60x60 -fuzz 40% -alpha off -fill '#7d91c3' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity southwest icon1.png -composite -gravity northeast icon2.png -composite /cam/motion/images/36-10.gif
+convert -size 800x400 canvas:none -fill '#fa8983' -draw "rectangle 0,0,400,200" -fill '#aaedde' -draw "rectangle 0,200 400,400" -fill '#f8a86d'  -draw "rectangle 400,0 800,200" -fill '#fbfcba' -draw "rectangle 400,200 800,400" -rotate -20 -gravity center -extent 200x100 temp.png
+convert  -font Webdings-Regular -resize 60x60 -fuzz 40% -alpha off -fill '#5daf72' -opaque '#e76255' -alpha on icon1.png
+convert SourceIcons/problem.png -resize 60x60 -fuzz 40% -alpha off -fill '#e75e50' -opaque '#e76255' -alpha on icon2.png
+convert temp.png -gravity northwest icon1.png -composite -gravity southeast icon2.png -composite /cam/motion/images/37-10.gif
