@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import csv
 from random import randint
 import random
@@ -398,7 +397,6 @@ with open(standardsFileName,"rU") as f:
                             exception_list.append(kw)
                 if card_model == 2:
                     iconbg = bglist[0]
-                    textColor = fglist[0]
                     commFile.write("convert -background '"+ iconbg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
                     length = 0
                     #rand_col = rand_lighter_color(bg)
@@ -411,6 +409,7 @@ with open(standardsFileName,"rU") as f:
                       #rand_col = rand_lighter_color(bg)
                       if( length < 80):
                             commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
+                            textColor=fglist[random.randint(0,len(fglist)-1)]
                             commFile.write(' foreground="'+textColor+'">' + w.upper() + ' </span>')
                             pos += 1
 
@@ -1470,5 +1469,4 @@ with open(htmlfile, "w") as index:
     for e in exception_list:
         index.write("<p>" + e + "</p>\n")
     index.write("\n</body>\n</html>")
->>>>>>> fa5d65808c0bd6fd6d7d5b76a4835aae9d3cbabd
     index.close()
