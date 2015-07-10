@@ -6,9 +6,9 @@ from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
+#output_folder = "/cam/motion/images/"
 num_pallets = 5
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -645,15 +645,17 @@ with open(standardsFileName,"rU") as f:
                 if card_model == 9:
 
                     length = 0
-                    lines = 2
+                    lines = 1
                     line_length = 0
                     i = 0
                     string = ""
-                    while i < len(keys) and lines < 4:
-                        while i < len(keys) and line_length + len(keys[i])< 12 :
+                    while i <= len(keys) and lines < 4:
+                        while i <= len(keys) and line_length + len(keys[i])< 12 :
                             string += keys[i] + " "
                             line_length += len(keys[i])
                             i+=1
+                        string = string[:-1]
+                        string.strip()
                         line_length = 0
                         lines += 1
                         string += "\n"
