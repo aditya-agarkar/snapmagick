@@ -44,7 +44,7 @@ m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
 icon_resize = "'"+str(int(final_height/1.2))+">'"
 
-pallet_dict = {1:["p1"], 2 : ["p2"], 3: [] , 4: ["p1"], 5: ["p1"] , 6: ["p1"], 7: ["p1"] , 8: ["p1"], 9: ["p1"] , 10: ["p1"]}
+pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: ["p1","p2"], 5: [] , 6: ["p1"], 7: ["p1"] , 8: ["p1"], 9: ["p1","p3"] , 10: ["p1","p3"]}
 class Object(object):
     def __init__(self,one,two):
         self.one = one
@@ -383,7 +383,7 @@ with open(standardsFileName,"rU") as f:
                                         else:
                                             commFile.write("convert  -resize " + icon_resize + " SourceIcons/" + match[2] + " icon.png\n")
                                             #commFile.write("convert icon.png  -colorspace gray "+ "icon.png\n")
-                                            commFile.write("convert icon.png -alpha off -fill '" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
+                                            commFile.write("convert icon.png -fuzz 40% -alpha off -fill '" + textColor +"' -opaque '#e76255' -alpha on icon.png\n")
                                             commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
                                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                                             commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
@@ -397,7 +397,6 @@ with open(standardsFileName,"rU") as f:
                             exception_list.append(kw)
                 if card_model == 2:
                     iconbg = bglist[0]
-                    textColor = fglist[0]
                     commFile.write("convert -background '"+ iconbg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
                     length = 0
                     #rand_col = rand_lighter_color(bg)
@@ -409,7 +408,8 @@ with open(standardsFileName,"rU") as f:
                       #c =  color_from_pallet(iconbgDict[iconbg])
                       #rand_col = rand_lighter_color(bg)
                       if( length < 80):
-                            commFile.write("<span font=\"Montserrat-Bold\" size=\"15000\"")
+                            commFile.write("<span font=\"Montserrat Bold\" size=\"15000\"")
+			    textColor=fglist[random.randint(0,len(fglist)-1)]	
                             commFile.write(' foreground="'+textColor+'">' + w.upper() + ' </span>')
                             pos += 1
 
