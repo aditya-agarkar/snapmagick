@@ -27,7 +27,7 @@ iconbgFileName = "MetaData/iconbg.csv"
 boardbgFileName = "MetaData/boardbg.csv"
 htmlfile=output_folder+"index-" + str(card_model)+".html"
 
-break_line = 700 #how many lines of the file to read until breaking
+break_line = 2700 #how many lines of the file to read until breaking
 #variables for the image sizes
 final_height = 100
 final_width = 200
