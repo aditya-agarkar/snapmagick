@@ -408,9 +408,9 @@ with open(standardsFileName,"rU") as f:
 
                       #c =  color_from_pallet(iconbgDict[iconbg])
                       #rand_col = rand_lighter_color(bg)
-                      if( length < 80):
+                      if( length < 60):
                             commFile.write("<span font=\"Montserrat Bold\" size=\"15000\"")
-			    textColor=fglist[random.randint(0,len(fglist)-1)]	
+			                textColor=fglist[random.randint(0,len(fglist)-1)]
                             commFile.write(' foreground="'+textColor+'">' + w.upper() + ' </span>')
                             pos += 1
 
