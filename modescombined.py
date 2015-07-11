@@ -17,7 +17,8 @@ m6_font = 60
 m7_font = 30
 
 objectFileName = "MetaData/objects.csv"
-standardsFileName = "MetaData/g7_kw_standards.csv"
+standardsFileName = "MetaData/final_kw_standards.csv"
+#standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
@@ -26,7 +27,7 @@ iconbgFileName = "MetaData/iconbg.csv"
 boardbgFileName = "MetaData/boardbg.csv"
 htmlfile=output_folder+"index-" + str(card_model)+".html"
 
-break_line = 100 #how many lines of the file to read until breaking
+break_line = 700 #how many lines of the file to read until breaking
 #variables for the image sizes
 final_height = 100
 final_width = 200
