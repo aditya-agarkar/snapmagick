@@ -17,8 +17,8 @@ m6_font = 60
 m7_font = 30
 
 objectFileName = "MetaData/objects.csv"
-standardsFileName = "MetaData/testobjects.csv"
-#standardsFileName = "MetaData/final_kw_standards.csv"
+#standardsFileName = "MetaData/testobjects.csv"
+standardsFileName = "MetaData/final_kw_standards.csv"
 #standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 polygonFileName = "MetaData/polygons.csv"
