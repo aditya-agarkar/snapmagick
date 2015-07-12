@@ -1,0 +1,5674 @@
+
+Path: /opt/local/etc/ImageMagick-6/type-ghostscript.xml
+  Font: AvantGarde-Book
+    family: AvantGarde
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/a010013l.pfb
+  Font: AvantGarde-BookOblique
+    family: AvantGarde
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/a010033l.pfb
+  Font: AvantGarde-Demi
+    family: AvantGarde
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /opt/local/share/fonts/urw-fonts/a010015l.pfb
+  Font: AvantGarde-DemiOblique
+    family: AvantGarde
+    style: Oblique
+    stretch: Normal
+    weight: 600
+    glyphs: /opt/local/share/fonts/urw-fonts/a010035l.pfb
+  Font: Bookman-Demi
+    family: Bookman
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /opt/local/share/fonts/urw-fonts/b018015l.pfb
+  Font: Bookman-DemiItalic
+    family: Bookman
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /opt/local/share/fonts/urw-fonts/b018035l.pfb
+  Font: Bookman-Light
+    family: Bookman
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /opt/local/share/fonts/urw-fonts/b018012l.pfb
+  Font: Bookman-LightItalic
+    family: Bookman
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /opt/local/share/fonts/urw-fonts/b018032l.pfb
+  Font: Courier-BoldOblique
+    family: Courier
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n022024l.pfb
+  Font: fixed
+    family: Helvetica
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/n019003l.pfb
+  Font: Helvetica-BoldOblique
+    family: Helvetica
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n019024l.pfb
+  Font: Helvetica-Narrow
+    family: Helvetica Narrow
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/n019043l.pfb
+  Font: Helvetica-Narrow-Bold
+    family: Helvetica Narrow
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n019044l.pfb
+  Font: Helvetica-Narrow-BoldOblique
+    family: Helvetica Narrow
+    style: Oblique
+    stretch: Condensed
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n019064l.pfb
+  Font: Helvetica-Narrow-Oblique
+    family: Helvetica Narrow
+    style: Oblique
+    stretch: Condensed
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/n019063l.pfb
+  Font: NewCenturySchlbk-Bold
+    family: NewCenturySchlbk
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/c059016l.pfb
+  Font: NewCenturySchlbk-BoldItalic
+    family: NewCenturySchlbk
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/c059036l.pfb
+  Font: NewCenturySchlbk-Italic
+    family: NewCenturySchlbk
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/c059033l.pfb
+  Font: NewCenturySchlbk-Roman
+    family: NewCenturySchlbk
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/c059013l.pfb
+  Font: Palatino-BoldItalic
+    family: Palatino
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/p052024l.pfb
+  Font: Palatino-Roman
+    family: Palatino
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/p052003l.pfb
+  Font: Times-BoldItalic
+    family: Times
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n021024l.pfb
+  Font: Times-Roman
+    family: Times
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/n021003l.pfb
+
+Path: System Fonts
+  Font: .Helvetica-LT-MM
+    family: .Helvetica LT MM
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/HelveLTMM
+  Font: .Helvetica-Neue-Desk-UI
+    family: .Helvetica Neue Desk UI
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/HelveticaNeueDeskUI.ttc
+  Font: .Helvetica-Neue-Desk-UI-Bold
+    family: .Helvetica Neue Desk UI
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/HelveticaNeueDeskUI.ttc
+  Font: .Helvetica-Neue-Desk-UI-Bold-Italic
+    family: .Helvetica Neue Desk UI
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/HelveticaNeueDeskUI.ttc
+  Font: .Helvetica-Neue-Desk-UI-Italic
+    family: .Helvetica Neue Desk UI
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/HelveticaNeueDeskUI.ttc
+  Font: .Keyboard
+    family: .Keyboard
+    style: Normal
+    stretch: Normal
+    weight: 100
+    glyphs: /System/Library/Fonts/Keyboard.ttf
+  Font: .Savoye-LET-CC.-Plain
+    family: .Savoye LET CC.
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Savoye LET.ttc
+  Font: .Times-LT-MM
+    family: .Times LT MM
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/TimesLTMM
+  Font: Abadi-MT-Condensed-Extra-Bold
+    family: Abadi MT Condensed Extra Bold
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Abadi MT Condensed Extra Bold
+  Font: Abadi-MT-Condensed-Light
+    family: Abadi MT Condensed Light
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Abadi MT Condensed Light
+  Font: ACaslonPro-Bold
+    family: Adobe Caslon Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/ACaslonPro-Bold.otf
+  Font: ACaslonPro-BoldItalic
+    family: Adobe Caslon Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/ACaslonPro-BoldItalic.otf
+  Font: ACaslonPro-Italic
+    family: Adobe Caslon Pro
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ACaslonPro-Italic.otf
+  Font: ACaslonPro-Regular
+    family: Adobe Caslon Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ACaslonPro-Regular.otf
+  Font: ACaslonPro-Semibold
+    family: Adobe Caslon Pro
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/ACaslonPro-Semibold.otf
+  Font: ACaslonPro-SemiboldItalic
+    family: Adobe Caslon Pro
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/ACaslonPro-SemiboldItalic.otf
+  Font: Adobe-Arabic
+    family: Adobe Arabic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeArabic-Regular.otf
+  Font: Adobe-Arabic-Bold
+    family: Adobe Arabic
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AdobeArabic-Bold.otf
+  Font: Adobe-Arabic-Bold-Italic
+    family: Adobe Arabic
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AdobeArabic-BoldItalic.otf
+  Font: Adobe-Arabic-Italic
+    family: Adobe Arabic
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeArabic-Italic.otf
+  Font: Adobe-Gurmukhi
+    family: Adobe Gurmukhi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeGurmukhi-Regular.otf
+  Font: Adobe-Gurmukhi-Bold
+    family: Adobe Gurmukhi
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AdobeGurmukhi-Bold.otf
+  Font: Adobe-Naskh-Medium
+    family: Adobe Naskh
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/AdobeNaskh-Medium.otf
+  Font: AdobeDevanagari-Bold
+    family: Adobe Devanagari
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AdobeDevanagari-Bold.otf
+  Font: AdobeDevanagari-BoldItalic
+    family: Adobe Devanagari
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AdobeDevanagari-BoldItalic.otf
+  Font: AdobeDevanagari-Italic
+    family: Adobe Devanagari
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeDevanagari-Italic.otf
+  Font: AdobeDevanagari-Regular
+    family: Adobe Devanagari
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeDevanagari-Regular.otf
+  Font: AdobeFangsongStd-Regular
+    family: Adobe Fangsong Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeFangsongStd-Regular.otf
+  Font: AdobeFanHeitiStd-Bold
+    family: Adobe Fan Heiti Std
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/AdobeFanHeitiStd-Bold.otf
+  Font: AdobeGothicStd-Bold
+    family: Adobe Gothic Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AdobeGothicStd-Bold.otf
+  Font: AdobeHebrew-Bold
+    family: Adobe Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/AdobeHebrew-Bold.otf
+  Font: AdobeHebrew-BoldItalic
+    family: Adobe Hebrew
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/AdobeHebrew-BoldItalic.otf
+  Font: AdobeHebrew-Italic
+    family: Adobe Hebrew
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeHebrew-Italic.otf
+  Font: AdobeHebrew-Regular
+    family: Adobe Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeHebrew-Regular.otf
+  Font: AdobeHeitiStd-Regular
+    family: Adobe Heiti Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeHeitiStd-Regular.otf
+  Font: AdobeKaitiStd-Regular
+    family: Adobe Kaiti Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AdobeKaitiStd-Regular.otf
+  Font: AdobeMingStd-Light
+    family: Adobe Ming Std
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/AdobeMingStd-Light.otf
+  Font: AdobeMyungjoStd-Medium
+    family: Adobe Myungjo Std
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/AdobeMyungjoStd-Medium.otf
+  Font: AdobeSongStd-Light
+    family: Adobe Song Std
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/AdobeSongStd-Light.otf
+  Font: AGaramondPro-Bold
+    family: Adobe Garamond Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AGaramondPro-Bold.otf
+  Font: AGaramondPro-BoldItalic
+    family: Adobe Garamond Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AGaramondPro-BoldItalic.otf
+  Font: AGaramondPro-Italic
+    family: Adobe Garamond Pro
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AGaramondPro-Italic.otf
+  Font: AGaramondPro-Regular
+    family: Adobe Garamond Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AGaramondPro-Regular.otf
+  Font: Al-Bayan-Bold
+    family: Al Bayan
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AlBayanBold.ttf
+  Font: Al-Bayan-Plain
+    family: Al Bayan
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AlBayan.ttf
+  Font: Al-Nile
+    family: Al Nile
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Al Nile.ttc
+  Font: Al-Nile-Bold
+    family: Al Nile
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Al Nile.ttc
+  Font: Al-Tarikh
+    family: Al Tarikh
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Al Tarikh.ttc
+  Font: American-Typewriter
+    family: American Typewriter
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AmericanTypewriter.ttc
+  Font: American-Typewriter-Bold
+    family: American Typewriter
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/AmericanTypewriter.ttc
+  Font: American-Typewriter-Condensed
+    family: American Typewriter
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/AmericanTypewriter.ttc
+  Font: American-Typewriter-Condensed-Bold
+    family: American Typewriter
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/AmericanTypewriter.ttc
+  Font: American-Typewriter-Condensed-Light
+    family: American Typewriter
+    style: Normal
+    stretch: Condensed
+    weight: 300
+    glyphs: /Library/Fonts/AmericanTypewriter.ttc
+  Font: American-Typewriter-Light
+    family: American Typewriter
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/AmericanTypewriter.ttc
+  Font: Andale-Mono
+    family: Andale Mono
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Andale Mono.ttf
+  Font: Apple-Braille
+    family: Apple Braille
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Braille.ttf
+  Font: Apple-Braille-Outline-6-Dot
+    family: Apple Braille
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Braille Outline 6 Dot.ttf
+  Font: Apple-Braille-Outline-8-Dot
+    family: Apple Braille
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Braille Outline 8 Dot.ttf
+  Font: Apple-Braille-Pinpoint-6-Dot
+    family: Apple Braille
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Braille Pinpoint 6 Dot.ttf
+  Font: Apple-Braille-Pinpoint-8-Dot
+    family: Apple Braille
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Braille Pinpoint 8 Dot.ttf
+  Font: Apple-Chancery-筆寫斜體
+    family: Apple Chancery
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Apple Chancery.ttf
+  Font: Apple-LiGothic-Medium
+    family: Apple LiGothic
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Apple LiGothic Medium.ttf
+  Font: Apple-LiSung-Light
+    family: Apple LiSung
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Apple LiSung Light.ttf
+  Font: Apple-SD-Gothic-Neo
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/AppleSDGothicNeo-Regular.otf
+  Font: Apple-SD-Gothic-Neo-Bold
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/AppleSDGothicNeo-Bold.otf
+  Font: Apple-SD-Gothic-Neo-ExtraBold
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/AppleSDGothicNeo-ExtraBold.otf
+  Font: Apple-SD-Gothic-Neo-Heavy
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/AppleSDGothicNeo-Heavy.otf
+  Font: Apple-SD-Gothic-Neo-Light
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AppleSDGothicNeo-Light.otf
+  Font: Apple-SD-Gothic-Neo-Medium
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/AppleSDGothicNeo-Medium.otf
+  Font: Apple-SD-Gothic-Neo-SemiBold
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/AppleSDGothicNeo-SemiBold.otf
+  Font: Apple-SD-Gothic-Neo-Thin
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/AppleSDGothicNeo-Thin.otf
+  Font: Apple-SD-Gothic-Neo-UltraLight
+    family: Apple SD Gothic Neo
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/AppleSDGothicNeo-UltraLight.otf
+  Font: Apple-Symbols
+    family: Apple Symbols
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Symbols.ttf
+  Font: Apple-彩色表情符號
+    family: Apple 彩色表情符號
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Apple Color Emoji.ttf
+  Font: AppleGothic
+    family: AppleGothic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AppleGothic.ttf
+  Font: AppleMyungjo-Regular
+    family: AppleMyungjo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/AppleMyungjo.ttf
+  Font: AquaKana
+    family: .Aqua Kana
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/AquaKana.ttc
+  Font: AquaKana-Bold
+    family: .Aqua Kana
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/AquaKana.ttc
+  Font: Arial
+    family: Arial
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Arial.ttf
+  Font: Arial-Black
+    family: Arial Black
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Arial Black
+  Font: Arial-Bold
+    family: Arial
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Arial Bold.ttf
+  Font: Arial-Bold-Italic
+    family: Arial
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Arial Bold Italic.ttf
+  Font: Arial-Hebrew
+    family: Arial Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ArialHB.ttc
+  Font: Arial-Hebrew-Bold
+    family: Arial Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/ArialHB.ttc
+  Font: Arial-Hebrew-Light
+    family: Arial Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/ArialHB.ttc
+  Font: Arial-Italic
+    family: Arial
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Arial Italic.ttf
+  Font: Arial-Narrow
+    family: Arial Narrow
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/Arial Narrow.ttf
+  Font: Arial-Narrow-Bold
+    family: Arial Narrow
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Arial Narrow
+  Font: Arial-Narrow-Bold-Italic
+    family: Arial Narrow
+    style: Italic
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Arial Narrow
+  Font: Arial-Narrow-Italic
+    family: Arial Narrow
+    style: Italic
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Arial Narrow
+  Font: Arial-Rounded-MT-Bold
+    family: Arial Rounded MT Bold
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Arial Rounded Bold
+  Font: Arial-Unicode-MS
+    family: Arial Unicode MS
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Arial Unicode.ttf
+  Font: Athelas-Bold
+    family: Athelas
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Athelas.ttc
+  Font: Athelas-Bold-Italic
+    family: Athelas
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Athelas.ttc
+  Font: Athelas-Italic
+    family: Athelas
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Athelas.ttc
+  Font: Athelas-Regular
+    family: Athelas
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Athelas.ttc
+  Font: Avenir-Black
+    family: Avenir
+    style: Normal
+    stretch: Normal
+    weight: 800
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Black-Oblique
+    family: Avenir
+    style: Oblique
+    stretch: Normal
+    weight: 800
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Book
+    family: Avenir
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Book-Oblique
+    family: Avenir
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Heavy
+    family: Avenir
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Heavy-Oblique
+    family: Avenir
+    style: Oblique
+    stretch: Normal
+    weight: 900
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Light
+    family: Avenir
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Light-Oblique
+    family: Avenir
+    style: Oblique
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Medium
+    family: Avenir
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Medium-Oblique
+    family: Avenir
+    style: Oblique
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Next-Bold
+    family: Avenir Next
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Bold-Italic
+    family: Avenir Next
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Condensed-Bold
+    family: Avenir Next Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Bold-Italic
+    family: Avenir Next Condensed
+    style: Italic
+    stretch: Condensed
+    weight: 700
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Demi-Bold
+    family: Avenir Next Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 600
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Demi-Bold-Italic
+    family: Avenir Next Condensed
+    style: Italic
+    stretch: Condensed
+    weight: 600
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Heavy
+    family: Avenir Next Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 900
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Heavy-Italic
+    family: Avenir Next Condensed
+    style: Italic
+    stretch: Condensed
+    weight: 900
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Italic
+    family: Avenir Next Condensed
+    style: Italic
+    stretch: Condensed
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Medium
+    family: Avenir Next Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 500
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Regular
+    family: Avenir Next Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Ultra-Light
+    family: Avenir Next Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 300
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Condensed-Ultra-Light-Italic
+    family: Avenir Next Condensed
+    style: Italic
+    stretch: Condensed
+    weight: 300
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Demi-Bold
+    family: Avenir Next
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Demi-Bold-Italic
+    family: Avenir Next
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Heavy
+    family: Avenir Next
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Heavy-Italic
+    family: Avenir Next
+    style: Italic
+    stretch: Normal
+    weight: 900
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Italic
+    family: Avenir Next
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Medium
+    family: Avenir Next
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Medium-Condensed-Italic
+    family: Avenir Next Condensed
+    style: Italic
+    stretch: Condensed
+    weight: 500
+    glyphs: /System/Library/Fonts/Avenir Next Condensed.ttc
+  Font: Avenir-Next-Medium-Italic
+    family: Avenir Next
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Regular
+    family: Avenir Next
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Next-Ultra-Light-Italic
+    family: Avenir Next
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Avenir-Oblique
+    family: Avenir
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: Avenir-Roman
+    family: Avenir
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Avenir.ttc
+  Font: AvenirNext-UltraLight
+    family: Avenir Next
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Avenir Next.ttc
+  Font: Ayuthaya
+    family: Ayuthaya
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Ayuthaya.ttf
+  Font: Baghdad
+    family: Baghdad
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Baghdad.ttf
+  Font: Bangla-MN
+    family: Bangla MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Bangla MN.ttc
+  Font: Bangla-MN-Bold
+    family: Bangla MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Bangla MN.ttc
+  Font: Bangla-Sangam-MN
+    family: Bangla Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Bangla Sangam MN.ttc
+  Font: Bangla-Sangam-MN-Bold
+    family: Bangla Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Bangla Sangam MN.ttc
+  Font: Baoli-SC-Regular
+    family: Baoli SC
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Baoli.ttc
+  Font: Baskerville
+    family: Baskerville
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Baskerville.ttc
+  Font: Baskerville-Bold
+    family: Baskerville
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Baskerville.ttc
+  Font: Baskerville-Bold-Italic
+    family: Baskerville
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Baskerville.ttc
+  Font: Baskerville-Italic
+    family: Baskerville
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Baskerville.ttc
+  Font: Baskerville-Old-Face
+    family: Baskerville Old Face
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Baskerville Old Face
+  Font: Baskerville-SemiBold
+    family: Baskerville
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Baskerville.ttc
+  Font: Baskerville-SemiBold-Italic
+    family: Baskerville
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Baskerville.ttc
+  Font: Batang
+    family: Batang
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Batang.ttf
+  Font: Bauhaus-93
+    family: Bauhaus 93
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Bauhaus 93
+  Font: Beirut
+    family: Beirut
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Beirut.ttc
+  Font: Bell-MT
+    family: Bell MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Bell MT
+  Font: Bell-MT-Bold
+    family: Bell MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Bell MT
+  Font: Bell-MT-Italic
+    family: Bell MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Bell MT
+  Font: Bernard-MT-Condensed
+    family: Bernard MT Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Bernard MT Condensed
+  Font: BiauKai
+    family: BiauKai
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/BiauKai.ttf
+  Font: Big-Caslon-中黑
+    family: Big Caslon
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/BigCaslon.ttf
+  Font: BirchStd
+    family: Birch Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/BirchStd.otf
+  Font: Bitstream-Charter
+    family: Bitstream Charter
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0648bt_.pfb
+  Font: Bitstream-Charter-Bold
+    family: Bitstream Charter
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0632bt_.pfb
+  Font: Bitstream-Charter-Bold-Italic
+    family: Bitstream Charter
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0633bt_.pfb
+  Font: Bitstream-Charter-Italic
+    family: Bitstream Charter
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0649bt_.pfb
+  Font: Bitstream-Vera-Sans
+    family: Bitstream Vera Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/Vera.ttf
+  Font: Bitstream-Vera-Sans-Bold
+    family: Bitstream Vera Sans
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraBd.ttf
+  Font: Bitstream-Vera-Sans-Bold-Oblique
+    family: Bitstream Vera Sans
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraBI.ttf
+  Font: Bitstream-Vera-Sans-Mono
+    family: Bitstream Vera Sans Mono
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraMono.ttf
+  Font: Bitstream-Vera-Sans-Mono-Bold
+    family: Bitstream Vera Sans Mono
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraMoBd.ttf
+  Font: Bitstream-Vera-Sans-Mono-Bold-Oblique
+    family: Bitstream Vera Sans Mono
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraMoBI.ttf
+  Font: Bitstream-Vera-Sans-Mono-Oblique
+    family: Bitstream Vera Sans Mono
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraMoIt.ttf
+  Font: Bitstream-Vera-Sans-Oblique
+    family: Bitstream Vera Sans
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraIt.ttf
+  Font: Bitstream-Vera-Serif
+    family: Bitstream Vera Serif
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraSe.ttf
+  Font: Bitstream-Vera-Serif-Bold
+    family: Bitstream Vera Serif
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/VeraSeBd.ttf
+  Font: BlackoakStd
+    family: Blackoak Std
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/BlackoakStd.otf
+  Font: Book-Antiqua
+    family: Book Antiqua
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Book Antiqua
+  Font: Book-Antiqua-Bold
+    family: Book Antiqua
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Book Antiqua
+  Font: Book-Antiqua-Bold-Italic
+    family: Book Antiqua
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Book Antiqua
+  Font: Book-Antiqua-Italic
+    family: Book Antiqua
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Book Antiqua
+  Font: Bookman-Old-Style
+    family: Bookman Old Style
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Microsoft/Bookman Old Style
+  Font: Bookman-Old-Style-Bold
+    family: Bookman Old Style
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Bookman Old Style
+  Font: Bookman-Old-Style-Bold-Italic
+    family: Bookman Old Style
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Bookman Old Style
+  Font: Bookman-Old-Style-Italic
+    family: Bookman Old Style
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Microsoft/Bookman Old Style
+  Font: Bookshelf-Symbol-7
+    family: Bookshelf Symbol 7
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Bookshelf Symbol 7.ttf
+  Font: Braggadocio
+    family: Braggadocio
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Braggadocio
+  Font: Britannic-Bold
+    family: Britannic Bold
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Britannic Bold
+  Font: Brush-Script-MT-Italic
+    family: Brush Script MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Brush Script.ttf
+  Font: BrushScriptStd
+    family: Brush Script Std
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/BrushScriptStd.otf
+  Font: Calibri
+    family: Calibri
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Calibri.ttf
+  Font: Calibri-Bold
+    family: Calibri
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Calibri Bold.ttf
+  Font: Calibri-Bold-Italic
+    family: Calibri
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Calibri Bold Italic.ttf
+  Font: Calibri-Italic
+    family: Calibri
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Calibri Italic.ttf
+  Font: Calibri-Light
+    family: Calibri
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Microsoft/Calibril.ttf
+  Font: Calisto-MT
+    family: Calisto MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Calisto MT
+  Font: Calisto-MT-Bold
+    family: Calisto MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Calisto MT
+  Font: Calisto-MT-Bold-Italic
+    family: Calisto MT
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Calisto MT
+  Font: Calisto-MT-Italic
+    family: Calisto MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Calisto MT
+  Font: Cambria
+    family: Cambria
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Cambria.ttf
+  Font: Cambria-Bold
+    family: Cambria
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Cambria Bold.ttf
+  Font: Cambria-Bold-Italic
+    family: Cambria
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Cambria Bold Italic.ttf
+  Font: Cambria-Italic
+    family: Cambria
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Cambria Italic.ttf
+  Font: Cambria-Math
+    family: Cambria Math
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Cambria Math.ttf
+  Font: Candara
+    family: Candara
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Candara.ttf
+  Font: Candara-Bold
+    family: Candara
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Candara Bold.ttf
+  Font: Candara-Bold-Italic
+    family: Candara
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Candara Bold Italic.ttf
+  Font: Candara-Italic
+    family: Candara
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Candara Italic.ttf
+  Font: Century
+    family: Century
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Century
+  Font: Century-Gothic
+    family: Century Gothic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Century Gothic
+  Font: Century-Gothic-Bold
+    family: Century Gothic
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Century Gothic
+  Font: Century-Gothic-Bold-Italic
+    family: Century Gothic
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Century Gothic
+  Font: Century-Gothic-Italic
+    family: Century Gothic
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Century Gothic
+  Font: Century-Schoolbook
+    family: Century Schoolbook
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Century Schoolbook
+  Font: Century-Schoolbook-Bold
+    family: Century Schoolbook
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Century Schoolbook
+  Font: Century-Schoolbook-Bold-Italic
+    family: Century Schoolbook
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Century Schoolbook
+  Font: Century-Schoolbook-Italic
+    family: Century Schoolbook
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Century Schoolbook
+  Font: Century-Schoolbook-L-Bold
+    family: Century Schoolbook L
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/c059016l.pfb
+  Font: Century-Schoolbook-L-Bold-Italic
+    family: Century Schoolbook L
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/c059036l.pfb
+  Font: Century-Schoolbook-L-Italic
+    family: Century Schoolbook L
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/c059033l.pfb
+  Font: Century-Schoolbook-L-Roman
+    family: Century Schoolbook L
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/c059013l.pfb
+  Font: Chalkboard
+    family: Chalkboard
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Chalkboard.ttc
+  Font: Chalkboard-Bold
+    family: Chalkboard
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Chalkboard.ttc
+  Font: Chalkboard-SE
+    family: Chalkboard SE
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ChalkboardSE.ttc
+  Font: Chalkboard-SE-Bold
+    family: Chalkboard SE
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/ChalkboardSE.ttc
+  Font: Chalkboard-SE-Light
+    family: Chalkboard SE
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ChalkboardSE.ttc
+  Font: Chalkduster
+    family: Chalkduster
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Chalkduster.ttf
+  Font: ChaparralPro-Bold
+    family: Chaparral Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/ChaparralPro-Bold.otf
+  Font: ChaparralPro-BoldIt
+    family: Chaparral Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/ChaparralPro-BoldIt.otf
+  Font: ChaparralPro-Italic
+    family: Chaparral Pro
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ChaparralPro-Italic.otf
+  Font: ChaparralPro-LightIt
+    family: Chaparral Pro
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/ChaparralPro-LightIt.otf
+  Font: ChaparralPro-Regular
+    family: Chaparral Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ChaparralPro-Regular.otf
+  Font: Charcoal-CY
+    family: Charcoal CY
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/CharcoalCY.dfont
+  Font: CharlemagneStd-Bold
+    family: Charlemagne Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/CharlemagneStd-Bold.otf
+  Font: Charter-Black
+    family: Charter
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Charter.ttc
+  Font: Charter-Black-Italic
+    family: Charter
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Charter.ttc
+  Font: Charter-Bold
+    family: Charter
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Charter.ttc
+  Font: Charter-BT-Bold-Italic
+    family: Charter
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Charter.ttc
+  Font: Charter-Italic
+    family: Charter
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Charter.ttc
+  Font: Charter-Roman
+    family: Charter
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Charter.ttc
+  Font: Cochin
+    family: Cochin
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Cochin.ttc
+  Font: Cochin-Bold
+    family: Cochin
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Cochin.ttc
+  Font: Cochin-Bold-Italic
+    family: Cochin
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Cochin.ttc
+  Font: Cochin-Italic
+    family: Cochin
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Cochin.ttc
+  Font: Colonna-MT
+    family: Colonna MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Colonna
+  Font: Comic-Sans-MS
+    family: Comic Sans MS
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Comic Sans MS.ttf
+  Font: Comic-Sans-MS-Bold
+    family: Comic Sans MS
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Comic Sans MS Bold.ttf
+  Font: Consolas
+    family: Consolas
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Consolas.ttf
+  Font: Consolas-Bold
+    family: Consolas
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Consolas Bold.ttf
+  Font: Consolas-Bold-Italic
+    family: Consolas
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Consolas Bold Italic.ttf
+  Font: Consolas-Italic
+    family: Consolas
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Consolas Italic.ttf
+  Font: Constantia
+    family: Constantia
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Constantia.ttf
+  Font: Constantia-Bold
+    family: Constantia
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Constantia Bold.ttf
+  Font: Constantia-Bold-Italic
+    family: Constantia
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Constantia Bold Italic.ttf
+  Font: Constantia-Italic
+    family: Constantia
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Constantia Italic.ttf
+  Font: Cooper-Black
+    family: Cooper Black
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Cooper Black
+  Font: CooperBlackStd
+    family: Cooper Std
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/CooperBlackStd.otf
+  Font: CooperBlackStd-Italic
+    family: Cooper Std
+    style: Italic
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/CooperBlackStd-Italic.otf
+  Font: Copperplate
+    family: Copperplate
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Copperplate.ttc
+  Font: Copperplate-Bold
+    family: Copperplate
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Copperplate.ttc
+  Font: Copperplate-Gothic-Bold
+    family: Copperplate Gothic Bold
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Copperplate Gothic Bold
+  Font: Copperplate-Gothic-Light
+    family: Copperplate Gothic Light
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Copperplate Gothic Light
+  Font: Copperplate-Light
+    family: Copperplate
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Copperplate.ttc
+  Font: Corbel
+    family: Corbel
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Corbel.ttf
+  Font: Corbel-Bold
+    family: Corbel
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Corbel Bold.ttf
+  Font: Corbel-Bold-Italic
+    family: Corbel
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Corbel Bold Italic.ttf
+  Font: Corbel-Italic
+    family: Corbel
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Corbel Italic.ttf
+  Font: Corsiva-Hebrew
+    family: Corsiva Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Corsiva.ttc
+  Font: Corsiva-Hebrew-Bold
+    family: Corsiva Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Corsiva.ttc
+  Font: Courier
+    family: Courier
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/cour.pfa
+  Font: Courier-10-Pitch
+    family: Courier 10 Pitch
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0419bt_.pfb
+  Font: Courier-10-Pitch-Bold
+    family: Courier 10 Pitch
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0583bt_.pfb
+  Font: Courier-10-Pitch-Bold-Italic
+    family: Courier 10 Pitch
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0611bt_.pfb
+  Font: Courier-10-Pitch-Italic
+    family: Courier 10 Pitch
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/c0582bt_.pfb
+  Font: Courier-Bold
+    family: Courier
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/courb.pfa
+  Font: Courier-Bold-Italic
+    family: Courier
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/courbi.pfa
+  Font: Courier-Bold-Oblique
+    family: Courier
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Courier.dfont
+  Font: Courier-Italic
+    family: Courier
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/couri.pfa
+  Font: Courier-New
+    family: Courier New
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Courier New.ttf
+  Font: Courier-New-Bold
+    family: Courier New
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Courier New Bold.ttf
+  Font: Courier-New-Bold-Italic
+    family: Courier New
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Courier New Bold Italic.ttf
+  Font: Courier-New-Italic
+    family: Courier New
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Courier New Italic.ttf
+  Font: Courier-Oblique
+    family: Courier
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/Courier.dfont
+  Font: Curlz-MT
+    family: Curlz MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Curlz MT
+  Font: Cursor
+    family: Cursor
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /usr/X11/lib/X11/fonts/Type1/cursor.pfa
+  Font: Damascus
+    family: Damascus
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Damascus.ttc
+  Font: Damascus-Bold
+    family: Damascus
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Damascus.ttc
+  Font: Damascus-Medium
+    family: Damascus
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Damascus.ttc
+  Font: Damascus-Semi-Bold
+    family: Damascus
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Damascus.ttc
+  Font: DecoType-Naskh
+    family: DecoType Naskh
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/DecoTypeNaskh.ttf
+  Font: Desdemona
+    family: Desdemona
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Desdemona
+  Font: Devanagari-MT
+    family: Devanagari MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/DevanagariMT.ttf
+  Font: Devanagari-MT-Bold
+    family: Devanagari MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/DevanagariMTBold.ttf
+  Font: Devanagari-Sangam-MN
+    family: Devanagari Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Devanagari Sangam MN.ttc
+  Font: Devanagari-Sangam-MN-Bold
+    family: Devanagari Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Devanagari Sangam MN.ttc
+  Font: Didot
+    family: Didot
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Didot.ttc
+  Font: Didot-Bold
+    family: Didot
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Didot.ttc
+  Font: Didot-Italic
+    family: Didot
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Didot.ttc
+  Font: DIN-Alternate-Bold
+    family: DIN Alternate
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/DIN Alternate Bold.ttf
+  Font: DIN-Condensed-Bold
+    family: DIN Condensed
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/DIN Condensed Bold.ttf
+  Font: Dingbats
+    family: Dingbats
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/d050000l.pfb
+  Font: Diwan-Kufi
+    family: Diwan Kufi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Diwan Kufi.ttc
+  Font: Diwan-Mishafi
+    family: Mishafi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Mishafi.ttc
+  Font: Diwan-Thuluth
+    family: Diwan Thuluth
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Diwan Thuluth.ttc
+  Font: East-Syriac-Adiabene
+    family: East Syriac Adiabene
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMAdiabene.otf
+  Font: East-Syriac-Ctesiphon
+    family: East Syriac Ctesiphon
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMCtesiphon.otf
+  Font: Edwardian-Script-ITC
+    family: Edwardian Script ITC
+    style: Normal
+    stretch: SemiExpanded
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Edwardian Script ITC
+  Font: Engravers-MT
+    family: Engravers MT
+    style: Normal
+    stretch: Expanded
+    weight: 500
+    glyphs: /Library/Fonts/Microsoft/Engravers MT
+  Font: Engravers-MT-Bold
+    family: Engravers MT
+    style: Normal
+    stretch: Expanded
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Engravers MT
+  Font: Estrangelo-Antioch
+    family: Estrangelo Antioch
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMAntioch.otf
+  Font: Estrangelo-Edessa
+    family: Estrangelo Edessa
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMEdessa.otf
+  Font: Estrangelo-Midyat
+    family: Estrangelo Midyat
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMMidyat.otf
+  Font: Estrangelo-Nisibin
+    family: Estrangelo Nisibin
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMNisibin.otf
+  Font: Estrangelo-Nisibin-Outline
+    family: Estrangelo Nisibin Outline
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMNisibinOutline.otf
+  Font: Estrangelo-Quenneshrin
+    family: Estrangelo Quenneshrin
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMQenNeshrin.otf
+  Font: Estrangelo-Talada
+    family: Estrangelo Talada
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMTalada.otf
+  Font: Estrangelo-TurAbdin
+    family: Estrangelo TurAbdin
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMTurAbdin.otf
+  Font: Euphemia-UCAS
+    family: Euphemia UCAS
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/EuphemiaCAS.ttc
+  Font: Euphemia-UCAS-Bold
+    family: Euphemia UCAS
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/EuphemiaCAS.ttc
+  Font: Euphemia-UCAS-Italic
+    family: Euphemia UCAS
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/EuphemiaCAS.ttc
+  Font: Eurostile
+    family: Eurostile
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Eurostile
+  Font: Eurostile-Bold
+    family: Eurostile
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Eurostile
+  Font: Farah
+    family: Farah
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Farah.ttc
+  Font: Farisi
+    family: Farisi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Farisi.ttc
+  Font: Footlight-MT-Light
+    family: Footlight MT Light
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Microsoft/Footlight Light
+  Font: Franklin-Gothic-Book
+    family: Franklin Gothic Book
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Franklin Gothic Book.ttf
+  Font: Franklin-Gothic-Book-Italic
+    family: Franklin Gothic Book
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Franklin Gothic Book Italic.ttf
+  Font: Franklin-Gothic-Medium
+    family: Franklin Gothic Medium
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Franklin Gothic Medium.ttf
+  Font: Franklin-Gothic-Medium-Italic
+    family: Franklin Gothic Medium
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Franklin Gothic Medium Italic.ttf
+  Font: FSC-Symbol
+    family: FSC Symbol
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/FSC Symbol
+  Font: Futura-Condensed-ExtraBold
+    family: Futura
+    style: Normal
+    stretch: Condensed
+    weight: 800
+    glyphs: /Library/Fonts/Futura.ttc
+  Font: Futura-Condensed-Medium
+    family: Futura
+    style: Normal
+    stretch: Condensed
+    weight: 500
+    glyphs: /Library/Fonts/Futura.ttc
+  Font: Futura-Medium-Italic
+    family: Futura
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Futura.ttc
+  Font: Futura-中黑
+    family: Futura
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Futura.ttc
+  Font: Gabriola
+    family: Gabriola
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Gabriola.ttf
+  Font: Garamond
+    family: Garamond
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Garamond
+  Font: Garamond-Bold
+    family: Garamond
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Garamond
+  Font: Garamond-Italic
+    family: Garamond
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Garamond
+  Font: GB18030-Bitmap
+    family: GB18030 Bitmap
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NISC18030.ttf
+  Font: Geeza-Pro
+    family: Geeza Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Geeza Pro.ttf
+  Font: Geeza-Pro-Bold
+    family: Geeza Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Geeza Pro Bold.ttf
+  Font: Geneva
+    family: Geneva
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Geneva.dfont
+  Font: Geneva-CY
+    family: Geneva CY
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/GenevaCY.dfont
+  Font: Georgia
+    family: Georgia
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Georgia
+  Font: Georgia-Bold
+    family: Georgia
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Georgia Bold.ttf
+  Font: Georgia-Bold-Italic
+    family: Georgia
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Georgia Bold Italic.ttf
+  Font: Georgia-Italic
+    family: Georgia
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Georgia
+  Font: GiddyupStd
+    family: Giddyup Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/GiddyupStd.otf
+  Font: Gill-Sans
+    family: Gill Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-Bold
+    family: Gill Sans
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-Bold-Italic
+    family: Gill Sans
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-Italic
+    family: Gill Sans
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-Light
+    family: Gill Sans
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-Light-Italic
+    family: Gill Sans
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-MT
+    family: Gill Sans MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Gill Sans MT.ttf
+  Font: Gill-Sans-MT-Bold
+    family: Gill Sans MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Gill Sans MT Bold.ttf
+  Font: Gill-Sans-MT-Bold-Italic
+    family: Gill Sans MT
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Gill Sans MT Bold Italic.ttf
+  Font: Gill-Sans-MT-Italic
+    family: Gill Sans MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Gill Sans MT Italic.ttf
+  Font: Gill-Sans-SemiBold
+    family: Gill Sans
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-SemiBold-Italic
+    family: Gill Sans
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gill-Sans-Ultra-Bold
+    family: Gill Sans Ultra Bold
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Gill Sans Ultra Bold
+  Font: Gill-Sans-UltraBold
+    family: Gill Sans
+    style: Normal
+    stretch: Normal
+    weight: 800
+    glyphs: /Library/Fonts/GillSans.ttc
+  Font: Gloucester-MT-Extra-Condensed
+    family: Gloucester MT Extra Condensed
+    style: Normal
+    stretch: ExtraCondensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Gloucester MT Extra Condensed
+  Font: Goha-Tibeb-Zemen
+    family: Goha-Tibeb Zemen
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /usr/X11/lib/X11/fonts/OTF/GohaTibebZemen.otf
+  Font: Goudy-Old-Style
+    family: Goudy Old Style
+    style: Normal
+    stretch: SemiExpanded
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Goudy Old Style
+  Font: Goudy-Old-Style-Bold
+    family: Goudy Old Style
+    style: Normal
+    stretch: SemiExpanded
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Goudy Old Style
+  Font: Goudy-Old-Style-Italic
+    family: Goudy Old Style
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Goudy Old Style
+  Font: Gujarati-MT
+    family: Gujarati MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/GujaratiMT.ttf
+  Font: Gujarati-MT-Bold
+    family: Gujarati MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/GujaratiMTBold.ttf
+  Font: Gujarati-Sangam-MN
+    family: Gujarati Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Gujarati Sangam MN.ttc
+  Font: Gujarati-Sangam-MN-Bold
+    family: Gujarati Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Gujarati Sangam MN.ttc
+  Font: Gulim
+    family: Gulim
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Gulim.ttf
+  Font: GungSeo
+    family: GungSeo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Gungseouche.ttf
+  Font: Gurmukhi-MN
+    family: Gurmukhi MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Gurmukhi MN.ttc
+  Font: Gurmukhi-MN-Bold
+    family: Gurmukhi MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Gurmukhi MN.ttc
+  Font: Gurmukhi-MT
+    family: Gurmukhi MT
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Gurmukhi.ttf
+  Font: Gurmukhi-Sangam-MN
+    family: Gurmukhi Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Gurmukhi Sangam MN.ttc
+  Font: Gurmukhi-Sangam-MN-Bold
+    family: Gurmukhi Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Gurmukhi Sangam MN.ttc
+  Font: Haettenschweiler
+    family: Haettenschweiler
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Microsoft/Haettenschweiler
+  Font: Hannotate-SC-Bold
+    family: Hannotate SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hannotate.ttc
+  Font: Hannotate-SC-Regular
+    family: Hannotate SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hannotate.ttc
+  Font: Hannotate-TC-Bold
+    family: Hannotate TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hannotate.ttc
+  Font: Hannotate-TC-Regular
+    family: Hannotate TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hannotate.ttc
+  Font: HanziPen-SC-Regular
+    family: HanziPen SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hanzipen.ttc
+  Font: HanziPen-TC-Bold
+    family: HanziPen TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hanzipen.ttc
+  Font: HanziPen-TC-Regular
+    family: HanziPen TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hanzipen.ttc
+  Font: Harrington
+    family: Harrington
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Harrington
+  Font: HeadLineA
+    family: HeadLineA
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/HeadlineA.ttf
+  Font: Hei
+    family: Hei
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hei.ttf
+  Font: Heiti-SC-Light
+    family: Heiti SC
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/STHeiti Light.ttc
+  Font: Heiti-SC-Medium
+    family: Heiti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/STHeiti Medium.ttc
+  Font: Heiti-TC-Light
+    family: Heiti TC
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/STHeiti Light.ttc
+  Font: Heiti-TC-Medium
+    family: Heiti TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/STHeiti Medium.ttc
+  Font: Helvetica
+    family: Helvetica
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Helvetica.dfont
+  Font: Helvetica-Bold
+    family: Helvetica
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Helvetica.dfont
+  Font: Helvetica-Bold-Oblique
+    family: Helvetica
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Helvetica.dfont
+  Font: Helvetica-CY-Bold
+    family: Helvetica CY
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/HelveticaCY.dfont
+  Font: Helvetica-CY-BoldOblique
+    family: Helvetica CY
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/HelveticaCY.dfont
+  Font: Helvetica-CY-Oblique
+    family: Helvetica CY
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/HelveticaCY.dfont
+  Font: Helvetica-CY-Plain
+    family: Helvetica CY
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/HelveticaCY.dfont
+  Font: Helvetica-Light
+    family: Helvetica
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Helvetica.dfont
+  Font: Helvetica-Light-Oblique
+    family: Helvetica
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Helvetica.dfont
+  Font: Helvetica-Neue
+    family: Helvetica Neue
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Bold
+    family: Helvetica Neue
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Bold-Italic
+    family: Helvetica Neue
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Condensed-Black
+    family: Helvetica Neue
+    style: Normal
+    stretch: Condensed
+    weight: 900
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Condensed-Bold
+    family: Helvetica Neue
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Italic
+    family: Helvetica Neue
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Light
+    family: Helvetica Neue
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Light-Italic
+    family: Helvetica Neue
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Medium-Italic
+    family: Helvetica Neue
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Thin
+    family: Helvetica Neue
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-Thin-Italic
+    family: Helvetica Neue
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-UltraLight
+    family: Helvetica Neue
+    style: Normal
+    stretch: Normal
+    weight: 100
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-UltraLight-Italic
+    family: Helvetica Neue
+    style: Italic
+    stretch: Normal
+    weight: 100
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Neue-中黑
+    family: Helvetica Neue
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/HelveticaNeue.dfont
+  Font: Helvetica-Oblique
+    family: Helvetica
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Helvetica.dfont
+  Font: Herculanum
+    family: Herculanum
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Herculanum.ttf
+  Font: Hiragino-Sans-GB-W3
+    family: Hiragino Sans GB
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Hiragino Sans GB W3.otf
+  Font: Hiragino-Sans-GB-W6
+    family: Hiragino Sans GB
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Hiragino Sans GB W6.otf
+  Font: HoboStd
+    family: Hobo Std
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/HoboStd.otf
+  Font: Hoefler-Text
+    family: Hoefler Text
+    style: Normal
+    stretch: Normal
+    weight: 100
+    glyphs: /Library/Fonts/Hoefler Text.ttc
+  Font: Hoefler-Text-Black
+    family: Hoefler Text
+    style: Normal
+    stretch: Normal
+    weight: 100
+    glyphs: /Library/Fonts/Hoefler Text.ttc
+  Font: Hoefler-Text-Black-Italic
+    family: Hoefler Text
+    style: Italic
+    stretch: Normal
+    weight: 100
+    glyphs: /Library/Fonts/Hoefler Text.ttc
+  Font: Hoefler-Text-Italic
+    family: Hoefler Text
+    style: Italic
+    stretch: Normal
+    weight: 100
+    glyphs: /Library/Fonts/Hoefler Text.ttc
+  Font: Hoefler-Text-Ornaments
+    family: Hoefler Text
+    style: Normal
+    stretch: Normal
+    weight: 100
+    glyphs: /Library/Fonts/Hoefler Text Ornaments.ttf
+  Font: Impact
+    family: Impact
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Impact
+  Font: Imprint-MT-Shadow
+    family: Imprint MT Shadow
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Imprint MT Shadow
+  Font: InaiMathi
+    family: InaiMathi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/InaiMathi.ttf
+  Font: Iowan-Old-Style-Black
+    family: Iowan Old Style
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Iowan-Old-Style-Black-Italic
+    family: Iowan Old Style
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Iowan-Old-Style-Bold
+    family: Iowan Old Style
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Iowan-Old-Style-Bold-Italic
+    family: Iowan Old Style
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Iowan-Old-Style-Italic
+    family: Iowan Old Style
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Iowan-Old-Style-Roman
+    family: Iowan Old Style
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Iowan-Old-Style-Titling
+    family: Iowan Old Style
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Iowan Old Style.ttc
+  Font: Kai
+    family: Kai
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kai.ttf
+  Font: Kailasa
+    family: Kailasa
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kailasa.ttf
+  Font: Kaiti-SC-Black
+    family: Kaiti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kaiti.ttc
+  Font: Kaiti-SC-Bold
+    family: Kaiti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kaiti.ttc
+  Font: Kaiti-SC-Regular
+    family: Kaiti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kaiti.ttc
+  Font: Kaiti-TC-Bold
+    family: Kaiti TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kaiti.ttc
+  Font: Kaiti-TC-Regular
+    family: Kaiti TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kaiti.ttc
+  Font: Kannada-MN
+    family: Kannada MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Kannada MN.ttc
+  Font: Kannada-MN-Bold
+    family: Kannada MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Kannada MN.ttc
+  Font: Kannada-Sangam-MN
+    family: Kannada Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kannada Sangam MN.ttc
+  Font: Kannada-Sangam-MN-Bold
+    family: Kannada Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Kannada Sangam MN.ttc
+  Font: Kefa-Bold
+    family: Kefa
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Kefa.ttc
+  Font: Kefa-Regular
+    family: Kefa
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kefa.ttc
+  Font: Khmer-MN
+    family: Khmer MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Khmer MN.ttc
+  Font: Khmer-MN-Bold
+    family: Khmer MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Khmer MN.ttc
+  Font: Khmer-Sangam-MN
+    family: Khmer Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Khmer Sangam MN.ttf
+  Font: Kino-MT
+    family: Kino MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Kino
+  Font: Kokonor
+    family: Kokonor
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kokonor.ttf
+  Font: KozGoPr6N-Bold
+    family: Kozuka Gothic Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/KozGoPr6N-Bold.otf
+  Font: KozGoPr6N-ExtraLight
+    family: Kozuka Gothic Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozGoPr6N-ExtraLight.otf
+  Font: KozGoPr6N-Heavy
+    family: Kozuka Gothic Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/KozGoPr6N-Heavy.otf
+  Font: KozGoPr6N-Light
+    family: Kozuka Gothic Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozGoPr6N-Light.otf
+  Font: KozGoPr6N-Medium
+    family: Kozuka Gothic Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/KozGoPr6N-Medium.otf
+  Font: KozGoPr6N-Regular
+    family: Kozuka Gothic Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/KozGoPr6N-Regular.otf
+  Font: KozGoPro-Bold
+    family: Kozuka Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/KozGoPro-Bold.otf
+  Font: KozGoPro-ExtraLight
+    family: Kozuka Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozGoPro-ExtraLight.otf
+  Font: KozGoPro-Heavy
+    family: Kozuka Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/KozGoPro-Heavy.otf
+  Font: KozGoPro-Light
+    family: Kozuka Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozGoPro-Light.otf
+  Font: KozGoPro-Medium
+    family: Kozuka Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/KozGoPro-Medium.otf
+  Font: KozGoPro-Regular
+    family: Kozuka Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/KozGoPro-Regular.otf
+  Font: KozMinPr6N-Bold
+    family: Kozuka Mincho Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/KozMinPr6N-Bold.otf
+  Font: KozMinPr6N-ExtraLight
+    family: Kozuka Mincho Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozMinPr6N-ExtraLight.otf
+  Font: KozMinPr6N-Heavy
+    family: Kozuka Mincho Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/KozMinPr6N-Heavy.otf
+  Font: KozMinPr6N-Light
+    family: Kozuka Mincho Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozMinPr6N-Light.otf
+  Font: KozMinPr6N-Medium
+    family: Kozuka Mincho Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/KozMinPr6N-Medium.otf
+  Font: KozMinPr6N-Regular
+    family: Kozuka Mincho Pr6N
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/KozMinPr6N-Regular.otf
+  Font: KozMinPro-Bold
+    family: Kozuka Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/KozMinPro-Bold.otf
+  Font: KozMinPro-ExtraLight
+    family: Kozuka Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozMinPro-ExtraLight.otf
+  Font: KozMinPro-Heavy
+    family: Kozuka Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/KozMinPro-Heavy.otf
+  Font: KozMinPro-Light
+    family: Kozuka Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/KozMinPro-Light.otf
+  Font: KozMinPro-Medium
+    family: Kozuka Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/KozMinPro-Medium.otf
+  Font: KozMinPro-Regular
+    family: Kozuka Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/KozMinPro-Regular.otf
+  Font: Krungthep
+    family: Krungthep
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Krungthep.ttf
+  Font: KufiStandardGK
+    family: KufiStandardGK
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/KufiStandardGK.ttf
+  Font: Lantinghei-SC-Demibold
+    family: Lantinghei SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lantinghei.ttc
+  Font: Lantinghei-SC-Extralight
+    family: Lantinghei SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lantinghei.ttc
+  Font: Lantinghei-SC-Heavy
+    family: Lantinghei SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lantinghei.ttc
+  Font: Lantinghei-TC-Demibold
+    family: Lantinghei TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lantinghei.ttc
+  Font: Lantinghei-TC-Extralight
+    family: Lantinghei TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lantinghei.ttc
+  Font: Lantinghei-TC-Heavy
+    family: Lantinghei TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lantinghei.ttc
+  Font: Lao-MN
+    family: Lao MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Lao MN.ttc
+  Font: Lao-MN-Bold
+    family: Lao MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Lao MN.ttc
+  Font: Lao-Sangam-MN
+    family: Lao Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Lao Sangam MN.ttf
+  Font: LastResort
+    family: LastResort
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/LastResort.ttf
+  Font: LetterGothicStd
+    family: Letter Gothic Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/LetterGothicStd.otf
+  Font: LetterGothicStd-Bold
+    family: Letter Gothic Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/LetterGothicStd-Bold.otf
+  Font: LetterGothicStd-BoldSlanted
+    family: Letter Gothic Std
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/LetterGothicStd-BoldSlanted.otf
+  Font: LetterGothicStd-Slanted
+    family: Letter Gothic Std
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/LetterGothicStd-Slanted.otf
+  Font: Libian-SC-Regular
+    family: Libian SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Libian.ttc
+  Font: LiHei-Pro-中黑
+    family: LiHei Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/儷黑 Pro.ttf
+  Font: LiSong-Pro-Light
+    family: LiSong Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/儷宋 Pro.ttf
+  Font: LithosPro-Black
+    family: Lithos Pro
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/LithosPro-Black.otf
+  Font: LithosPro-Regular
+    family: Lithos Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/LithosPro-Regular.otf
+  Font: Lucida-Blackletter
+    family: Lucida Blackletter
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Blackletter
+  Font: Lucida-Bright
+    family: Lucida Bright
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Bright
+  Font: Lucida-Bright-Demibold
+    family: Lucida Bright
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Bright
+  Font: Lucida-Bright-Demibold-Italic
+    family: Lucida Bright
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Bright
+  Font: Lucida-Bright-Italic
+    family: Lucida Bright
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Bright
+  Font: Lucida-Calligraphy-Italic
+    family: Lucida Calligraphy
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Calligraphy
+  Font: Lucida-Console
+    family: Lucida Console
+    style: Normal
+    stretch: SemiCondensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Console.ttf
+  Font: Lucida-Fax-Demibold
+    family: Lucida Fax
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Fax
+  Font: Lucida-Fax-Demibold-Italic
+    family: Lucida Fax
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Fax
+  Font: Lucida-Fax-Italic
+    family: Lucida Fax
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Fax
+  Font: Lucida-Fax-Regular
+    family: Lucida Fax
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Fax
+  Font: Lucida-Grande
+    family: Lucida Grande
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/LucidaGrande.ttc
+  Font: Lucida-Grande-Bold
+    family: Lucida Grande
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/LucidaGrande.ttc
+  Font: Lucida-Handwriting-Italic
+    family: Lucida Handwriting
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Handwriting
+  Font: Lucida-Sans-Demibold-Italic
+    family: Lucida Sans
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans
+  Font: Lucida-Sans-Demibold-Roman
+    family: Lucida Sans
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans
+  Font: Lucida-Sans-Italic
+    family: Lucida Sans
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans
+  Font: Lucida-Sans-Regular
+    family: Lucida Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans
+  Font: Lucida-Sans-Typewriter-Bold
+    family: Lucida Sans Typewriter
+    style: Normal
+    stretch: SemiCondensed
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans Typewriter
+  Font: Lucida-Sans-Typewriter-Bold-Oblique
+    family: Lucida Sans Typewriter
+    style: Oblique
+    stretch: SemiCondensed
+    weight: 600
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans Typewriter
+  Font: Lucida-Sans-Typewriter-Oblique
+    family: Lucida Sans Typewriter
+    style: Oblique
+    stretch: SemiCondensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans Typewriter
+  Font: Lucida-Sans-Typewriter-Regular
+    family: Lucida Sans Typewriter
+    style: Normal
+    stretch: SemiCondensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans Typewriter
+  Font: Lucida-Sans-Unicode
+    family: Lucida Sans Unicode
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Lucida Sans Unicode.ttf
+  Font: Luxi-Mono
+    family: Luxi Mono
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l047013t.pfa
+  Font: Luxi-Mono-Bold
+    family: Luxi Mono
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l047016t.pfa
+  Font: Luxi-Mono-Bold-Oblique
+    family: Luxi Mono
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l047036t.pfa
+  Font: Luxi-Mono-Oblique
+    family: Luxi Mono
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luximri.ttf
+  Font: Luxi-Mono-Regular
+    family: Luxi Mono
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luximr.ttf
+  Font: Luxi-Sans
+    family: Luxi Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l048013t.pfa
+  Font: Luxi-Sans-Bold
+    family: Luxi Sans
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l048016t.pfa
+  Font: Luxi-Sans-Bold-Oblique
+    family: Luxi Sans
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luxisbi.ttf
+  Font: Luxi-Sans-Oblique
+    family: Luxi Sans
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luxisri.ttf
+  Font: Luxi-Sans-Regular
+    family: Luxi Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luxisr.ttf
+  Font: Luxi-Serif
+    family: Luxi Serif
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l049013t.pfa
+  Font: Luxi-Serif-Bold
+    family: Luxi Serif
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luxirb.ttf
+  Font: Luxi-Serif-Bold-Oblique
+    family: Luxi Serif
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/l049036t.pfa
+  Font: Luxi-Serif-Oblique
+    family: Luxi Serif
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luxirri.ttf
+  Font: Luxi-Serif-Regular
+    family: Luxi Serif
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/TTF/luxirr.ttf
+  Font: Malayalam-MN
+    family: Malayalam MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Malayalam MN.ttc
+  Font: Malayalam-MN-Bold
+    family: Malayalam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Malayalam MN.ttc
+  Font: Malayalam-Sangam-MN
+    family: Malayalam Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Malayalam Sangam MN.ttc
+  Font: Malayalam-Sangam-MN-Bold
+    family: Malayalam Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Malayalam Sangam MN.ttc
+  Font: Marion-Bold
+    family: Marion
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Marion.ttc
+  Font: Marion-Italic
+    family: Marion
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Marion.ttc
+  Font: Marion-Regular
+    family: Marion
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Marion.ttc
+  Font: Marker-Felt-Thin
+    family: Marker Felt
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/MarkerFelt.ttc
+  Font: Marker-Felt-Wide
+    family: Marker Felt
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/MarkerFelt.ttc
+  Font: Marlett
+    family: Marlett
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Microsoft/Marlett.ttf
+  Font: Matura-MT-Script-Capitals
+    family: Matura MT Script Capitals
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Matura Script Capitals
+  Font: Meiryo
+    family: Meiryo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Meiryo.ttf
+  Font: Meiryo-Bold
+    family: Meiryo
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Meiryo Bold.ttf
+  Font: Meiryo-Bold-Italic
+    family: Meiryo
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Meiryo Bold Italic.ttf
+  Font: Meiryo-Italic
+    family: Meiryo
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Meiryo Italic.ttf
+  Font: Menlo
+    family: Menlo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Menlo.ttc
+  Font: Menlo-Bold
+    family: Menlo
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Menlo.ttc
+  Font: Menlo-Bold-Italic
+    family: Menlo
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Menlo.ttc
+  Font: Menlo-Italic
+    family: Menlo
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Menlo.ttc
+  Font: MesquiteStd
+    family: Mesquite Std
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/MesquiteStd.otf
+  Font: Microsoft-Himalaya
+    family: Microsoft Himalaya
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/himalaya.ttf
+  Font: Microsoft-Sans-Serif
+    family: Microsoft Sans Serif
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft Sans Serif.ttf
+  Font: Microsoft-Tai-Le
+    family: Microsoft Tai Le
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/taile.ttf
+  Font: Microsoft-Tai-Le-Bold
+    family: Microsoft Tai Le
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/TaiLeb.ttf
+  Font: Microsoft-Yi-Baiti
+    family: Microsoft Yi Baiti
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/msyi.ttf
+  Font: MingLiU
+    family: MingLiU
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MingLiU.ttf
+  Font: MingLiU-ExtB
+    family: MingLiU-ExtB
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MingLiU-ExtB.ttf
+  Font: MingLiU_HKSCS
+    family: MingLiU_HKSCS
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/mingliu_hkscs.ttf
+  Font: MingLiU_HKSCS-ExtB
+    family: MingLiU_HKSCS-ExtB
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MingLiU_HKSCS-ExtB.ttf
+  Font: MinionPro-Bold
+    family: Minion Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MinionPro-Bold.otf
+  Font: MinionPro-BoldCn
+    family: Minion Pro
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/MinionPro-BoldCn.otf
+  Font: MinionPro-BoldCnIt
+    family: Minion Pro
+    style: Italic
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/MinionPro-BoldCnIt.otf
+  Font: MinionPro-BoldIt
+    family: Minion Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MinionPro-BoldIt.otf
+  Font: MinionPro-It
+    family: Minion Pro
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MinionPro-It.otf
+  Font: MinionPro-Medium
+    family: Minion Pro
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/MinionPro-Medium.otf
+  Font: MinionPro-MediumIt
+    family: Minion Pro
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/MinionPro-MediumIt.otf
+  Font: MinionPro-Regular
+    family: Minion Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MinionPro-Regular.otf
+  Font: MinionPro-Semibold
+    family: Minion Pro
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/MinionPro-Semibold.otf
+  Font: MinionPro-SemiboldIt
+    family: Minion Pro
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/MinionPro-SemiboldIt.otf
+  Font: Mistral
+    family: Mistral
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Mistral
+  Font: Modern-No.-20
+    family: Modern No. 20
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Modern No. 20
+  Font: Monaco
+    family: Monaco
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Monaco.dfont
+  Font: Mongolian-Baiti
+    family: Mongolian Baiti
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/monbaiti.ttf
+  Font: Monotype-Corsiva
+    family: Monotype Corsiva
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Monotype Corsiva
+  Font: Monotype-Sorts
+    family: Monotype Sorts
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Monotype Sorts
+  Font: MS-Gothic
+    family: MS Gothic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MS Gothic.ttf
+  Font: MS-Mincho
+    family: MS Mincho
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MS Mincho.ttf
+  Font: MS-PGothic
+    family: MS PGothic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MS PGothic.ttf
+  Font: MS-PMincho
+    family: MS PMincho
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MS PMincho.ttf
+  Font: MS-Reference-Sans-Serif
+    family: MS Reference Sans Serif
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MS Reference Sans Serif.ttf
+  Font: MS-Reference-Specialty
+    family: MS Reference Specialty
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MS Reference Specialty.ttf
+  Font: Mshtakan
+    family: Mshtakan
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MshtakanRegular.ttf
+  Font: Mshtakan-Bold
+    family: Mshtakan
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MshtakanBold.ttf
+  Font: Mshtakan-BoldOblique
+    family: Mshtakan
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MshtakanBoldOblique.ttf
+  Font: Mshtakan-Oblique
+    family: Mshtakan
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MshtakanOblique.ttf
+  Font: MT-Extra
+    family: MT Extra
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/MT Extra
+  Font: Muna
+    family: Muna
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Muna.ttc
+  Font: Muna-Black
+    family: Muna
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/Muna.ttc
+  Font: Muna-Bold
+    family: Muna
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Muna.ttc
+  Font: Myanmar-MN
+    family: Myanmar MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Myanmar MN.ttc
+  Font: Myanmar-MN-Bold
+    family: Myanmar MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Myanmar MN.ttc
+  Font: Myanmar-Sangam-MN
+    family: Myanmar Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Myanmar Sangam MN.ttf
+  Font: Myriad-Arabic
+    family: Myriad Arabic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MyriadArabic-Regular.otf
+  Font: Myriad-Arabic-Bold
+    family: Myriad Arabic
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MyriadArabic-Bold.otf
+  Font: Myriad-Arabic-Bold-Italic
+    family: Myriad Arabic
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MyriadArabic-BoldIt.otf
+  Font: Myriad-Arabic-Italic
+    family: Myriad Arabic
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MyriadArabic-It.otf
+  Font: Myriad-Hebrew
+    family: Myriad Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MyriadHebrew-Regular.otf
+  Font: Myriad-Hebrew-Bold
+    family: Myriad Hebrew
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MyriadHebrew-Bold.otf
+  Font: Myriad-Hebrew-Bold-Italic
+    family: Myriad Hebrew
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MyriadHebrew-BoldIt.otf
+  Font: Myriad-Hebrew-Italic
+    family: Myriad Hebrew
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MyriadHebrew-It.otf
+  Font: MyriadPro-Bold
+    family: Myriad Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MyriadPro-Bold.otf
+  Font: MyriadPro-BoldCond
+    family: Myriad Pro
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/MyriadPro-BoldCond.otf
+  Font: MyriadPro-BoldCondIt
+    family: Myriad Pro
+    style: Italic
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/MyriadPro-BoldCondIt.otf
+  Font: MyriadPro-BoldIt
+    family: Myriad Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/MyriadPro-BoldIt.otf
+  Font: MyriadPro-Cond
+    family: Myriad Pro
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/MyriadPro-Cond.otf
+  Font: MyriadPro-CondIt
+    family: Myriad Pro
+    style: Italic
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/MyriadPro-CondIt.otf
+  Font: MyriadPro-It
+    family: Myriad Pro
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MyriadPro-It.otf
+  Font: MyriadPro-Regular
+    family: Myriad Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/MyriadPro-Regular.otf
+  Font: MyriadPro-Semibold
+    family: Myriad Pro
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/MyriadPro-Semibold.otf
+  Font: MyriadPro-SemiboldIt
+    family: Myriad Pro
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/MyriadPro-SemiboldIt.otf
+  Font: Nadeem
+    family: Nadeem
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Nadeem.ttf
+  Font: Nanum-Brush-Script
+    family: Nanum Brush Script
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NanumScript.ttc
+  Font: Nanum-Pen-Script
+    family: Nanum Pen Script
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NanumScript.ttc
+  Font: NanumGothic
+    family: Nanum Gothic
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NanumGothic.ttc
+  Font: NanumGothic-Bold
+    family: Nanum Gothic
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/NanumGothic.ttc
+  Font: NanumGothic-ExtraBold
+    family: Nanum Gothic
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/NanumGothic.ttc
+  Font: NanumMyeongjo
+    family: Nanum Myeongjo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NanumMyeongjo.ttc
+  Font: NanumMyeongjoBold
+    family: Nanum Myeongjo
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/NanumMyeongjo.ttc
+  Font: NanumMyeongjoExtraBold
+    family: Nanum Myeongjo
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/NanumMyeongjo.ttc
+  Font: New-Peninim-MT
+    family: New Peninim MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NewPeninimMT.ttc
+  Font: New-Peninim-MT-Bold
+    family: New Peninim MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NewPeninimMT.ttc
+  Font: New-Peninim-MT-Bold-Inclined
+    family: New Peninim MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NewPeninimMT.ttc
+  Font: New-Peninim-MT-Inclined
+    family: New Peninim MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NewPeninimMT.ttc
+  Font: News-Gothic-MT
+    family: News Gothic MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/News Gothic MT
+  Font: News-Gothic-MT-Bold
+    family: News Gothic MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/News Gothic MT
+  Font: News-Gothic-MT-Italic
+    family: News Gothic MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/News Gothic MT
+  Font: Nimbus-Mono-L
+    family: Nimbus Mono L
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n022003l.pfb
+  Font: Nimbus-Mono-L-Bold
+    family: Nimbus Mono L
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n022004l.pfb
+  Font: Nimbus-Mono-L-Bold-Oblique
+    family: Nimbus Mono L
+    style: Oblique
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n022024l.pfb
+  Font: Nimbus-Mono-L-Regular-Oblique
+    family: Nimbus Mono L
+    style: Oblique
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n022023l.pfb
+  Font: Nimbus-Roman-No9-L
+    family: Nimbus Roman No9 L
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n021003l.pfb
+  Font: Nimbus-Roman-No9-L-Medium
+    family: Nimbus Roman No9 L
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n021004l.pfb
+  Font: Nimbus-Roman-No9-L-Medium-Italic
+    family: Nimbus Roman No9 L
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n021024l.pfb
+  Font: Nimbus-Roman-No9-L-Regular-Italic
+    family: Nimbus Roman No9 L
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/n021023l.pfb
+  Font: Nimbus-Sans-L
+    family: Nimbus Sans L
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/n019003l.pfb
+  Font: Nimbus-Sans-L-Bold
+    family: Nimbus Sans L
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n019004l.pfb
+  Font: Nimbus-Sans-L-Bold-Condensed
+    family: Nimbus Sans L
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n019044l.pfb
+  Font: Nimbus-Sans-L-Bold-Condensed-Italic
+    family: Nimbus Sans L
+    style: Italic
+    stretch: Condensed
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/n019064l.pfb
+  Font: Nimbus-Sans-L-Bold-Italic
+    family: Nimbus Sans L
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n019024l.pfb
+  Font: Nimbus-Sans-L-Regular-Condensed
+    family: Nimbus Sans L
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n019043l.pfb
+  Font: Nimbus-Sans-L-Regular-Condensed-Italic
+    family: Nimbus Sans L
+    style: Italic
+    stretch: Condensed
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n019063l.pfb
+  Font: Nimbus-Sans-L-Regular-Italic
+    family: Nimbus Sans L
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/n019023l.pfb
+  Font: Noteworthy-Bold
+    family: Noteworthy
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Noteworthy.ttc
+  Font: Noteworthy-Light
+    family: Noteworthy
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Noteworthy.ttc
+  Font: NuevaStd-Bold
+    family: Nueva Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/NuevaStd-Bold.otf
+  Font: NuevaStd-BoldCond
+    family: Nueva Std
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/NuevaStd-BoldCond.otf
+  Font: NuevaStd-BoldCondItalic
+    family: Nueva Std
+    style: Italic
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/NuevaStd-BoldCondItalic.otf
+  Font: NuevaStd-Cond
+    family: Nueva Std
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/NuevaStd-Cond.otf
+  Font: NuevaStd-CondItalic
+    family: Nueva Std
+    style: Italic
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/NuevaStd-CondItalic.otf
+  Font: NuevaStd-Italic
+    family: Nueva Std
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/NuevaStd-Italic.otf
+  Font: OCRAStd
+    family: OCR A Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/OCRAStd.otf
+  Font: Onyx
+    family: Onyx
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Onyx
+  Font: Open-Sans
+    family: Open Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/OpenSans-Regular.ttf
+  Font: Open-Sans-Bold
+    family: Open Sans
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/OpenSans-Bold.ttf
+  Font: Open-Sans-Bold-Italic
+    family: Open Sans
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/OpenSans-BoldItalic.ttf
+  Font: Open-Sans-Extrabold
+    family: Open Sans
+    style: Normal
+    stretch: Normal
+    weight: 800
+    glyphs: /Library/Fonts/OpenSans-ExtraBold.ttf
+  Font: Open-Sans-Extrabold-Italic
+    family: Open Sans
+    style: Italic
+    stretch: Normal
+    weight: 800
+    glyphs: /Library/Fonts/OpenSans-ExtraBoldItalic.ttf
+  Font: Open-Sans-Italic
+    family: Open Sans
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/OpenSans-Italic.ttf
+  Font: Open-Sans-Light
+    family: Open Sans
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/OpenSans-Light.ttf
+  Font: Open-Sans-Light-Italic
+    family: Open Sans
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/OpenSans-LightItalic.ttf
+  Font: Open-Sans-Semibold
+    family: Open Sans
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/OpenSans-Semibold.ttf
+  Font: Open-Sans-Semibold-Italic
+    family: Open Sans
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/OpenSans-SemiboldItalic.ttf
+  Font: Optima
+    family: Optima
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Optima.ttc
+  Font: Optima-Bold
+    family: Optima
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Optima.ttc
+  Font: Optima-Bold-Italic
+    family: Optima
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Optima.ttc
+  Font: Optima-ExtraBlack
+    family: Optima
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /System/Library/Fonts/Optima.ttc
+  Font: Optima-Italic
+    family: Optima
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Optima.ttc
+  Font: OratorStd
+    family: Orator Std
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/OratorStd.otf
+  Font: OratorStd-Slanted
+    family: Orator Std
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/OratorStd-Slanted.otf
+  Font: Oriya-MN
+    family: Oriya MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Oriya MN.ttc
+  Font: Oriya-MN-Bold
+    family: Oriya MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Oriya MN.ttc
+  Font: Oriya-Sangam-MN
+    family: Oriya Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Oriya Sangam MN.ttc
+  Font: Oriya-Sangam-MN-Bold
+    family: Oriya Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Oriya Sangam MN.ttc
+  Font: Osaka
+    family: Osaka
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Osaka.ttf
+  Font: Osaka-Regular-Mono
+    family: Osaka
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/OsakaMono.ttf
+  Font: Palatino
+    family: Palatino
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Palatino.ttc
+  Font: Palatino-Bold
+    family: Palatino
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Palatino.ttc
+  Font: Palatino-Bold-Italic
+    family: Palatino
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Palatino.ttc
+  Font: Palatino-Italic
+    family: Palatino
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Palatino.ttc
+  Font: Palatino-Linotype
+    family: Palatino Linotype
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Palatino Linotype.ttf
+  Font: Palatino-Linotype-Bold
+    family: Palatino Linotype
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Palatino Linotype Bold.ttf
+  Font: Palatino-Linotype-Bold-Italic
+    family: Palatino Linotype
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Palatino Linotype Bold Italic.ttf
+  Font: Palatino-Linotype-Italic
+    family: Palatino Linotype
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Palatino Linotype Italic.ttf
+  Font: Papyrus
+    family: Papyrus
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Papyrus.ttc
+  Font: Papyrus-Condensed
+    family: Papyrus
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Papyrus.ttc
+  Font: PCMyungjo
+    family: PCMyungjo
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PCmyoungjo.ttf
+  Font: Perpetua
+    family: Perpetua
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Perpetua.ttf
+  Font: Perpetua-Bold
+    family: Perpetua
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Perpetua Bold.ttf
+  Font: Perpetua-Bold-Italic
+    family: Perpetua
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Perpetua Bold Italic.ttf
+  Font: Perpetua-Italic
+    family: Perpetua
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Perpetua Italic.ttf
+  Font: Perpetua-Titling-MT-Bold
+    family: Perpetua Titling MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Perpetua Titling MT
+  Font: Perpetua-Titling-MT-Light
+    family: Perpetua Titling MT
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Microsoft/Perpetua Titling MT
+  Font: PilGi
+    family: PilGi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Pilgiche.ttf
+  Font: Plantagenet-Cherokee
+    family: Plantagenet Cherokee
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PlantagenetCherokee.ttf
+  Font: Playbill
+    family: Playbill
+    style: Normal
+    stretch: UltraCondensed
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Playbill
+  Font: PMingLiU
+    family: PMingLiU
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/PMingLiU.ttf
+  Font: PMingLiU-ExtB
+    family: PMingLiU-ExtB
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/PMingLiU-ExtB.ttf
+  Font: PoplarStd
+    family: Poplar Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PoplarStd.otf
+  Font: PrestigeEliteStd-Bd
+    family: Prestige Elite Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PrestigeEliteStd-Bd.otf
+  Font: PT-Mono
+    family: PT Mono
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTMono.ttc
+  Font: PT-Mono-Bold
+    family: PT Mono
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PTMono.ttc
+  Font: PT-Sans
+    family: PT Sans
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Bold
+    family: PT Sans
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Bold-Italic
+    family: PT Sans
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Caption
+    family: PT Sans Caption
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Caption-Bold
+    family: PT Sans Caption
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Italic
+    family: PT Sans
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Narrow
+    family: PT Sans Narrow
+    style: Normal
+    stretch: Condensed
+    weight: 400
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Sans-Narrow-Bold
+    family: PT Sans Narrow
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/PTSans.ttc
+  Font: PT-Serif
+    family: PT Serif
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSerif.ttc
+  Font: PT-Serif-Bold
+    family: PT Serif
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PTSerif.ttc
+  Font: PT-Serif-Bold-Italic
+    family: PT Serif
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/PTSerif.ttc
+  Font: PT-Serif-Caption
+    family: PT Serif Caption
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSerifCaption.ttc
+  Font: PT-Serif-Caption-Italic
+    family: PT Serif Caption
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSerifCaption.ttc
+  Font: PT-Serif-Italic
+    family: PT Serif
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/PTSerif.ttc
+  Font: Raanana
+    family: Raanana
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Raanana.ttc
+  Font: Raanana-Bold
+    family: Raanana
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Raanana.ttc
+  Font: Rockwell
+    family: Rockwell
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Rockwell
+  Font: Rockwell-Bold
+    family: Rockwell
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Rockwell
+  Font: Rockwell-Bold-Italic
+    family: Rockwell
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Rockwell
+  Font: Rockwell-Extra-Bold
+    family: Rockwell Extra Bold
+    style: Normal
+    stretch: Normal
+    weight: 800
+    glyphs: /Library/Fonts/Microsoft/Rockwell Extra Bold
+  Font: Rockwell-Italic
+    family: Rockwell
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Rockwell
+  Font: RosewoodStd-Regular
+    family: Rosewood Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/RosewoodStd-Regular.otf
+  Font: Sana
+    family: Sana
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Sana.ttc
+  Font: Sathu
+    family: Sathu
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Sathu.ttf
+  Font: Savoye-LET-Plain
+    family: Savoye LET
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Savoye LET.ttc
+  Font: Seravek
+    family: Seravek
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Bold
+    family: Seravek
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Bold-Italic
+    family: Seravek
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-ExtraLight
+    family: Seravek
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-ExtraLight-Italic
+    family: Seravek
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Italic
+    family: Seravek
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Light
+    family: Seravek
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Light-Italic
+    family: Seravek
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Medium
+    family: Seravek
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Seravek-Medium-Italic
+    family: Seravek
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Seravek.ttc
+  Font: Serto-Batnan
+    family: Serto Batnan
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMBatnan.otf
+  Font: Serto-Batnan-Bold
+    family: Serto Batnan
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMBatnanBold.otf
+  Font: Serto-Jerusalem
+    family: Serto Jerusalem
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMJerusalem.otf
+  Font: Serto-Jerusalem-Bold
+    family: Serto Jerusalem
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMJerusalemBold.otf
+  Font: Serto-Jerusalem-Italic
+    family: Serto Jerusalem
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMJerusalemItalic.otf
+  Font: Serto-Jerusalem-Outline
+    family: Serto Jerusalem Outline
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMJerusalemOutline.otf
+  Font: Serto-Kharput
+    family: Serto Kharput
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMKharput.otf
+  Font: Serto-Malankara
+    family: Serto Malankara
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMMalankara.otf
+  Font: Serto-Mardin
+    family: Serto Mardin
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMMardin.otf
+  Font: Serto-Mardin-Bold
+    family: Serto Mardin
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMMardinBold.otf
+  Font: Serto-Urhoy
+    family: Serto Urhoy
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMUrhoy.otf
+  Font: Serto-Urhoy-Bold
+    family: Serto Urhoy
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/OTF/SyrCOMUrhoyBold.otf
+  Font: Silom
+    family: Silom
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Silom.ttf
+  Font: SimHei
+    family: SimHei
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/SimHei.ttf
+  Font: SimSun
+    family: SimSun
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/SimSun.ttf
+  Font: SimSun-ExtB
+    family: SimSun-ExtB
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/SimSun-ExtB.ttf
+  Font: Sinhala-MN
+    family: Sinhala MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Sinhala MN.ttc
+  Font: Sinhala-MN-Bold
+    family: Sinhala MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Sinhala MN.ttc
+  Font: Sinhala-Sangam-MN
+    family: Sinhala Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Sinhala Sangam MN.ttc
+  Font: Sinhala-Sangam-MN-Bold
+    family: Sinhala Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Sinhala Sangam MN.ttc
+  Font: Skia
+    family: Skia
+    style: Normal
+    stretch: Normal
+    weight: 100
+    glyphs: /Library/Fonts/Skia.ttf
+  Font: Snell-Roundhand
+    family: Snell Roundhand
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/SnellRoundhand.ttc
+  Font: Snell-Roundhand-Black
+    family: Snell Roundhand
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/SnellRoundhand.ttc
+  Font: Snell-Roundhand-Bold
+    family: Snell Roundhand
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/SnellRoundhand.ttc
+  Font: Songti-SC-Black
+    family: Songti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Songti-SC-Bold
+    family: Songti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Songti-SC-Light
+    family: Songti TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Songti-SC-Regular
+    family: Songti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Songti-TC-Bold
+    family: Songti TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Songti-TC-Regular
+    family: Songti TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Source-Sans-Pro
+    family: Source Sans Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/SourceSansPro-Regular.otf
+  Font: Source-Sans-Pro-Black
+    family: Source Sans Pro
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/SourceSansPro-Black.otf
+  Font: Source-Sans-Pro-Black-Italic
+    family: Source Sans Pro
+    style: Italic
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/SourceSansPro-BlackIt.otf
+  Font: Source-Sans-Pro-Bold
+    family: Source Sans Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/SourceSansPro-Bold.otf
+  Font: Source-Sans-Pro-Bold-Italic
+    family: Source Sans Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/SourceSansPro-BoldIt.otf
+  Font: Source-Sans-Pro-ExtraLight
+    family: Source Sans Pro
+    style: Normal
+    stretch: Normal
+    weight: 200
+    glyphs: /Library/Fonts/SourceSansPro-ExtraLight.otf
+  Font: Source-Sans-Pro-ExtraLight-Italic
+    family: Source Sans Pro
+    style: Italic
+    stretch: Normal
+    weight: 200
+    glyphs: /Library/Fonts/SourceSansPro-ExtraLightIt.otf
+  Font: Source-Sans-Pro-Italic
+    family: Source Sans Pro
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/SourceSansPro-It.otf
+  Font: Source-Sans-Pro-Light
+    family: Source Sans Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/SourceSansPro-Light.otf
+  Font: Source-Sans-Pro-Light-Italic
+    family: Source Sans Pro
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/SourceSansPro-LightIt.otf
+  Font: Source-Sans-Pro-Semibold
+    family: Source Sans Pro
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/SourceSansPro-Semibold.otf
+  Font: Source-Sans-Pro-Semibold-Italic
+    family: Source Sans Pro
+    style: Italic
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/SourceSansPro-SemiboldIt.otf
+  Font: Standard-Symbols-L
+    family: Standard Symbols L
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/s050000l.pfb
+  Font: Stencil
+    family: Stencil
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Stencil
+  Font: StencilStd
+    family: Stencil Std
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/StencilStd.otf
+  Font: STFangsong
+    family: STFangsong
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/华文仿宋.ttf
+  Font: STHeiti
+    family: STHeiti
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/华文黑体.ttf
+  Font: STHeiti-Light
+    family: STHeiti
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/华文细黑.ttf
+  Font: STIXGeneral-Bold
+    family: STIXGeneral
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXGeneralBol.otf
+  Font: STIXGeneral-BoldItalic
+    family: STIXGeneral
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXGeneralBolIta.otf
+  Font: STIXGeneral-Italic
+    family: STIXGeneral
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXGeneralItalic.otf
+  Font: STIXGeneral-Regular
+    family: STIXGeneral
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXGeneral.otf
+  Font: STIXIntegralsD-Bold
+    family: STIXIntegralsD
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXIntDBol.otf
+  Font: STIXIntegralsD-Regular
+    family: STIXIntegralsD
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXIntDReg.otf
+  Font: STIXIntegralsSm-Bold
+    family: STIXIntegralsSm
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXIntSmBol.otf
+  Font: STIXIntegralsSm-Regular
+    family: STIXIntegralsSm
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXIntSmReg.otf
+  Font: STIXIntegralsUp-Bold
+    family: STIXIntegralsUp
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXIntUpBol.otf
+  Font: STIXIntegralsUp-Regular
+    family: STIXIntegralsUp
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXIntUpReg.otf
+  Font: STIXIntegralsUpD-Bold
+    family: STIXIntegralsUpD
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXIntUpDBol.otf
+  Font: STIXIntegralsUpD-Regular
+    family: STIXIntegralsUpD
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXIntUpDReg.otf
+  Font: STIXIntegralsUpSm-Bold
+    family: STIXIntegralsUpSm
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXIntUpSmBol.otf
+  Font: STIXIntegralsUpSm-Regular
+    family: STIXIntegralsUpSm
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXIntUpSmReg.otf
+  Font: STIXNonUnicode-Bold
+    family: STIXNonUnicode
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXNonUniBol.otf
+  Font: STIXNonUnicode-BoldItalic
+    family: STIXNonUnicode
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXNonUniBolIta.otf
+  Font: STIXNonUnicode-Italic
+    family: STIXNonUnicode
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXNonUniIta.otf
+  Font: STIXNonUnicode-Regular
+    family: STIXNonUnicode
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXNonUni.otf
+  Font: STIXSizeFiveSym-Regular
+    family: STIXSizeFiveSym
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXSizFiveSymReg.otf
+  Font: STIXSizeFourSym-Bold
+    family: STIXSizeFourSym
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXSizFourSymBol.otf
+  Font: STIXSizeFourSym-Regular
+    family: STIXSizeFourSym
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXSizFourSymReg.otf
+  Font: STIXSizeOneSym-Bold
+    family: STIXSizeOneSym
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXSizOneSymBol.otf
+  Font: STIXSizeOneSym-Regular
+    family: STIXSizeOneSym
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXSizOneSymReg.otf
+  Font: STIXSizeThreeSym-Bold
+    family: STIXSizeThreeSym
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXSizThreeSymBol.otf
+  Font: STIXSizeThreeSym-Regular
+    family: STIXSizeThreeSym
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXSizThreeSymReg.otf
+  Font: STIXSizeTwoSym-Bold
+    family: STIXSizeTwoSym
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXSizTwoSymBol.otf
+  Font: STIXSizeTwoSym-Regular
+    family: STIXSizeTwoSym
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXSizTwoSymReg.otf
+  Font: STIXVariants-Bold
+    family: STIXVariants
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/STIXVarBol.otf
+  Font: STIXVariants-Regular
+    family: STIXVariants
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/STIXVar.otf
+  Font: STKaiti
+    family: STKaiti
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Kaiti.ttc
+  Font: STSong
+    family: STSong
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Songti.ttc
+  Font: Superclarendon-Black
+    family: Superclarendon
+    style: Normal
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Black-Italic
+    family: Superclarendon
+    style: Italic
+    stretch: Normal
+    weight: 900
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Bold
+    family: Superclarendon
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Bold-Italic
+    family: Superclarendon
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Italic
+    family: Superclarendon
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Light
+    family: Superclarendon
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Light-Italic
+    family: Superclarendon
+    style: Italic
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Superclarendon-Regular
+    family: Superclarendon
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/SuperClarendon.ttc
+  Font: Symbol
+    family: Symbol
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Symbol.ttf
+  Font: System-Font-Bold
+    family: System Font
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/LucidaGrande.ttc
+  Font: System-Font-Regular
+    family: System Font
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/LucidaGrande.ttc
+  Font: Tahoma
+    family: Tahoma
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Tahoma
+  Font: Tahoma-Bold
+    family: Tahoma
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Tahoma
+  Font: Tamil-MN
+    family: Tamil MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Tamil MN.ttc
+  Font: Tamil-MN-Bold
+    family: Tamil MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Tamil MN.ttc
+  Font: Tamil-Sangam-MN
+    family: Tamil Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Tamil Sangam MN.ttc
+  Font: Tamil-Sangam-MN-Bold
+    family: Tamil Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Tamil Sangam MN.ttc
+  Font: TeamViewer9
+    family: TeamViewer9
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/TeamViewer9.otf
+  Font: TektonPro-Bold
+    family: Tekton Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/TektonPro-Bold.otf
+  Font: TektonPro-BoldCond
+    family: Tekton Pro
+    style: Normal
+    stretch: Condensed
+    weight: 700
+    glyphs: /Library/Fonts/TektonPro-BoldCond.otf
+  Font: TektonPro-BoldExt
+    family: Tekton Pro
+    style: Normal
+    stretch: Expanded
+    weight: 700
+    glyphs: /Library/Fonts/TektonPro-BoldExt.otf
+  Font: TektonPro-BoldObl
+    family: Tekton Pro
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/TektonPro-BoldObl.otf
+  Font: Telugu-MN
+    family: Telugu MN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Telugu MN.ttc
+  Font: Telugu-MN-Bold
+    family: Telugu MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Telugu MN.ttc
+  Font: Telugu-Sangam-MN
+    family: Telugu Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Telugu Sangam MN.ttc
+  Font: Telugu-Sangam-MN-Bold
+    family: Telugu Sangam MN
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Telugu Sangam MN.ttc
+  Font: Thonburi
+    family: Thonburi
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Thonburi.ttc
+  Font: Thonburi-Light
+    family: Thonburi
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/Thonburi.ttc
+  Font: Thonburi-粗體
+    family: Thonburi
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Thonburi.ttc
+  Font: Times
+    family: Times
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/Times.dfont
+  Font: Times-Bold
+    family: Times
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Times.dfont
+  Font: Times-Bold-Italic
+    family: Times
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /System/Library/Fonts/Times.dfont
+  Font: Times-Italic
+    family: Times
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /System/Library/Fonts/Times.dfont
+  Font: Times-New-Roman
+    family: Times New Roman
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Times New Roman.ttf
+  Font: Times-New-Roman-Bold
+    family: Times New Roman
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Times New Roman Bold.ttf
+  Font: Times-New-Roman-Bold-Italic
+    family: Times New Roman
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Times New Roman Bold Italic.ttf
+  Font: Times-New-Roman-Italic
+    family: Times New Roman
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Times New Roman Italic.ttf
+  Font: Trajan-Pro-3
+    family: Trajan Pro 3
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/TrajanPro3-Regular.otf
+  Font: Trajan-Pro-3-Bold
+    family: Trajan Pro 3
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/TrajanPro3-Bold.otf
+  Font: TrajanPro-Bold
+    family: Trajan Pro
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/TrajanPro-Bold.otf
+  Font: TrajanPro-Regular
+    family: Trajan Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/TrajanPro-Regular.otf
+  Font: Trebuchet-MS
+    family: Trebuchet MS
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Trebuchet MS.ttf
+  Font: Trebuchet-MS-Bold
+    family: Trebuchet MS
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Trebuchet MS Bold.ttf
+  Font: Trebuchet-MS-Bold-Italic
+    family: Trebuchet MS
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Trebuchet MS
+  Font: Trebuchet-MS-Italic
+    family: Trebuchet MS
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Trebuchet MS
+  Font: Tw-Cen-MT
+    family: Tw Cen MT
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Tw Cen MT.ttf
+  Font: Tw-Cen-MT-Bold
+    family: Tw Cen MT
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Tw Cen MT Bold.ttf
+  Font: Tw-Cen-MT-Bold-Italic
+    family: Tw Cen MT
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Microsoft/Tw Cen MT Bold Italic.ttf
+  Font: Tw-Cen-MT-Italic
+    family: Tw Cen MT
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Tw Cen MT Italic.ttf
+  Font: URW-Bookman-L-Demi-Bold
+    family: URW Bookman L
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/b018015l.pfb
+  Font: URW-Bookman-L-Demi-Bold-Italic
+    family: URW Bookman L
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/b018035l.pfb
+  Font: URW-Bookman-L-Light
+    family: URW Bookman L
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/b018012l.pfb
+  Font: URW-Bookman-L-Light-Italic
+    family: URW Bookman L
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/urw-fonts/b018032l.pfb
+  Font: URW-Chancery-L-Medium-Italic
+    family: URW Chancery L
+    style: Italic
+    stretch: Normal
+    weight: 500
+    glyphs: /opt/local/share/fonts/urw-fonts/z003034l.pfb
+  Font: URW-Gothic-L-Book
+    family: URW Gothic L
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /opt/local/share/fonts/urw-fonts/a010013l.pfb
+  Font: URW-Gothic-L-Book-Oblique
+    family: URW Gothic L
+    style: Oblique
+    stretch: Normal
+    weight: 300
+    glyphs: /opt/local/share/fonts/urw-fonts/a010033l.pfb
+  Font: URW-Gothic-L-Demi
+    family: URW Gothic L
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /opt/local/share/fonts/urw-fonts/a010015l.pfb
+  Font: URW-Gothic-L-Demi-Oblique
+    family: URW Gothic L
+    style: Oblique
+    stretch: Normal
+    weight: 600
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/a010035l.pfb
+  Font: URW-Palladio-L-Bold
+    family: URW Palladio L
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/p052004l.pfb
+  Font: URW-Palladio-L-Bold-Italic
+    family: URW Palladio L
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /opt/local/share/fonts/urw-fonts/p052024l.pfb
+  Font: URW-Palladio-L-Italic
+    family: URW Palladio L
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/p052023l.pfb
+  Font: URW-Palladio-L-Roman
+    family: URW Palladio L
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /opt/local/share/fonts/Type1/gsfonts/p052003l.pfb
+  Font: Utopia
+    family: Utopia
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/UTRG____.pfa
+  Font: Utopia-Bold
+    family: Utopia
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/UTB_____.pfa
+  Font: Utopia-Bold-Italic
+    family: Utopia
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /usr/X11/lib/X11/fonts/Type1/UTBI____.pfa
+  Font: Utopia-Italic
+    family: Utopia
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /usr/X11/lib/X11/fonts/Type1/UTI_____.pfa
+  Font: Verdana
+    family: Verdana
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Verdana.ttf
+  Font: Verdana-Bold
+    family: Verdana
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Verdana Bold.ttf
+  Font: Verdana-Bold-Italic
+    family: Verdana
+    style: Italic
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Verdana Bold Italic.ttf
+  Font: Verdana-Italic
+    family: Verdana
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Verdana Italic.ttf
+  Font: Waseem
+    family: Waseem
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Waseem.ttc
+  Font: Waseem-Light
+    family: Waseem
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/Waseem.ttc
+  Font: Wawati-SC-Regular
+    family: Wawati SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/WawaSC-Regular.otf
+  Font: Wawati-TC-Regular
+    family: Wawati TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/WawaTC-Regular.otf
+  Font: Webdings
+    family: Webdings
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Webdings.ttf
+  Font: Weibei-SC-Bold
+    family: HanziPen SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Hanzipen.ttc
+  Font: Weibei-TC-Bold
+    family: Weibei TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/WeibeiTC-Bold.otf
+  Font: Wide-Latin
+    family: Wide Latin
+    style: Normal
+    stretch: UltraExpanded
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Wide Latin
+  Font: Wingdings
+    family: Wingdings
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Wingdings.ttf
+  Font: Wingdings-2
+    family: Wingdings 2
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Wingdings 2.ttf
+  Font: Wingdings-3
+    family: Wingdings 3
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Microsoft/Wingdings 3.ttf
+  Font: Xingkai-SC-Bold
+    family: Xingkai SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Xingkai.ttc
+  Font: Xingkai-SC-Light
+    family: Xingkai SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Xingkai.ttc
+  Font: Yuanti-SC-Bold
+    family: Yuanti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Yuanti.ttc
+  Font: Yuanti-SC-Light
+    family: Yuanti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Yuanti.ttc
+  Font: Yuanti-SC-Regular
+    family: Yuanti SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Yuanti.ttc
+  Font: YuGothic-Bold
+    family: YuGothic
+    style: Normal
+    stretch: Normal
+    weight: 700
+    glyphs: /Library/Fonts/Yu Gothic Bold.otf
+  Font: YuGothic-Medium
+    family: YuGothic
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Yu Gothic Medium.otf
+  Font: YuMincho-Demibold
+    family: YuMincho
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/Yu Mincho Demibold.otf
+  Font: YuMincho-Medium
+    family: YuMincho
+    style: Normal
+    stretch: Normal
+    weight: 500
+    glyphs: /Library/Fonts/Yu Mincho Medium.otf
+  Font: Yuppy-SC-Regular
+    family: Yuppy SC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/YuppySC-Regular.otf
+  Font: Yuppy-TC-Regular
+    family: Yuppy TC
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/YuppyTC-Regular.otf
+  Font: Zapf-Dingbats
+    family: Zapf Dingbats
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /System/Library/Fonts/ZapfDingbats.ttf
+  Font: Zapfino
+    family: Zapfino
+    style: Italic
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/Zapfino.ttf
+  Font: ヒラギノ丸ゴ-Pro-W4
+    family: Hiragino Maru Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ヒラギノ丸ゴ Pro W4.otf
+  Font: ヒラギノ丸ゴ-ProN-W4
+    family: Hiragino Maru Gothic ProN
+    style: Normal
+    stretch: Normal
+    weight: 400
+    glyphs: /Library/Fonts/ヒラギノ丸ゴ ProN W4.otf
+  Font: ヒラギノ明朝-Pro-W3
+    family: Hiragino Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/ヒラギノ明朝 Pro W3.otf
+  Font: ヒラギノ明朝-Pro-W6
+    family: Hiragino Mincho Pro
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/ヒラギノ明朝 Pro W6.otf
+  Font: ヒラギノ明朝-ProN-W3
+    family: Hiragino Mincho ProN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/ヒラギノ明朝 ProN W3.otf
+  Font: ヒラギノ明朝-ProN-W6
+    family: Hiragino Mincho ProN
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/ヒラギノ明朝 ProN W6.otf
+  Font: ヒラギノ角ゴ-Pro-W3
+    family: Hiragino Kaku Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /Library/Fonts/ヒラギノ角ゴ Pro W3.otf
+  Font: ヒラギノ角ゴ-Pro-W6
+    family: Hiragino Kaku Gothic Pro
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /Library/Fonts/ヒラギノ角ゴ Pro W6.otf
+  Font: ヒラギノ角ゴ-ProN-W3
+    family: Hiragino Kaku Gothic ProN
+    style: Normal
+    stretch: Normal
+    weight: 300
+    glyphs: /System/Library/Fonts/ヒラギノ角ゴ ProN W3.otf
+  Font: ヒラギノ角ゴ-ProN-W6
+    family: Hiragino Kaku Gothic ProN
+    style: Normal
+    stretch: Normal
+    weight: 600
+    glyphs: /System/Library/Fonts/ヒラギノ角ゴ ProN W6.otf
+  Font: ヒラギノ角ゴ-Std-W8
+    family: Hiragino Kaku Gothic Std
+    style: Normal
+    stretch: Normal
+    weight: 800
+    glyphs: /Library/Fonts/ヒラギノ角ゴ Std W8.otf
+  Font: ヒラギノ角ゴ-StdN-W8
+    family: Hiragino Kaku Gothic StdN
+    style: Normal
+    stretch: Normal
+    weight: 800
+    glyphs: /Library/Fonts/ヒラギノ角ゴ StdN W8.otf

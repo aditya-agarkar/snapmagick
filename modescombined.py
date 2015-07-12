@@ -17,7 +17,8 @@ m6_font = 60
 m7_font = 30
 
 objectFileName = "MetaData/objects.csv"
-standardsFileName = "MetaData/final_kw_standards.csv"
+standardsFileName = "MetaData/testobjects.csv"
+#standardsFileName = "MetaData/final_kw_standards.csv"
 #standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 polygonFileName = "MetaData/polygons.csv"
@@ -371,7 +372,7 @@ with open(standardsFileName,"rU") as f:
                                         commFile.write("convert -size 100x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 50,35 70,35' temp.png\n")
                                         commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                                         commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
-                                        commFile.write("convert -size 100x100 canvas:none -gravity center -font " + match[2] + " -fill '" + textColor + "' -density 190 -pointsize 30 -annotate +0-10 '" + match[3] + "' obj.png\n")
+                                        commFile.write("convert -size 100x100 canvas:none -gravity center -font " + match[2] + " -fill '" + textColor + "' -density 190 -pointsize 30 -annotate +0+0 '" + match[3] + "' obj.png\n")
                                         commFile.write("convert -size 200x100 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity northwest obj.png -composite " + output_folder+ row[2] +"-1.gif\n")
                                     else:
                                         if match[3] == "N":
@@ -408,7 +409,7 @@ with open(standardsFileName,"rU") as f:
 
                       #c =  color_from_pallet(iconbgDict[iconbg])
                       #rand_col = rand_lighter_color(bg)
-                      if( length < 60):
+                      if( length < 51):
                             commFile.write("<span font=\"Montserrat Bold\" size=\"15000\"")
                             textColor=fglist[random.randint(0,len(fglist)-1)]
                             commFile.write(' foreground="'+textColor+'">' + w.upper() + ' </span>')
