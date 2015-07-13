@@ -23,6 +23,8 @@ icon,3d,3d.png,Y
 icon,45angle,45angle.png,Y
 icon,alarm,alarm.png,Y
 icon,alert,alert.png,Y
+icon,table,table.png,Y
+icon,expression,expression-12.png,Y
 icon,alpha,alpha.png,Y
 icon,analysis,analysis.png,Y
 icon,analyze,analyze.png,Y
@@ -718,6 +720,7 @@ font,planet,DavysOtherDingbats-Normal,f
 font,nuclear,DavysOtherDingbats-Normal,i
 font,atom,DavysOtherDingbats-Normal,i
 font,wave,DavysOtherDingbats-Normal,y
+font,waves,DavysOtherDingbats-Normal,y
 font,moon,DavysOtherDingbats-Normal,c
 font,snowflake,DavysOtherDingbats-Normal,j
 font,structure,DavysOtherDingbats-Normal,j
