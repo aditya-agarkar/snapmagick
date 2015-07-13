@@ -18,7 +18,7 @@ m7_font = 35
 
 objectFileName = "MetaData/objects.csv"
 #standardsFileName = "MetaData/testobjects.csv"
-standardsFileName = "MetaData/final_kw_standards.csv"
+#standardsFileName = "MetaData/final_kw_standards.csv"
 #standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 polygonFileName = "MetaData/polygons.csv"
@@ -168,7 +168,7 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
             if match[1] == kw:
                 objmatchList.append(match)
                 found=True
-    if((len(objmatchList)-1)==0):
+    if(len(objmatchList)==0):
         return obj
     while(n>len(objmatchList)-1):
         objmatchList=objmatchList+objmatchList
@@ -186,7 +186,10 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
             obj.append("convert  -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
             "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#e76255' -alpha on temp-" + str(ncolor) + ".png\n"
             "convert -size 100x100 canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
-        ncolor=ncolor+1
+        if(objmatchList[rows][0]=='pango'):
+            l,w = temp_size.split("x")
+            obj.append("convert -background transparent -define pango:gravity=center pango:'<span font=\"FontAwesome Regular\" size=\"" + str(850*int(l)) + "\" foreground=\"" + fglist[ncolor] +"\">" +  objmatchList[rows][3] + "</span>' temp-" + str(ncolor) + ".png\n")
+            ncolor=ncolor+1
     return obj
 
 def rand_bg_from_pallet(pnum,bgColorTup):
@@ -388,10 +391,10 @@ with open(standardsFileName,"rU") as f:
                         if len(row[1]) == 1:
                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         else:
-                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 9 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 150 -pointsize 9 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
-                        commFile.write("convert -size 200x100 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity northwest temp-0.png -composite " + output_folder+ row[2] +"-1.gif\n")
+                        commFile.write("convert -size 200x100 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity west temp-0.png -composite " + output_folder+ row[2] +"-1.gif\n")
 
                 if card_model == 2:
                     iconbg = bglist[0]

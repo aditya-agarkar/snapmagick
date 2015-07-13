@@ -1,5 +1,5 @@
 __author__ = 'adityaagarkar'
-import codecs
+import string
 import random
-x=random.sample(range(1, 4), 3)
-print(x)
+l,w = "100x50".split("x")
+print(w)
