@@ -46,7 +46,7 @@ m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
 icon_resize = "'"+str(int(final_height/1.2))+">'"
 
-pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: ["p1","p2"], 5: [] , 6: ["p1"], 7: ["p1"] , 8: ["p1"], 9: ["p1","p3"] , 10: ["p1","p3"]}
+pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: [], 5: [] , 6: [], 7: [] , 8: [], 9: [] , 10: ["p1","p3"]}
 
 class Object(object):
     def __init__(self,one,two):
@@ -392,10 +392,10 @@ with open(standardsFileName,"rU") as f:
                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         else:
                             commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 150 -pointsize 9 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                        commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[1] + "." + row[3] + "' temp.png\n")
+                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[3] + "' temp.png\n")
                         commFile.write("convert -size 200x100 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity west temp-0.png -composite " + output_folder+ row[2] +"-1.gif\n")
-
+                    else:
+                        exception_list.append(row[2] + " " + ','.join(keys) + "\n")
                 if card_model == 2:
                     iconbg = bglist[0]
                     commFile.write("convert -background '"+ iconbg + "' -size " + str(final_width-30) + " -define pango:justify=false pango:" + '\'')
@@ -452,12 +452,13 @@ with open(standardsFileName,"rU") as f:
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
                         commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
-
+                    else:
+                        exception_list.append(row[2] + " " + ','.join(keys) + "\n")
                 if card_model == 5:
                     iconbg = bglist[0]
                     textColor=fglist[0]
                     temp_size='100x100'
-                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font,0)
+                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write("convert -size " + final_size + " canvas:'" + iconbg + "' -gravity center temp-0.png -composite " + output_folder+ row[2] +"-5.gif\n")
@@ -548,6 +549,7 @@ with open(standardsFileName,"rU") as f:
 
             else:
                 exception_list.append("no objects found for standard " + id)
+                exception_list.append(row[6] + " " + ','.join(keys) + "\n")
         if count == break_line:
              break
 commFile.close()
