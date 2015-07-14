@@ -46,7 +46,7 @@ m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
 icon_resize = "'"+str(int(final_height/1.2))+">'"
 
-pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: [], 5: [] , 6: [], 7: [] , 8: [], 9: [] , 10: ["p1","p3"]}
+pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: [], 5: [] , 6: [], 7: [] , 8: [], 9: ["p1","p3"] , 10: []}
 
 class Object(object):
     def __init__(self,one,two):
