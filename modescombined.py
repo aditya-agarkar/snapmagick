@@ -6,9 +6,9 @@ from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
+#output_folder = "/cam/motion/images/"
 num_pallets = 5
-#output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
+output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -193,7 +193,7 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
             "<span font=\"FontAwesome Regular\" size=\"" + str(800*int(l)) + "\" foreground=\"" + fglist[ncolor] +"\">" +  objmatchList[rows][3] +
             "</span>' temp-" + str(ncolor) + ".png\n"
             "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
-            ncolor=ncolor+1
+        ncolor=ncolor+1
     return obj
 
 def rand_bg_from_pallet(pnum,bgColorTup):
@@ -386,7 +386,7 @@ with open(standardsFileName,"rU") as f:
 
                     iconbg=bglist[0]
                     textColor=fglist[0]
-                    temp_size='100x100'
+                    temp_size='90x90'
                     obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,190,30)
                     if(len(obj)>0):
                         commFile.write(obj[0])
@@ -446,22 +446,22 @@ with open(standardsFileName,"rU") as f:
                     iconbg = bglist[0]
                     ###print keys
                     ###print start_key
-                    temp_size='100x100'
+                    temp_size='90x90'
                     obj = get_object_string(keys,objects,3,fglist,iconbg,temp_size,icon_resize,final_size,190,m4_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 a.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 b.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 80x80 c.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 70x70 a.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 70x70 b.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 70x70 c.png\n")
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
                 if card_model == 5:
                     iconbg = bglist[0]
                     textColor=fglist[0]
-                    temp_size='100x100'
+                    temp_size='180x90'
                     obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
@@ -470,9 +470,9 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 6: # m6
                     icon_resize = "'"+str(60)+">'"
-                    temp_size='70x100'
-                    obj = get_object_string(keys,objects,3,fglist,bglist,temp_size,icon_resize,final_size,90,m6_font)
-                    if(len(obj)>0):
+                    temp_size='66x95'
+                    obj = get_object_string(keys,objects,3,fglist,bglist,temp_size,icon_resize,final_size,80,m6_font)
+                    if(len(obj)>3):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
@@ -483,9 +483,9 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 7:
                     icon_resize = "'"+str(int(40))+">'"
-                    temp_size='100x50'
+                    temp_size='98x48'
                     obj = get_object_string(keys,objects,4,fglist,bglist,temp_size,icon_resize,final_size,90,m7_font)
-                    if(len(obj)>0):
+                    if(len(obj)>4):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
