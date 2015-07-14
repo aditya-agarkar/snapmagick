@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063f44c5-356b-434c-a9d3-eccf31e675a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands.sh" afterPath="$PROJECT_DIR$/commands.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exceptions.txt" afterPath="$PROJECT_DIR$/exceptions.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-1.html" afterPath="$PROJECT_DIR$/index-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modescombined.py" afterPath="$PROJECT_DIR$/modescombined.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetaData/objects.csv" afterPath="$PROJECT_DIR$/MetaData/objects.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SourceImages/supp-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SourceImages/system-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SourceImages/triangle-5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SourceImages/triangle-9.html" afterPath="" />
     </list>
     <ignored path="snapmagick.iws" />
     <ignored path=".idea/workspace.xml" />
