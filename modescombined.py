@@ -5,7 +5,7 @@ import colorsys
 from randomcolor import RandomColor
 
 #which mode to draw
-card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
+card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
 output_folder = "/cam/motion/images/"
 num_pallets = 5
 #output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
@@ -498,10 +498,6 @@ with open(standardsFileName,"rU") as f:
                         commFile.write("convert -size " + final_size + " canvas:'#ffffff' -gravity northeast a.png -composite -gravity northwest b.png -composite -gravity southeast c.png -composite -gravity southwest d.png -composite " +output_folder+ id + "-7.gif\n")
 
                 if card_model == 8:
-                    icon_resize = "'"+str(int(40))+">'"
-                    temp_size='70x100'
-
-                if card_model == 9:
 
                     length = 0
                     lines = 1
@@ -527,7 +523,7 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
                     commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+0 '" + string + "' " + output_folder + id +"-9.gif\n")
 
-                if card_model == 10:
+                if card_model == 9:
                     icon_resize = "'"+str(int(60))+">'"
                     temp_size='80x60'
                     obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,80,40)
