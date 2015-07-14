@@ -472,7 +472,7 @@ with open(standardsFileName,"rU") as f:
                     icon_resize = "'"+str(60)+">'"
                     temp_size='66x95'
                     obj = get_object_string(keys,objects,3,fglist,bglist,temp_size,icon_resize,final_size,80,m6_font)
-                    if(len(obj)>3):
+                    if(len(obj)==3):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
@@ -485,7 +485,7 @@ with open(standardsFileName,"rU") as f:
                     icon_resize = "'"+str(int(40))+">'"
                     temp_size='98x48'
                     obj = get_object_string(keys,objects,4,fglist,bglist,temp_size,icon_resize,final_size,90,m7_font)
-                    if(len(obj)>4):
+                    if(len(obj)==4):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
