@@ -1,532 +1,677 @@
-writing,writing-3.jpg
-writing,writing-1.jpg
-words,words-3.jpg
-words,words-2.jpg
-word,word.jpg
-word,word-8.jpg
-word,word-6.jpg
-word,word-5.jpg
-word,word-3.jpg
-waves,waves-1.jpg
-vocabulary,vocabulary-1.jpg
-triangle,triangle.png
-triangle,triangle-9.png
-triangle,triangle-9.html
-triangle,triangle-8.jpeg
-triangle,triangle-6.jpeg
-triangle,triangle-5.html
-triangle,triangle-4.jpeg
-triangle,triangle-2.gif
-triangle,triangle-10.jpg
-triangle,triangle-1.jpg
-tools,tools-1.jpg
-text,text-3.jpg
-text,text-1.jpg
-talk,talk.jpg
-system,system-1.png
-surface,surface.jpg
-support,support-6.jpg
-support,support-4.jpg
-support,support-3.png
-support,support-2.png
-support,support-2.jpg
-support,support-1.png
-supp,supp-5.jpg
-supp,supp-1.jpg
-summary,summary.jpg
-structure,structure.jpg
-story,story.jpeg
-story,story-5.jpg
-story,story-4.jpg
-story,story-2.jpg
-statistics,statistics-1.jpg
-species,species-1.jpg
-solar,solar-1.jpg
-slice,slice-2.png
-slice,slice-1.jpg
-skills,skills-5.jpg
-skills,skills-4.jpg
-skill,skill-5.png
-skill,skill-3.png
-skill,skill-1.png
-shapes,shapes-1.jpg
-shape,shape-1.png
-scientific,scientific-1.jpg
-science,science
-scale,scale-1.png
-reward,reward.jpg
-research,research-3.jpg
-research,research-2.jpg
-research,research-1.jpg
-report,report.png
-reading,reading-1.jpg
-read,read.png
-read,read-7.jpg
-read,read-6.jpg
-read,read-3.jpg
-read,read-2.png
-read,read-1.png
-radius,radius-3.jpg
-radius,radius-1.png
-question,question.jpg
-question,question-4.jpg
-question,question-2.jpg
-question,question-1.jpg
-puzzle,puzzle.jpg
-punctuation,punctuation-1.jpg
-problems,problems-2.jpg
-problems,problems-1.jpg
-problem,problem.jpg
-problem,problem-4.jpg
-problem,problem-3.jpg
-problem,problem-2.jpg
-probability,probability-2.jpg
-probability,probability-1.jpg
-print,print.jpeg
-print,print-5.jpeg
-print,print-4.jpg
-print,print-3.jpeg
-print,print-2.png
-price,price.jpeg
-price,price-2.jpeg
-plot,plot-9
-plot,plot-7
-plot,plot-5
-plot,plot-4
-plot,plot-15
-plot,plot-14
-plot,plot-13
-plot,plot-12
-plot,plot-11
-plot,plot
-plane,plane-6.png
-plane,plane-4.jpg
-plane,plane-3.png
-plane,plane-2.png
-plane,plane-1.jpeg
-phrase,phrase.gif
-perspective,perspective.jpg
-pattern,pattern.jpg
-output,output.jpg
-organize,organize.jpg
-organisms,organisms-2.jpg
-organisms,organisms-1.jpg
-observe,observe.jpg
-numbers,numbers-3.jpg
-numbers,numbers-2.jpg
-numbers,numbers-1.jpg
-nuclear,nuclear
-newspaper,newspaper.jpg
-news,news.jpeg
-network,network.jpg
-multimedia,multimedia-2.jpg
-molecules,molecules.jpg
-media,media-3.jpg
-media,media-2.jpg
-media,media-1.jpg
-measurement,measurement.png
-measurement,measurement-2.jpg
-measure,measure
-matter,matter.jpg
-mathmodel,mathmodel-2.jpg
-math,math
-material,material.png
-letter,letter.jpg
-letter,letter-6.jpg
-learning,learning-7.png
-learning,learning-7.jpg
-learning,learning-6.png
-learning,learning-6.jpg
-learning,learning-6.jpeg
-learning,learning-5.jpg
-learning,learning-4.jpg
-learning,learning-3.jpg
-learning,learning-2.jpg
-learning,learning-2.jpeg
-learning,learning-15.jpg
-learning,learning-14.jpg
-learning,learning-13.jpg
-learning,learning-1.jpeg
-latin,latin.jpg
-language,language-2.jpg
-language,language-1.jpg
-japan,japan.jpg
-italy,italy.png
-internet,internet.jpg
-information,information.jpg
-information,information-5.png
-information,information-4.png
-information,information-3.png
-information,information-3.jpg
-information,information-2.jpg
-information,information-1.png
-information,info-6.jpg
-information,info-5.jpg
-information,info-4.jpg
-inequatlities,inequatlities.png
-inequalities,inequalities-1
-inequalities,inequalities
-images,images-1.jpg
-idea,idea-6.jpg
-idea,idea-5.jpg
-idea,idea-4.jpg
-idea,idea-3.jpg
-idea,idea-2.jpg
-history,history-1.jpg
-hexagon,hexagon.png
-health,health-2.jpg
-health,health-1.jpg
-greenboard,greenboard-1.png
-grammar,grammar-1.jpg
-grades,grades-1.jpg
-geometric,geometric-2.jpg
-geographic,geographic.jpg
-function,function-7
-function,function-5
-function,function-4
-function,function-1
-function,function
-fraction,fraction-4.jpg
-fraction,fraction-3.jpg
-fraction,fraction-2.jpg
-fraction,fraction-1.jpg
-expression,expression-6
-expression,expression-5
-expression,expression-4
-expression,expression-3
-expression,expression-2
-expression,expression-1
-experiments,experiments-1.jpg
-evidence,evid-6.jpg
-evidence,evid-5.jpg
-evidence,evid-4.jpg
-evidence,evid-1.jpg
-europe,europe.jpg
-equations,equations-2.jpg
-equations,equations-1.jpg
-english,english.jpg
-english,english-2.jpg
-engineering,engineering.jpg
-engine,engine.jpg
-energy,energy-2.jpg
-energy,energy-1.jpg
-electromagnetic,electromagnetism-1.png
-electromagnetism,electromagnetism-1.png
-ecosystem,ecosystem.jpg
-earth,earth.jpg
-drama,drama.jpg
-discuss,discuss-1.png
-digital,digital.jpg
-detail,detail.png
-detail,detail-6.jpg
-detail,detail-5.jpg
-detail,detail-4.png
-detail,detail-4.jpg
-detail,detail-3.jpg
-detail,detail-2.jpg
-detail,detail-1.jpg
-data,data-3.jpg
-data,data-2.jpg
-cylinder,cylinder-1.png
-cylinder,cylinder
-contrast,contrast.png
-context,context-0.jpg
-construct,construct.png
-construct,construct-7.jpg
-construct,construct-5.png
-construct,construct-4.png
-construct,construct-3.png
-construct,construct-2.png
-connect,connect
-complex,complex-2.jpg
-complex,complex-1.jpg
-color,color-2.jpg
-color,color-1.jpg
-circumference,circumference-1.jpg
-circumference,circumference
-circle,circle-8
-circle,circle-6.jpg
-circle,circle-5.jpg
-circle,circle-3.jpg
-chemical,chemical.jpg
-chalkboard,chalkboard.png
-book,book.jpeg
-book,book-5.png
-book,book-4.jpg
-book,book-2.jpg
-background,background-3.png
-background,background-2.jpg
-background,background-1.jpg
-angles,angles.jpeg
-angles,angles-3
-angles,angles
-angle,angle-1
-angle,angle
-analyze,analyze-1.jpg
-alarm,alarm.jpg
-Thumbs,Thumbs.db
-Learning,Learning-1.jpg
-three-dimensional,3d.jpg
-three-dimensional,3D-1.jpg
-people,people.png
-function,function.jpg
-type,type.jpg
-abstract,abstract.jpg
-electronics,electronics.jpg
-function,function-2.jpg
-trignometric,trignometric.png
-geometry,geometry.png
-calculate,calculate.jpg
-write,write.jpg
-write,write.png
-write,write-2.png
-graph,graph.png
-chart,chart.png
-research,research.jpg
-space,space.png
-planet,planet.png
-trees,trees.png
-forest,forest.png
-tree,tree.png
-organization,organization.jpg
-society,society.png
-fraction,fraction.png
-ecosystem,ecosystem.png
-light,light.jpg
-fruits,fruits.png
-organ,organ.png
-sphere,sphere.png
-polygons,polygons.png
-polygons,polygons-1.png
-two,two-dimensional.png
-columns,columns.png
-quadrilateral,quadrilateral.png
-multiplication,multiplication.png
-order,order.jpg
-proportion,proportion.png
-angles,angles.jpg
-angle,angle.jpg
-reptiles,reptiles.jpg
-measure,measure.jpg
-three,three-dimensional.jpg
-cubes,cubes.jpg
-goal,goal.jpg
-globe,globe.jpg
-map,map.jpg
-chart,chart.jpg
-music,music.png
-observe,observe-3.jpg
-view,view.jpg
-animals,animals.jpg
-birds,birds.jpg
-birds,birds-2.jpg
-city,city.jpg
-nature,nature.jpg
-landscape,landscape.jpg
-perspective,perspective-2.jpg
-construction,construction.jpg
-medicine,medicine.jpg
-sequence,sequence-3.jpg
-slice,slice-3.jpg
-quantity,quantity.jpg
-inequalities,inequalities.png
-percent,percent.png
-percentage,percentage.png
-numbers,numbers.jpg
-plan,plan.jpg
-multiple,multiple.png
-counting,counting.jpg
-model,model.jpg
-growth,growth.jpg
-geometry,geometry-5.jpg
-time,time.jpg
-temperature,temperature.jpg
-coordinate,coordinate.jpg
-scale,scale.jpg
-count,count.jpg
-counting,counting-2.jpg
-count,count-4.jpg
-value,value.jpg
-money,money.jpg
-count,count-6.jpg
-distance,distance.jpg
-relationship,relationship.jpg
-discuss,discuss.jpg
-class,class.png
-book,book.jpg
-justice,justice.jpg
-explain,explain.jpg
-explain,explain-2.jpg
-course,course.jpg
-coloured,coloured.jpg
-proportional,proportional.jpg
-ratio,ratio.jpg
-length,length.jpg
-width,width.jpg
-measurement,measurement.jpg
-measurement,measurement-3.jpg
-time,time-5.jpg
-time,time-6.jpg
-long,long.jpg
-multistep,multistep.jpg
-track,track.jpg
-speed,speed.jpg
-hike,hike.jpg
-road,road.jpg
-divide,divide.jpg
-everyday,everyday.jpg
-multisteps,multisteps-2.jpg
-light,light.png
-thermal,thermal.png
-thermal,thermal-2.png
-motion,motion.jpg
-kinetic,kinetic.jpg
-process,process.jpg
-process,process-2.jpg
-circuit,circuit.jpg
-system,system.jpg
-inequality,inequality.jpg
-inequalities,inequalities-2.jpg
-percent,percent.jpg
-percentage,percentage-2.png
-calendar,calendar.png
-opposite,opposite.jpg
-correctly,correctly.jpg
-connect,connect.jpg
-contrast,contrast.jpg
-different,different.jpg
-incorrect,incorrect.jpg
-opposite,opposite-2.jpg
-devices,devices.png
-objects,objects.png
-network,network.png
-pattern,pattern.png
-connection,connection.png
-identify,identify.png
-climate,climate.png
-weather,weather-2.png
-climate,climate-2.png
-weather,weather-3.jpg
-cloud,cloud.jpg
-climate,climate-4.png
-engineering,engineering.png
-problem,problem.png
-communicate,communicate.png
-trait,trait.png
-trait,trait-2.png
-taste,taste.png
-taste,taste-2.png
-dna,dna.png
-dna,dna-2.png
-inherit,inherit.png
-molecules,molecules.png
-science,science.png
-chemistry,chemistry.png
-biology,biology.png
-organic,organic.png
-biology,biology-2.png
-atoms,atoms.png
-elements,elements.png
-intersection,intersection.jpg
-numeric,numeric.jpg
-numeric,numeric-2.jpg
-geometric,geometric.jpg
-construct,construct-2.jpg
-electricity,electricity.jpg
-energy,energy.jpg
-discussion,discussion.png
-discuss,discuss.png
-collaborate,collaborate.png
-group,group.png
-arguement,arguement.png
-comments,comments.png
-strategy,strategy.png
-speech,speech.png
-speaker,speaker.png
-interaction,interaction.png
-communicate,communicate-3.png
-mental,mental.jpg
-strategy,strategy-2.jpg
-strategy,strategy-5.jpg
-think,think.png
-reasoning,reasoning.jpg
-creative,creative.png
-expression,expression.jpg
-permutations,permutations.jpg
-combinations,combinations.jpg
-probability,probability.png
-probability,probability-2.png
-probability,probability-3.png
-combinations,combinations-2.png
-probability,probability-4.png
-probability,probability-5.jpg
-probability,probability-6.jpg
-probability,probability-7.jpg
-statistics,statistics.png
-statistics,statistics-2.png
-solution,solution.png
-idea,idea-2.png
-statistics,statistics-4.png
-bond,bond.png
-science,science-3.png
-science,science-5.png
-physics,physics.jpg
-weight,weight.jpg
-force,force.png
-matter,matter-2.jpg
-spring,spring.jpg
-chemical,chemical-5.jpg
-newtons,newtons.jpg
-force,force-5.jpg
-water,water-5.jpg
-trigonometric,trigonometric.png
-function,function-5.png
-trigonometry,trigonometry.png
-equation,equation-5.png
-algebra,algebra.png
-newtons,newtons-2.jpg
-algebra,algebra-5.jpg
-algebra,algebra-6.png
-earth,earth.png
-place,place.png
-earth,earth-3.png
-world,world.png
-space,space-5.png
-earth,earth-6.png
-satellite,satellite.png
-eclipse,eclipse.png
-moon,moon.png
-moon,moon-4.png
-reaction,reaction.png
-laboratory,laboratory.png
-chemical,chemical.png
-research,research-2.png
-investigate,investigate.png
-reaction,reaction-5.png
-catalyst,catalyst.png
-volume,volume.png
-volume,volume-2.jpg
-cylinder,cylinder.jpg
-volume,volume-5.jpg
-volume,volume-7.jpg
-empty,empty.jpg
-volume,volume-8.jpg
-area,area-1.jpg
-area,area-2.jpg
-area,area-3.jpg
-energy,energy-7.html
-area,area-6.png
-area,area-10.jpg
-area,area-11.jpg
-waves,waves.png
-waves,waves-2.png
-waves,waves-4.png
-bridge,bridge.jpg
-area,area-12.jpg
-water,water.png
-water,water-2.png
-wave,wave.png
-drawing,drawing.png
-draw,draw.png
-music,music.jpg
-animals,animals.png
+total 144048
+-rw-r--r--  1 adityaagarkar  staff     6150 Jul  6 11:14 writing-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    10402 Jul  6 11:14 writing-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     7253 Jul  6 11:14 words-3.jpg
+-rw-r--r--  1 adityaagarkar  staff     9360 Jul  6 11:14 words-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    88222 Jul  6 11:14 word.jpg
+-rw-r--r--  1 adityaagarkar  staff    50885 Jul  6 11:14 word-8.jpg
+-rw-r--r--  1 adityaagarkar  staff    48730 Jul  6 11:14 word-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    50118 Jul  6 11:14 word-5.jpg
+-rw-r--r--  1 adityaagarkar  staff   115331 Jul  6 11:14 word-3.jpg
+-rw-r--r--  1 adityaagarkar  staff     7067 Jul  6 11:14 waves-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    17571 Jul  6 11:14 vocabulary-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   384647 Jul  6 11:14 triangle.png
+-rw-r--r--  1 adityaagarkar  staff     5814 Jul  6 11:14 triangle-9.png
+-rw-r--r--  1 adityaagarkar  staff      486 Jul  6 11:14 triangle-9.html
+-rw-r--r--  1 adityaagarkar  staff     4994 Jul  6 11:14 triangle-8.jpeg
+-rw-r--r--  1 adityaagarkar  staff     1922 Jul  6 11:14 triangle-6.jpeg
+-rw-r--r--  1 adityaagarkar  staff    33301 Jul  6 11:14 triangle-5.html
+-rw-r--r--  1 adityaagarkar  staff     7412 Jul  6 11:14 triangle-4.jpeg
+-rw-r--r--  1 adityaagarkar  staff     6587 Jul  6 11:14 triangle-2.gif
+-rw-r--r--  1 adityaagarkar  staff   119127 Jul  6 11:14 triangle-10.jpg
+-rw-r--r--  1 adityaagarkar  staff     9299 Jul  6 11:14 triangle-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    10693 Jul  6 11:14 tools-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    10385 Jul  6 11:14 text-3.jpg
+-rw-r--r--  1 adityaagarkar  staff   235245 Jul  6 11:14 text-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    24569 Jul  6 11:14 talk.jpg
+-rw-r--r--  1 adityaagarkar  staff     8052 Jul  6 11:14 system-1.png
+-rw-r--r--  1 adityaagarkar  staff    34994 Jul  6 11:14 surface.jpg
+-rw-r--r--  1 adityaagarkar  staff    35253 Jul  6 11:14 support-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    27927 Jul  6 11:14 support-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    67935 Jul  6 11:14 support-3.png
+-rw-r--r--  1 adityaagarkar  staff    36255 Jul  6 11:14 support-2.png
+-rw-r--r--  1 adityaagarkar  staff    72240 Jul  6 11:14 support-2.jpg
+-rw-r--r--  1 adityaagarkar  staff   107845 Jul  6 11:14 support-1.png
+-rw-r--r--  1 adityaagarkar  staff     9629 Jul  6 11:14 supp-5.jpg
+-rw-r--r--  1 adityaagarkar  staff     5595 Jul  6 11:14 supp-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    13530 Jul  6 11:14 summary.jpg
+-rw-r--r--  1 adityaagarkar  staff    82353 Jul  6 11:14 structure.jpg
+-rw-r--r--  1 adityaagarkar  staff     4921 Jul  6 11:14 story.jpeg
+-rw-r--r--  1 adityaagarkar  staff    36097 Jul  6 11:14 story-5.jpg
+-rw-r--r--  1 adityaagarkar  staff    84430 Jul  6 11:14 story-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    29432 Jul  6 11:14 story-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     7704 Jul  6 11:14 statistics-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    25729 Jul  6 11:14 species-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     8321 Jul  6 11:14 solar-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   178989 Jul  6 11:14 slice-2.png
+-rw-r--r--  1 adityaagarkar  staff    26026 Jul  6 11:14 slice-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     8597 Jul  6 11:14 skills-5.jpg
+-rw-r--r--  1 adityaagarkar  staff    27307 Jul  6 11:14 skills-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    57344 Jul  6 11:14 skill-5.png
+-rw-r--r--  1 adityaagarkar  staff   150308 Jul  6 11:14 skill-3.png
+-rw-r--r--  1 adityaagarkar  staff   172489 Jul  6 11:14 skill-1.png
+-rw-r--r--  1 adityaagarkar  staff    14524 Jul  6 11:14 shapes-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   324367 Jul  6 11:14 shape-1.png
+-rw-r--r--  1 adityaagarkar  staff    14205 Jul  6 11:14 scientific-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   278940 Jul  6 11:14 science-1.png
+-rw-r--r--  1 adityaagarkar  staff     3253 Jul  6 11:14 scale-1.png
+-rw-r--r--  1 adityaagarkar  staff    36619 Jul  6 11:14 reward.jpg
+-rw-r--r--  1 adityaagarkar  staff    15994 Jul  6 11:14 research-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    14352 Jul  6 11:14 research-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     8126 Jul  6 11:14 research-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   204518 Jul  6 11:14 report.png
+-rw-r--r--  1 adityaagarkar  staff     6099 Jul  6 11:14 reading-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   105711 Jul  6 11:14 read.png
+-rw-r--r--  1 adityaagarkar  staff    70206 Jul  6 11:14 read-7.jpg
+-rw-r--r--  1 adityaagarkar  staff    36456 Jul  6 11:14 read-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    36558 Jul  6 11:14 read-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    87497 Jul  6 11:14 read-2.png
+-rw-r--r--  1 adityaagarkar  staff   114781 Jul  6 11:14 read-1.png
+-rw-r--r--  1 adityaagarkar  staff    37172 Jul  6 11:14 radius-3.jpg
+-rw-r--r--  1 adityaagarkar  staff     4067 Jul  6 11:14 radius-1.png
+-rw-r--r--  1 adityaagarkar  staff    28491 Jul  6 11:14 question.jpg
+-rw-r--r--  1 adityaagarkar  staff   310478 Jul  6 11:14 question-4.jpg
+-rw-r--r--  1 adityaagarkar  staff   102588 Jul  6 11:14 question-2.jpg
+-rw-r--r--  1 adityaagarkar  staff  1542388 Jul  6 11:14 question-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    62989 Jul  6 11:14 puzzle.jpg
+-rw-r--r--  1 adityaagarkar  staff     9866 Jul  6 11:14 punctuation-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    15502 Jul  6 11:14 problems-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    17558 Jul  6 11:14 problems-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    39971 Jul  6 11:14 problem.jpg
+-rw-r--r--  1 adityaagarkar  staff    43810 Jul  6 11:14 problem-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    71635 Jul  6 11:14 problem-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    36283 Jul  6 11:14 problem-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    10021 Jul  6 11:14 probability-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     8404 Jul  6 11:14 probability-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    18617 Jul  6 11:14 print.jpeg
+-rw-r--r--  1 adityaagarkar  staff    11326 Jul  6 11:14 print-5.jpeg
+-rw-r--r--  1 adityaagarkar  staff   275426 Jul  6 11:14 print-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    13717 Jul  6 11:14 print-3.jpeg
+-rw-r--r--  1 adityaagarkar  staff   147219 Jul  6 11:14 print-2.png
+-rw-r--r--  1 adityaagarkar  staff     6665 Jul  6 11:14 price.jpeg
+-rw-r--r--  1 adityaagarkar  staff     9749 Jul  6 11:14 price-2.jpeg
+-rw-r--r--  1 adityaagarkar  staff   123652 Jul  6 11:14 plot.png
+-rw-r--r--  1 adityaagarkar  staff   199927 Jul  6 11:14 plot-9.png
+-rw-r--r--  1 adityaagarkar  staff   405961 Jul  6 11:14 plot-7
+-rw-r--r--  1 adityaagarkar  staff    62706 Jul  6 11:14 plot-5.png
+-rw-r--r--  1 adityaagarkar  staff    54881 Jul  6 11:14 plot-4.png
+-rw-r--r--  1 adityaagarkar  staff    40923 Jul  6 11:14 plot-15.png
+-rw-r--r--  1 adityaagarkar  staff   104742 Jul  6 11:14 plot-14.png
+-rw-r--r--  1 adityaagarkar  staff    12014 Jul  6 11:14 plot-13.png
+-rw-r--r--  1 adityaagarkar  staff   506185 Jul  6 11:14 plot-12.png
+-rw-r--r--  1 adityaagarkar  staff  1312624 Jul  6 11:14 plot-11.png
+-rw-r--r--  1 adityaagarkar  staff    26815 Jul  6 11:14 plane-6.png
+-rw-r--r--  1 adityaagarkar  staff    53561 Jul  6 11:14 plane-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    40382 Jul  6 11:14 plane-3.png
+-rw-r--r--  1 adityaagarkar  staff    74215 Jul  6 11:14 plane-2.png
+-rw-r--r--  1 adityaagarkar  staff    13709 Jul  6 11:14 plane-1.jpeg
+-rw-r--r--  1 adityaagarkar  staff    28774 Jul  6 11:14 phrase.gif
+-rw-r--r--  1 adityaagarkar  staff    63536 Jul  6 11:14 perspective.jpg
+-rw-r--r--  1 adityaagarkar  staff    17410 Jul  6 11:14 pattern.jpg
+-rw-r--r--  1 adityaagarkar  staff     9190 Jul  6 11:14 output.jpg
+-rw-r--r--  1 adityaagarkar  staff    14034 Jul  6 11:14 organize.jpg
+-rw-r--r--  1 adityaagarkar  staff    49315 Jul  6 11:14 organisms-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    12982 Jul  6 11:14 organisms-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    45178 Jul  6 11:14 observe.jpg
+-rw-r--r--  1 adityaagarkar  staff    11936 Jul  6 11:14 numbers-3.jpg
+-rw-r--r--  1 adityaagarkar  staff     6795 Jul  6 11:14 numbers-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    20087 Jul  6 11:14 numbers-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    34630 Jul  6 11:14 nuclear.png
+-rw-r--r--  1 adityaagarkar  staff   113238 Jul  6 11:14 newspaper.jpg
+-rw-r--r--  1 adityaagarkar  staff     8919 Jul  6 11:14 news.jpeg
+-rw-r--r--  1 adityaagarkar  staff    10744 Jul  6 11:14 network.jpg
+-rw-r--r--  1 adityaagarkar  staff    10757 Jul  6 11:14 multimedia-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     7862 Jul  6 11:14 molecules.jpg
+-rw-r--r--  1 adityaagarkar  staff     6174 Jul  6 11:14 model-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    11103 Jul  6 11:14 media-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    12570 Jul  6 11:14 media-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    24440 Jul  6 11:14 media-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    11336 Jul  6 11:14 measurement.png
+-rw-r--r--  1 adityaagarkar  staff     9318 Jul  6 11:14 measurement-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    47291 Jul  6 11:14 measure.png
+-rw-r--r--  1 adityaagarkar  staff    23731 Jul  6 11:14 matter.jpg
+-rw-r--r--  1 adityaagarkar  staff     8919 Jul  6 11:14 math.png
+-rw-r--r--  1 adityaagarkar  staff   728496 Jul  6 11:14 material.png
+-rw-r--r--  1 adityaagarkar  staff    43545 Jul  6 11:14 letter.jpg
+-rw-r--r--  1 adityaagarkar  staff    48256 Jul  6 11:14 letter-6.jpg
+-rw-r--r--  1 adityaagarkar  staff   198901 Jul  6 11:14 learning-7.png
+-rw-r--r--  1 adityaagarkar  staff    67647 Jul  6 11:14 learning-7.jpg
+-rw-r--r--  1 adityaagarkar  staff   117271 Jul  6 11:14 learning-6.png
+-rw-r--r--  1 adityaagarkar  staff    13509 Jul  6 11:14 learning-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    15551 Jul  6 11:14 learning-6.jpeg
+-rw-r--r--  1 adityaagarkar  staff    17222 Jul  6 11:14 learning-5.jpg
+-rw-r--r--  1 adityaagarkar  staff    13843 Jul  6 11:14 learning-4.jpg
+-rw-r--r--  1 adityaagarkar  staff     7507 Jul  6 11:14 learning-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    11207 Jul  6 11:14 learning-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     6760 Jul  6 11:14 learning-2.jpeg
+-rw-r--r--  1 adityaagarkar  staff   346818 Jul  6 11:14 learning-15.jpg
+-rw-r--r--  1 adityaagarkar  staff    62614 Jul  6 11:14 learning-14.jpg
+-rw-r--r--  1 adityaagarkar  staff   863535 Jul  6 11:14 learning-13.jpg
+-rw-r--r--  1 adityaagarkar  staff     8503 Jul  6 11:14 learning-1.jpeg
+-rw-r--r--  1 adityaagarkar  staff     6526 Jul  6 11:14 latin.jpg
+-rw-r--r--  1 adityaagarkar  staff    17260 Jul  6 11:14 language-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    10935 Jul  6 11:14 language-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    14429 Jul  6 11:14 japan.jpg
+-rw-r--r--  1 adityaagarkar  staff     4328 Jul  6 11:14 italy.png
+-rw-r--r--  1 adityaagarkar  staff     9023 Jul  6 11:14 internet.jpg
+-rw-r--r--  1 adityaagarkar  staff    93697 Jul  6 11:14 information.jpg
+-rw-r--r--  1 adityaagarkar  staff    49383 Jul  6 11:14 information-5.png
+-rw-r--r--  1 adityaagarkar  staff    45525 Jul  6 11:14 information-4.png
+-rw-r--r--  1 adityaagarkar  staff    43855 Jul  6 11:14 information-3.png
+-rw-r--r--  1 adityaagarkar  staff    69534 Jul  6 11:14 information-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    35531 Jul  6 11:14 information-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    60798 Jul  6 11:14 information-1.png
+-rw-r--r--  1 adityaagarkar  staff    14292 Jul  6 11:14 info-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    15984 Jul  6 11:14 info-5.jpg
+-rw-r--r--  1 adityaagarkar  staff    14804 Jul  6 11:14 info-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    45861 Jul  6 11:14 inequalities-12.png
+-rw-r--r--  1 adityaagarkar  staff    24375 Jul  6 11:14 inequalities-11.png
+-rw-r--r--  1 adityaagarkar  staff     6325 Jul  6 11:14 inequalities-1.png
+-rw-r--r--  1 adityaagarkar  staff     9235 Jul  6 11:14 images-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     3855 Jul  6 11:14 idea-6.jpg
+-rw-r--r--  1 adityaagarkar  staff     5521 Jul  6 11:14 idea-5.jpg
+-rw-r--r--  1 adityaagarkar  staff     5241 Jul  6 11:14 idea-4.jpg
+-rw-r--r--  1 adityaagarkar  staff     4599 Jul  6 11:14 idea-3.jpg
+-rw-r--r--  1 adityaagarkar  staff     8006 Jul  6 11:14 idea-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    13625 Jul  6 11:14 history-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   127217 Jul  6 11:14 hexagon.png
+-rw-r--r--  1 adityaagarkar  staff     8193 Jul  6 11:14 health-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     8211 Jul  6 11:14 health-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    52165 Jul  6 11:14 greenboard-1.png
+-rw-r--r--  1 adityaagarkar  staff    16080 Jul  6 11:14 grammar-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    15362 Jul  6 11:14 grades-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    16648 Jul  6 11:14 geometric-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     9752 Jul  6 11:14 geographic.jpg
+-rw-r--r--  1 adityaagarkar  staff   157593 Jul  6 11:14 function.png
+-rw-r--r--  1 adityaagarkar  staff  1486639 Jul  6 11:14 function-7.png
+-rw-r--r--  1 adityaagarkar  staff    29533 Jul  6 11:14 function-51.png
+-rw-r--r--  1 adityaagarkar  staff    74848 Jul  6 11:14 function-4.png
+-rw-r--r--  1 adityaagarkar  staff    61541 Jul  6 11:14 function-1.png
+-rw-r--r--  1 adityaagarkar  staff    36959 Jul  6 11:14 fraction-4.jpg
+-rw-r--r--  1 adityaagarkar  staff   688548 Jul  6 11:14 fraction-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    58236 Jul  6 11:14 fraction-2.jpg
+-rw-r--r--  1 adityaagarkar  staff   209055 Jul  6 11:14 fraction-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     9144 Jul  6 11:14 fig, lang.jpg
+-rw-r--r--  1 adityaagarkar  staff    20531 Jul  6 11:14 expression-6.png
+-rw-r--r--  1 adityaagarkar  staff    17373 Jul  6 11:14 expression-5.png
+-rw-r--r--  1 adityaagarkar  staff    68745 Jul  6 11:14 expression-4.png
+-rw-r--r--  1 adityaagarkar  staff    30141 Jul  6 11:14 expression-3.png
+-rw-r--r--  1 adityaagarkar  staff   140558 Jul  6 11:14 expression-2.png
+-rw-r--r--  1 adityaagarkar  staff    18391 Jul  6 11:14 expression-1.png
+-rw-r--r--  1 adityaagarkar  staff    12925 Jul  6 11:14 experiments-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     7784 Jul  6 11:14 evid-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    14380 Jul  6 11:14 evid-5.jpg
+-rw-r--r--  1 adityaagarkar  staff    14833 Jul  6 11:14 evid-4.jpg
+-rw-r--r--  1 adityaagarkar  staff     5598 Jul  6 11:14 evid-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    10695 Jul  6 11:14 europe.jpg
+-rw-r--r--  1 adityaagarkar  staff     8795 Jul  6 11:14 equations-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    11109 Jul  6 11:14 equations-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    15709 Jul  6 11:14 english.jpg
+-rw-r--r--  1 adityaagarkar  staff    11792 Jul  6 11:14 english-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    12447 Jul  6 11:14 engineering.jpg
+-rw-r--r--  1 adityaagarkar  staff    58397 Jul  6 11:14 engine.jpg
+-rw-r--r--  1 adityaagarkar  staff     5647 Jul  6 11:14 energy-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     7975 Jul  6 11:14 energy-1.jpg
+-rw-r--r--  1 adityaagarkar  staff     9441 Jul  6 11:14 electromagnetism-1.png
+-rw-r--r--  1 adityaagarkar  staff    10428 Jul  6 11:14 ecosystem.jpg
+-rw-r--r--  1 adityaagarkar  staff     8707 Jul  6 11:14 earth.jpg
+-rw-r--r--  1 adityaagarkar  staff     9431 Jul  6 11:14 drama.jpg
+-rw-r--r--  1 adityaagarkar  staff   173342 Jul  6 11:14 discuss-1.png
+-rw-r--r--  1 adityaagarkar  staff    12711 Jul  6 11:14 dir.txt
+-rw-r--r--  1 adityaagarkar  staff     8635 Jul  6 11:14 digital.jpg
+-rw-r--r--  1 adityaagarkar  staff    86279 Jul  6 11:14 detail.png
+-rw-r--r--  1 adityaagarkar  staff    74229 Jul  6 11:14 detail-6.jpg
+-rw-r--r--  1 adityaagarkar  staff    53820 Jul  6 11:14 detail-5.jpg
+-rw-r--r--  1 adityaagarkar  staff   421059 Jul  6 11:14 detail-4.png
+-rw-r--r--  1 adityaagarkar  staff    57655 Jul  6 11:14 detail-4.jpg
+-rw-r--r--  1 adityaagarkar  staff    94496 Jul  6 11:14 detail-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    46622 Jul  6 11:14 detail-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    28855 Jul  6 11:14 detail-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    21714 Jul  6 11:14 data-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    13310 Jul  6 11:14 data-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     9345 Jul  6 11:14 cylinder.png
+-rw-r--r--  1 adityaagarkar  staff    20381 Jul  6 11:14 cylinder-1.png
+-rw-r--r--  1 adityaagarkar  staff     5640 Jul  6 11:14 contrast.png
+-rw-r--r--  1 adityaagarkar  staff    11942 Jul  6 11:14 context-0.jpg
+-rw-r--r--  1 adityaagarkar  staff   290076 Jul  6 11:14 construct.png
+-rw-r--r--  1 adityaagarkar  staff    55325 Jul  6 11:14 construct-7.jpg
+-rw-r--r--  1 adityaagarkar  staff   289826 Jul  6 11:14 construct-5.png
+-rw-r--r--  1 adityaagarkar  staff   215137 Jul  6 11:14 construct-4.png
+-rw-r--r--  1 adityaagarkar  staff   267281 Jul  6 11:14 construct-3.png
+-rw-r--r--  1 adityaagarkar  staff   248141 Jul  6 11:14 construct-2.png
+-rw-r--r--  1 adityaagarkar  staff    59907 Jul  6 11:14 connect.png
+-rw-r--r--  1 adityaagarkar  staff     5185 Jul  6 11:14 complex-2.jpg
+-rw-r--r--  1 adityaagarkar  staff     9798 Jul  6 11:14 complex-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   319929 Jul  6 11:14 color-2.jpg
+-rw-r--r--  1 adityaagarkar  staff   138600 Jul  6 11:14 color-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    31813 Jul  6 11:14 circumference-1.jpg
+-rw-r--r--  1 adityaagarkar  staff  1485551 Jul  6 11:14 circumference
+-rw-r--r--  1 adityaagarkar  staff    20570 Jul  6 11:14 circle-8
+-rw-r--r--  1 adityaagarkar  staff    66186 Jul  6 11:14 circle-6.jpg
+-rw-r--r--  1 adityaagarkar  staff   161245 Jul  6 11:14 circle-5.jpg
+-rw-r--r--  1 adityaagarkar  staff   151991 Jul  6 11:14 circle-3.jpg
+-rw-r--r--  1 adityaagarkar  staff     6955 Jul  6 11:14 chemical.jpg
+-rw-r--r--  1 adityaagarkar  staff    31622 Jul  6 11:14 chalkboard.png
+-rw-r--r--  1 adityaagarkar  staff    18283 Jul  6 11:14 book.jpeg
+-rw-r--r--  1 adityaagarkar  staff   106565 Jul  6 11:14 book-5.png
+-rw-r--r--  1 adityaagarkar  staff    25276 Jul  6 11:14 book-4.jpg
+-rw-r--r--  1 adityaagarkar  staff   564579 Jul  6 11:14 book-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    90850 Jul  6 11:14 background-3.png
+-rw-r--r--  1 adityaagarkar  staff    43903 Jul  6 11:14 background-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    13289 Jul  6 11:14 background-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    60868 Jul  6 11:14 angles.png
+-rw-r--r--  1 adityaagarkar  staff    16655 Jul  6 11:14 angles.jpeg
+-rw-r--r--  1 adityaagarkar  staff    11358 Jul  6 11:14 angles-3.png
+-rw-r--r--  1 adityaagarkar  staff    10770 Jul  6 11:14 angle.png
+-rw-r--r--  1 adityaagarkar  staff     5957 Jul  6 11:14 angle-1.png
+-rw-r--r--  1 adityaagarkar  staff     6840 Jul  6 11:14 analyze-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    43640 Jul  6 11:14 alarm.jpg
+-rw-r--r--  1 adityaagarkar  staff   608768 Jul  6 11:14 Thumbs.db
+-rw-r--r--  1 adityaagarkar  staff     9516 Jul  6 11:14 Learning-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   279054 Jul  6 11:14 3d.jpg
+-rw-r--r--  1 adityaagarkar  staff     4728 Jul  6 11:14 3D-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   435778 Jul 13 07:22 people.png
+-rw-r-----@ 1 adityaagarkar  staff    57564 Jul 13 07:23 function.jpg
+-rw-r-----@ 1 adityaagarkar  staff    48084 Jul 13 07:24 type.jpg
+-rw-r-----@ 1 adityaagarkar  staff    60170 Jul 13 07:24 abstract.jpg
+-rw-r-----@ 1 adityaagarkar  staff    16321 Jul 13 07:24 electronics.jpg
+-rw-r-----@ 1 adityaagarkar  staff    46802 Jul 13 07:25 function-2.jpg
+-rw-r--r--  1 adityaagarkar  staff   320988 Jul 13 07:27 trignometric.png
+-rw-r--r--  1 adityaagarkar  staff   525075 Jul 13 07:28 geometry.png
+-rw-r-----@ 1 adityaagarkar  staff    48342 Jul 13 07:29 calculate.jpg
+-rw-r-----@ 1 adityaagarkar  staff    45109 Jul 13 07:29 write.jpg
+-rw-r--r--  1 adityaagarkar  staff   471969 Jul 13 07:31 write.png
+-rw-r--r--  1 adityaagarkar  staff   142274 Jul 13 07:32 write-2.png
+-rw-r--r--  1 adityaagarkar  staff   173701 Jul 13 07:33 graph.png
+-rw-r--r--  1 adityaagarkar  staff   122963 Jul 13 07:33 chart.png
+-rw-r-----@ 1 adityaagarkar  staff    44764 Jul 13 07:35 research.jpg
+-rw-r--r--  1 adityaagarkar  staff    34419 Jul 13 08:46 space.png
+-rw-r--r--  1 adityaagarkar  staff    66318 Jul 13 08:48 planet.png
+-rw-r--r--  1 adityaagarkar  staff    72170 Jul 13 08:49 trees.png
+-rw-r--r--  1 adityaagarkar  staff    77515 Jul 13 08:49 forest.png
+-rw-r--r--  1 adityaagarkar  staff   100258 Jul 13 08:50 tree.png
+-rw-r-----@ 1 adityaagarkar  staff    27797 Jul 13 08:51 organization.jpg
+-rw-r--r--  1 adityaagarkar  staff   105987 Jul 13 08:52 society.png
+-rw-r--r--@ 1 adityaagarkar  staff   284647 Jul 13 08:55 fraction.png
+-rw-r--r--@ 1 adityaagarkar  staff   347351 Jul 13 08:56 ecosystem.png
+-rw-r-----@ 1 adityaagarkar  staff    89763 Jul 13 08:57 light.jpg
+-rw-r--r--  1 adityaagarkar  staff    83622 Jul 13 08:58 fruits.png
+-rw-r--r--  1 adityaagarkar  staff    42523 Jul 13 09:00 organ.png
+-rw-r--r--  1 adityaagarkar  staff    58678 Jul 13 09:01 sphere.png
+-rw-r--r--  1 adityaagarkar  staff    32344 Jul 13 09:03 polygons.png
+-rw-r--r--  1 adityaagarkar  staff    48037 Jul 13 09:03 polygons-1.png
+-rw-r--r--  1 adityaagarkar  staff    51982 Jul 13 09:04 two-dimensional.png
+-rw-r--r--  1 adityaagarkar  staff    52167 Jul 13 09:05 columns.png
+-rw-r--r--  1 adityaagarkar  staff    40282 Jul 13 09:05 quadrilateral.png
+-rw-r--r--  1 adityaagarkar  staff   233545 Jul 13 09:06 multiplication.png
+-rw-r-----@ 1 adityaagarkar  staff    37438 Jul 13 09:07 order.jpg
+-rw-r--r--  1 adityaagarkar  staff    84921 Jul 13 09:08 proportion.png
+-rw-r-----@ 1 adityaagarkar  staff    64336 Jul 13 09:08 angles.jpg
+-rw-r-----@ 1 adityaagarkar  staff    22099 Jul 13 09:09 angle.jpg
+-rw-r-----@ 1 adityaagarkar  staff    74393 Jul 13 09:09 reptiles.jpg
+-rw-r-----@ 1 adityaagarkar  staff    47577 Jul 13 09:10 measure.jpg
+-rw-r-----@ 1 adityaagarkar  staff    25470 Jul 13 09:35 three-dimensional.jpg
+-rw-r-----@ 1 adityaagarkar  staff    29774 Jul 13 09:35 cubes.jpg
+-rw-r-----@ 1 adityaagarkar  staff    44246 Jul 13 09:36 goal.jpg
+-rw-r-----@ 1 adityaagarkar  staff    32838 Jul 13 09:36 globe.jpg
+-rw-r-----@ 1 adityaagarkar  staff    41803 Jul 13 09:36 map.jpg
+-rw-r-----@ 1 adityaagarkar  staff    25996 Jul 13 09:38 chart.jpg
+-rw-r--r--  1 adityaagarkar  staff   503618 Jul 13 09:39 music.png
+-rw-r-----@ 1 adityaagarkar  staff    40617 Jul 13 09:48 observe-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff    26863 Jul 13 09:48 view.jpg
+-rw-r-----@ 1 adityaagarkar  staff    49335 Jul 13 09:48 animals.jpg
+-rw-r-----@ 1 adityaagarkar  staff    27052 Jul 13 09:49 birds.jpg
+-rw-r-----@ 1 adityaagarkar  staff    32823 Jul 13 09:49 birds-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    66365 Jul 13 09:49 city.jpg
+-rw-r-----@ 1 adityaagarkar  staff    67086 Jul 13 09:50 nature.jpg
+-rw-r-----@ 1 adityaagarkar  staff    77091 Jul 13 09:50 landscape.jpg
+-rw-r-----@ 1 adityaagarkar  staff    46074 Jul 13 09:50 perspective-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    67170 Jul 13 09:51 construction.jpg
+-rw-r-----@ 1 adityaagarkar  staff    81820 Jul 13 09:51 medicine.jpg
+-rw-r-----@ 1 adityaagarkar  staff    45161 Jul 13 09:51 sequence-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff    35731 Jul 13 09:52 slice-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff    38171 Jul 13 09:52 quantity.jpg
+-rw-r--r--  1 adityaagarkar  staff   108342 Jul 13 09:53 inequalities.png
+-rw-r--r--  1 adityaagarkar  staff   110633 Jul 13 09:53 percent.png
+-rw-r--r--  1 adityaagarkar  staff   112563 Jul 13 09:54 percentage.png
+-rw-r-----@ 1 adityaagarkar  staff    44599 Jul 13 09:54 numbers.jpg
+-rw-r-----@ 1 adityaagarkar  staff    58731 Jul 13 09:54 plan.jpg
+-rw-r--r--  1 adityaagarkar  staff   109381 Jul 13 09:55 multiple.png
+-rw-r-----@ 1 adityaagarkar  staff    81127 Jul 13 09:55 counting.jpg
+-rw-r-----@ 1 adityaagarkar  staff    34145 Jul 13 09:55 model.jpg
+-rw-r-----@ 1 adityaagarkar  staff    33103 Jul 13 09:55 growth.jpg
+-rw-r-----@ 1 adityaagarkar  staff    35411 Jul 13 09:56 geometry-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    86165 Jul 13 09:56 time.jpg
+-rw-r-----@ 1 adityaagarkar  staff    16843 Jul 13 09:56 temperature.jpg
+-rw-r-----@ 1 adityaagarkar  staff    39291 Jul 13 09:57 coordinate.jpg
+-rw-r-----@ 1 adityaagarkar  staff    18727 Jul 13 09:58 scale.jpg
+-rw-r-----@ 1 adityaagarkar  staff    40779 Jul 13 09:58 count.jpg
+-rw-r-----@ 1 adityaagarkar  staff    67598 Jul 13 09:58 counting-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    98749 Jul 13 09:58 count-4.jpg
+-rw-r-----@ 1 adityaagarkar  staff    60072 Jul 13 09:59 value.jpg
+-rw-r-----@ 1 adityaagarkar  staff    53424 Jul 13 09:59 money.jpg
+-rw-r-----@ 1 adityaagarkar  staff    64281 Jul 13 09:59 count-6.jpg
+-rw-r-----@ 1 adityaagarkar  staff    33136 Jul 13 10:00 distance.jpg
+-rw-r-----@ 1 adityaagarkar  staff    59406 Jul 13 10:00 relationship.jpg
+-rw-r-----@ 1 adityaagarkar  staff    28715 Jul 13 10:00 discuss.jpg
+-rw-r--r--  1 adityaagarkar  staff   137843 Jul 13 10:01 class.png
+-rw-r-----@ 1 adityaagarkar  staff    31295 Jul 13 10:01 book.jpg
+-rw-r-----@ 1 adityaagarkar  staff    25272 Jul 13 10:02 justice.jpg
+-rw-r-----@ 1 adityaagarkar  staff    62481 Jul 13 10:02 explain.jpg
+-rw-r-----@ 1 adityaagarkar  staff    27376 Jul 13 10:02 explain-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    54364 Jul 13 10:03 course.jpg
+-rw-r-----@ 1 adityaagarkar  staff    61032 Jul 13 10:03 coloured.jpg
+-rw-r-----@ 1 adityaagarkar  staff    36486 Jul 13 10:03 proportional.jpg
+-rw-r-----@ 1 adityaagarkar  staff    64795 Jul 13 10:04 ratio.jpg
+-rw-r-----@ 1 adityaagarkar  staff    46505 Jul 13 10:04 length.jpg
+-rw-r-----@ 1 adityaagarkar  staff    30185 Jul 13 10:04 width.jpg
+-rw-r-----@ 1 adityaagarkar  staff    27257 Jul 13 10:05 measurement.jpg
+-rw-r-----@ 1 adityaagarkar  staff    30728 Jul 13 10:05 measurement-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff    54594 Jul 13 10:05 time-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    59336 Jul 13 10:05 time-6.jpg
+-rw-r-----@ 1 adityaagarkar  staff    51940 Jul 13 10:06 long.jpg
+-rw-r-----@ 1 adityaagarkar  staff    36577 Jul 13 10:06 multistep.jpg
+-rw-r-----@ 1 adityaagarkar  staff    77319 Jul 13 10:06 track.jpg
+-rw-r-----@ 1 adityaagarkar  staff    43275 Jul 13 10:07 speed.jpg
+-rw-r-----@ 1 adityaagarkar  staff   101121 Jul 13 10:07 hike.jpg
+-rw-r-----@ 1 adityaagarkar  staff    55175 Jul 13 10:07 road.jpg
+-rw-r-----@ 1 adityaagarkar  staff    82138 Jul 13 10:07 divide.jpg
+-rw-r-----@ 1 adityaagarkar  staff    27723 Jul 13 10:08 everyday.jpg
+-rw-r-----@ 1 adityaagarkar  staff    45580 Jul 13 10:08 multisteps-2.jpg
+-rw-r--r--  1 adityaagarkar  staff   116060 Jul 13 10:09 light.png
+-rw-r--r--  1 adityaagarkar  staff    92581 Jul 13 10:10 thermal.png
+-rw-r--r--  1 adityaagarkar  staff   126418 Jul 13 10:10 thermal-2.png
+-rw-r-----@ 1 adityaagarkar  staff    51832 Jul 13 10:10 motion.jpg
+-rw-r-----@ 1 adityaagarkar  staff    46789 Jul 13 10:11 kinetic.jpg
+-rw-r-----@ 1 adityaagarkar  staff    56090 Jul 13 10:11 process.jpg
+-rw-r-----@ 1 adityaagarkar  staff    65400 Jul 13 10:11 process-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff   100239 Jul 13 10:12 circuit.jpg
+-rw-r-----@ 1 adityaagarkar  staff    53449 Jul 13 10:12 system.jpg
+-rw-r-----@ 1 adityaagarkar  staff    58705 Jul 13 10:13 inequality.jpg
+-rw-r-----@ 1 adityaagarkar  staff    46127 Jul 13 10:13 inequalities-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    26678 Jul 13 10:13 percent.jpg
+-rw-r--r--  1 adityaagarkar  staff    85660 Jul 13 10:14 percentage-2.png
+-rw-r--r--  1 adityaagarkar  staff    75516 Jul 13 10:15 calendar.png
+-rw-r-----@ 1 adityaagarkar  staff    25357 Jul 13 10:16 opposite.jpg
+-rw-r-----@ 1 adityaagarkar  staff    23787 Jul 13 11:08 correctly.jpg
+-rw-r-----@ 1 adityaagarkar  staff    31460 Jul 13 11:08 connect.jpg
+-rw-r-----@ 1 adityaagarkar  staff   117562 Jul 13 11:08 contrast.jpg
+-rw-r-----@ 1 adityaagarkar  staff    95026 Jul 13 11:09 different.jpg
+-rw-r-----@ 1 adityaagarkar  staff    28288 Jul 13 11:09 incorrect.jpg
+-rw-r-----@ 1 adityaagarkar  staff    45677 Jul 13 11:09 opposite-2.jpg
+-rw-r--r--  1 adityaagarkar  staff    69547 Jul 13 11:10 devices.png
+-rw-r--r--  1 adityaagarkar  staff   140473 Jul 13 11:11 objects.png
+-rw-r--r--  1 adityaagarkar  staff    77879 Jul 13 11:11 network.png
+-rw-r--r--  1 adityaagarkar  staff   126172 Jul 13 11:27 pattern.png
+-rw-r--r--  1 adityaagarkar  staff   108862 Jul 13 11:27 connection.png
+-rw-r--r--  1 adityaagarkar  staff   137041 Jul 13 11:28 identify.png
+-rw-r--r--  1 adityaagarkar  staff    77112 Jul 13 11:28 climate.png
+-rw-r--r--  1 adityaagarkar  staff   101739 Jul 13 11:29 weather-2.png
+-rw-r--r--  1 adityaagarkar  staff   102021 Jul 13 11:29 climate-2.png
+-rw-r-----@ 1 adityaagarkar  staff    23089 Jul 13 11:29 weather-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff    32751 Jul 13 11:30 cloud.jpg
+-rw-r--r--  1 adityaagarkar  staff   122085 Jul 13 11:30 climate-4.png
+-rw-r--r--  1 adityaagarkar  staff   153574 Jul 13 11:30 engineering.png
+-rw-r--r--  1 adityaagarkar  staff   124433 Jul 13 11:31 problem.png
+-rw-r--r--  1 adityaagarkar  staff   133131 Jul 13 11:33 communicate.png
+-rw-r--r--  1 adityaagarkar  staff   213324 Jul 13 11:34 trait.png
+-rw-r--r--  1 adityaagarkar  staff   271502 Jul 13 11:34 trait-2.png
+-rw-r--r--  1 adityaagarkar  staff   183888 Jul 13 11:35 taste.png
+-rw-r--r--  1 adityaagarkar  staff   183888 Jul 13 11:36 taste-2.png
+-rw-r--r--  1 adityaagarkar  staff   104545 Jul 13 11:37 dna.png
+-rw-r--r--  1 adityaagarkar  staff    46811 Jul 13 11:38 dna-2.png
+-rw-r--r--  1 adityaagarkar  staff    64617 Jul 13 11:38 inherit.png
+-rw-r--r--  1 adityaagarkar  staff    78860 Jul 13 11:38 molecules.png
+-rw-r--r--  1 adityaagarkar  staff    54730 Jul 13 11:39 science.png
+-rw-r--r--@ 1 adityaagarkar  staff    80512 Jul 13 11:42 chemistry.png
+-rw-r--r--  1 adityaagarkar  staff   109488 Jul 13 11:43 biology.png
+-rw-r--r--  1 adityaagarkar  staff   100186 Jul 13 11:44 organic.png
+-rw-r--r--  1 adityaagarkar  staff    96721 Jul 13 11:44 biology-2.png
+-rw-r--r--  1 adityaagarkar  staff    77248 Jul 13 11:45 atoms.png
+-rw-r--r--  1 adityaagarkar  staff    96401 Jul 13 11:45 elements.png
+-rw-r-----@ 1 adityaagarkar  staff    44296 Jul 13 11:45 intersection.jpg
+-rw-r-----@ 1 adityaagarkar  staff    56414 Jul 13 11:46 numeric.jpg
+-rw-r-----@ 1 adityaagarkar  staff    52207 Jul 13 11:46 numeric-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    53970 Jul 13 11:46 geometric.jpg
+-rw-r-----@ 1 adityaagarkar  staff    51658 Jul 13 11:46 construct-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    89013 Jul 13 11:47 electricity.jpg
+-rw-r-----@ 1 adityaagarkar  staff    55424 Jul 13 11:47 energy.jpg
+-rw-r--r--  1 adityaagarkar  staff   161750 Jul 13 11:49 discussion.png
+-rw-r--r--  1 adityaagarkar  staff   140097 Jul 13 11:49 discuss.png
+-rw-r--r--  1 adityaagarkar  staff   180869 Jul 13 11:50 collaborate.png
+-rw-r--r--  1 adityaagarkar  staff   112033 Jul 13 11:50 group.png
+-rw-r--r--  1 adityaagarkar  staff   182482 Jul 13 11:51 arguement.png
+-rw-r--r--  1 adityaagarkar  staff   204741 Jul 13 11:52 comments.png
+-rw-r--r--  1 adityaagarkar  staff    70483 Jul 13 11:53 strategy.png
+-rw-r--r--  1 adityaagarkar  staff   111177 Jul 13 11:53 speech.png
+-rw-r--r--  1 adityaagarkar  staff   173411 Jul 13 11:54 speaker.png
+-rw-r--r--  1 adityaagarkar  staff   204903 Jul 13 11:55 interaction.png
+-rw-r--r--  1 adityaagarkar  staff   232681 Jul 13 11:55 communicate-3.png
+-rw-r-----@ 1 adityaagarkar  staff    62707 Jul 13 11:56 mental.jpg
+-rw-r-----@ 1 adityaagarkar  staff    66965 Jul 13 11:56 strategy-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    36025 Jul 13 11:56 strategy-5.jpg
+-rw-r--r--  1 adityaagarkar  staff   330311 Jul 13 11:57 think.png
+-rw-r-----@ 1 adityaagarkar  staff    47764 Jul 13 11:58 reasoning.jpg
+-rw-r--r--  1 adityaagarkar  staff   303538 Jul 13 11:58 creative.png
+-rw-r-----@ 1 adityaagarkar  staff    56954 Jul 13 11:58 expression.jpg
+-rw-r-----@ 1 adityaagarkar  staff    29268 Jul 13 11:59 permutations.jpg
+-rw-r-----@ 1 adityaagarkar  staff    41902 Jul 13 11:59 combinations.jpg
+-rw-r--r--  1 adityaagarkar  staff    59282 Jul 13 12:00 probability.png
+-rw-r--r--  1 adityaagarkar  staff    57600 Jul 13 12:01 probability-2.png
+-rw-r--r--  1 adityaagarkar  staff    64328 Jul 13 12:01 probability-3.png
+-rw-r--r--  1 adityaagarkar  staff    53868 Jul 13 12:03 combinations-2.png
+-rw-r--r--  1 adityaagarkar  staff    54268 Jul 13 12:04 probability-4.png
+-rw-r-----@ 1 adityaagarkar  staff    35585 Jul 13 12:09 probability-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    68216 Jul 13 12:09 probability-6.jpg
+-rw-r-----@ 1 adityaagarkar  staff    74866 Jul 13 12:09 probability-7.jpg
+-rw-r--r--  1 adityaagarkar  staff   151986 Jul 13 12:11 statistics.png
+-rw-r--r--  1 adityaagarkar  staff   156163 Jul 13 12:12 statistics-2.png
+-rw-r--r--  1 adityaagarkar  staff   202601 Jul 13 12:12 solution.png
+-rw-r--r--  1 adityaagarkar  staff   271868 Jul 13 12:13 idea-2.png
+-rw-r--r--  1 adityaagarkar  staff   200308 Jul 13 12:14 statistics-4.png
+-rw-r--r--  1 adityaagarkar  staff   228137 Jul 13 12:39 bond.png
+-rw-r--r--  1 adityaagarkar  staff   209108 Jul 13 12:39 science-3.png
+-rw-r--r--  1 adityaagarkar  staff   225316 Jul 13 12:40 science-5.png
+-rw-r-----@ 1 adityaagarkar  staff    46947 Jul 13 12:40 physics.jpg
+-rw-r-----@ 1 adityaagarkar  staff    76342 Jul 13 12:40 weight.jpg
+-rw-r--r--  1 adityaagarkar  staff   164745 Jul 13 12:41 force.png
+-rw-r-----@ 1 adityaagarkar  staff   107014 Jul 13 12:42 matter-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    82042 Jul 13 12:42 spring.jpg
+-rw-r-----@ 1 adityaagarkar  staff    34570 Jul 13 12:42 chemical-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    35457 Jul 13 12:43 newtons.jpg
+-rw-r-----@ 1 adityaagarkar  staff    31746 Jul 13 12:43 force-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    45236 Jul 13 12:43 water-5.jpg
+-rw-r--r--  1 adityaagarkar  staff   322123 Jul 13 12:44 trigonometric.png
+-rw-r--r--  1 adityaagarkar  staff   344303 Jul 13 12:45 function-5.png
+-rw-r--r--  1 adityaagarkar  staff   308686 Jul 13 12:45 trigonometry.png
+-rw-r--r--  1 adityaagarkar  staff   343162 Jul 13 12:46 equation-5.png
+-rw-r--r--  1 adityaagarkar  staff   310337 Jul 13 12:47 algebra.png
+-rw-r-----@ 1 adityaagarkar  staff    34497 Jul 13 12:47 newtons-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    40287 Jul 13 12:47 algebra-5.jpg
+-rw-r--r--  1 adityaagarkar  staff   220644 Jul 13 12:48 algebra-6.png
+-rw-r--r--  1 adityaagarkar  staff   262746 Jul 13 12:49 earth.png
+-rw-r--r--  1 adityaagarkar  staff   231657 Jul 13 12:49 place.png
+-rw-r--r--  1 adityaagarkar  staff   275128 Jul 13 12:50 earth-3.png
+-rw-r--r--  1 adityaagarkar  staff   340703 Jul 13 12:50 world.png
+-rw-r--r--  1 adityaagarkar  staff   597053 Jul 13 12:53 space-5.png
+-rw-r--r--  1 adityaagarkar  staff   654895 Jul 13 12:53 earth-6.png
+-rw-r--r--  1 adityaagarkar  staff   710966 Jul 13 12:54 satellite.png
+-rw-r--r--  1 adityaagarkar  staff   646281 Jul 13 12:54 eclipse.png
+-rw-r--r--  1 adityaagarkar  staff   364242 Jul 13 12:55 moon.png
+-rw-r--r--  1 adityaagarkar  staff   541487 Jul 13 12:56 moon-4.png
+-rw-r--r--  1 adityaagarkar  staff   457833 Jul 13 12:57 reaction.png
+-rw-r--r--  1 adityaagarkar  staff   420759 Jul 13 12:57 laboratory.png
+-rw-r--r--  1 adityaagarkar  staff   527617 Jul 13 12:58 chemical.png
+-rw-r--r--  1 adityaagarkar  staff   374689 Jul 13 12:59 research-2.png
+-rw-r--r--  1 adityaagarkar  staff   502436 Jul 13 12:59 investigate.png
+-rw-r--r--  1 adityaagarkar  staff   172139 Jul 13 13:01 reaction-5.png
+-rw-r--r--  1 adityaagarkar  staff   142308 Jul 13 13:02 catalyst.png
+-rw-r--r--  1 adityaagarkar  staff   236740 Jul 13 13:02 volume.png
+-rw-r-----@ 1 adityaagarkar  staff    46822 Jul 13 13:03 volume-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    66666 Jul 13 13:04 cylinder.jpg
+-rw-r-----@ 1 adityaagarkar  staff    32655 Jul 13 13:04 volume-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff   108763 Jul 13 13:04 volume-7.jpg
+-rw-r-----@ 1 adityaagarkar  staff    34082 Jul 13 13:05 empty.jpg
+-rw-r-----@ 1 adityaagarkar  staff    35618 Jul 13 13:05 volume-8.jpg
+-rw-r-----@ 1 adityaagarkar  staff    44969 Jul 13 13:05 area-1.jpg
+-rw-r-----@ 1 adityaagarkar  staff    68630 Jul 13 13:06 area-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    54204 Jul 13 13:06 area-3.jpg
+-rw-r--r--  1 adityaagarkar  staff   421991 Jul 13 13:07 area-6.png
+-rw-r-----@ 1 adityaagarkar  staff    55744 Jul 13 13:07 area-10.jpg
+-rw-r-----@ 1 adityaagarkar  staff   150506 Jul 13 13:07 area-11.jpg
+-rw-r--r--  1 adityaagarkar  staff   244965 Jul 13 13:08 waves.png
+-rw-r--r--  1 adityaagarkar  staff   389787 Jul 13 13:09 waves-2.png
+-rw-r--r--  1 adityaagarkar  staff   382083 Jul 13 13:09 waves-4.png
+-rw-r-----@ 1 adityaagarkar  staff    49792 Jul 13 13:10 bridge.jpg
+-rw-r-----@ 1 adityaagarkar  staff    56362 Jul 13 13:10 area-12.jpg
+-rw-r--r--  1 adityaagarkar  staff   357920 Jul 13 13:11 water.png
+-rw-r--r--  1 adityaagarkar  staff   442562 Jul 13 13:12 water-2.png
+-rw-r--r--  1 adityaagarkar  staff   344410 Jul 13 13:12 wave.png
+-rw-r--r--  1 adityaagarkar  staff   257098 Jul 13 13:13 drawing.png
+-rw-r--r--  1 adityaagarkar  staff   227233 Jul 13 13:13 draw.png
+-rw-r-----@ 1 adityaagarkar  staff    64099 Jul 13 13:14 music.jpg
+-rw-r--r--  1 adityaagarkar  staff   294130 Jul 13 13:14 animals.png
+-rw-r-----@ 1 adityaagarkar  staff    54122 Jul 13 13:28 tens.jpg
+-rw-r-----@ 1 adityaagarkar  staff    40360 Jul 13 13:28 tens-1.jpg
+-rw-r-----@ 1 adityaagarkar  staff    64281 Jul 13 13:29 addition.jpg
+-rw-r-----@ 1 adityaagarkar  staff    23747 Jul 13 13:30 mixing.jpg
+-rw-r--r--  1 adityaagarkar  staff    97538 Jul 13 13:30 adapt.png
+-rw-r--r--  1 adityaagarkar  staff   116458 Jul 13 13:31 natural.png
+-rw-r--r--  1 adityaagarkar  staff    89739 Jul 13 13:33 universe.png
+-rw-r--r--  1 adityaagarkar  staff    93978 Jul 13 13:34 two-dimensional-2.png
+-rw-r--r--  1 adityaagarkar  staff   170728 Jul 13 13:37 sound.png
+-rw-r--r--  1 adityaagarkar  staff   198276 Jul 13 13:38 circles.png
+-rw-r-----@ 1 adityaagarkar  staff   105656 Jul 13 13:38 spellings.jpg
+-rw-r-----@ 1 adityaagarkar  staff    79221 Jul 13 13:39 letters.jpg
+-rw-r-----@ 1 adityaagarkar  staff    99701 Jul 13 13:39 spellings-1.jpg
+-rw-r--r--  1 adityaagarkar  staff    95100 Jul 13 13:41 operation.png
+-rw-r--r--  1 adityaagarkar  staff   130033 Jul 13 13:41 area-15.png
+-rw-r--r--  1 adityaagarkar  staff    86473 Jul 13 13:42 hazardous.png
+-rw-r--r--  1 adityaagarkar  staff   116108 Jul 13 16:04 transform.png
+-rw-r--r--  1 adityaagarkar  staff   116907 Jul 13 16:05 energy-8.png
+-rw-r--r--  1 adityaagarkar  staff   116907 Jul 13 16:05 solar-4.png
+-rw-r--r--  1 adityaagarkar  staff    60625 Jul 13 16:07 transformations.png
+-rw-r--r--  1 adityaagarkar  staff    49466 Jul 13 16:11 dynamics.png
+-rw-r--r--  1 adityaagarkar  staff   159925 Jul 13 16:50 parallel-1.png
+-rw-r-----@ 1 adityaagarkar  staff    78102 Jul 13 16:51 parallel-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    88496 Jul 13 16:51 parallel-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff    72530 Jul 13 16:51 parallel-4.jpg
+-rw-r-----@ 1 adityaagarkar  staff    90144 Jul 13 16:52 lines.jpg
+-rw-r-----@ 1 adityaagarkar  staff    27750 Jul 13 16:52 abstract-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    75400 Jul 13 16:52 electricity-4.jpg
+-rw-r-----@ 1 adityaagarkar  staff    22245 Jul 13 16:53 levels.jpg
+-rw-r-----@ 1 adityaagarkar  staff   134815 Jul 13 16:53 parallel-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    62048 Jul 13 16:54 perpendicular-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   171233 Jul 13 16:55 perpendicular-2.png
+-rw-r--r--  1 adityaagarkar  staff    73475 Jul 13 16:55 squares-1.png
+-rw-r--r--  1 adityaagarkar  staff    85896 Jul 13 16:56 squares-2.png
+-rw-r--r--  1 adityaagarkar  staff    97103 Jul 13 16:57 data-3.png
+-rw-r--r--  1 adityaagarkar  staff   123980 Jul 13 16:58 data-5.png
+-rw-r-----@ 1 adityaagarkar  staff    80448 Jul 13 16:58 data-6.jpg
+-rw-r-----@ 1 adityaagarkar  staff    53576 Jul 13 16:58 data-7.jpg
+-rw-r-----@ 1 adityaagarkar  staff    79026 Jul 13 16:59 technology.jpg
+-rw-r-----@ 1 adityaagarkar  staff    57948 Jul 13 16:59 leaves.jpg
+-rw-r-----@ 1 adityaagarkar  staff    36029 Jul 13 16:59 calendar.jpg
+-rw-r-----@ 1 adityaagarkar  staff    23923 Jul 13 16:59 memory.jpg
+-rw-r-----@ 1 adityaagarkar  staff   147198 Jul 13 17:00 data-8.jpg
+-rw-r-----@ 1 adityaagarkar  staff   117740 Jul 13 17:00 algorithm.jpg
+-rw-r-----@ 1 adityaagarkar  staff    41640 Jul 13 17:00 storage.jpg
+-rw-r--r--  1 adityaagarkar  staff   133214 Jul 13 17:02 data-9.png
+-rw-r-----@ 1 adityaagarkar  staff    37975 Jul 13 17:02 record.jpg
+-rw-r-----@ 1 adityaagarkar  staff    34302 Jul 13 17:02 record-4.jpg
+-rw-r-----@ 1 adityaagarkar  staff    48530 Jul 13 17:02 technology-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    42850 Jul 13 17:03 statistics-9.jpg
+-rw-r-----@ 1 adityaagarkar  staff    40179 Jul 13 17:06 writing-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    32950 Jul 13 17:06 writing-7.jpg
+-rw-r--r--  1 adityaagarkar  staff   125045 Jul 13 17:07 drawing-6.png
+-rw-r-----@ 1 adityaagarkar  staff    40978 Jul 13 17:07 writing-9.jpg
+-rw-r--r--  1 adityaagarkar  staff    89436 Jul 13 17:12 read-6.png
+-rw-r-----@ 1 adityaagarkar  staff    51298 Jul 13 17:13 read-8.jpg
+-rw-r-----@ 1 adityaagarkar  staff    14468 Jul 13 17:14 read-9.jpg
+-rw-r-----@ 1 adityaagarkar  staff    14296 Jul 13 17:20 notes.jpg
+-rw-r-----@ 1 adityaagarkar  staff    52447 Jul 13 17:20 words-88.jpg
+-rw-r-----@ 1 adityaagarkar  staff    36558 Jul 13 17:20 text-7.jpg
+-rw-r-----@ 1 adityaagarkar  staff    17619 Jul 13 17:20 text-8.jpg
+-rw-r-----@ 1 adityaagarkar  staff    28348 Jul 13 17:21 text-11.jpg
+-rw-r-----@ 1 adityaagarkar  staff    39821 Jul 13 17:22 text-10.jpg
+-rw-r-----@ 1 adityaagarkar  staff    31688 Jul 13 17:22 text-12.jpg
+-rw-r-----@ 1 adityaagarkar  staff    38220 Jul 13 17:23 rows.jpg
+-rw-r-----@ 1 adityaagarkar  staff    50409 Jul 13 17:23 letters-3.jpg
+-rw-r--r--  1 adityaagarkar  staff    95471 Jul 13 17:25 structure-1.png
+-rw-r--r--  1 adityaagarkar  staff   115939 Jul 13 17:25 structure-3.png
+-rw-r-----@ 1 adityaagarkar  staff   123674 Jul 13 17:25 structure-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    96997 Jul 13 17:26 structure-6.jpg
+-rw-r-----@ 1 adityaagarkar  staff    80402 Jul 13 17:26 everyday-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff    82112 Jul 13 17:26 structure-8.jpg
+-rw-r-----@ 1 adityaagarkar  staff   105709 Jul 13 17:27 everyday-7.jpg
+-rw-r-----@ 1 adityaagarkar  staff    57983 Jul 13 17:27 structure-9.jpg
+-rw-r--r--  1 adityaagarkar  staff   206411 Jul 13 17:33 proportional.png
+-rw-r-----@ 1 adityaagarkar  staff    20547 Jul 13 17:33 ratio-3.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   138620 Jul 13 17:35 ratio-4.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    77093 Jul 13 17:36 shadow.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   176163 Jul 13 17:36 rays.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   134181 Jul 13 17:36 rays-2.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    62545 Jul 13 17:36 rays-3.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    60351 Jul 13 17:38 quantity-2.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   194044 Jul 13 17:39 plant.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   173659 Jul 13 17:39 quantity-3.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   149441 Jul 13 17:39 quantity-4.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   296085 Jul 13 17:40 quantity-7.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    35361 Jul 13 17:41 word-9.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    69510 Jul 13 17:41 word-11.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   114427 Jul 13 17:42 letters-5.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   204891 Jul 13 17:42 word-13.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   454411 Jul 13 17:43 quantity-9.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   138074 Jul 13 17:44 quantity-14.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    71942 Jul 13 17:44 writing-1245544.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   166671 Jul 13 17:45 writing-1244257.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   198568 Jul 13 17:45 characters-1245834.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    56200 Jul 13 17:46 writing-1419574.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    66552 Jul 13 17:46 word-1463021.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   145515 Jul 13 17:47 word-1416517.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   152210 Jul 13 17:47 word-1414551.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   307815 Jul 13 17:48 concepts-2-1464907.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   198067 Jul 13 17:48 electric-1536637.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   111579 Jul 13 17:49 word-1562771.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   112675 Jul 13 17:49 word-1548054.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   219672 Jul 13 17:50 adapt.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   139071 Jul 13 17:50 adapt-2.jpg
+-rw-r--r--@ 1 adityaagarkar  staff    91227 Jul 13 17:50 adapt-5.jpg
+-rw-r--r--@ 1 adityaagarkar  staff   141283 Jul 13 17:51 flower.jpg
+-rw-r-----@ 1 adityaagarkar  staff    69930 Jul 13 17:52 natural.jpg
+-rw-r--r--  1 adityaagarkar  staff   170074 Jul 13 17:53 natural-3.png
+-rw-r--r--  1 adityaagarkar  staff   242049 Jul 13 17:53 natural-6.png
+-rw-r--r--  1 adityaagarkar  staff   172842 Jul 13 17:53 natural-8.png
+-rw-r--r--  1 adityaagarkar  staff   296639 Jul 13 17:54 natural-7.png
+-rw-r--r--  1 adityaagarkar  staff   196699 Jul 13 17:54 slices.png
+-rw-r-----@ 1 adityaagarkar  staff    91577 Jul 13 17:56 natural-9.jpg
+-rw-r--r--  1 adityaagarkar  staff    70367 Jul 13 17:56 element.png
+-rw-r-----@ 1 adityaagarkar  staff    77932 Jul 13 17:57 table-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   166374 Jul 13 17:58 matrix.png
+-rw-r--r--  1 adityaagarkar  staff   113979 Jul 13 17:58 matrix-3.png
+-rw-r--r--  1 adityaagarkar  staff   171017 Jul 13 17:59 table-4.png
+-rw-r--r--  1 adityaagarkar  staff   211275 Jul 13 17:59 technical.png
+-rw-r--r--  1 adityaagarkar  staff   200495 Jul 13 17:59 speed-5.png
+-rw-r-----@ 1 adityaagarkar  staff    70651 Jul 13 18:00 number.jpg
+-rw-r-----@ 1 adityaagarkar  staff   117669 Jul 13 18:00 digital-1.jpg
+-rw-r--r--  1 adityaagarkar  staff   162247 Jul 13 18:01 meanings.png
+-rw-r--r--  1 adityaagarkar  staff   199252 Jul 13 18:02 sense.png
+-rw-r-----@ 1 adityaagarkar  staff    60782 Jul 13 18:02 irregular.jpg
+-rw-r-----@ 1 adityaagarkar  staff   131440 Jul 13 18:03 forms.jpg
+-rw-r-----@ 1 adityaagarkar  staff    63594 Jul 13 18:04 features.jpg
+-rw-r-----@ 1 adityaagarkar  staff    47988 Jul 13 18:04 frequently.jpg
+-rw-r-----@ 1 adityaagarkar  staff    74313 Jul 13 18:04 frequently-1.jpg
+-rw-r-----@ 1 adityaagarkar  staff    39198 Jul 13 18:05 occurring.jpg
+-rw-r--r--  1 adityaagarkar  staff   140187 Jul 13 18:06 star.png
+-rw-r--r--  1 adityaagarkar  staff   265154 Jul 13 18:07 star-2.png
+-rw-r--r--  1 adityaagarkar  staff   182773 Jul 13 18:07 star-3.png
+-rw-r--r--  1 adityaagarkar  staff   122651 Jul 13 18:08 selection.png
+-rw-r-----@ 1 adityaagarkar  staff    62096 Jul 13 18:08 selection-2.jpg
+-rw-r-----@ 1 adityaagarkar  staff   107623 Jul 13 18:09 selection-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff    49511 Jul 13 18:09 alternative.jpg
+-rw-r-----@ 1 adityaagarkar  staff   110073 Jul 13 18:09 combinations-3.jpg
+-rw-r-----@ 1 adityaagarkar  staff   114852 Jul 13 18:09 permutations-5.jpg
+-rw-r-----@ 1 adityaagarkar  staff   104702 Jul 13 18:10 types.jpg
+-rw-r-----@ 1 adityaagarkar  staff    55659 Jul 13 18:10 types-1.jpg
+-rw-r-----@ 1 adityaagarkar  staff    36719 Jul 13 18:11 types-4.jpg
+-rw-r--r--@ 1 adityaagarkar  staff        0 Jul 13 18:11 files.csv
