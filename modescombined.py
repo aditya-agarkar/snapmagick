@@ -185,10 +185,13 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
         if(objmatchList[rows][0]=='icon'):
             obj.append("convert  -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
             "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#e76255' -alpha on temp-" + str(ncolor) + ".png\n"
-            "convert -size 100x100 canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
+            "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
         if(objmatchList[rows][0]=='pango'):
             l,w = temp_size.split("x")
-            obj.append("convert -background transparent -define pango:gravity=center pango:'<span font=\"FontAwesome Regular\" size=\"" + str(850*int(l)) + "\" foreground=\"" + fglist[ncolor] +"\">" +  objmatchList[rows][3] + "</span>' temp-" + str(ncolor) + ".png\n")
+            obj.append("convert -background transparent -define pango:gravity=center pango:'"
+            "<span font=\"FontAwesome Regular\" size=\"" + str(800*int(l)) + "\" foreground=\"" + fglist[ncolor] +"\">" +  objmatchList[rows][3] +
+            "</span>' temp-" + str(ncolor) + ".png\n"
+            "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
             ncolor=ncolor+1
     return obj
 
@@ -523,7 +526,7 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 10:
                     icon_resize = "'"+str(int(70))+">'"
-                    temp_size='80x60'
+                    temp_size='70x50'
                     obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,90,50)
                     commFile.write(obj[0])
                     commFile.write(obj[1])
