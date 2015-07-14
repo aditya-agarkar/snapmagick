@@ -185,6 +185,7 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
         if(objmatchList[rows][0]=='icon'):
             obj.append("convert  -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
             "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#e76255' -alpha on temp-" + str(ncolor) + ".png\n"
+            "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#373234' -alpha on temp-" + str(ncolor) + ".png\n"
             "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
         if(objmatchList[rows][0]=='pango'):
             l,w = temp_size.split("x")
