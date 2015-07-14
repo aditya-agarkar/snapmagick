@@ -521,7 +521,7 @@ with open(standardsFileName,"rU") as f:
                     string.strip()
 
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
-                    commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+0 '" + string + "' " + output_folder + id +"-9.gif\n")
+                    commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+0 '" + string + "' " + output_folder + id +"-8.gif\n")
 
                 if card_model == 9:
                     icon_resize = "'"+str(int(60))+">'"
@@ -538,7 +538,7 @@ with open(standardsFileName,"rU") as f:
                         dir2 = "southeast"
 
                     commFile.write('convert -size 800x400 canvas:none -fill \'' + bglist[0] + '\' -draw "rectangle 0,0,400,200" -fill \'' + bglist[1] + '\' -draw "rectangle 0,200 400,400" -fill \'' + bglist[2] + '\'  -draw "rectangle 400,0 800,200" -fill \'' + bglist[3] + '\' -draw "rectangle 400,200 800,400" -rotate ' + str(rotate_angle) +' -gravity center -extent ' + final_size + ' temp.png\n')
-                    commFile.write("convert temp.png -gravity " + dir1 + " temp-0.png -composite -gravity " + dir2 + " temp-1.png -composite " + output_folder+ row[2] +"-10.gif\n")
+                    commFile.write("convert temp.png -gravity " + dir1 + " temp-0.png -composite -gravity " + dir2 + " temp-1.png -composite " + output_folder+ row[2] +"-9.gif\n")
                 ###print imageList
 
                 w = row[2] +"-" + str(card_model)
