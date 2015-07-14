@@ -509,6 +509,8 @@ with open(standardsFileName,"rU") as f:
                     i = 0
                     string = ""
                     while i < len(keys) and lines < 4:
+                        if len(keys[i])>=15 :
+                            i+=1
                         while i < len(keys) and line_length + len(keys[i])< 15 :
                             string += keys[i] + " "
                             line_length += len(keys[i])
@@ -526,9 +528,9 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+0 '" + string + "' " + output_folder + id +"-9.gif\n")
 
                 if card_model == 10:
-                    icon_resize = "'"+str(int(70))+">'"
-                    temp_size='70x50'
-                    obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,90,50)
+                    icon_resize = "'"+str(int(60))+">'"
+                    temp_size='80x60'
+                    obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,80,40)
                     commFile.write(obj[0])
                     commFile.write(obj[1])
                     rotate_angle = random.choice([-1,1]) * 20
