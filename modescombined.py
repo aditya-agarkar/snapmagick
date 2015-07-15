@@ -1,6 +1,7 @@
 import csv
 from random import randint
 import random
+import math
 import colorsys
 from randomcolor import RandomColor
 
@@ -71,6 +72,121 @@ class Object(object):
     def __repr__(self):
         return '"' +str(self.one) + ", " + str(self.two) +'"'
 
+
+def getSuccessors(color):
+    def perm(l, n, str_a, perm_a):
+        """Generate every permutation of length `n`, selecting from the
+           possible values in `l`.
+        """
+        if len(str_a) == n:
+            return (str_a,) + perm_a
+        else:
+            new_perm_a = perm_a
+            for c in l:
+                new_perm_a = perm(l, n, str_a + (c,), new_perm_a)
+            return new_perm_a
+
+    def applyMove(color, move):
+        """Given a "move" of the form (x,y,z) apply that move to `color`.
+           Eg, applyMove( (255,1,255), (0,1,0) ) => (255,2,255)
+           If the move isn't legal, return None.
+        """
+        if move == (0,0,0):
+            return None
+
+        r,g,b = color
+        dr,dg,db = move
+        if 0 <= r+dr <= 255:
+            r = r+dr
+        else :
+            return None
+
+        if 0 <= g+dg <= 255:
+            g = g+dg
+        else :
+            return None
+
+        if 0 <= b+db <= 255:
+            b = b+db
+        else :
+            return None
+
+        return (r,g,b)
+
+    successors = []
+    movements = perm([1,-1,0], 3, (),())
+    for move in movements:
+        succ = applyMove(color, move)
+        if succ is not None:
+            successors.append(succ)
+    return successors
+
+def euclideanDist(cur, succ):
+    r,g,b = cur
+    nr,ng,nb = succ
+    return math.sqrt(math.pow(r-nr,2) + math.pow(g-ng,2) + math.pow(b-nb,2))
+
+def closestPoint(cur, point_list):
+    """Find the point in the `point_list` that is closest to `cur`."""
+    return min(point_list, key=lambda point: euclideanDist(cur, point))
+
+def distClosestPoint(cur, point_list):
+    """Find the distance to the point in `point_list` that is closest to `cur`.
+    """
+    return euclideanDist(closestPoint(cur, point_list), cur)
+
+def evalSuccessor(cur, succ, point_list):
+    """Find the distance to the point closest to `cur`.
+       Find the distance to the point closest to `succ`.
+       Return the difference. This tells us whether cur or succ is better.
+    """
+    cur_closest_dist = distClosestPoint(cur, point_list)
+    succ_closest_dist = distClosestPoint(succ, point_list)
+    return succ_closest_dist - cur_closest_dist
+
+def hillClimbColor(color_list, start):
+    cur_color = start
+    while True:
+        maximizing_moves = []
+        for succ in getSuccessors(cur_color):
+            next_maxi_min = evalSuccessor(cur_color, succ, color_list)
+            if next_maxi_min > 0:
+                # Only get the successors that are better than the current.
+                maximizing_moves.append( (succ, next_maxi_min) )
+        if len(maximizing_moves) == 0:
+            # If maximizing_moves is empty, there are no better successors.
+            return cur_color
+        else:
+            # Move to the best successor.
+            cur_color = max(maximizing_moves, key=lambda pair: pair[1])[0]
+
+
+def randomRestartHillClimbColor(color_list, restarts):
+    """Pick a color that contrasts well with all the colors in `color_list`
+       using the random-restart hill climbing algorithm. Restart `restart`
+       times.
+    """
+    best_color = None
+    for i in xrange(restarts):
+        start = (
+                random.randint(0,255),
+                random.randint(0,255),
+                random.randint(0,255),
+                )
+        color = hillClimbColor(color_list, start)
+        if best_color is None:
+            # On the first iteration, best_color will be None, so `color` is
+            # trivially better.
+            best_color = color
+        else :
+            # Compare the color found by hillClimbColor to the current best
+            # color.
+            margin = evalSuccessor(best_color, color, color_list)
+            if margin > 0:
+                # Replace the current best color, if the new color is better.
+                best_color = color
+    return best_color
+
 #returns random color from given list
 def rand_color(cList,ncolors):
      Color = cList[randint(0,ncolors - 1)][0]
@@ -124,6 +240,22 @@ def complementaryColor(hex):
   comp = ['02%X' % (255 - int(a, 16)) for a in rgb]
   ###print "comp" , comp
   return str(comp)
+
+#returns contrasting color from given HSL list
+def hex2rgb(backgroundColor):
+    r = int(backgroundColor[1:3],16)
+    g = int(backgroundColor[3:5],16)
+    b = int(backgroundColor[5:],16)
+    r, g, b = [x for x in r, g, b]
+    return (r,g,b)
+
+def rgb2hex(rgb):
+    #r, g, b = ['02%X' for x in rgb]
+    r=rgb[0]
+    g=rgb[1]
+    b=rgb[2]
+    color="#%02x%02x%02x" % (r, g, b)
+    return color
 
 #returns contrasting color from given HSL list
 def contra_color(backgroundColor):
@@ -586,9 +718,13 @@ with open(standardsFileName,"rU") as f:
                     ncol = randint(0,gradientNums - 1)
                     c1=gradientList[ncol][0]
                     c2=gradientList[ncol][1]
-                    c=colorscale(darkest([c1,c2]),1.5)
+                    cc1=hex2rgb(c1)
+                    cc2=hex2rgb(c2)
+                    cc=rgb2hex(randomRestartHillClimbColor([cc1,cc2], 3))
+                    #c=hillClimbColor([c1,c2])
+                    #c=colorscale(darkest([c1,c2]),1.5)
                     #c=rand_lighter_color(darkest([c1,c2]))
-                    fglist=[c]
+                    fglist=[cc]
                     #if(len(fglist)==0):
                     #    b=1
                     temp_size='180x90'
