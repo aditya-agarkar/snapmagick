@@ -76,6 +76,41 @@ def rand_color(cList,ncolors):
      Color = cList[randint(0,ncolors - 1)][0]
      return Color
 
+def clamp(val, minimum=0, maximum=255):
+    if val < minimum:
+        return minimum
+    if val > maximum:
+        return maximum
+    return val
+
+def colorscale(hexstr, scalefactor):
+    """
+    Scales a hex string by ``scalefactor``. Returns scaled hex string.
+
+    To darken the color, use a float value between 0 and 1.
+    To brighten the color, use a float value greater than 1.
+
+    >>> colorscale("#DF3C3C", .5)
+    #6F1E1E
+    >>> colorscale("#52D24F", 1.6)
+    #83FF7E
+    >>> colorscale("#4F75D2", 1)
+    #4F75D2
+    """
+
+    hexstr = hexstr.strip('#')
+
+    if scalefactor < 0 or len(hexstr) != 6:
+        return hexstr
+
+    r, g, b = int(hexstr[:2], 16), int(hexstr[2:4], 16), int(hexstr[4:], 16)
+
+    r = clamp(r * scalefactor)
+    g = clamp(g * scalefactor)
+    b = clamp(b * scalefactor)
+
+    return "#%02x%02x%02x" % (r, g, b)
+
 def complementaryColor(hex):
   """Returns complementary RGB color
 
@@ -551,9 +586,13 @@ with open(standardsFileName,"rU") as f:
                     ncol = randint(0,gradientNums - 1)
                     c1=gradientList[ncol][0]
                     c2=gradientList[ncol][1]
-                    fglist=['#FFFFFF']
+                    c=colorscale(darkest([c1,c2]),0.5)
+                    #c=rand_lighter_color(darkest([c1,c2]))
+                    fglist=[c]
+                    #if(len(fglist)==0):
+                    #    b=1
                     temp_size='180x90'
-                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
+                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,50,60)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write("convert -size " + final_size + " gradient:\'" + c1 + "\'-\'" + c2 +"\' -gravity center temp-0.png -composite " + output_folder+ row[2] +"-10.gif\n")

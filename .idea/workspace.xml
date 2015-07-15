@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="063f44c5-356b-434c-a9d3-eccf31e675a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands.sh" afterPath="$PROJECT_DIR$/commands.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetaData/gradients.csv" afterPath="$PROJECT_DIR$/MetaData/gradients.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modescombined.py" afterPath="$PROJECT_DIR$/modescombined.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snapmagick.iws" />
@@ -29,9 +29,11 @@
       <file leaf-file-name="modescombined.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modescombined.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13821138">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding />
+            <state vertical-scroll-proportion="0.3678862">
+              <caret line="594" column="110" selection-start-line="594" selection-start-column="110" selection-end-line="594" selection-end-column="110" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -372,7 +374,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="76" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -400,6 +402,7 @@
         <watch expression="line_length + len(keys[i])" />
         <watch expression="len(keys)" />
         <watch expression="len(keys)" />
+        <watch expression="len(fglist)" />
       </configuration>
     </watches-manager>
   </component>
@@ -432,9 +435,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modescombined.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13821138">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.3678862">
+          <caret line="594" column="110" selection-start-line="594" selection-start-column="110" selection-end-line="594" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
