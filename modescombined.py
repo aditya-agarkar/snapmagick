@@ -5,7 +5,7 @@ import colorsys
 from randomcolor import RandomColor
 
 #which mode to draw
-card_model = int(raw_input("Enter a number from 1 to 9, to determine which mode to create: "))
+card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
 output_folder = "/cam/motion/images/"
 num_pallets = 5
 #output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
@@ -226,7 +226,7 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
         if(objmatchList[rows][0]=='pango'):
             l,w = temp_size.split("x")
             obj.append("convert -background transparent -define pango:gravity=center pango:'"
-            "<span font=\"FontAwesome Regular\" size=\"" + str(800*int(l)) + "\" foreground=\"" + fglist[ncolor] +"\">" +  objmatchList[rows][3] +
+            "<span font=\"FontAwesome Regular\" size=\"" + str(500*int(l)) + "\" foreground=\"" + fglist[ncolor] +"\">" +  objmatchList[rows][3] +
             "</span>' temp-" + str(ncolor) + ".png\n"
             "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
         ncolor=ncolor+1
@@ -586,13 +586,13 @@ with open(standardsFileName,"rU") as f:
                     ncol = randint(0,gradientNums - 1)
                     c1=gradientList[ncol][0]
                     c2=gradientList[ncol][1]
-                    c=colorscale(darkest([c1,c2]),0.5)
+                    c=colorscale(darkest([c1,c2]),1.5)
                     #c=rand_lighter_color(darkest([c1,c2]))
                     fglist=[c]
                     #if(len(fglist)==0):
                     #    b=1
                     temp_size='180x90'
-                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,50,60)
+                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write("convert -size " + final_size + " gradient:\'" + c1 + "\'-\'" + c2 +"\' -gravity center temp-0.png -composite " + output_folder+ row[2] +"-10.gif\n")
