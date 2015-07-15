@@ -21,6 +21,7 @@ objectFileName = "MetaData/objects.csv"
 standardsFileName = "MetaData/final_kw_standards.csv"
 #standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
+gradientFileName = "MetaData/gradients.csv"
 polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
 imagesFileName = "MetaData/images.csv"
@@ -278,6 +279,12 @@ def isKey(key):
 with open(imagesFileName,"rb") as im:
     imreader = csv.reader(im)
     images = list(imreader)[1:]
+
+#processes gradient file
+with open(gradientFileName,"r") as d:
+    gradientRead = csv.reader(d)
+    gradientList = list(gradientRead)
+    gradientNums = len(gradientList)
 
 #processes color file
 with open(colorsFileName,"r") as d:
@@ -539,6 +546,19 @@ with open(standardsFileName,"rU") as f:
 
                     commFile.write('convert -size 800x400 canvas:none -fill \'' + bglist[0] + '\' -draw "rectangle 0,0,400,200" -fill \'' + bglist[1] + '\' -draw "rectangle 0,200 400,400" -fill \'' + bglist[2] + '\'  -draw "rectangle 400,0 800,200" -fill \'' + bglist[3] + '\' -draw "rectangle 400,200 800,400" -rotate ' + str(rotate_angle) +' -gravity center -extent ' + final_size + ' temp.png\n')
                     commFile.write("convert temp.png -gravity " + dir1 + " temp-0.png -composite -gravity " + dir2 + " temp-1.png -composite " + output_folder+ row[2] +"-9.gif\n")
+
+                if card_model == 10:
+                    ncol = randint(0,gradientNums - 1)
+                    c1=gradientList[ncol][0]
+                    c2=gradientList[ncol][1]
+                    fglist=['#FFFFFF']
+                    temp_size='180x90'
+                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
+                    if(len(obj)>0):
+                        commFile.write(obj[0])
+                        commFile.write("convert -size " + final_size + " gradient:\'" + c1 + "\'-\'" + c2 +"\' -gravity center temp-0.png -composite " + output_folder+ row[2] +"-10.gif\n")
+
+
                 ###print imageList
 
                 w = row[2] +"-" + str(card_model)
