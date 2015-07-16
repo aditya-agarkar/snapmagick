@@ -718,11 +718,11 @@ with open(standardsFileName,"rU") as f:
                     ncol = randint(0,gradientNums - 1)
                     c1=gradientList[ncol][0]
                     c2=gradientList[ncol][1]
-                    cc1=hex2rgb(c1)
-                    cc2=hex2rgb(c2)
-                    cc=rgb2hex(randomRestartHillClimbColor([cc1,cc2], 3))
+                    #cc1=hex2rgb(c1)
+                    #cc2=hex2rgb(c2)
+                    #cc=rgb2hex(randomRestartHillClimbColor([cc1,cc2], 3))
                     #c=hillClimbColor([c1,c2])
-                    #c=colorscale(darkest([c1,c2]),1.5)
+                    cc=colorscale(darkest([c1,c2]),1.3)
                     #c=rand_lighter_color(darkest([c1,c2]))
                     fglist=[cc]
                     #if(len(fglist)==0):
