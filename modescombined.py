@@ -294,6 +294,43 @@ def contra_color(backgroundColor):
         ##print "g",contra_rgb,
     return contra_rgb
 
+def contra_color(backgroundColor):
+    r = int(backgroundColor[1:3],16)
+    g = int(backgroundColor[3:5],16)
+    b = int(backgroundColor[5:],16)
+    r, g, b = [x/255.0 for x in r, g, b]
+    h, l, s = colorsys.rgb_to_hls(r, g, b)
+    h = h + 0.8
+    if h > 1:
+        h = h - 1
+    r, g, b = colorsys.hls_to_rgb(h, l, s)
+    r, g, b = [x*255.0 for x in r, g, b]
+    ##print r,g,b
+    if r == 0:
+        r = 1
+    if g == 0:
+        g = 1
+    if b == 0:
+        b=1
+    if r < 16:
+        contra_rgb = format(int(str((int(r)))),'02x')
+    else:
+        contra_rgb = hex(int(r))[2:]
+    if g < 16:
+        contra_rgb += format(int(str((int(g)))),'02x')
+    else:
+        contra_rgb += hex(int(g))[2:]
+    if b < 16:
+        contra_rgb += format(int((int(b))),'02x')
+    else:
+        contra_rgb += hex(int(b))[2:]
+    ##print
+    for i in range(len(contra_rgb),6):
+        contra_rgb += "f"
+        ##print "g",contra_rgb,
+    return contra_rgb
+
+
 def darkest(cList):
     darkestVal = 2000
     darkest = cList[0]
@@ -309,6 +346,22 @@ def darkest(cList):
         if darkness < darkestVal:
             darkest = col
     return darkest
+
+def lightest(cList):
+    lightestVal = 2000
+    lightest = cList[0]
+    for col in cList:
+        if len(col) == 5:
+            col += "F"
+        elif len(col) == 4:
+            col += "FF"
+        r = int(col[1:3],16)
+        g = int(col[3:5],16)
+        b = int(col[5:],16)
+        darkness = (0.299*r + 0.587*g + 0.114*b)
+        if darkness > lightestVal:
+            lightest = col
+    return lightest
 
 def color_from_pallet(pallet):
     pnum = "p" + pnum[1]
@@ -723,8 +776,10 @@ with open(standardsFileName,"rU") as f:
                     #cc=rgb2hex(randomRestartHillClimbColor([cc1,cc2], 3))
                     #c=hillClimbColor([c1,c2])
                     #cc=colorscale(darkest([c1,c2]),1.3)
-                    #c=rand_lighter_color(darkest([c1,c2]))
-                    fglist=['#f9f9f9']
+                    cc1=darkest([c1,c2])
+                    cc2=lightest([c1,c2])
+
+                    fglist=[contra_color(cc2)]
                     #if(len(fglist)==0):
                     #    b=1
                     temp_size='180x90'
