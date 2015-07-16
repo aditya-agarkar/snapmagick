@@ -731,8 +731,8 @@ with open(standardsFileName,"rU") as f:
                     obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
-                        commFile.write("convert temp-0.png -background 'rgba(0,0,0,0)' -rotate 0 -alpha set -channel A -evaluate Divide 3 temp-0.png ")
-                        commFile.write("convert -size " + final_size + " gradient:\'" + c1 + "\'-\'" + c2 +"\' -gravity center temp-0.png -composite " + output_folder+ row[2] +"-10.gif\n")
+                        commFile.write("convert temp-0.png -background 'rgba(0,0,0,0)' -rotate 0 -alpha set -channel A -evaluate Divide 3 temp-0.png\n")
+                        commFile.write("convert -size " + final_size + " gradient:\'" + c1 + "\'-\'" + c2 + "\' -gravity center temp-0.png -composite " + output_folder+ row[2] + "-10.gif\n")
 
 
                 ###print imageList
