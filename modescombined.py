@@ -346,7 +346,7 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
         if(objmatchList[rows][0]=='font'):
             if(objmatchList[rows][3]=="'"):
                 obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(density) + " -pointsize "
-                + str(pointsize) +' -annotate +0+0 "' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
+                + str(pointsize) +' -annotate +0+5 "' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
             else:
                 obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(density) + " -pointsize "
                 + str(pointsize) +" -annotate +0+0 '" + objmatchList[rows][3] + "' temp-" + str(ncolor) + ".png\n")
@@ -728,10 +728,10 @@ with open(standardsFileName,"rU") as f:
                     #if(len(fglist)==0):
                     #    b=1
                     temp_size='180x90'
-                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,m5_font)
+                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,95)
                     if(len(obj)>0):
                         commFile.write(obj[0])
-                        commFile.write("convert temp-0.png -background 'rgba(0,0,0,0)' -rotate 0 -alpha set -channel A -evaluate Divide 3 temp-0.png\n")
+                        commFile.write("convert temp-0.png -background 'rgba(0,0,0,0)' -rotate 0 -alpha set -channel A -evaluate Divide 2 temp-0.png\n")
                         commFile.write("convert -size " + final_size + " gradient:\'" + c1 + "\'-\'" + c2 + "\' -gravity center temp-0.png -composite " + output_folder+ row[2] + "-10.gif\n")
 
 
