@@ -268,67 +268,27 @@ def contra_color(backgroundColor):
     if h > 1:
         h = h - 1
     r, g, b = colorsys.hls_to_rgb(h, l, s)
-    r, g, b = [x*255.0 for x in r, g, b]
-    ##print r,g,b
-    if r == 0:
-        r = 1
-    if g == 0:
-        g = 1
-    if b == 0:
-        b=1
-    if r < 16:
-        contra_rgb = format(int(str((int(r)))),'02x')
-    else:
-        contra_rgb = hex(int(r))[2:]
-    if g < 16:
-        contra_rgb += format(int(str((int(g)))),'02x')
-    else:
-        contra_rgb += hex(int(g))[2:]
-    if b < 16:
-        contra_rgb += format(int((int(b))),'02x')
-    else:
-        contra_rgb += hex(int(b))[2:]
+    r, g, b = [x*256.0 for x in r, g, b]
+    if r == 256:
+        r = r-1
+    if g == 256:
+        g = g-1
+    if b == 256:
+        b = b-1
+
+    contra_rgb = '#'+'%02x%02x%02x' % (int(r),int(g),int(b))
+    #print r,g,b, contra_rgb
+    #contra_rgb = format(int(str((int(r)))),'02x') + format(int(str((int(g)))),'02x')+ contra_rgb += format(int((int(b))),'02x')
+    #else:
+    #    contra_rgb += hex(int(b))[2:]
     ##print
-    for i in range(len(contra_rgb),6):
-        contra_rgb += "f"
+    #for i in range(len(contra_rgb),6):
+    #    contra_rgb += "f"
         ##print "g",contra_rgb,
+    #contra_rgb = "#" + contra_rgb
     return contra_rgb
 
-def contra_color(backgroundColor):
-    r = int(backgroundColor[1:3],16)
-    g = int(backgroundColor[3:5],16)
-    b = int(backgroundColor[5:],16)
-    r, g, b = [x/255.0 for x in r, g, b]
-    h, l, s = colorsys.rgb_to_hls(r, g, b)
-    h = h + 0.8
-    if h > 1:
-        h = h - 1
-    r, g, b = colorsys.hls_to_rgb(h, l, s)
-    r, g, b = [x*255.0 for x in r, g, b]
-    ##print r,g,b
-    if r == 0:
-        r = 1
-    if g == 0:
-        g = 1
-    if b == 0:
-        b=1
-    if r < 16:
-        contra_rgb = format(int(str((int(r)))),'02x')
-    else:
-        contra_rgb = hex(int(r))[2:]
-    if g < 16:
-        contra_rgb += format(int(str((int(g)))),'02x')
-    else:
-        contra_rgb += hex(int(g))[2:]
-    if b < 16:
-        contra_rgb += format(int((int(b))),'02x')
-    else:
-        contra_rgb += hex(int(b))[2:]
-    ##print
-    for i in range(len(contra_rgb),6):
-        contra_rgb += "f"
-        ##print "g",contra_rgb,
-    return contra_rgb
+
 
 
 def darkest(cList):
