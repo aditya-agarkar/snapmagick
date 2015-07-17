@@ -372,13 +372,18 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
                 obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(int(int(density)*float(objmatchList[rows][4]))) + " -pointsize "
                 + str(int(int(pointsize)*float(objmatchList[rows][4]))) +' -annotate +0+' + objmatchList[rows][5] + ' "' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
             else:
-                if(objmatchList[rows][3]=="@" or objmatchList[rows][3]=="\\"):
+                if(objmatchList[rows][3]=="@" or objmatchList[rows][3]=="\"" or objmatchList[rows][3]=="$" or objmatchList[rows][3]=="`"):
                     obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(int(density*float(objmatchList[rows][4]))) + " -pointsize "
                     + str(int(int(pointsize)*float(objmatchList[rows][4]))) +' -annotate +0+'+ objmatchList[rows][5] +' "\\' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
                     #strng="convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(density) + " -pointsize " + str(pointsize) +' -annotate +0+5 "\\' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n"
                 else:
-                    obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(int(density*float(objmatchList[rows][4]))) + " -pointsize "
-                     + str(int(int(pointsize)*float(objmatchList[rows][4]))) +" -annotate +0+"+ objmatchList[rows][5] + " '" + objmatchList[rows][3] + "' temp-" + str(ncolor) + ".png\n")
+                    if(objmatchList[rows][3]=="\\"):
+                        obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(int(density*float(objmatchList[rows][4]))) + " -pointsize "
+                        + str(int(int(pointsize)*float(objmatchList[rows][4]))) +' -annotate +0+'+ objmatchList[rows][5] +' "\\\\\\' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
+
+                    else:
+                        obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(int(density*float(objmatchList[rows][4]))) + " -pointsize "
+                        + str(int(int(pointsize)*float(objmatchList[rows][4]))) +" -annotate +0+"+ objmatchList[rows][5] + " '" + objmatchList[rows][3] + "' temp-" + str(ncolor) + ".png\n")
         if(objmatchList[rows][0]=='icon'):
             if(fglist[ncolor]=='#ffffff'):
                 obj.append("convert  -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
