@@ -370,9 +370,9 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
                 obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(density) + " -pointsize "
                 + str(pointsize) +' -annotate +0+5 "' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
             else:
-                if(objmatchList[rows][3]=="@"):
+                if(objmatchList[rows][3]=="@" or objmatchList[rows][3]=="\\"):
                     obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(density) + " -pointsize "
-                    + str(pointsize) +' -annotate +0+5 \@ temp-' + str(ncolor) + ".png\n")
+                    + str(pointsize) +' -annotate +0+5 \"' + objmatchList[rows][3] + '" temp-' + str(ncolor) + ".png\n")
                 else:
                     obj.append("convert -size " + temp_size + " canvas:none -gravity center -font " + objmatchList[rows][2] + " -fill '" + fglist[ncolor] + "' -density " + str(density) + " -pointsize "
                      + str(pointsize) +" -annotate +0+0 '" + objmatchList[rows][3] + "' temp-" + str(ncolor) + ".png\n")
@@ -395,6 +395,9 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
             "</span>' temp-" + str(ncolor) + ".png\n"
             "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
         ncolor=ncolor+1
+        #strng="'"+ objmatchList[rows][3] + "'"
+        #if(len(strng)<3 and objmatchList[rows][0]=='font'):
+        #    z=1
     return obj
 
 def rand_bg_from_pallet(pnum,bgColorTup):
