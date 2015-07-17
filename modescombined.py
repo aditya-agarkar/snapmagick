@@ -277,17 +277,26 @@ def contra_color(backgroundColor):
         b = b-1
 
     contra_rgb = '#'+'%02x%02x%02x' % (int(r),int(g),int(b))
-    #print r,g,b, contra_rgb
-    #contra_rgb = format(int(str((int(r)))),'02x') + format(int(str((int(g)))),'02x')+ contra_rgb += format(int((int(b))),'02x')
-    #else:
-    #    contra_rgb += hex(int(b))[2:]
-    ##print
-    #for i in range(len(contra_rgb),6):
-    #    contra_rgb += "f"
-        ##print "g",contra_rgb,
-    #contra_rgb = "#" + contra_rgb
     return contra_rgb
 
+def contra_bw(backgroundColor):
+    r = int(backgroundColor[1:3],16)
+    g = int(backgroundColor[3:5],16)
+    b = int(backgroundColor[5:],16)
+    cc=[]
+    for c in (r,g,b):
+        c = c / 255.0
+        if c <= 0.03928:
+            c = c/12.92
+        else:
+            c = pow((c+0.055)/1.055, 2.4)
+        cc.append(c)
+    L = 0.2126 * cc[0] + 0.7152 * cc[1] + 0.0722 * cc[2]
+    if L > 0.179:
+        contra_bw ='#000000'
+    else:
+        contra_bw = '#ffffff'
+    return contra_bw
 
 
 
@@ -739,7 +748,7 @@ with open(standardsFileName,"rU") as f:
                     cc1=darkest([c1,c2])
                     cc2=lightest([c1,c2])
 
-                    fglist=[contra_color(cc2)]
+                    fglist=[contra_bw(cc2)]
                     #if(len(fglist)==0):
                     #    b=1
                     temp_size='180x90'
