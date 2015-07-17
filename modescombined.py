@@ -680,7 +680,7 @@ with open(standardsFileName,"rU") as f:
                     iconbg = bglist[0]
                     textColor=fglist[0]
                     temp_size='180x90'
-                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,95)
+                    obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,90)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write("convert -size " + final_size + " canvas:'" + iconbg + "' -gravity center temp-0.png -composite " + output_folder+ row[2] +"-5.gif\n")
