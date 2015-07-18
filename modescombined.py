@@ -604,7 +604,7 @@ with open(standardsFileName,"rU") as f:
 
                     iconbg=bglist[0]
                     textColor=fglist[0]
-                    temp_size='120x90'
+                    temp_size='130x90'
                     obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,190,30)
                     if(len(obj)>0):
                         commFile.write(obj[0])
