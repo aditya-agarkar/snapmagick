@@ -6,7 +6,7 @@ import colorsys
 from randomcolor import RandomColor
 
 #which mode to draw
-card_model = int(raw_input("Enter a number from 1 to 10, to determine which mode to create: "))
+card_model = int(raw_input("Enter a number from 1 to 12, to determine which mode to create: "))
 output_folder = "/cam/motion/images/"
 num_pallets = 5
 #output_folder = "/Users/adityaagarkar/PycharmProjects/snapmagick/"
@@ -48,7 +48,7 @@ m7_8_size =  str(m7_8_width) + "x" + str(m7_8_height)
 
 icon_resize = "'"+str(int(final_height/1.2))+">'"
 
-pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: [], 5: [] , 6: [], 7: [] , 8: [], 9: ["p1","p3"] , 10: []}
+pallet_dict = {1:[], 2 : ["p2"], 3: [] , 4: [], 5: ["p1"] , 6: [], 7: [] , 8: [], 9: ["p1","p3"] , 10: [],11: ["p2"],12: ["p3"]}
 
 class Object(object):
     def __init__(self,one,two):
@@ -676,7 +676,7 @@ with open(standardsFileName,"rU") as f:
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
-                if card_model == 5:
+                if(card_model == 5 or card_model == 11 or card_model == 12):
                     iconbg = bglist[0]
                     textColor=fglist[0]
                     temp_size='180x90'
