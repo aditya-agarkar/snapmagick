@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="063f44c5-356b-434c-a9d3-eccf31e675a5" name="Default" comment="" />
+    <list default="true" id="063f44c5-356b-434c-a9d3-eccf31e675a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modescombined.py" afterPath="$PROJECT_DIR$/modescombined.py" />
+    </list>
     <ignored path="snapmagick.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="modescombined.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modescombined.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16853933">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.48455057">
+              <caret line="679" column="38" selection-start-line="679" selection-start-column="38" selection-end-line="679" selection-end-column="38" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -476,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modescombined.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16853933">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.48455057">
+          <caret line="679" column="38" selection-start-line="679" selection-start-column="38" selection-end-line="679" selection-end-column="38" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
