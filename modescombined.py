@@ -18,23 +18,23 @@ m6_font = 50
 m7_font = 35
 
 objectFileName = "MetaData/objects.csv"
-standardsFileName = "MetaData/course_kw.csv"
-#standardsFileName = "MetaData/final_kw_standards.csv"
+#standardsFileName = "MetaData/course_kw.csv"
+standardsFileName = "MetaData/final_kw_standards.csv"
 #standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 gradientFileName = "MetaData/gradients.csv"
 polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
-imagesFileName = "MetaData/courseimages.csv"
-#imagesFileName = "MetaData/images.csv"
+#imagesFileName = "MetaData/courseimages.csv"
+imagesFileName = "MetaData/images.csv"
 iconbgFileName = "MetaData/iconbg.csv"
 boardbgFileName = "MetaData/boardbg.csv"
 htmlfile=output_folder+"index-" + str(card_model)+".html"
 
 break_line = 3000 #how many lines of the file to read until breaking
 #variables for the image sizes
-final_height = 100
-final_width = 200
+final_height = 140
+final_width = 280
 final_size = str(final_width) + "x" + str(final_height)
 
 #m6 component sizes
