@@ -19,8 +19,8 @@ m7_font = 35
 
 objectFileName = "MetaData/objects.csv"
 #standardsFileName = "MetaData/course_kw.csv"
-standardsFileName = "MetaData/final_kw_standards.csv"
-#standardsFileName = "MetaData/g7_kw_standards.csv"
+#standardsFileName = "MetaData/final_kw_standards.csv"
+standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 gradientFileName = "MetaData/gradients.csv"
 polygonFileName = "MetaData/polygons.csv"
@@ -671,9 +671,9 @@ with open(standardsFileName,"rU") as f:
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 70x70 a.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 70x70 b.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 70x70 c.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 a.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 b.png\n")
+                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 c.png\n")
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
