@@ -605,18 +605,18 @@ with open(standardsFileName,"rU") as f:
 
                     iconbg=bglist[0]
                     textColor=fglist[0]
-                    temp_size='130x90'
-                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,190,30)
+                    temp_size='195x135'
+                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,290,45)
                     if(len(obj)>0):
                         commFile.write(obj[0])
-                        commFile.write("convert -size 80x100 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 40,35 60,35' temp.png\n")
+                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 40,35 60,35' temp.png\n")
 
                         if len(row[1]) == 1:
-                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                            commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         else:
-                            commFile.write("convert temp.png -size 100 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 150 -pointsize 9 -annotate +0-15 '" + row[1] + "' temp.png\n")
-                        commFile.write("convert temp.png -size 100 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[3] + "' temp.png\n")
-                        commFile.write("convert -size 200x100 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity west temp-0.png -composite " + output_folder+ row[2] +"-1.gif\n")
+                            commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 150 -pointsize 9 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                        commFile.write("convert temp.png -size 150 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[3] + "' temp.png\n")
+                        commFile.write("convert -size 300x150 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity west temp-0.png -composite " + output_folder+ row[2] +"-1.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
                 if card_model == 2:
@@ -671,9 +671,9 @@ with open(standardsFileName,"rU") as f:
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
-                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"'+ " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 a.png\n")
-                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"' + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 b.png\n")
-                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"' + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 c.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"'+ " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 120x120 a.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"' + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 120x120 b.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"' + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 120x120 c.png\n")
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
