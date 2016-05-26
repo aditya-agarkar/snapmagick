@@ -609,7 +609,7 @@ with open(standardsFileName,"rU") as f:
                     obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,290,45)
                     if(len(obj)>0):
                         commFile.write(obj[0])
-                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 40,35 60,35' temp.png\n")
+                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,70 60,105' temp.png\n")
 
                         if len(row[1]) == 1:
                             commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
@@ -632,7 +632,7 @@ with open(standardsFileName,"rU") as f:
                       #c =  color_from_pallet(iconbgDict[iconbg])
                       #rand_col = rand_lighter_color(bg)
                       if( length < 51):
-                            commFile.write("<span font=\"Montserrat Bold\" size=\"15000\"")
+                            commFile.write("<span font=\"Montserrat Bold\" size=\"25000\"")
                             textColor=fglist[random.randint(0,len(fglist)-1)]
                             commFile.write(' foreground="'+textColor+'">' + w.upper() + ' </span>')
                             pos += 1
@@ -680,7 +680,7 @@ with open(standardsFileName,"rU") as f:
                 if(card_model == 5 or card_model == 11 or card_model == 12):
                     iconbg = bglist[0]
                     textColor=fglist[0]
-                    temp_size='180x90'
+                    temp_size='280x140'
                     obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,90)
                     if(len(obj)>0):
                         commFile.write(obj[0])
@@ -689,7 +689,7 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 6: # m6
                     icon_resize = "'"+str(60)+">'"
-                    temp_size='66x95'
+                    temp_size='86x105'
                     obj = get_object_string(keys,objects,3,fglist,bglist,temp_size,icon_resize,final_size,80,m6_font)
                     if(len(obj)==3):
                         commFile.write(obj[0])
@@ -702,7 +702,7 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 7:
                     icon_resize = "'"+str(int(40))+">'"
-                    temp_size='98x48'
+                    temp_size='148x73'
                     obj = get_object_string(keys,objects,4,fglist,bglist,temp_size,icon_resize,final_size,90,m7_font)
                     if(len(obj)==4):
                         commFile.write(obj[0])
@@ -744,7 +744,7 @@ with open(standardsFileName,"rU") as f:
 
                 if card_model == 9:
                     icon_resize = "'"+str(int(60))+">'"
-                    temp_size='80x60'
+                    temp_size='120x90'
                     obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,80,40)
                     commFile.write(obj[0])
                     commFile.write(obj[1])
@@ -774,7 +774,7 @@ with open(standardsFileName,"rU") as f:
                     fglist=[contra_bw(cc2)]
                     #if(len(fglist)==0):
                     #    b=1
-                    temp_size='180x90'
+                    temp_size='280x140'
                     obj = get_object_string(keys,objects,1,fglist,bglist,temp_size,icon_resize,final_size,70,95)
                     if(len(obj)>0):
                         commFile.write(obj[0])
