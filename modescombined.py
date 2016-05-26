@@ -665,15 +665,15 @@ with open(standardsFileName,"rU") as f:
                     iconbg = bglist[0]
                     ###print keys
                     ###print start_key
-                    temp_size='120x120'
+                    temp_size='140x140'
                     obj = get_object_string(keys,objects,3,fglist,iconbg,temp_size,icon_resize,final_size,190,m4_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
-                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,120 120,120 120,0"'+ " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 120x120 a.png\n")
-                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,120 120,120 120,0"' + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 120x120 b.png\n")
-                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,120 120,120 120,0"' + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 120x120 c.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"'+ " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 100x100 a.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"' + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 100x100 b.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw "+ '"polygon 0,0 0,150 150,150 150,0"' + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 100x100 c.png\n")
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity east b.png -composite -gravity west c.png -composite -gravity center a.png -composite "+ output_folder +id+"-4.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
