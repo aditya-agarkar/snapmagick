@@ -33,8 +33,8 @@ htmlfile=output_folder+"index-" + str(card_model)+".html"
 
 break_line = 3000 #how many lines of the file to read until breaking
 #variables for the image sizes
-final_height = 140
-final_width = 280
+final_height = 150
+final_width = 300
 final_size = str(final_width) + "x" + str(final_height)
 
 #m6 component sizes
@@ -665,15 +665,15 @@ with open(standardsFileName,"rU") as f:
                     iconbg = bglist[0]
                     ###print keys
                     ###print start_key
-                    temp_size='90x90'
+                    temp_size='140x140'
                     obj = get_object_string(keys,objects,3,fglist,iconbg,temp_size,icon_resize,final_size,190,m4_font)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write(obj[1])
                         commFile.write(obj[2])
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 a.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 b.png\n")
-                        commFile.write("convert -size 100x100 canvas:none -gravity center -fill '" + iconbg+ "' -draw " + rand_poly(polygonList) + " -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 c.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw polygon 0,0 0,150 150,150 150,0 -gravity center temp-0.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 a.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw polygon 0,0 0,150 150,150 150,0 -gravity center temp-1.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 b.png\n")
+                        commFile.write("convert -size 150x150 canvas:none -gravity center -fill '" + iconbg+ "' -draw polygon 0,0 0,150 150,150 150,0 -gravity center temp-2.png -composite -background 'rgba(0,0,0,0)' -rotate " + str(rand_rotate()) + " -resize 90x90 c.png\n")
                         commFile.write("convert -size "+final_size+" canvas:'"+iconbg+"' -gravity center a.png -composite -gravity east b.png -composite -gravity west c.png -composite "+ output_folder +id+"-4.gif\n")
                     else:
                         exception_list.append(row[2] + " " + ','.join(keys) + "\n")
