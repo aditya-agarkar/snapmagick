@@ -1,6 +1,7 @@
 import csv
 from random import randint
 import random
+import logging
 import math
 import colorsys
 from randomcolor import RandomColor
@@ -19,8 +20,8 @@ m7_font = 35
 
 objectFileName = "MetaData/objects.csv"
 #standardsFileName = "MetaData/course_kw.csv"
-#standardsFileName = "MetaData/final_kw_standards.csv"
-standardsFileName = "MetaData/g7_kw_standards.csv"
+standardsFileName = "MetaData/final_kw_standards.csv"
+#standardsFileName = "MetaData/g7_kw_standards.csv"
 colorsFileName = "MetaData/colors.csv"
 gradientFileName = "MetaData/gradients.csv"
 polygonFileName = "MetaData/polygons.csv"
@@ -605,8 +606,8 @@ with open(standardsFileName,"rU") as f:
 
                     iconbg=bglist[0]
                     textColor=fglist[0]
-                    temp_size='195x135'
-                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,290,45)
+                    temp_size='185x125'
+                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,280,40)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,70 60,105' temp.png\n")
@@ -740,11 +741,13 @@ with open(standardsFileName,"rU") as f:
                     string.strip()
 
                     commFile.write("convert -resize " + final_size + " " + bbg + " temp.png\n")
-                    commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 10 -annotate +0+0 '" + string + "' " + output_folder + id +"-8.gif\n")
+                    commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 15 -annotate +0+0 '" + string + "' " + output_folder + id +"-8.gif\n")
 
                 if card_model == 9:
-                    icon_resize = "'"+str(int(60))+">'"
                     temp_size='120x90'
+                    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+                    logging.debug('This is a log message. %s',row)
+                    icon_resize = "'"+str(int(60))+">'"
                     obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,80,40)
                     commFile.write(obj[0])
                     commFile.write(obj[1])
