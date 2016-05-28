@@ -748,7 +748,7 @@ with open(standardsFileName,"rU") as f:
                     #logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
                     #logging.debug('This is a log message. %s',row)
                     icon_resize = "'"+str(int(90))+">'"
-                    obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,80,40)
+                    obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,120,60)
                     commFile.write(obj[0])
                     commFile.write(obj[1])
                     rotate_angle = random.choice([-1,1]) * 20
