@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063f44c5-356b-434c-a9d3-eccf31e675a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SourceImages/banner-1036483_960_720.jpg" afterPath="$PROJECT_DIR$/SourceImages/banner-1036483_960_720.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SourceImages/banner-1165981_960_720.jpg" afterPath="$PROJECT_DIR$/SourceImages/banner-1165981_960_720.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SourceImages/banner-1183443_960_720.jpg" afterPath="$PROJECT_DIR$/SourceImages/banner-1183443_960_720.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SourceImages/banner-1183445_960_720.jpg" afterPath="$PROJECT_DIR$/SourceImages/banner-1183445_960_720.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SourceImages/banner-1246873_960_720.jpg" afterPath="$PROJECT_DIR$/SourceImages/banner-1246873_960_720.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modescombined.py" afterPath="$PROJECT_DIR$/modescombined.py" />
     </list>
     <ignored path="snapmagick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="modescombined.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modescombined.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35344827">
-              <caret line="609" column="112" selection-start-line="609" selection-start-column="112" selection-end-line="609" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.5258621">
+              <caret line="613" column="0" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -523,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modescombined.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35344827">
-          <caret line="609" column="112" selection-start-line="609" selection-start-column="112" selection-end-line="609" selection-end-column="112" />
+        <state vertical-scroll-proportion="0.5258621">
+          <caret line="613" column="0" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

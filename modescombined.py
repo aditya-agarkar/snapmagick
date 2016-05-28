@@ -610,7 +610,7 @@ with open(standardsFileName,"rU") as f:
                     obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,270,30)
                     if(len(obj)>0):
                         commFile.write(obj[0])
-                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,72 60,109' temp.png\n")
+                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,72 60,120' temp.png\n")
 
                         if len(row[1]) == 1:
                             commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 10 -annotate +0-15 '" + row[1] + "' temp.png\n")
