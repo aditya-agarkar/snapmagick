@@ -606,16 +606,16 @@ with open(standardsFileName,"rU") as f:
 
                     iconbg=bglist[0]
                     textColor=fglist[0]
-                    temp_size='185x125'
-                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,280,40)
+                    temp_size='180x120'
+                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,270,35)
                     if(len(obj)>0):
                         commFile.write(obj[0])
-                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,70 60,105' temp.png\n")
+                        commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,72 60,109' temp.png\n")
 
                         if len(row[1]) == 1:
-                            commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 11 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                            commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 190 -pointsize 10 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         else:
-                            commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 150 -pointsize 9 -annotate +0-15 '" + row[1] + "' temp.png\n")
+                            commFile.write("convert temp.png -size 150 -gravity center -font Open-Sans-Bold -fill '" + textColor + "' -density 150 -pointsize 8 -annotate +0-15 '" + row[1] + "' temp.png\n")
                         commFile.write("convert temp.png -size 150 -gravity center  -font Open-Sans-Bold -fill '" + textColor + "' -density 90 -pointsize 10 -annotate +0+15 '" + row[3] + "' temp.png\n")
                         commFile.write("convert -size 300x150 canvas:'" + iconbg + "' -gravity northeast temp.png -composite -gravity west temp-0.png -composite " + output_folder+ row[2] +"-1.gif\n")
                     else:
