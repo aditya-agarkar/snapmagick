@@ -744,10 +744,10 @@ with open(standardsFileName,"rU") as f:
                     commFile.write("convert temp.png -size " + str(final_width - 15) + " -gravity center -font Eraser-Dust -fill '#ffffff' -density 160 -pointsize 15 -annotate +0+0 '" + string + "' " + output_folder + id +"-8.gif\n")
 
                 if card_model == 9:
-                    temp_size='120x90'
-                    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-                    logging.debug('This is a log message. %s',row)
-                    icon_resize = "'"+str(int(60))+">'"
+                    temp_size='180x135'
+                    #logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+                    #logging.debug('This is a log message. %s',row)
+                    icon_resize = "'"+str(int(90))+">'"
                     obj = get_object_string(keys,objects,2,fglist,bglist,temp_size,icon_resize,final_size,80,40)
                     commFile.write(obj[0])
                     commFile.write(obj[1])
