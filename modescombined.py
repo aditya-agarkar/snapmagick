@@ -606,8 +606,8 @@ with open(standardsFileName,"rU") as f:
 
                     iconbg=bglist[0]
                     textColor=fglist[0]
-                    temp_size='180x120'
-                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,270,35)
+                    temp_size='180x150'
+                    obj = get_object_string(keys,objects,1,fglist,iconbg,temp_size,icon_resize,final_size,270,30)
                     if(len(obj)>0):
                         commFile.write(obj[0])
                         commFile.write("convert -size 120x150 canvas:none -stroke '" + textColor + "' -strokewidth 2 -fill none -draw 'circle 60,72 60,109' temp.png\n")
