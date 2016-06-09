@@ -1,0 +1,576 @@
+Java,,1,Java Basics,Java Basics,java basics,java basics,java basics,java basics
+Java,,2,Java Object Oriented,Java Object Oriented,java object oriented,java object oriented,java object oriented,java object oriented
+Java,,3,Java Advanced,Java Advanced,java advanced,java advanced,java advanced,java advanced
+JavaScript,,4,Values  Types  and Operators,Values  Types  and Operators,value  type  and operator,value  type  and operator,value  type  and operator,value  type  and operator
+JavaScript,,5,Program Structure,Program Structure,program structure,program structure,program structure,program structure
+JavaScript,,6,Functions,Functions,function,function,function,function
+JavaScript,,7,Data Structures: Objects and Arrays,Data Structures: Objects and Arrays,data structure object and array,data structure object and array,data structure object and array,data structure object and array
+JavaScript,,8,Bugs and Error Handling,Bugs and Error Handling,bugs and error handling,bugs and error handling,bugs and error handling,bugs and error handling
+Java,,9,Basic Syntax,Basic Syntax,basic syntax,basic syntax,basic syntax,basic syntax
+Java,,10,Bugs and Error Handling,Bugs and Error Handling,bugs and error handling,bugs and error handling,bugs and error handling,bugs and error handling
+JavaScript,,11,Regular Expressions,Regular Expressions,regular expression,regular expression,regular expression,regular expression
+JavaScript,,12,Modules,Modules,module,module,module,module
+JavaScript,,13,JavaScript and the Browser,JavaScript and the Browser,javascript and the browser,javascript and the browser,javascript and the browser,javascript and the browser
+JavaScript,,14,The Document Object Model,The Document Object Model,the document object model,the document object model,the document object model,the document object model
+JavaScript,,15,Handling Events,Handling Events,handling event,handling event,handling event,handling event
+Psychometry - Attitude,,16,Attitude,Attitude,attitude,attitude,attitude,attitude
+Aptitude - Critical Thinking,,17,Critical Thinking,Critical Thinking,critical thinking,critical thinking,critical thinking,critical thinking
+Simulated Environments - Sales,,18,Sales,Sales,sales,sales,sales,sales
+Coding,,19,Coding,Coding,coding,coding,coding,coding
+Java,,20,Basic Datatypes,Basic Datatypes,basic datatype,basic datatype,basic datatype,basic datatype
+Java,,21,Variable Types,Variable Types,variable type,variable type,variable type,variable type
+Java,,23,Modifier Types,Modifier Types,modifier type,modifier type,modifier type,modifier type
+Java,,24,Basic Operators,Basic Operators,basic operator,basic operator,basic operator,basic operator
+Java,,25,Loop Control,Loop Control,loop control,loop control,loop control,loop control
+Java,,26,Decision Making,Decision Making,decision making,decision making,decision making,decision making
+Java,,27,Numbers,Numbers,number,number,number,number
+Java,,28,Characters,Characters,character,character,character,character
+Java,,29,Strings,Strings,string,string,string,string
+Java,,30,Arrays,Arrays,array,array,array,array
+Java,,31,Date & Time,Date & Time,date & time,date & time,date & time,date & time
+Java,,32,Regular Expressions,Regular Expressions,regular expression,regular expression,regular expression,regular expression
+Java,,33,Methods,Methods,method,method,method,method
+Java,,34,Files and I/O,Files and I/O,file and i/o,file and i/o,file and i/o,file and i/o
+Java,,35,Exceptions,Exceptions,exception,exception,exception,exception
+Java,,36,Inner classes,Inner classes,inner class,inner class,inner class,inner class
+Java,,37,Inheritance,Inheritance,inheritance,inheritance,inheritance,inheritance
+Java,,38,Overriding,Overriding,overriding,overriding,overriding,overriding
+Java,,39,Polymorphism,Polymorphism,polymorphism,polymorphism,polymorphism,polymorphism
+Java,,40,Abstraction,Abstraction,abstraction,abstraction,abstraction,abstraction
+Java,,41,Encapsulation,Encapsulation,encapsulation,encapsulation,encapsulation,encapsulation
+Java,,42,Interfaces,Interfaces,interface,interface,interface,interface
+Java,,43,Packages,Packages,package,package,package,package
+Java,,44,Data Structures,Data Structures,data structure,data structure,data structure,data structure
+Java,,45,Collections,Collections,collection,collection,collection,collection
+Java,,46,Generics,Generics,generics,generics,generics,generics
+Java,,47,Serialization,Serialization,serialization,serialization,serialization,serialization
+Java,,48,Networking,Networking,networking,networking,networking,networking
+Java,,49,Sending Email,Sending Email,sending email,sending email,sending email,sending email
+Java,,50,Multithreading,Multithreading,multithreading,multithreading,multithreading,multithreading
+Java,,51,Applet Basics,Applet Basics,applet basics,applet basics,applet basics,applet basics
+JavaScript,,53,Values,Values,value,value,value,value
+JavaScript,,54,Numbers,Numbers,number,number,number,number
+JavaScript,,55,Strings,Strings,string,string,string,string
+JavaScript,,56,Unary operators,Unary operators,unary operator,unary operator,unary operator,unary operator
+JavaScript,,57,Boolean values,Boolean values,boolean value,boolean value,boolean value,boolean value
+JavaScript,,58,Undefined values,Undefined values,undefined value,undefined value,undefined value,undefined value
+JavaScript,,59,Automatic type conversion,Automatic type conversion,automatic type conversion,automatic type conversion,automatic type conversion,automatic type conversion
+JavaScript,,60,Expressions and statements,Expressions and statements,expression and statement,expression and statement,expression and statement,expression and statement
+JavaScript,,61,Variables,Variables,variable,variable,variable,variable
+JavaScript,,62,Keywords and reserved words,Keywords and reserved words,keywords and reserved words,keywords and reserved words,keywords and reserved words,keywords and reserved words
+JavaScript,,63,The environment,The environment,the environment,the environment,the environment,the environment
+JavaScript,,64,Functions,Functions,function,function,function,function
+JavaScript,,65,The console.log function,The console.log function,the console.log function,the console.log function,the console.log function,the console.log function
+JavaScript,,66,Return values,Return values,return value,return value,return value,return value
+JavaScript,,67,prompt and confirm,prompt and confirm,prompt and confirm,prompt and confirm,prompt and confirm,prompt and confirm
+JavaScript,,68,Control flow,Control flow,control flow,control flow,control flow,control flow
+JavaScript,,69,Conditional execution,Conditional execution,conditional execution,conditional execution,conditional execution,conditional execution
+JavaScript,,70,While and Do loops,While and Do loops,while and do loop,while and do loop,while and do loop,while and do loop
+JavaScript,,71,Indenting Code,Indenting Code,indenting code,indenting code,indenting code,indenting code
+JavaScript,,72,For loops,For loops,for loop,for loop,for loop,for loop
+JavaScript,,73,Breaking Out of a Loop,Breaking Out of a Loop,breaking out of a loop,breaking out of a loop,breaking out of a loop,breaking out of a loop
+JavaScript,,74,Updating variables succinctly,Updating variables succinctly,updating variable succinctly,updating variable succinctly,updating variable succinctly,updating variable succinctly
+JavaScript,,75,Dispatching on a value with switch,Dispatching on a value with switch,dispatching on a value with switch,dispatching on a value with switch,dispatching on a value with switch,dispatching on a value with switch
+JavaScript,,76,Capitalization,Capitalization,capitalization,capitalization,capitalization,capitalization
+JavaScript,,77,Defining a function,Defining a function,defining a function,defining a function,defining a function,defining a function
+JavaScript,,78,Parameters and scopes,Parameters and scopes,parameter and scope,parameter and scope,parameter and scope,parameter and scope
+JavaScript,,79,Nested scope,Nested scope,nested scope,nested scope,nested scope,nested scope
+JavaScript,,80,Functions as values,Functions as values,function as value,function as value,function as value,function as value
+JavaScript,,81,Declaration notation,Declaration notation,declaration notation,declaration notation,declaration notation,declaration notation
+JavaScript,,82,The call stack,The call stack,the call stack,the call stack,the call stack,the call stack
+JavaScript,,83,Optional Arguments,Optional Arguments,optional arguments,optional arguments,optional arguments,optional arguments
+JavaScript,,84,Closure,Closure,closure,closure,closure,closure
+JavaScript,,85,Recursion,Recursion,recursion,recursion,recursion,recursion
+JavaScript,,86,Growing functions,Growing functions,growing function,growing function,growing function,growing function
+JavaScript,,87,Functions and side effects,Functions and side effects,function and side effects,function and side effects,function and side effects,function and side effects
+JavaScript,,88,The weresquirrel,The weresquirrel,the weresquirrel,the weresquirrel,the weresquirrel,the weresquirrel
+JavaScript,,89,Data sets,Data sets,data set,data set,data set,data set
+JavaScript,,90,Properties,Properties,property,property,property,property
+JavaScript,,91,Methods,Methods,method,method,method,method
+JavaScript,,92,Objects,Objects,object,object,object,object
+JavaScript,,93,Mutability,Mutability,mutability,mutability,mutability,mutability
+JavaScript,,94,The lycanthrope’s log,The lycanthrope’s log,the lycanthrope’s log,the lycanthrope’s log,the lycanthrope’s log,the lycanthrope’s log
+JavaScript,,95,Computing correlation,Computing correlation,computing correlation,computing correlation,computing correlation,computing correlation
+JavaScript,,96,Objects as maps,Objects as maps,object as maps,object as maps,object as maps,object as maps
+JavaScript,,97,The final analysis,The final analysis,the final analysis,the final analysis,the final analysis,the final analysis
+JavaScript,,98,Further arrayology,Further arrayology,further arrayology,further arrayology,further arrayology,further arrayology
+JavaScript,,99,Strings and their properties,Strings and their properties,string and their property,string and their property,string and their property,string and their property
+JavaScript,,100,The arguments object,The arguments object,the arguments object,the arguments object,the arguments object,the arguments object
+JavaScript,,101,The Math object,The Math object,the math object,the math object,the math object,the math object
+JavaScript,,102,The global object,The global object,the global object,the global object,the global object,the global object
+JavaScript,,103,Programmer mistakes,Programmer mistakes,programmer mistakes,programmer mistakes,programmer mistakes,programmer mistakes
+JavaScript,,104,Strict mode,Strict mode,strict mode,strict mode,strict mode,strict mode
+JavaScript,,105,Testing,Testing,testing,testing,testing,testing
+JavaScript,,106,Debugging,Debugging,debugging,debugging,debugging,debugging
+JavaScript,,107,Error propagation,Error propagation,error propagation,error propagation,error propagation,error propagation
+JavaScript,,108,Exceptions,Exceptions,exception,exception,exception,exception
+JavaScript,,109,Cleaning up after exceptions,Cleaning up after exceptions,clean up after exception,clean up after exception,clean up after exception,clean up after exception
+JavaScript,,110,Selective catching,Selective catching,selective catching,selective catching,selective catching,selective catching
+JavaScript,,111,Assertions,Assertions,assertions,assertions,assertions,assertions
+JavaScript,,114,Creating a regular expression,Creating a regular expression,creating a regular expression,creating a regular expression,creating a regular expression,creating a regular expression
+JavaScript,,115,Testing for matches,Testing for matches,testing for matches,testing for matches,testing for matches,testing for matches
+JavaScript,,116,Matching a set of characters,Matching a set of characters,matching a set of character,matching a set of character,matching a set of character,matching a set of character
+JavaScript,,117,Repeating parts of a pattern,Repeating parts of a pattern,repeating parts of a pattern,repeating parts of a pattern,repeating parts of a pattern,repeating parts of a pattern
+JavaScript,,118,Grouping subexpressions,Grouping subexpressions,grouping subexpression,grouping subexpression,grouping subexpression,grouping subexpression
+JavaScript,,119,Matches and groups,Matches and groups,matches and groups,matches and groups,matches and groups,matches and groups
+JavaScript,,120,The date type,The date type,the date type,the date type,the date type,the date type
+JavaScript,,121,Word and string boundaries,Word and string boundaries,word and string boundaries,word and string boundaries,word and string boundaries,word and string boundaries
+JavaScript,,122,Choice patterns,Choice patterns,choice pattern,choice pattern,choice pattern,choice pattern
+JavaScript,,123,The mechanics of matching,The mechanics of matching,the mechanics of matching,the mechanics of matching,the mechanics of matching,the mechanics of matching
+JavaScript,,124,Backtracking,Backtracking,backtracking,backtracking,backtracking,backtracking
+JavaScript,,125,The replace method,The replace method,the replace method,the replace method,the replace method,the replace method
+JavaScript,,126,Greed,Greed,greed,greed,greed,greed
+JavaScript,,127,Dynamically creating RegExp objects,Dynamically creating RegExp objects,dynamically creating regexp object,dynamically creating regexp object,dynamically creating regexp object,dynamically creating regexp object
+JavaScript,,128,The search method,The search method,the search method,the search method,the search method,the search method
+JavaScript,,129,The lastIndex property,The lastIndex property,the lastindex property,the lastindex property,the lastindex property,the lastindex property
+JavaScript,,130,Parsing an INI file,Parsing an INI file,parsing an ini file,parsing an ini file,parsing an ini file,parsing an ini file
+JavaScript,,131,International characters,International characters,international character,international character,international character,international character
+JavaScript,,134,Using functions as namespaces,Using functions as namespaces,using function as namespaces,using function as namespaces,using function as namespaces,using function as namespaces
+JavaScript,,135,Objects as interfaces,Objects as interfaces,object as interface,object as interface,object as interface,object as interface
+JavaScript,,136,Detaching from the global scope,Detaching from the global scope,detaching from the global scope,detaching from the global scope,detaching from the global scope,detaching from the global scope
+JavaScript,,137,Evaluating data as code,Evaluating data as code,evaluating data as code,evaluating data as code,evaluating data as code,evaluating data as code
+JavaScript,,138,Require,Require,require,require,require,require
+JavaScript,,139,Slow-loading modules,Slow-loading modules,slow-loading module,slow-loading module,slow-loading module,slow-loading module
+JavaScript,,140,Interface design,Interface design,interface design,interface design,interface design,interface design
+JavaScript,,141,Networks and the Internet,Networks and the Internet,network and the internet,network and the internet,network and the internet,network and the internet
+JavaScript,,142,The Web,The Web,the web,the web,the web,the web
+JavaScript,,143,HTML,HTML,html,html,html,html
+JavaScript,,144,HTML and JavaScript,HTML and JavaScript,html and javascript,html and javascript,html and javascript,html and javascript
+JavaScript,,145,Document structure,Document structure,document structure,document structure,document structure,document structure
+JavaScript,,146,Trees,Trees,tree,tree,tree,tree
+JavaScript,,147,The standard,The standard,the standard,the standard,the standard,the standard
+JavaScript,,148,Moving through the tree,Moving through the tree,moving through the tree,moving through the tree,moving through the tree,moving through the tree
+JavaScript,,149,Finding elements,Finding elements,finding elements,finding elements,finding elements,finding elements
+JavaScript,,150,Changing the document,Changing the document,changing the document,changing the document,changing the document,changing the document
+JavaScript,,151,Creating nodes,Creating nodes,creating nodes,creating nodes,creating nodes,creating nodes
+JavaScript,,152,Attributes,Attributes,attributes,attributes,attributes,attributes
+JavaScript,,153,Layout,Layout,layout,layout,layout,layout
+JavaScript,,154,Styling,Styling,styling,styling,styling,styling
+JavaScript,,155,Cascading styles,Cascading styles,cascading style,cascading style,cascading style,cascading style
+JavaScript,,156,Query selectors,Query selectors,query select,query select,query select,query select
+JavaScript,,157,Positioning and animating,Positioning and animating,positioning and animating,positioning and animating,positioning and animating,positioning and animating
+JavaScript,,158,Event handlers,Event handlers,event handlers,event handlers,event handlers,event handlers
+JavaScript,,159,Events and DOM nodes,Events and DOM nodes,event and dom nodes,event and dom nodes,event and dom nodes,event and dom nodes
+JavaScript,,160,Event objects,Event objects,event object,event object,event object,event object
+JavaScript,,161,Propagation,Propagation,propagation,propagation,propagation,propagation
+JavaScript,,162,Default actions,Default actions,default action,default action,default action,default action
+JavaScript,,163,Key events,Key events,key event,key event,key event,key event
+JavaScript,,164,Mouse clicks,Mouse clicks,mouse clicks,mouse clicks,mouse clicks,mouse clicks
+JavaScript,,165,Mouse motion,Mouse motion,mouse motion,mouse motion,mouse motion,mouse motion
+JavaScript,,166,Scroll events,Scroll events,scroll event,scroll event,scroll event,scroll event
+JavaScript,,167,Focus events,Focus events,focus event,focus event,focus event,focus event
+JavaScript,,168,Load event,Load event,load event,load event,load event,load event
+JavaScript,,169,Script execution timeline,Script execution timeline,script execution timeline,script execution timeline,script execution timeline,script execution timeline
+JavaScript,,170,Setting timers,Setting timers,setting timer,setting timer,setting timer,setting timer
+JavaScript,,171,Debouncing,Debouncing,debouncing,debouncing,debouncing,debouncing
+Coding,,5587,Coding,1.1,coding,coding,coding,coding
+Coding,,5588,Basic Datatypes,1.1.1,basic datatype,basic datatype,basic datatype,basic datatype
+C,,5589,C,1.C,c,c,c,c
+C++,,5590,C++,1.CPP,c++,c++,c++,c++
+ASP .Net,,5591,ASP .Net,1.ASPDOTNET,asp .net,asp .net,asp .net,asp .net
+C# .Net,,5592,C# .Net,1.C# .Net,c# .net,c# .net,c# .net,c# .net
+VB .Net,,5593,VB .Net,1.VBDOTNET,vb .net,vb .net,vb .net,vb .net
+Software Testing,,5594,Software Testing,1.SOFTTEST,software testing,software testing,software testing,software testing
+PL/SQL Programming,,5595,PL/SQL Programming,1.PLSQL,pl/sql programming,pl/sql programming,pl/sql programming,pl/sql programming
+Oracle DBA,,5596,Oracle DBA,1.ORACDBA,oracle dba,oracle dba,oracle dba,oracle dba
+HTML/HTML5,,5597,HTML/HTML5,1.HTML/HTML5,html html5,html html5,html html5,html html5
+Unix,,5598,Unix,1.UNIX,unix,unix,unix,unix
+MySQL,,5599,MySQL,1.MYSQL,mysql,mysql,mysql,mysql
+MSSQL,,5600,MSSQL,1.MSSQL,mssql,mssql,mssql,mssql
+Python,,5601,Python,1.PYTHON,python,python,python,python
+jQuery,,5602,jQuery,1.JQUERY,jquery,jquery,jquery,jquery
+CSS,,5603,CSS,1.CSS,css,css,css,css
+C,,5604,C,1.C.1,c,c,c,c
+C,,5605,Execution Environment,1.C.EE.1,execution environment,execution environment,execution environment,execution environment
+C,,5606,Data types,1.C.DT.1,data type,data type,data type,data type
+C,,5607,Tokens and Keywords,1.C.TAK.1,tokens and keywords,tokens and keywords,tokens and keywords,tokens and keywords
+C,,5608,Variables and Constants,1.C.VAC.1,variable and constants,variable and constants,variable and constants,variable and constants
+C,,5609,Storage calsses,1.C.SC.1,storage calsses,storage calsses,storage calsses,storage calsses
+C,,5610,Operators,1.C.O.1,operator,operator,operator,operator
+C,,5611,Decision Control,1.C.DC.1,decision control,decision control,decision control,decision control
+C,,5612,Loops,1.C.L.1,loop,loop,loop,loop
+C,,5613,Switch Case Stucture,1.C.SCS.1,switch case stucture,switch case stucture,switch case stucture,switch case stucture
+C,,5614,Sequential Statements,1.C.SS.1,sequential statement,sequential statement,sequential statement,sequential statement
+C,,5615,Functions,1.C.F.1,function,function,function,function
+C,,5616,Preprocessors,1.C.PP.1,preprocessors,preprocessors,preprocessors,preprocessors
+C,,5617,Input / Output in C,1.C.IO.1,input / output in c,input / output in c,input / output in c,input / output in c
+C,,5618,Arrays,1.C.ARR.1,array,array,array,array
+C,,5619,Pointers,1.C.PNT.1,pointers,pointers,pointers,pointers
+C,,5620,Strings,1.C.STR.1,string,string,string,string
+C,,5621,Structures,1.C.STRUCT.1,structure,structure,structure,structure
+C,,5622,Union and Enumerated Data Types,1.C.UNAEDT.1,union and enumerated data type,union and enumerated data type,union and enumerated data type,union and enumerated data type
+C,,5623,Bit fields,1.C.BF.1,bit fields,bit fields,bit fields,bit fields
+C,,5624,Typedef,1.C.TYDEF.1,typedef,typedef,typedef,typedef
+C,,5625,File I/O,1.C.FIO.1,file i/o,file i/o,file i/o,file i/o
+C,,5626,Header files,1.C.HF.1,header file,header file,header file,header file
+C,,5627,Type casting,1.C.TC.1,type casting,type casting,type casting,type casting
+C,,5628,Error handling,1.C.EH.1,error handling,error handling,error handling,error handling
+C,,5629,Recursion,1.C.REC.1,recursion,recursion,recursion,recursion
+C,,5630,Varial argument,1.C.VA.1,varial argument,varial argument,varial argument,varial argument
+C,,5631,Memory management,1.C.MM.1,memory management,memory management,memory management,memory management
+C,,5632,Command line argument,1.C.CMMLARG.1,command line argument,command line argument,command line argument,command line argument
+C++,,5633,CPP,1.CPP.1,cpp,cpp,cpp,cpp
+C++,,5634,Data types,1.CPP.DT.1,data type,data type,data type,data type
+C++,,5635,Variables,1.CPP.VAR.1,variable,variable,variable,variable
+C++,,5636,Functions,1.CPP.FUN.1,function,function,function,function
+C++,,5637,Operators,1.CPP.O.1,operator,operator,operator,operator
+C++,,5638,Loops,1.CPP.L.1,loop,loop,loop,loop
+C++,,5639,Arrays,1.CPP.ARR.1,array,array,array,array
+C++,,5640,Pointers,1.CPP.PNT.1,pointers,pointers,pointers,pointers
+C++,,5641,Strings,1.CPP.STR.1,string,string,string,string
+C++,,5642,Structures,1.CPP.STRUCT.1,structure,structure,structure,structure
+C++,,5643,Inheritance,1.CPP.IH.1,inheritance,inheritance,inheritance,inheritance
+C++,,5644,Polymorphism,1.CPP.POL.1,polymorphism,polymorphism,polymorphism,polymorphism
+C++,,5645,Abstraction,1.CPP.ABST.1,abstraction,abstraction,abstraction,abstraction
+C++,,5646,Encapsulation,1.CPP.ENCP.1,encapsulation,encapsulation,encapsulation,encapsulation
+C++,,5647,Interfaces,1.CPP.I.1,interface,interface,interface,interface
+C++,,5648,Overloading,1.CPP.OVLO.1,overloading,overloading,overloading,overloading
+C++,,5649,Classes &amp Objects,1.CPP.CAO.1,class &amp object,class &amp object,class &amp object,class &amp object
+C++,,5650,Files and Streams,1.CPP.FAS.1,file and stream,file and stream,file and stream,file and stream
+C++,,5651,Exception Handling,1.CPP.EH.1,exception handling,exception handling,exception handling,exception handling
+C++,,5652,Namespaces,1.CPP.NP.1,namespaces,namespaces,namespaces,namespaces
+C++,,5653,Multi threading,1.CPP.MLTRD.1,multi threading,multi threading,multi threading,multi threading
+C++,,5654,Signal handling,1.CPP.SGH.1,signal handling,signal handling,signal handling,signal handling
+C++,,5655,Preprocessor,1.CPP.PP.1,preprocessor,preprocessor,preprocessor,preprocessor
+C++,,5656,Web Programming,1.CPP.WP.1,web programming,web programming,web programming,web programming
+C++,,5657,Templates,1.CPP.TMPL.1,templates,templates,templates,templates
+C++,,5658,Numbers,1.CPP.NUM.1,number,number,number,number
+C++,,5659,Storage classes,1.CPP.STCL.1,storage class,storage class,storage class,storage class
+C++,,5660,Modifier types,1.CPP.MT.1,modifier type,modifier type,modifier type,modifier type
+C++,,5661,Constants/Literals,1.CPP.CL.1,constant literal,constant literal,constant literal,constant literal
+ASP .Net,,5662,ASP.Net,1.ASPDOTNET.1,asp.net,asp.net,asp.net,asp.net
+ASP .Net,,5663,ENVIRONMENT SETUP,1.ASPDOTNET.ES.1,environment setup,environment setup,environment setup,environment setup
+ASP .Net,,5664,LIFE CYCLE,1.ASPDOTNET.LC.1,life cycle,life cycle,life cycle,life cycle
+ASP .Net,,5665,EVENT HANDLING,1.ASPDOTNET.EH.1,event handling,event handling,event handling,event handling
+ASP .Net,,5666,Event Arguments,1.ASPDOTNET.EA.1,event arguments,event arguments,event arguments,event arguments
+ASP .Net,,5667,Server Object,1.ASPDOTNET.SO.1,server object,server object,server object,server object
+ASP .Net,,5668,Request Object,1.ASPDOTNET.REQO.1,request object,request object,request object,request object
+ASP .Net,,5669,Response Object,1.ASPDOTNET.RESO.1,response object,response object,response object,response object
+ASP .Net,,5670,SERVER CONTROLS,1.ASPDOTNET.SC.1,server control,server control,server control,server control
+ASP .Net,,5671,HTML/HTML5 SERVER,1.ASPDOTNET.HS.1,html html5 server,html html5 server,html html5 server,html html5 server
+ASP .Net,,5672,Client Side Scripts,1.ASPDOTNET.CSS.1,client side scripts,client side scripts,client side scripts,client side scripts
+ASP .Net,,5673,Client Side Source Code,1.ASPDOTNET.CSSC.1,client side source code,client side source code,client side source code,client side source code
+ASP .Net,,5674,Button Controls,1.ASPDOTNET.BC.1,button control,button control,button control,button control
+ASP .Net,,5675,List Controls,1.ASPDOTNET.LC.1,list control,list control,list control,list control
+ASP .Net,,5676,HyperLink Control,1.ASPDOTNET.HC.1,hyperlink control,hyperlink control,hyperlink control,hyperlink control
+ASP .Net,,5677,Image Control,1.ASPDOTNET.IC.1,image control,image control,image control,image control
+ASP .Net,,5678,DIRECTIVES,1.ASPDOTNET.DIR.1,directive,directive,directive,directive
+ASP .Net,,5679,MANAGING STATE,1.ASPDOTNET.MS.1,managing state,managing state,managing state,managing state
+ASP .Net,,5680,VALIDATORS,1.ASPDOTNET.VAL.1,validators,validators,validators,validators
+ASP .Net,,5681,DATABASE ACCESS,1.ASPDOTNET.DA.1,database access,database access,database access,database access
+ASP .Net,,5682,ADO.NET,1.ASPDOTNET.ADO.1,ado.net,ado.net,ado.net,ado.net
+ASP .Net,,5683,FILE UPLOADING,1.ASPDOTNET.FU.1,file uploading,file uploading,file uploading,file uploading
+ASP .Net,,5684,AD ROTATORS,1.ASPDOTNET.AR.1,ad rotators,ad rotators,ad rotators,ad rotators
+ASP .Net,,5685,CALENDARS,1.ASPDOTNET.CAL.1,calendar,calendar,calendar,calendar
+ASP .Net,,5686,MULTI VIEWS,1.ASPDOTNET.MV.1,multi views,multi views,multi views,multi views
+ASP .Net,,5687,PANEL CONTROLS,1.ASPDOTNET.PC.1,panel control,panel control,panel control,panel control
+ASP .Net,,5688,AJAX CONTROLS,1.ASPDOTNET.AC.1,ajax control,ajax control,ajax control,ajax control
+ASP .Net,,5689,The SqlDataSource Control,1.ASPDOTNET.SDC.1,the sqldatasource control,the sqldatasource control,the sqldatasource control,the sqldatasource control
+ASP .Net,,5690,The ObjectDataSource Control,1.ASPDOTNET.ODC.1,the objectdatasource control,the objectdatasource control,the objectdatasource control,the objectdatasource control
+ASP .Net,,5691,The AccessDataSource Control,1.ASPDOTNET.ADC.1,the accessdatasource control,the accessdatasource control,the accessdatasource control,the accessdatasource control
+ASP .Net,,5692,Simple Data Binding,1.ASPDOTNET.SDB.1,simple data binding,simple data binding,simple data binding,simple data binding
+ASP .Net,,5693,Declarative Data Binding,1.ASPDOTNET.DDB.1,declarative data binding,declarative data binding,declarative data binding,declarative data binding
+ASP .Net,,5694,User Controls,1.ASPDOTNET.UC.1,user control,user control,user control,user control
+ASP .Net,,5695,Custom Controls,1.ASPDOTNET.CC.1,custom control,custom control,custom control,custom control
+ASP .Net,,5696,PERSONALIZATION,1.ASPDOTNET.PER.1,personalization,personalization,personalization,personalization
+ASP .Net,,5697,ERROR HANDLING,1.ASPDOTNET.ER.1,error handling,error handling,error handling,error handling
+ASP .Net,,5698,Tracing,1.ASPDOTNET.TRAC.1,tracing,tracing,tracing,tracing
+ASP .Net,,5699,DEBUGGING,1.ASPDOTNET.DEBUG.1,debugging,debugging,debugging,debugging
+ASP .Net,,5700,LINQ,1.ASPDOTNET.LINQ.1,linq,linq,linq,linq
+ASP .Net,,5701,Forms-Based Authentication,1.ASPDOTNET.FBA.1,form-based authentication,form-based authentication,form-based authentication,form-based authentication
+ASP .Net,,5702,IIS Authentication: SSL,1.ASPDOTNET.IAS.1,iis authentication: ssl,iis authentication: ssl,iis authentication: ssl,iis authentication: ssl
+ASP .Net,,5703,DATA CACHING,1.ASPDOTNET.DC.1,data caching,data caching,data caching,data caching
+ASP .Net,,5704,MULTITHREADING,1.ASPDOTNET.MT.1,multithreading,multithreading,multithreading,multithreading
+ASP .Net,,5705,DEPLOYMENT,1.ASPDOTNET.DEPL.1,deployment,deployment,deployment,deployment
+C# .Net,,5706,C# .Net,1.C# .Net.1,c# .net,c# .net,c# .net,c# .net
+C# .Net,,5707,Functions,1.C# .Net.FUN.1,function,function,function,function
+C# .Net,,5708,Arrays,1.C# .Net.ARR.1,array,array,array,array
+C# .Net,,5709,Constructors &amp Destructors,1.C# .Net.CAD.1,constructors &amp destructors,constructors &amp destructors,constructors &amp destructors,constructors &amp destructors
+C# .Net,,5710,Method overloading,1.C# .Net.MOL.1,method overloading,method overloading,method overloading,method overloading
+C# .Net,,5711,Inheritance,1.C# .Net.IH.1,inheritance,inheritance,inheritance,inheritance
+C# .Net,,5712,Abstract classes,1.C# .Net.ABSTCL.1,abstract class,abstract class,abstract class,abstract class
+C# .Net,,5713,Interfaces,1.C# .Net.I.1,interface,interface,interface,interface
+C# .Net,,5714,Debugging,1.C# .Net.DEB.1,debugging,debugging,debugging,debugging
+C# .Net,,5715,Break points,1.C# .Net.BP.1,break points,break points,break points,break points
+C# .Net,,5716,Tool Windows,1.C# .Net.TW.1,tool windows,tool windows,tool windows,tool windows
+C# .Net,,5717,Enumerations,1.C# .Net.ENU.1,enumeration,enumeration,enumeration,enumeration
+C# .Net,,5718,Exceptions,1.C# .Net.EX.1,exception,exception,exception,exception
+C# .Net,,5719,Structs,1.C# .Net.ST.1,structs,structs,structs,structs
+C# .Net,,5720,XML,1.C# .Net.XML.1,xml,xml,xml,xml
+C# .Net,,5721,Object Initializers,1.C# .Net.OI.1,object initialize,object initialize,object initialize,object initialize
+C# .Net,,5722,Collection Initializers,1.C# .Net.CI.1,collection initialize,collection initialize,collection initialize,collection initialize
+C# .Net,,5723,Extension Methods,1.C# .Net.EM.1,extension method,extension method,extension method,extension method
+C# .Net,,5724,Reading and writing files,1.C# .Net.RAW.1,reading and writing file,reading and writing file,reading and writing file,reading and writing file
+C# .Net,,5725,Manipulating files and directories,1.C# .Net.MFAD.1,manipulating file and directories,manipulating file and directories,manipulating file and directories,manipulating file and directories
+C# .Net,,5726,File and directory information,1.C# .Net.FADI.1,file and directory information,file and directory information,file and directory information,file and directory information
+C# .Net,,5727,Reflection,1.C# .Net.REF.1,reflection,reflection,reflection,reflection
+C# .Net,,5728,Instantiating a class,1.C# .Net.IC.1,instantiating a class,instantiating a class,instantiating a class,instantiating a class
+C# .Net,,5729,Reflection based settings,1.C# .Net.RBS.1,reflection based settings,reflection based settings,reflection based settings,reflection based settings
+VB .Net,,5730,VB .Net,1.VBDOTNET.1,vb .net,vb .net,vb .net,vb .net
+VB .Net,,5731,Environment Setup,1.VBDOTNET.ES.1,environment setup,environment setup,environment setup,environment setup
+VB .Net,,5732,Program Structure,1.VBDOTNET.PS.1,program structure,program structure,program structure,program structure
+VB .Net,,5733,Data Types,1.VBDOTNET.DT.1,data type,data type,data type,data type
+VB .Net,,5734,Variables,1.VBDOTNET.VAR.1,variable,variable,variable,variable
+VB .Net,,5735,Constants and Enumerations,1.VBDOTNET.CE.1,constants and enumeration,constants and enumeration,constants and enumeration,constants and enumeration
+VB .Net,,5736,Modifiers,1.VBDOTNET.MOD.1,modifier,modifier,modifier,modifier
+VB .Net,,5737,Statements,1.VBDOTNET.STAT.1,statement,statement,statement,statement
+VB .Net,,5738,Directives,1.VBDOTNET.DIR.1,directive,directive,directive,directive
+VB .Net,,5739,Operators,1.VBDOTNET.OP.1,operator,operator,operator,operator
+VB .Net,,5740,Decision Making,1.VBDOTNET.DM.1,decision making,decision making,decision making,decision making
+VB .Net,,5741,Loops,1.VBDOTNET.LOOP.1,loop,loop,loop,loop
+VB .Net,,5742,Strings,1.VBDOTNET.STR.1,string,string,string,string
+VB .Net,,5743,Date &amp  Time,1.VBDOTNET.DAT.1,date &amp  time,date &amp  time,date &amp  time,date &amp  time
+VB .Net,,5744,Arrays,1.VBDOTNET.ARR.1,array,array,array,array
+VB .Net,,5745,Collections,1.VBDOTNET.COL.1,collection,collection,collection,collection
+VB .Net,,5746,Functions,1.VBDOTNET.FUN.1,function,function,function,function
+VB .Net,,5747,Sub Procedures,1.VBDOTNET.SP.1,sub procedure,sub procedure,sub procedure,sub procedure
+VB .Net,,5748,Classes &amp Objects,1.VBDOTNET.CO.1,class &amp object,class &amp object,class &amp object,class &amp object
+VB .Net,,5749,Exception Handling,1.VBDOTNET.EXCH.1,exception handling,exception handling,exception handling,exception handling
+VB .Net,,5750,File Handling,1.VBDOTNET.FH.1,file handling,file handling,file handling,file handling
+VB .Net,,5751,Dialog Boxes,1.VBDOTNET.DB.1,dialog boxes,dialog boxes,dialog boxes,dialog boxes
+VB .Net,,5752,Advanced Form,1.VBDOTNET.AF.1,advanced form,advanced form,advanced form,advanced form
+VB .Net,,5753,Event Handling,1.VBDOTNET.EH.1,event handling,event handling,event handling,event handling
+VB .Net,,5754,Regular Expressions,1.VBDOTNET.RE.1,regular expression,regular expression,regular expression,regular expression
+VB .Net,,5755,Database Access,1.VBDOTNET.DA.1,database access,database access,database access,database access
+VB .Net,,5756,Excel Sheet,1.VBDOTNET.ES.1,excel sheet,excel sheet,excel sheet,excel sheet
+VB .Net,,5757,Send Email,1.VBDOTNET.SE.1,send email,send email,send email,send email
+VB .Net,,5758,XML Processing,1.VBDOTNET.XP.1,xml processing,xml processing,xml processing,xml processing
+VB .Net,,5759,Web Programming,1.VBDOTNET.WP.1,web programming,web programming,web programming,web programming
+Software Testing,,5760,Software Testing,1.SOFTTEST.1,software testing,software testing,software testing,software testing
+Software Testing,,5761,Manual Testing,1.SOFTTEST.MT.1,manual testing,manual testing,manual testing,manual testing
+Software Testing,,5762,Automation Testing,1.SOFTTEST.AT.1,automation testing,automation testing,automation testing,automation testing
+Software Testing,,5763,Testing Methods,1.SOFTTEST.TM.1,testing method,testing method,testing method,testing method
+Software Testing,,5764,Black-Box Testing,1.SOFTTEST.BBT.1,black-box testing,black-box testing,black-box testing,black-box testing
+Software Testing,,5765,White-Box Testing,1.SOFTTEST.WBT.1,white-box testing,white-box testing,white-box testing,white-box testing
+Software Testing,,5766,Grey-Box Testing,1.SOFTTEST.GBT.1,grey-box testing,grey-box testing,grey-box testing,grey-box testing
+Software Testing,,5767,Testing Levels,1.SOFTTEST.TL.1,testing levels,testing levels,testing levels,testing levels
+Software Testing,,5768,Functional Testing,1.SOFTTEST.FT.1,functional testing,functional testing,functional testing,functional testing
+Software Testing,,5769,Unit Testing,1.SOFTTEST.UT.1,unit testing,unit testing,unit testing,unit testing
+Software Testing,,5770,Integration Testing,1.SOFTTEST.IT.1,integration testing,integration testing,integration testing,integration testing
+Software Testing,,5771,System Testing,1.SOFTTEST.ST.1,system testing,system testing,system testing,system testing
+Software Testing,,5772,Regression Testing,1.SOFTTEST.RT.1,regression testing,regression testing,regression testing,regression testing
+Software Testing,,5773,Aceptance Testing,1.SOFTTEST.AT.1,aceptance testing,aceptance testing,aceptance testing,aceptance testing
+Software Testing,,5774,Documentation,1.SOFTTEST.DOC.1,documentation,documentation,documentation,documentation
+Software Testing,,5775,Test Case,1.SOFTTEST.TC.1,test case,test case,test case,test case
+Software Testing,,5776,Test Plan,1.SOFTTEST.TP.1,test plan,test plan,test plan,test plan
+Software Testing,,5777,Test Scenario,1.SOFTTEST.TS.1,test scenario,test scenario,test scenario,test scenario
+Software Testing,,5778,Estimation Techniques,1.SOFTTEST.ET.1,estimation techniques,estimation techniques,estimation techniques,estimation techniques
+PL/SQL Programming,,5779,SQL Programming,1.PLSQL.1,sql programming,sql programming,sql programming,sql programming
+PL/SQL Programming,,5780,SQL Commands,1.PLSQL.COM.1,sql command,sql command,sql command,sql command
+PL/SQL Programming,,5781,Functions,1.PLSQL.FUN.1,function,function,function,function
+PL/SQL Programming,,5782,String Functions,1.PLSQL.STRFUN.1,string function,string function,string function,string function
+PL/SQL Programming,,5783,Date Functions,1.PLSQL.DF.1,date function,date function,date function,date function
+PL/SQL Programming,,5784,SQL GROUP Functions,1.PLSQL.SGF.1,sql group function,sql group function,sql group function,sql group function
+PL/SQL Programming,,5785,Data Definition Language - DDL,1.PLSQL.DDL.1,data definition language - ddl,data definition language - ddl,data definition language - ddl,data definition language - ddl
+PL/SQL Programming,,5786,SQL UNION,1.PLSQL.UNI.1,sql union,sql union,sql union,sql union
+PL/SQL Programming,,5787,SQL UNION ALL,1.PLSQL.UNIA.1,sql union all,sql union all,sql union all,sql union all
+PL/SQL Programming,,5788,SQL Inline View,1.PLSQL.IV.1,sql inline view,sql inline view,sql inline view,sql inline view
+PL/SQL Programming,,5789,SQL INTERSECT,1.PLSQL.IS.1,sql intersect,sql intersect,sql intersect,sql intersect
+PL/SQL Programming,,5790,SQL MINUS,1.PLSQL.MIN.1,sql minus,sql minus,sql minus,sql minus
+PL/SQL Programming,,5791,SQL LIMIT,1.PLSQL.LIM.1,sql limit,sql limit,sql limit,sql limit
+PL/SQL Programming,,5792,SQL TOP,1.PLSQL.TOP.1,sql top,sql top,sql top,sql top
+PL/SQL Programming,,5793,SQL Subquery,1.PLSQL.SUBQ.1,sql subquery,sql subquery,sql subquery,sql subquery
+PL/SQL Programming,,5794,SQL EXISTS,1.PLSQL.EXIST.1,sql exists,sql exists,sql exists,sql exists
+PL/SQL Programming,,5795,SQL CASE,1.PLSQL.CASE.1,sql case,sql case,sql case,sql case
+PL/SQL Programming,,5796,SQL DECODE,1.PLSQL.DECOD.1,sql decode,sql decode,sql decode,sql decode
+PL/SQL Programming,,5797,SQL AUTO INCREMENT,1.PLSQL.SAI.1,sql auto increment,sql auto increment,sql auto increment,sql auto increment
+PL/SQL Programming,,5798,SQL IDENTITY,1.PLSQL.IDEN.1,sql identity,sql identity,sql identity,sql identity
+PL/SQL Programming,,5799,SQL SEQUENCE,1.PLSQL.SEQ.1,sql sequence,sql sequence,sql sequence,sql sequence
+PL/SQL Programming,,5800,SQL NEXTVAL,1.PLSQL.NEX.1,sql nextval,sql nextval,sql nextval,sql nextval
+PL/SQL Programming,,5801,Rank,1.PLSQL.RANK.1,rank,rank,rank,rank
+PL/SQL Programming,,5802,SQL Constraint,1.PLSQL.SC.1,sql constraint,sql constraint,sql constraint,sql constraint
+PL/SQL Programming,,5803,SQL ALTER TABLE,1.PLSQL.SAT.1,sql alter table,sql alter table,sql alter table,sql alter table
+PL/SQL Programming,,5804,SQL NULL,1.PLSQL.SNULL.1,sql null,sql null,sql null,sql null
+Oracle DBA,,5805,Oracle DBA,1.ORACDBA.1,oracle dba,oracle dba,oracle dba,oracle dba
+Oracle DBA,,5806,Oracle Relational Data Structures,1.ORACDBA.ORDS.1,oracle relational data structure,oracle relational data structure,oracle relational data structure,oracle relational data structure
+Oracle DBA,,5807,Oracle Relational Data Structures,1.ORACDBA.ORDS.1,oracle relational data structure,oracle relational data structure,oracle relational data structure,oracle relational data structure
+Oracle DBA,,5808,Oracle Data Access,1.ORACDBA.ODA.1,oracle data access,oracle data access,oracle data access,oracle data access
+Oracle DBA,,5809,Oracle Transaction Management,1.ORACDBA.OTM.1,oracle transaction management,oracle transaction management,oracle transaction management,oracle transaction management
+Oracle DBA,,5810,Transactions,1.ORACDBA.Trans.1,transaction,transaction,transaction,transaction
+Oracle DBA,,5811,Oracle Database Storage Structures,1.ORACDBA.ODSS.1,oracle database storage structure,oracle database storage structure,oracle database storage structure,oracle database storage structure
+Oracle DBA,,5812,Physical Storage Structures,1.ORACDBA.PSS.1,physical storage structure,physical storage structure,physical storage structure,physical storage structure
+Oracle DBA,,5813,Logical Storage Structures,1.ORACDBA.LSS.1,logical storage structure,logical storage structure,logical storage structure,logical storage structure
+Oracle DBA,,5814,Oracle Instance Architecture,1.ORACDBA.OIA.1,oracle instance architecture,oracle instance architecture,oracle instance architecture,oracle instance architecture
+Oracle DBA,,5815,Oracle Database Instance,1.ORACDBA.ODI.1,oracle database instance,oracle database instance,oracle database instance,oracle database instance
+Oracle DBA,,5816,Memory Architecture,1.ORACDBA.MA.1,memory architecture,memory architecture,memory architecture,memory architecture
+Oracle DBA,,5817,Process Architecture,1.ORACDBA.PA.1,process architecture,process architecture,process architecture,process architecture
+Oracle DBA,,5818,Application and Networking Architecture,1.ORACDBA.APPNWA.1,application and networking architecture,application and networking architecture,application and networking architecture,application and networking architecture
+Oracle DBA,,5819,Oracle Database Administration and Development,1.ORACDBA.ODAD.1,oracle database administration and development,oracle database administration and development,oracle database administration and development,oracle database administration and development
+Oracle DBA,,5820,Managing Clusters,1.ORACDBA.MC.1,managing cluster,managing cluster,managing cluster,managing cluster
+Oracle DBA,,5821,Managing Schema,1.ORACDBA.MS.1,managing schema,managing schema,managing schema,managing schema
+HTML/HTML5,,5822,HTML/HTML5,1.HTML/HTML5.1,html html5,html html5,html html5,html html5
+HTML/HTML5,,5823,Basic tags,1.HTML/HTML5.BT.1,basic tag,basic tag,basic tag,basic tag
+HTML/HTML5,,5824,Elements,1.HTML/HTML5.ELE.1,elements,elements,elements,elements
+HTML/HTML5,,5825,Attributes,1.HTML/HTML5.ATT.1,attributes,attributes,attributes,attributes
+HTML/HTML5,,5826,Formatting,1.HTML/HTML5.FMTT.1,formatting,formatting,formatting,formatting
+HTML/HTML5,,5827,Phrase Tags,1.HTML/HTML5.PHT.1,phrase tag,phrase tag,phrase tag,phrase tag
+HTML/HTML5,,5828,Meta Tags,1.HTML/HTML5.MT.1,meta tag,meta tag,meta tag,meta tag
+HTML/HTML5,,5829,Comments,1.HTML/HTML5.CMMT.1,comments,comments,comments,comments
+HTML/HTML5,,5830,Images,1.HTML/HTML5.IMG.1,image,image,image,image
+HTML/HTML5,,5831,Tables,1.HTML/HTML5.TBL.1,table,table,table,table
+HTML/HTML5,,5832,Lists,1.HTML/HTML5.LST.1,list,list,list,list
+HTML/HTML5,,5833,Text Links,1.HTML/HTML5.TXTL.1,text link,text link,text link,text link
+HTML/HTML5,,5834,Image Links,1.HTML/HTML5.IMGL.1,image link,image link,image link,image link
+HTML/HTML5,,5835,Email Links,1.HTML/HTML5.EMAILL.1,email link,email link,email link,email link
+HTML/HTML5,,5836,Frames,1.HTML/HTML5.FRM.1,frame,frame,frame,frame
+HTML/HTML5,,5837,IFrames,1.HTML/HTML5.IFRM.1,frame,frame,frame,frame
+HTML/HTML5,,5838,Blocks,1.HTML/HTML5.BLK.1,block,block,block,block
+HTML/HTML5,,5839,BackGrounds,1.HTML/HTML5.BG.1,background,background,background,background
+HTML/HTML5,,5840,Colors,1.HTML/HTML5.CL.1,colors,colors,colors,colors
+HTML/HTML5,,5841,Fonts,1.HTML/HTML5.FNT.1,font,font,font,font
+HTML/HTML5,,5842,Forms,1.HTML/HTML5.F.1,form,form,form,form
+HTML/HTML5,,5843,Embed Multimedia,1.HTML/HTML5.EM.1,embed multimedia,embed multimedia,embed multimedia,embed multimedia
+HTML/HTML5,,5844,Marquees,1.HTML/HTML5.M.1,marquees,marquees,marquees,marquees
+HTML/HTML5,,5845,Header,1.HTML/HTML5.HD.1,header,header,header,header
+HTML/HTML5,,5846,Style Sheet,1.HTML/HTML5.SS.1,style sheet,style sheet,style sheet,style sheet
+HTML/HTML5,,5847,JavaScript,1.HTML/HTML5.JS.1,javascript,javascript,javascript,javascript
+HTML/HTML5,,5848,Layouts,1.HTML/HTML5.LYT.1,layout,layout,layout,layout
+HTML/HTML5,,5849,ASCII TABLE LOOKUP,1.HTML/HTML5.ASCIITBLL.1,ascii table lookup,ascii table lookup,ascii table lookup,ascii table lookup
+HTML/HTML5,,5850,Color Names,1.HTML/HTML5.CN.1,color names,color names,color names,color names
+HTML/HTML5,,5851,MIME Media types,1.HTML/HTML5.MIMEMT.1,mime media type,mime media type,mime media type,mime media type
+HTML/HTML5,,5852,URL Encoding,1.HTML/HTML5.URLENC.1,url encoding,url encoding,url encoding,url encoding
+HTML/HTML5,,5853,Language ISO Codes,1.HTML/HTML5.LANISOC.1,language iso codes,language iso codes,language iso codes,language iso codes
+HTML/HTML5,,5854,Character Encodings,1.HTML/HTML5.CHEN.1,character encodings,character encodings,character encodings,character encodings
+HTML/HTML5,,5855,Deprecated Tags,1.HTML/HTML5.DT.1,deprecated tag,deprecated tag,deprecated tag,deprecated tag
+Unix,,5856,Unix,1.UNIX.1,unix,unix,unix,unix
+Unix,,5857,File Management,1.UNIX.FM.1,file management,file management,file management,file management
+Unix,,5858,Directory Management,1.UNIX.DM.1,directory management,directory management,directory management,directory management
+Unix,,5859,File Permission / Access Modes,1.UNIX.FP.1,file permission / access modes,file permission / access modes,file permission / access modes,file permission / access modes
+Unix,,5860,Environment,1.UNIX.ENV.1,environment,environment,environment,environment
+Unix,,5861,Pipes and Filters,1.UNIX.PF.1,pipes and filter,pipes and filter,pipes and filter,pipes and filter
+Unix,,5862,Processes Management,1.UNIX.PE.1,processes management,processes management,processes management,processes management
+Unix,,5863,Network Communication Utilities,1.UNIX.NCU.1,network communication utilities,network communication utilities,network communication utilities,network communication utilities
+Unix,,5864,The vi Editor,1.UNIX.VI.1,the vi editor,the vi editor,the vi editor,the vi editor
+Unix,,5865,Using Shell Variables,1.UNIX.VAR.1,using shell variable,using shell variable,using shell variable,using shell variable
+Unix,,5866,Special Variables,1.UNIX.SPLVAR.1,special variable,special variable,special variable,special variable
+Unix,,5867,Using Shell Arrays,1.UNIX.ARR.1,using shell array,using shell array,using shell array,using shell array
+Unix,,5868,Shell Decision Making,1.UNIX.SDM.1,shell decision making,shell decision making,shell decision making,shell decision making
+Unix,,5869,Shell Loop Types,1.UNIX.SLT.1,shell loop type,shell loop type,shell loop type,shell loop type
+Unix,,5870,Shell Loop Control,1.UNIX.SLC.1,shell loop control,shell loop control,shell loop control,shell loop control
+Unix,,5871,Shell Substitution,1.UNIX.SS.1,shell substitution,shell substitution,shell substitution,shell substitution
+Unix,,5872,Shell Quoting Mechanisms,1.UNIX.SQM.1,shell quoting mechanisms,shell quoting mechanisms,shell quoting mechanisms,shell quoting mechanisms
+Unix,,5873,Shell Input/Output Redirections,1.UNIX.SIOD.1,shell i/o redirections,shell i/o redirections,shell i/o redirections,shell i/o redirections
+Unix,,5874,Shell Functions,1.UNIX.FUN.1,shell function,shell function,shell function,shell function
+Unix,,5875,Regular Expressions with SED,1.UNIX.RE.1,regular expression with sed,regular expression with sed,regular expression with sed,regular expression with sed
+Unix,,5876,User Administration,1.UNIX.UD.1,user administration,user administration,user administration,user administration
+Unix,,5877,System Performance,1.UNIX.SP.1,system performance,system performance,system performance,system performance
+Unix,,5878,System Logging,1.UNIX.SL.1,system logging,system logging,system logging,system logging
+Unix,,5879,Signals and Traps,1.UNIX.ST.1,signal and trap,signal and trap,signal and trap,signal and trap
+MySQL,,5880,MySQL,1.MYSQL.1,mysql,mysql,mysql,mysql
+MySQL,,5881,PHP Syntax,1.MYSQL.PHP.1,php syntax,php syntax,php syntax,php syntax
+MySQL,,5882,Connection,1.MYSQL.CON.1,connection,connection,connection,connection
+MySQL,,5883,Create Database,1.MYSQL.CDB.1,create database,create database,create database,create database
+MySQL,,5884,Drop Database,1.MYSQL.DDB.1,drop database,drop database,drop database,drop database
+MySQL,,5885,Select Database,1.MYSQL.SDB.1,select database,select database,select database,select database
+MySQL,,5886,Data Types,1.MYSQL.DT.1,data type,data type,data type,data type
+MySQL,,5887,Create Tables,1.MYSQL.CT.1,create table,create table,create table,create table
+MySQL,,5888,Drop Tables,1.MYSQL.DT.1,drop table,drop table,drop table,drop table
+MySQL,,5889,Insert Query,1.MYSQL.IQ.1,insert query,insert query,insert query,insert query
+MySQL,,5890,Select Query,1.MYSQL.SQ.1,select query,select query,select query,select query
+MySQL,,5891,WHERE Clause,1.MYSQL.WHERE.1,where clause,where clause,where clause,where clause
+MySQL,,5892,UPDATE Query,1.MYSQL.UPDATE.1,update query,update query,update query,update query
+MySQL,,5893,DELETE Query,1.MYSQL.DEL.1,delete query,delete query,delete query,delete query
+MySQL,,5894,LIKE Clause,1.MYSQL.LIKE.1,like clause,like clause,like clause,like clause
+MySQL,,5895,Sorting Results,1.MYSQL.SORT.1,sort result,sort result,sort result,sort result
+MySQL,,5896,MySQl Joins,1.MYSQL.JOIN.1,mysql join,mysql join,mysql join,mysql join
+MySQL,,5897,NULL Values,1.MYSQL.NULL.1,null values,null values,null values,null values
+MySQL,,5898,Regexps,1.MYSQL.RE.1,regular expression,regular expression,regular expression,regular expression
+MySQL,,5899,Transactions,1.MYSQL.TRANS.1,transaction,transaction,transaction,transaction
+MySQL,,5900,ALTER Command,1.MYSQL.ALTER.1,alter command,alter command,alter command,alter command
+MySQL,,5901,INDEXES,1.MYSQL.INDEX.1,index,index,index,index
+MySQL,,5902,Temporary Tables,1.MYSQL.TT.1,temporary table,temporary table,temporary table,temporary table
+MySQL,,5903,Clone Tables,1.MYSQL.CT.1,clone table,clone table,clone table,clone table
+MySQL,,5904,Sequences,1.MYSQL.SEQ.1,sequences,sequences,sequences,sequences
+MySQL,,5905,Handling Duplicates,1.MYSQL.HD.1,handling duplicate,handling duplicate,handling duplicate,handling duplicate
+MySQL,,5906,SQL Injection,1.MYSQL.INJECT.1,sql injection,sql injection,sql injection,sql injection
+MySQL,,5907,Database Export,1.MYSQL.EXPORT.1,database export,database export,database export,database export
+MySQL,,5908,Database Import,1.MYSQL.IMPORT.1,database import,database import,database import,database import
+MSSQL,,5909,SQL,1.MSSQL.1,sql,sql,sql,sql
+MSSQL,,5910,RDBMS Concepts,1.MSSQL.RDBMS.1,rdbms concept,rdbms concept,rdbms concept,rdbms concept
+MSSQL,,5911,RDBMS Databases,1.MSSQL.RDBMS.2,rdbms database,rdbms database,rdbms database,rdbms database
+MSSQL,,5912,Syntax,1.MSSQL.SYN.1,syntax,syntax,syntax,syntax
+MSSQL,,5913,Data Types,1.MSSQL.DT.1,data type,data type,data type,data type
+MSSQL,,5914,Operators,1.MSSQL.O.1,operator,operator,operator,operator
+MSSQL,,5915,Expressions,1.MSSQL.EXP.1,expression,expression,expression,expression
+MSSQL,,5916,Constraints,1.MSSQL.C.1,constraint,constraint,constraint,constraint
+MSSQL,,5917,Joins,1.MSSQL.J.1,join,join,join,join
+MSSQL,,5918,Injection,1.MSSQL.INJ.1,injection,injection,injection,injection
+MSSQL,,5919,Indexes,1.MSSQL.IND.1,index,index,index,index
+MSSQL,,5920,TRUNCATE TABLE Command,1.MSSQL.TTBLCMM.1,truncate table command,truncate table command,truncate table command,truncate table command
+MSSQL,,5921,Transactions,1.MSSQL.TRAN.1,transaction,transaction,transaction,transaction
+MSSQL,,5922,Functions,1.MSSQL.FUN.1,function,function,function,function
+MSSQL,,5923,Sub Queries,1.MSSQL.SUBQ.1,sub query,sub query,sub query,sub query
+Python,,5924,Python,1.PYTHON.1,python,python,python,python
+Python,,5925,Loops,1.PYTHON.LOOP.1,loop,loop,loop,loop
+Python,,5926,Numbers,1.PYTHON.NUM.1,number,number,number,number
+Python,,5927,Strings,1.PYTHON.STR.1,string,string,string,string
+Python,,5928,List,1.PYTHON.LIST.1,list,list,list,list
+Python,,5929,Tuples,1.PYTHON.TUP.1,tuple,tuple,tuple,tuple
+Python,,5930,Functions,1.PYTHON.FUN.1,function,function,function,function
+Python,,5931,Modules,1.PYTHON.MOD.1,module,module,module,module
+Python,,5932,File I/o,1.PYTHON.FIO.1,file i/o,file i/o,file i/o,file i/o
+Python,,5933,Exceptions,1.PYTHON.EXCP.1,exception,exception,exception,exception
+Python,,5934,Class,1.PYTHON.CLASS.1,class,class,class,class
+Python,,5935,Object,1.PYTHON.OBJECT.1,object,object,object,object
+Python,,5936,Database access,1.PYTHON.DA.1,database access,database access,database access,database access
+Python,,5937,Multithreading,1.PYTHON.MT.1,multithreading,multithreading,multithreading,multithreading
+Python,,5938,Xml processing,1.PYTHON.XMLP.1,xml processing,xml processing,xml processing,xml processing
+Python,,5939,Network programming,1.PYTHON.NETP.1,network programming,network programming,network programming,network programming
+jQuery,,5940,jQuery,1.JQUERY.1,jquery,jquery,jquery,jquery
+jQuery,,5941,Selectors,1.JQUERY.SEL.1,select,select,select,select
+jQuery,,5942,Events,1.JQUERY.EVE.1,event,event,event,event
+jQuery,,5943,Hide and Show,1.JQUERY.HS.1,hide and show,hide and show,hide and show,hide and show
+jQuery,,5944,Fade,1.JQUERY.FADE.1,fade,fade,fade,fade
+jQuery,,5945,Slide,1.JQUERY.SLIDE.1,slide,slide,slide,slide
+jQuery,,5946,Animate,1.JQUERY.ANIM.1,animate,animate,animate,animate
+jQuery,,5947,Stop(),1.JQUERY.STOP.1,stop,stop,stop,stop
+jQuery,,5948,Callback,1.JQUERY.CB.1,callback,callback,callback,callback
+jQuery,,5949,Chaining,1.JQUERY.CHAIN.1,chain,chain,chain,chain
+jQuery,,5950,Get,1.JQUERY.GET.1,get,get,get,get
+jQuery,,5951,Set,1.JQUERY.SET.1,set,set,set,set
+jQuery,,5952,Add,1.JQUERY.ADD.1,add,add,add,add
+jQuery,,5953,Remove,1.JQUERY.REM.1,remove,remove,remove,remove
+jQuery,,5954,CSS Classes,1.JQUERY.CSS.1,css class,css class,css class,css class
+jQuery,,5955,Dimensions,1.JQUERY.DIM.1,dimension,dimension,dimension,dimension
+jQuery,,5956,Traversing,1.JQUERY.TRAV.1,traversing,traversing,traversing,traversing
+jQuery,,5957,Ancestors,1.JQUERY.ANC.1,ancestor,ancestor,ancestor,ancestor
+jQuery,,5958,Descendants,1.JQUERY.DESC.1,descendant,descendant,descendant,descendant
+jQuery,,5959,Siblings,1.JQUERY.SIBLING.1,sibling,sibling,sibling,sibling
+jQuery,,5960,Filtering,1.JQUERY.FILTER.1,filter,filter,filter,filter
+jQuery,,5961,Load,1.JQUERY.LOAD.1,load,load,load,load
+jQuery,,5962,Get/Post,1.JQUERY.POST.1,get/post,get/post,get/post,get/post
+jQuery,,5963,noConflict(),1.JQUERY.NOCONF.1,noconflict(),noconflict(),noconflict(),noconflict()
+CSS,,5964,CSS,1.CSS.1,css,css,css,css
+CSS,,5965,Colors,1.CSS.C.1,colors,colors,colors,colors
+CSS,,5966,BackGround,1.CSS.BG.1,background,background,background,background
+CSS,,5967,Fonts,1.CSS.F.1,font,font,font,font
+CSS,,5968,Text,1.CSS.TXT.1,text,text,text,text
+CSS,,5969,Images,1.CSS.IMG.1,image,image,image,image
+CSS,,5970,Links,1.CSS.L.1,link,link,link,link
+CSS,,5971,Tables,1.CSS.TBL.1,table,table,table,table
+CSS,,5972,Borders,1.CSS.B.1,border,border,border,border
+CSS,,5973,Margins,1.CSS.9,margin,margin,margin,margin
+CSS,,5974,Lists,1.CSS.MG.1,list,list,list,list
+CSS,,5975,Padding,1.CSS.PAD.1,padding,padding,padding,padding
+CSS,,5976,Corsors,1.CSS.CS.1,corsors,corsors,corsors,corsors
+CSS,,5977,Outlines,1.CSS.OUTL.1,outlines,outlines,outlines,outlines
+CSS,,5978,Dimension,1.CSS.DIM.1,dimension,dimension,dimension,dimension
+CSS,,5979,Scrollabars,1.CSS.SCB.1,scrollbar,scrollbar,scrollbar,scrollbar
+CSS,,5980,Visibility,1.CSS.V.1,visibility,visibility,visibility,visibility
+CSS,,5981,positioning,1.CSS.PSTNG.1,positioning,positioning,positioning,positioning
+CSS,,5982,Layers,1.CSS.LAR.1,layers,layers,layers,layers
+CSS,,5983,Pseudo Classes,1.CSS.PSEUDO.1,pseudo class,pseudo class,pseudo class,pseudo class
+CSS,,5984,Pseudo Elements,1.CSS.PSEUDO.2,pseudo element,pseudo element,pseudo element,pseudo element
+CSS,,5985,Filters,1.CSS.FIL.1,filter,filter,filter,filter
+CSS,,5986,Paged Media,1.CSS.PGM.1,paged media,paged media,paged media,paged media
+Simulated Environments - Sales,,5987,Sales Basics,1.SB,sales basics,sales basics,sales basics,sales basics
+Simulated Environments - Sales,,5988,Customer focus,1.SB.1,customer focus,customer focus,customer focus,customer focus
+Simulated Environments - Sales,,5989,Building relationships,1.SB.2,building relationship,building relationship,building relationship,building relationship
+Simulated Environments - Sales,,5990,Tenacity and persistence,1.SB.3,tenacity and persistence,tenacity and persistence,tenacity and persistence,tenacity and persistence
+Simulated Environments - Sales,,5991,Flexibility and innovation,1.SB.4,flexibility and innovation,flexibility and innovation,flexibility and innovation,flexibility and innovation
+Simulated Environments - Sales,,5992,Goal-driven and realistic,1.SB.5,goal  and realistic,goal  and realistic,goal  and realistic,goal  and realistic
+Simulated Environments - Sales,,5993,Wider awareness,1.SB.6,wider awareness,wider awareness,wider awareness,wider awareness
+iOS Swift,,5996,iOS Swift,1.iOS Swift,ios swift,ios swift,ios swift,ios swift
+iOS Swift,,5997,iOS Swift,1.iOS Swift.1,ios swift,ios swift,ios swift,ios swift
+Ruby on Rails,,5998,Ruby on Rails,1.ROR,ruby on rails,ruby on rails,ruby on rails,ruby on rails
+Ruby on Rails,,5999,Ruby on Rails,1.ROR.1,ruby on rails,ruby on rails,ruby on rails,ruby on rails
