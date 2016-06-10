@@ -388,13 +388,13 @@ def get_object_string(keys,objects,n,fglist,iconbg,temp_size,icon_resize,final_s
                         + str(int(int(pointsize)*float(objmatchList[rows][4]))) +" -annotate +0+"+ objmatchList[rows][5] + " '" + objmatchList[rows][3] + "' temp-" + str(ncolor) + ".png\n")
         if(objmatchList[rows][0]=='icon'):
             if(fglist[ncolor]=='#ffffff'):
-                obj.append("convert  -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
+                obj.append("convert  -background none -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
                 "convert temp-0.png -fuzz 20% -transparent white temp-0.png\n"
                 "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#e76255' -alpha on temp-" + str(ncolor) + ".png\n"
                 "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#373234' -alpha on temp-" + str(ncolor) + ".png\n"
                 "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
             else:
-                obj.append("convert  -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
+                obj.append("convert  -background none -resize " + icon_resize + " SourceIcons/" + objmatchList[rows][2] + " temp-" + str(ncolor) + ".png\n"
                 "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#e76255' -alpha on temp-" + str(ncolor) + ".png\n"
                 "convert temp-" + str(ncolor) + ".png -fuzz 40% -alpha off -fill '" + fglist[ncolor] +"' -opaque '#373234' -alpha on temp-" + str(ncolor) + ".png\n"
                 "convert -size " + temp_size + " canvas:none -gravity center temp-" + str(ncolor) + ".png -composite temp-" + str(ncolor) + ".png\n")
