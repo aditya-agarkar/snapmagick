@@ -8,9 +8,9 @@ from randomcolor import RandomColor
 
 #which mode to draw
 card_model = int(raw_input("Enter a number from 1 to 12, to determine which mode to create: "))
-output_folder = "/cam/motion/images/"
+#output_folder = "/cam/motion/images/"
 num_pallets = 5
-#output_folder = "/Users/aditya/Documents/snapmagick/"
+output_folder = "/Users/aditya/Documents/snapmagick/"
 
 #font sizes
 m4_font = 30
@@ -20,14 +20,14 @@ m7_font = 35
 
 objectFileName = "MetaData/objects - Sheet1.csv"
 #standardsFileName = "MetaData/course_kw.csv"
-#standardsFileName = "MetaData/final_kw_standards.csv"
-standardsFileName = "MetaData/glider - GLiderStandardsv2.csv"
+standardsFileName = "MetaData/course_std - Sheet1.csv"
+#standardsFileName = "MetaData/glider - GLiderStandardsv2.csv"
 colorsFileName = "MetaData/colors.csv"
 gradientFileName = "MetaData/gradients.csv"
 polygonFileName = "MetaData/polygons.csv"
 bgcolorsFileName = "MetaData/bgcolors.csv"
-#imagesFileName = "MetaData/courseimages.csv"
-imagesFileName = "MetaData/images.csv"
+imagesFileName = "MetaData/class_images - dir.csv"
+#imagesFileName = "MetaData/images.csv"
 iconbgFileName = "MetaData/iconbg.csv"
 boardbgFileName = "MetaData/boardbg.csv"
 htmlfile=output_folder+"index-" + str(card_model)+".html"
